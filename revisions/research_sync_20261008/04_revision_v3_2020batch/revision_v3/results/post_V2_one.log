@@ -1,0 +1,9 @@
+V2_one 300 {'Jsc': np.float64(26.8367), 'R_over_G': 0.0165, 'n_bulk': 845066278165980.0, 'mu_n': 0.0012, 'mu_p': 0.0002, 'gate': True, 'Voc': 0.8206, 'FF': np.float64(0.6731)}
+V2_one 275 {'Jsc': np.float64(26.8403), 'R_over_G': 0.0164, 'n_bulk': 1308434546000274.8, 'mu_n': 0.0008, 'mu_p': 0.0001, 'gate': True, 'Voc': 0.8548, 'FF': np.float64(0.6287)}
+V2_one 250 {'Jsc': np.float64(26.7936), 'R_over_G': 0.0181, 'n_bulk': 2322181873352658.0, 'mu_n': 0.0004, 'mu_p': 0.0001, 'gate': True, 'Voc': 0.8883, 'FF': np.float64(0.5637)}
+V2_one 225 {'Jsc': np.float64(26.5521), 'R_over_G': 0.0269, 'n_bulk': 4960615446722084.0, 'mu_n': 0.0002, 'mu_p': 0.0, 'gate': True, 'Voc': 0.9217, 'FF': np.float64(0.4798)}
+V2_one 200 {'Jsc': np.float64(25.393), 'R_over_G': 0.0694, 'n_bulk': 1.3141064940146466e+16, 'mu_n': 0.0001, 'mu_p': 0.0, 'gate': True, 'Voc': 0.9549, 'FF': np.float64(0.407)}
+V2_one 175 {'Jsc': np.float64(22.5523), 'R_over_G': 0.1735, 'n_bulk': 4.8808814966474056e+16, 'mu_n': 0.0, 'mu_p': 0.0, 'gate': True, 'Voc': 0.9866, 'FF': np.float64(0.3672)}
+V2_one 150 {'Jsc': np.float64(21.3763), 'R_over_G': 0.2166, 'n_bulk': 2.0944545626897424e+17, 'mu_n': 0.0, 'mu_p': 0.0, 'gate': True, 'Voc': 1.0151, 'FF': np.float64(0.3252)}
+V2_one 125 {'Jsc': np.float64(17.7855), 'R_over_G': 0.3482, 'n_bulk': 7.565017734415768e+17, 'mu_n': 0.0, 'mu_p': 0.0, 'gate': True, 'Voc': 1.045, 'FF': np.float64(0.3708)}
+V2_one 100 {'Jsc': np.float64(8.3825), 'R_over_G': 0.6928, 'n_bulk': 1.590455605883941e+18, 'mu_n': 0.0, 'mu_p': 0.0, 'gate': True, 'Voc': None, 'FF': None, 'jv_error': "RuntimeError('Continuation unresolved T=100.0, V=1.01177978515625, L=1.0: iterat"}

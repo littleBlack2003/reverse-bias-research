@@ -1,0 +1,6 @@
+V1_cal 125 Jsc=21.900 Voc=1.0643 FF=39.8% 8s
+V1_cal 100 Jsc=18.463 Voc=1.1243 FF=63.4% 57s
+V1_one 125 Jsc=18.846 Voc=1.0671 FF=37.1% 7s
+V1_one 100 Jsc=14.073 Voc=1.1241 FF=53.4% 53s
+V2_cal 125 FAIL RuntimeError('Continuation unresolved T=125.0, V=0.9590673828124999, L=1.0: line search stalled')
+V2_cal 100 FAIL RuntimeError('Continuation unresolved T=100.0, V=0.99466796875, L=1.0: iteration limit')

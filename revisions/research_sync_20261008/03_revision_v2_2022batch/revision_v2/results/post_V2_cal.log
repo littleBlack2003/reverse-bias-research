@@ -1,0 +1,9 @@
+V2_cal 300 {'Jsc': np.float64(26.8366), 'R_over_G': 0.0102, 'n_bulk': 1003121388705504.1, 'mu_n': 0.0011, 'mu_p': 0.0001, 'gate': True, 'Voc': 0.8206, 'FF': np.float64(0.673)}
+V2_cal 275 {'Jsc': np.float64(26.8326), 'R_over_G': 0.0103, 'n_bulk': 1555414297074563.0, 'mu_n': 0.0007, 'mu_p': 0.0001, 'gate': True, 'Voc': 0.8532, 'FF': np.float64(0.6248)}
+V2_cal 250 {'Jsc': np.float64(26.7844), 'R_over_G': 0.0121, 'n_bulk': 2758037884708865.0, 'mu_n': 0.0004, 'mu_p': 0.0001, 'gate': True, 'Voc': 0.8852, 'FF': np.float64(0.5574)}
+V2_cal 225 {'Jsc': np.float64(26.4946), 'R_over_G': 0.0228, 'n_bulk': 5799645519200807.0, 'mu_n': 0.0002, 'mu_p': 0.0, 'gate': True, 'Voc': 0.9173, 'FF': np.float64(0.4755)}
+V2_cal 200 {'Jsc': np.float64(24.7648), 'R_over_G': 0.0866, 'n_bulk': 1.5535945471771738e+16, 'mu_n': 0.0001, 'mu_p': 0.0, 'gate': True, 'Voc': 0.9495, 'FF': np.float64(0.4163)}
+V2_cal 175 {'Jsc': np.float64(21.9002), 'R_over_G': 0.1922, 'n_bulk': 6.313296930389424e+16, 'mu_n': 0.0, 'mu_p': 0.0, 'gate': True, 'Voc': 0.98, 'FF': np.float64(0.385)}
+V2_cal 150 {'Jsc': np.float64(21.1597), 'R_over_G': 0.2196, 'n_bulk': 2.5299944820719485e+17, 'mu_n': 0.0, 'mu_p': 0.0, 'gate': True, 'Voc': 1.0054, 'FF': np.float64(0.3443)}
+V2_cal 125 {'Jsc': np.float64(20.3401), 'R_over_G': 0.2498, 'n_bulk': 9.387980428487313e+17, 'mu_n': 0.0, 'mu_p': 0.0, 'gate': True, 'Voc': 1.0312, 'FF': np.float64(0.3796)}
+V2_cal 100 {'Jsc': np.float64(10.0066), 'R_over_G': 0.6309, 'n_bulk': 2.1530248711983493e+18, 'mu_n': 0.0, 'mu_p': 0.0, 'gate': True, 'Voc': None, 'FF': None, 'jv_error': "RuntimeError('Continuation unresolved T=100.0, V=0.9946777343750002, L=1.0: iter"}
