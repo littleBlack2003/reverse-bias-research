@@ -1,0 +1,43 @@
+{
+  "name": "ff78",
+  "target_FF": 0.78,
+  "reference": {
+    "d_nm": 100.0,
+    "temperature_K": 300.0,
+    "Nt_cm3": 1000000000000000.0,
+    "light": 1,
+    "dx_nm": 0.625
+  },
+  "overrides": {
+    "mu_n": 0.004524737723783375,
+    "mu_p": 0.004524737723783375,
+    "contact_barrier": 0.05
+  },
+  "full_local_parameters": {
+    "d": 9.999999999999999e-06,
+    "temperature": 300.0,
+    "eps_r": 3.5,
+    "Nc": 1e+19,
+    "Eg": 1.3,
+    "contact_barrier": 0.05,
+    "mu_n": 0.004524737723783375,
+    "mu_p": 0.004524737723783375,
+    "beta": 1e-11,
+    "capture": 1e-09,
+    "Nt": 1000000000000000.0,
+    "Jgen": 0.025,
+    "enhancement": 0.0,
+    "Fref": 500000.0,
+    "Bfield": 2000000.0
+  },
+  "achieved": {
+    "FF": 0.7799999999999973,
+    "Voc_V": 0.9512297784607306,
+    "Jsc_mAcm2": 23.99913555749833,
+    "Vmpp_V": 0.8297514975955914,
+    "Jmpp_mAcm2": 21.459895068936508,
+    "Pmpp_mWcm2": 17.806380071694317,
+    "max_evaluated_current_spread_Acm2": 5.919571187396055e-10
+  },
+  "parameter_source": "User-specified FF target; contact barrier chosen, balanced mobility fitted. Not experimental calibration."
+}

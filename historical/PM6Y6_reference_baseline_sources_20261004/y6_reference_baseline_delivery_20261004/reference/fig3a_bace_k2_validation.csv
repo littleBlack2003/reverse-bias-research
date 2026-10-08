@@ -1,0 +1,6 @@
+T_K,k2_cm3_s,k2_lower_cm3_s,k2_upper_cm3_s,readout_uncertainty_log10,definition,source,split
+300,2.10102e-11,1.6689e-11,2.64503e-11,0.1,median R/n^2 at 3 measured squares; apparent delta is near 2,main physical p7 Fig3a,independent_BACE_validation
+275,8.32838e-12,6.61547e-12,1.04848e-11,0.1,median R/n^2 at 3 measured squares; apparent delta is near 2,main physical p7 Fig3a,independent_BACE_validation
+250,3.9935e-12,3.17215e-12,5.02752e-12,0.1,median R/n^2 at 3 measured squares; apparent delta is near 2,main physical p7 Fig3a,independent_BACE_validation
+225,1.82383e-12,1.44872e-12,2.29606e-12,0.1,median R/n^2 at 3 measured squares; apparent delta is near 2,main physical p7 Fig3a,independent_BACE_validation
+200,9.62863e-13,7.64829e-13,1.21217e-12,0.1,median R/n^2 at 3 measured squares; apparent delta is near 2,main physical p7 Fig3a,independent_BACE_validation

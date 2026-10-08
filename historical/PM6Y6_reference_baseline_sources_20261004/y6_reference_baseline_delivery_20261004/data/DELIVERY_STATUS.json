@@ -1,0 +1,195 @@
+{
+  "physical_validation": "failed: minimal closure does not reproduce low-temperature experiment",
+  "numerical_scope": "Completed light curves; completed150\u2013300K dark curves; partial100K dark; selected spatial refinements only",
+  "records": [
+    {
+      "file": "T100_N321_I1_equilibrium_reservoir_bn0_bp0.json",
+      "states": 23,
+      "coverage": {
+        "light": [
+          0.0,
+          1.1
+        ]
+      },
+      "failed_gate_points": [],
+      "revalidation": true
+    },
+    {
+      "file": "T100_N321_I0.08_blocking_bn0_bp0.json",
+      "states": 23,
+      "coverage": {
+        "light": [
+          0.0,
+          1.1
+        ]
+      },
+      "failed_gate_points": [],
+      "revalidation": true
+    },
+    {
+      "file": "T200_N321_I0.08_blocking_bn0_bp0.json",
+      "states": 23,
+      "coverage": {
+        "light": [
+          0.0,
+          1.1
+        ]
+      },
+      "failed_gate_points": [],
+      "revalidation": true
+    },
+    {
+      "file": "T200_N321_I0.25_blocking_bn0_bp0.json",
+      "states": 23,
+      "coverage": {
+        "light": [
+          0.0,
+          1.1
+        ]
+      },
+      "failed_gate_points": [],
+      "revalidation": true
+    },
+    {
+      "file": "T150_N321_I1_blocking_bn0_bp0.json",
+      "states": 90,
+      "coverage": {
+        "dark": [
+          0.0,
+          1.1
+        ],
+        "light": [
+          0.0,
+          1.1
+        ]
+      },
+      "failed_gate_points": [],
+      "revalidation": true
+    },
+    {
+      "file": "T300_N321_I0.08_blocking_bn0_bp0.json",
+      "states": 23,
+      "coverage": {
+        "light": [
+          0.0,
+          1.1
+        ]
+      },
+      "failed_gate_points": [],
+      "revalidation": true
+    },
+    {
+      "file": "T100_N321_I1_blocking_bn0_bp0_lightonly.json",
+      "states": 47,
+      "coverage": {
+        "light": [
+          0.0,
+          1.15
+        ]
+      },
+      "failed_gate_points": [],
+      "revalidation": true
+    },
+    {
+      "file": "T300_N321_I1_blocking_bn0_bp0.json",
+      "states": 90,
+      "coverage": {
+        "dark": [
+          0.0,
+          1.1
+        ],
+        "light": [
+          0.0,
+          1.1
+        ]
+      },
+      "failed_gate_points": [],
+      "revalidation": true
+    },
+    {
+      "file": "T100_N321_I0.25_blocking_bn0_bp0.json",
+      "states": 23,
+      "coverage": {
+        "light": [
+          0.0,
+          1.1
+        ]
+      },
+      "failed_gate_points": [],
+      "revalidation": true
+    },
+    {
+      "file": "T200_N321_I1_blocking_bn0_bp0.json",
+      "states": 90,
+      "coverage": {
+        "dark": [
+          0.0,
+          1.1
+        ],
+        "light": [
+          0.0,
+          1.1
+        ]
+      },
+      "failed_gate_points": [],
+      "revalidation": true
+    },
+    {
+      "file": "T100_N321_dark_partial_snapshot.json",
+      "states": 40,
+      "coverage": {
+        "dark": [
+          0.0,
+          0.975
+        ]
+      },
+      "failed_gate_points": [
+        {
+          "branch": "dark",
+          "V": 0.025
+        }
+      ],
+      "revalidation": false
+    },
+    {
+      "file": "T300_N321_I0.25_blocking_bn0_bp0.json",
+      "states": 23,
+      "coverage": {
+        "light": [
+          0.0,
+          1.1
+        ]
+      },
+      "failed_gate_points": [],
+      "revalidation": true
+    },
+    {
+      "file": "T250_N321_I1_blocking_bn0_bp0.json",
+      "states": 90,
+      "coverage": {
+        "dark": [
+          0.0,
+          1.1
+        ],
+        "light": [
+          0.0,
+          1.1
+        ]
+      },
+      "failed_gate_points": [],
+      "revalidation": true
+    },
+    {
+      "file": "T300_N321_I1_equilibrium_reservoir_bn0_bp0.json",
+      "states": 23,
+      "coverage": {
+        "light": [
+          0.0,
+          1.1
+        ]
+      },
+      "failed_gate_points": [],
+      "revalidation": true
+    }
+  ]
+}

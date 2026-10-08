@@ -1,0 +1,115 @@
+Independent mathematical and numerical audit
+Coupled nonlocal device, 300 K, reviewed 2026-10-03 UTC
+
+Conclusion
+The implemented bounded dark-device closure is internally consistent with a
+one-level Fermi-Dirac reservoir DOS, vacancy-blocked lattice-gas transport,
+two independent orientation subpopulations of midpoint traps, and sequential
+reversible Marcus transfers. No blocking sign, trap-count, Poisson deposition,
+source-conservation, or Jacobian defect was found for the tested envelope.
+This is a numerical model audit, not material calibration or validation of a
+uniquely identified tunneling mechanism.
+
+Reproduce
+PYTHONDONTWRITEBYTECODE=1 python independent_audit/audit.py
+See independent_audit/results.json for the exact production-source SHA-256,
+all snapshot-level diagnostics, and derivative results. Production source and
+archived source packages were not edited by this auditor.
+
+Scope and independent checks
+24 saved steady states: node counts 81, 161, 321; per-leg distances 0 and 1 nm;
+applied voltages 0, -1, -5, -15 V; dark operation at 300 K.
+
+1. Rebuilt every reaction using the archived adapter's SpectralRates, Reaction,
+   Mesh and Adapter classes, independently of the new vectorized assembly.
+   The archived rate constant kB has extra digits relative to the inherited
+   device's kB. Adapter temperature was set to device.vt / rates.KB so this
+   comparison has exactly the same numerical kBT and isolates assembly.
+   Maximum source error normalized to the gross cycle-throughput scale:
+   1.78e-13. Maximum trap-charge relative error: 1.07e-13. Maximum occupancy
+   absolute error: 6.85e-14. Internal-current error on the corresponding gross
+   source-current scale: 5.18e-13. Contact-node deposition was exactly zero.
+
+2. Zero-distance independent closed form. Let fn=n/Nc and fp=p/Nc,
+   ku=Marcus(+Eg/2), kd=Marcus(-Eg/2). Then
+     D=ku*(2-fn-fp)+kd*(fn+fp)
+     f=[ku*(1-fp)+kd*fn]/D
+     j=[ku^2*(1-fn)*(1-fp)-kd^2*fn*fp]/D.
+   Depositing this independent local result with the counted trap density
+   agrees with the implemented source to 2.57e-14 on the gross source scale,
+   and with trap charge to 1.36e-14 of nominal Nt.
+
+3. Full Jacobian, N81, distance 1 nm, V=-5 V. The production colored complex-
+   step Jacobian equals an independently built one-column-at-a-time complex-
+   step Jacobian exactly in this run. A real five-point directional derivative
+   with step 1e-4 differs by 4.49e-10 after row normalization. No missing spatial
+   coupling or coloring alias was observed.
+
+4. Poisson bookkeeping. Direct substitution of rho_t/q from the archived
+   adapter, rather than effective occupancy, differs from the inherited
+   residual by at most 7.11e-15 in dimensionless residual units. The effective
+   f=.5-rho_t/(q Nt) is only an algebraic compatibility variable; the separate
+   actual_f is the physical orientation-resolved trap occupancy. No extra
+   local trap family is present.
+
+5. Whole-set diagnostic maxima recomputed from saved states:
+   total-current relative conservation error 1.35e-9;
+   Gauss-law relative error 1.06e-10;
+   electrical/free-energy ledger relative error 6.02e-11.
+   Integrated trap population is 9.6e9 cm^-2 for every mesh and both distances.
+   At the representative N81, 1 nm, -5 V state, every transport-edge, reaction,
+   and bimolecular dissipation contribution is nonnegative within arithmetic.
+
+Mathematical sign and energy review
+Electron energies are EH=-phiH, Et=Eg/2-phit and EL=Eg-phiL. Forward transfer
+increments are Et-EH and EL-Et; their sum is Eg-(phiL-phiH). The electrostatic
+work is already included. No extra field-lowering energy may be added to these
+same increments without specifying a distinct physical mechanism.
+
+The inherited variables give muL=contact_barrier+V+Vt*z_n and
+muH=contact_barrier-Vt*z_p. muH is a HOMO electron chemical potential, not a
+hole-energy potential. Local chemical splitting is V+Vt*(z_n+z_p). Each
+reaction cycle has generation affinity (muH(xH)-muL(xL))/Vt. Generation-positive
+Sn and Sp, trap charge, and the cumulative internal conventional current have
+consistent signs. Internal current must be included in the local total-current
+conservation diagnostic; it is zero at contacts and is not a new terminal
+current offset.
+
+For dark stationary operation, V*Jterminal equals the sum of transport,
+reaction, and bimolecular free-energy dissipation. The implemented reaction
+bath and reservoir heat terms sum to reaction free-energy loss. This identity
+does not solve a temperature or heat-transport equation. Illumination would
+require a photogeneration/free-energy term before using the same global ledger.
+
+Interpretation and boundaries
+- Dividing the MB SG expression by both endpoint activity denominators is a
+  legitimate exclusion-hopping discretization. Its continuum electron flux is
+  Jn=q*mu*[Vt*dn/dx-n*(1-n/Nc)*dphi/dx]. The inherited mobility is a dilute
+  hopping mobility. This is not the conventional fixed-mobility FD drift law
+  with conductivity q*mu*n and a generalized Einstein diffusivity.
+- The bimolecular law includes both occupancy denominators. Equivalently it is
+  beta*[n*p-ni_MB^2*(1-n/Nc)*(1-p/Nc)], so equilibrium and vacancy factors match
+  the finite-state reservoirs.
+- Each endpoint has one spectral state per trap; this is a declared coupling
+  normalization, not an experimentally inferred bulk coupling volume.
+- Each orientation is an independent Nt/2 trap subpopulation, with its own
+  occupation. One trap coupled simultaneously to both orientation channels
+  would be a different kinetic network and needs aggregate-rate elimination.
+- The inherited charge reference +q/2 for an empty trap is a compatibility
+  background choice, not an identified donor/acceptor charge assignment.
+- A reported distance of 1 nm is each H-to-trap or trap-to-L leg. H-to-L endpoint
+  separation is 2 nm. Both controls keep the same quadrature weights/count.
+- Weights integrate the nominal trap-support interval [2,98] nm exactly.
+  Partially overlapped cells retain their grid-node quadrature representative;
+  thus representatives may lie slightly outside the nominal support edge.
+  This is a mesh quadrature approximation, not a change in total trap count.
+- Finite-endpoint geometry must resolve exclusively on interior transport nodes.
+  The added geometry guard rejects configurations that would deposit sources
+  on contacts or extrapolate outside the resolved interval.
+- The code still evaluates ordinary exponentials and rate products. The tested
+  voltage envelope is finite and succeeds, but arbitrary extreme iterates may
+  overflow or underflow. General-purpose unbounded robustness is not claimed.
+- The zero-distance FD Marcus model is its matched physical control. The old
+  MB-SRH baseline is a separate regression. Their densities, transport closure,
+  and chosen microscopic rates differ, so they should not be described as an
+  exact parameter-identical baseline pair.

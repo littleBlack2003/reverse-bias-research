@@ -1,0 +1,30 @@
+{
+  "metrics": {
+    "path": "trap_free_comparator_20261002/room_temperature_300K/results/rise_metrics_300K.csv",
+    "sha256": "ce6b6521ced80d4d95b6261b9cbe2be8aff382d8bf57fa73bba4781050f28ed7"
+  },
+  "curves": {
+    "path": "trap_free_comparator_20261002/room_temperature_300K/results/all_evaluated_300K.csv",
+    "sha256": "be0e1600174148c97a29ff02a777384fb1937fc931f6b2fe7b874e793d34aaf9"
+  },
+  "density": {
+    "path": "density_knee_disentangling_20261002/data/selfconsistent_curves.csv",
+    "sha256": "4b04796c61d720b0be18c4e1cf81c0afe2a6a3173050e45f305c476567522fd9"
+  },
+  "crossings": {
+    "path": "density_knee_disentangling_20261002/data/current_crossings.csv",
+    "sha256": "f82eb98936a1df999b841f91e09f42c3f9221d00b874d412d4780b45f9205175"
+  },
+  "spatial": {
+    "path": "spatial_escape_audit_20261002/results/controlled_cases.csv",
+    "sha256": "9294df7311e2089ef52267d3237dc2c14feb9d852329ba70ad208cde3c6d5cf7"
+  },
+  "vibronic": {
+    "path": "vibronic_validity_audit_20261002/results/matched_lambda_high_mode_comparison.csv",
+    "sha256": "fba4e8413e76a9d1366c5a8626125ab2669d7b05eb41c2f59992609f52c7bd65"
+  },
+  "thermal": {
+    "path": "vibronic_validity_audit_20261002/results/prior_graph_thermalization_scales.csv",
+    "sha256": "53a252b9a27a76cc97f8cfb14d137fef2e4ff5b7e621a0cd0126db01e40dee93"
+  }
+}

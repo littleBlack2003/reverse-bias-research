@@ -1,0 +1,16 @@
+{
+  "kind": "fresh nonlinear solve from a perturbed archived seed; not seed-free",
+  "state": "sc",
+  "Newton_iterations": 1,
+  "relative_current_change": -7.663536472080068e-12,
+  "passed": true,
+  "T_K": 100.0,
+  "V_V": 0.0,
+  "light": 1.0,
+  "J_Acm2": -3.8743584471324213e-07,
+  "scaled_residual": 1.4126776733814343e-11,
+  "gate_passed": true,
+  "current_closure_uncertainty_Acm2": 6.687172378219784e-14,
+  "charge_relative": 1.6531558012991855e-12,
+  "J_shunt_Acm2": 0.0
+}

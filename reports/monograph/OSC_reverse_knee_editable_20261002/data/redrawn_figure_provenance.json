@@ -1,0 +1,157 @@
+{
+  "scope": "redrawn from unchanged numeric CSV, no rerun or fit",
+  "inputs": [
+    {
+      "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/comparison_curves.csv",
+      "sha256": "d107d92258c6fdd21f27f1675c4dffb25870257bed536124e36607dcd2fdacb0",
+      "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/comparison_curves.csv"
+    },
+    {
+      "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/curves.csv",
+      "sha256": "017917f60424af13705014b3396cec210ef31fe2520b8ede8e21d464ee174ac1",
+      "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/curves.csv"
+    },
+    {
+      "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/comparison_curves.csv",
+      "sha256": "d107d92258c6fdd21f27f1675c4dffb25870257bed536124e36607dcd2fdacb0",
+      "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/comparison_curves.csv"
+    },
+    {
+      "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_density_scan/sequence.csv",
+      "sha256": "cde01a6cb9736813294a2ca8e126f7a3099f03df893aefb1482dcfefe8435ba9",
+      "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_density_scan/sequence.csv"
+    },
+    {
+      "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/thickness_fits.csv",
+      "sha256": "74ff0ad1c8b13de41966a332ed57ad2fa1c766d3e97ead4c0d1b51a5ad29e334",
+      "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/thickness_fits.csv"
+    },
+    {
+      "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/tat_results/curves.csv",
+      "sha256": "68b101c5b083051b5e9c1aee9f4cfe5822bc179cc99696f09ed22b2b8e330dc2",
+      "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/tat_results/curves.csv"
+    },
+    {
+      "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/thermal_rate_curves.csv",
+      "sha256": "7bb0cf948bdd43f965013af1d48a9e2c05c8082e55b0514917bafdb21e1bfa22",
+      "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/thermal_rate_curves.csv"
+    },
+    {
+      "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/results/coupling_capacity_bounds.csv",
+      "sha256": "f2966c49fe2b72b02c2132d7e0409eadee2cc5bf41ff1b1b79f13ddfee0bee64",
+      "copy": "data/research/temperature_mechanism_audit_20261002/results/coupling_capacity_bounds.csv"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "overview",
+      "files": [
+        {
+          "path": "figures/overview.png",
+          "sha256": "8968dc8b9bff2d9eb501a22910143f07e3468d94731c57035226273f33b3f3b5"
+        },
+        {
+          "path": "figures/overview.svg",
+          "sha256": "7031f34b28cb35e6bc7344c149d115651cb5afc7dedef98f64ef07d15efaf2e3"
+        }
+      ]
+    },
+    {
+      "name": "abcd",
+      "files": [
+        {
+          "path": "figures/abcd.png",
+          "sha256": "5b164d2371866f2d0f4dff6f2eeda32a0475aa26c9af6dbe02652258ea213d6e"
+        },
+        {
+          "path": "figures/abcd.svg",
+          "sha256": "0366dbea6d554a9395f087b974f14cb6639a42fffdf78e9b564a831cde535fbf"
+        }
+      ]
+    },
+    {
+      "name": "local_pf",
+      "files": [
+        {
+          "path": "figures/local_pf.png",
+          "sha256": "f3df3ac4bf15e5600f388704e05bc59483ff2ee328a907215147d1290cd6748b"
+        },
+        {
+          "path": "figures/local_pf.svg",
+          "sha256": "1c329a188b3d92a728f7db1a8ccaf4285410f34f7b3985e34a0a7768b88b3876"
+        }
+      ]
+    },
+    {
+      "name": "density",
+      "files": [
+        {
+          "path": "figures/density.png",
+          "sha256": "70e879b6f5062e12db156a59196a18f2e8a2dc9210b108198c1b320528fa3619"
+        },
+        {
+          "path": "figures/density.svg",
+          "sha256": "c38a9d04eb6a283856d81ca7495d476f5670aa69d0cd6d9b638b59739ac91bd6"
+        }
+      ]
+    },
+    {
+      "name": "thickness",
+      "files": [
+        {
+          "path": "figures/thickness.png",
+          "sha256": "bbc51aa498e4fba3158895e56e9f098dc877d2c06f9712de4f758a34733207b1"
+        },
+        {
+          "path": "figures/thickness.svg",
+          "sha256": "554397b6aa6413f3ed7078d1bb8777eceec7c37fed1049c33493483a16ffd465"
+        }
+      ]
+    },
+    {
+      "name": "tat",
+      "files": [
+        {
+          "path": "figures/tat.png",
+          "sha256": "824e61814faa436acaf4348523bc4584f85504191b9b9c643e1ae4055b8a453a"
+        },
+        {
+          "path": "figures/tat.svg",
+          "sha256": "57d22b013eae4f15edc3603f06c5c8a479dcb969aa06fbee677d74f902a0c6ec"
+        }
+      ]
+    },
+    {
+      "name": "thermal",
+      "files": [
+        {
+          "path": "figures/thermal.png",
+          "sha256": "c407133932d809a6a4619e8a631ddf289d080d48ab2615b8a896afd0fe4e2c35"
+        },
+        {
+          "path": "figures/thermal.svg",
+          "sha256": "e3320ce0f37881a8469ac27f8285a9b8f65f615a77b796152c4077b08b92b077"
+        }
+      ]
+    },
+    {
+      "name": "pair_capacity",
+      "files": [
+        {
+          "path": "figures/pair_capacity.png",
+          "sha256": "22e3055f377721bd2b3c5b8afc22d360e9cf30615ad128ef90dcef47dfefecb3"
+        },
+        {
+          "path": "figures/pair_capacity.svg",
+          "sha256": "0a047c92fc4252f61b5cd590116fbf4e6d58d870ddbdb5f5b74f99de470454eb"
+        }
+      ]
+    }
+  ],
+  "display_notes": "Photovoltaic panels show0–1.025V and declared y windows; overview y15–3000mA/cm2; full curves retained in data. Source plots kept in figures/original_archive.",
+  "script": {
+    "path": "source/redraw_packaged_results.py",
+    "sha256": "dfd20f9e4fd06f5518861d8e6c4ab6593ce9b2caf8780d7e84dc2d3f75acb7e1"
+  },
+  "revision": "Typography-only serif replot with original CSV. Superscripts in mixed Chinese axis labels use Unicode equivalents."
+}

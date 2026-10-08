@@ -1,0 +1,10 @@
+variance_tolerance,T_K,max_energy_meV,max_wavenumber_cm_inverse,x_max,scope
+0.01,80,2.3904950848416178,19.280643145144097,0.3467567941440191,variance criterion only; rate-tail error can be larger
+0.01,150,4.482178284078033,36.15120589714518,0.3467567941440191,variance criterion only; rate-tail error can be larger
+0.01,300,8.964356568156067,72.30241179429036,0.3467567941440191,variance criterion only; rate-tail error can be larger
+0.05,80,5.36675133076768,43.285768673360195,0.7784820383968482,variance criterion only; rate-tail error can be larger
+0.05,150,10.0626587451894,81.16081626255037,0.7784820383968482,variance criterion only; rate-tail error can be larger
+0.05,300,20.1253174903788,162.32163252510074,0.7784820383968482,variance criterion only; rate-tail error can be larger
+0.1,80,7.62785151982084,61.522771600910765,1.1064692648782013,variance criterion only; rate-tail error can be larger
+0.1,150,14.302221599664076,115.35519675170768,1.1064692648782013,variance criterion only; rate-tail error can be larger
+0.1,300,28.604443199328152,230.71039350341536,1.1064692648782013,variance criterion only; rate-tail error can be larger

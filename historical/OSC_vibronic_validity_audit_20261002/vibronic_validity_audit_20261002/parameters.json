@@ -1,0 +1,15 @@
+{
+  "scope": "Conditional harmonic-bath validity audit, not a D18:L8-BO spectrum or device fit",
+  "electronic_H_eV": 0.00001,
+  "total_reorganization_eV": 0.20,
+  "low_bath_reorganization_eV": 0.05,
+  "existing_high_mode": {"energy_eV":0.15,"Huang_Rhys_S":1.0},
+  "quantum_low_bath": {"reorganization_density":"L(epsilon)=lambda_s/Ec * exp(-epsilon/Ec)","energy_domain_eV":[0,"infinity"],"Ec_eV":[0.001,0.005,0.020]},
+  "matched_high_mode_control": [{"energy_eV":0.1,"S":0.75},{"energy_eV":0.2,"S":0.375}],
+  "temperatures_primary_K":[80,300],
+  "deltaG_primary_eV":[-0.9,-0.65,-0.45,-0.3,-0.2,-0.15,-0.1,-0.05,0,0.05,0.15,0.3,0.65,0.9],
+  "mode_energy_not_reorganization":"lambda_s=50 meV is not an assumed 50 meV phonon",
+  "time_variables":"physical t is in seconds; u=t/hbar and contour tau are in inverse eV",
+  "assumptions":["weak constant electronic coupling","equilibrium harmonic bath","equal-frequency displaced surfaces","specified continuum without artificial linewidth","relaxed-minimum energy convention for deltaG"],
+  "not_established":["target-material spectral density","state-resolved mode displacements","vibrational relaxation time","electronic coupling for actual traps","complete device current after kernel replacement"]
+}

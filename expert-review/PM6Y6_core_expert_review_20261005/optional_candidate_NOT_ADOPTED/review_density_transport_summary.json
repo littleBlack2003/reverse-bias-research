@@ -1,0 +1,62 @@
+{
+  "review_status": "numerical implementation passes listed checks; conditional scientific diagnostic only, not material validation",
+  "no_code_edits": true,
+  "source_equations_verified_against": "https://pure.tue.nl/ws/files/2107419/Metis188708.pdf",
+  "test_transport_independent_rerun_all_passed": true,
+  "baseline_manifest_entries": 168,
+  "baseline_manifest_all_hashes_match": true,
+  "EGDM_sclc_extended_checks": {
+    "carriers": [
+      "hole",
+      "electron"
+    ],
+    "temperatures_K": [
+      225,
+      300
+    ],
+    "N_coarse": 161,
+    "N_fine": 321,
+    "max_mesh_J_relative_difference": 0.00746689878978235,
+    "density_caps": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "max_density_cap_J_relative_difference": 1.8368414113068e-06
+  },
+  "hole_endpoint_sensitivity": [
+    {
+      "carrier": "hole",
+      "mode": "baseline",
+      "window_upper_V": 3.0,
+      "number_correlated_raster_samples": 140,
+      "global_amplitude_multiplier": 0.9689265861209693,
+      "RMS_decade": 0.11094116453049989,
+      "max_abs_decade": 0.3043447688643301
+    },
+    {
+      "carrier": "hole",
+      "mode": "density_only",
+      "window_upper_V": 3.0,
+      "number_correlated_raster_samples": 140,
+      "global_amplitude_multiplier": 0.9756757487904718,
+      "RMS_decade": 0.11682340423935814,
+      "max_abs_decade": 0.30223157485825886
+    },
+    {
+      "carrier": "hole",
+      "mode": "egdm",
+      "window_upper_V": 3.0,
+      "number_correlated_raster_samples": 140,
+      "global_amplitude_multiplier": 0.9534063372302921,
+      "RMS_decade": 0.1396163924030584,
+      "max_abs_decade": 0.3437484641925812
+    }
+  ],
+  "scope_notes": [
+    "Field-cap sensitivity is four representative carrier-temperature cases and central-window endpoints, not a full refit.",
+    "Warm device differences include global SCLC normalization as well as constitutive-law change; no density-only causal attribution.",
+    "The existing 0.10-decade score is a working threshold, not a combined pixel-coordinate confidence interval.",
+    "Electron outlier at 0.110 decade is not robust material rejection by itself; fixed-sigma hole shape mismatch is much larger."
+  ]
+}

@@ -1,0 +1,57 @@
+Independent numerical review: nonlocal reaction adapter
+Reviewed 2026-10-03 (UTC)
+
+Scope and conclusion
+Reviewed adapter.py, rates.py, the adapter/rate tests, and the stated assembly
+conventions. Final independent run: 41/41 tests pass (18 adapter + 23 rate).
+No unresolved blocking defect was found within this bounded reaction-block
+scope. This is numerical verification, not identification of a material
+mechanism or validation of a coupled device solution.
+
+Independent checks beyond the supplied suite
+- The standalone geometric-grid example also ran successfully: normalized
+  local charge defect 3.997e-16 and consistent condensed dimensions.
+- Randomized nonuniform grids, three overlapping reactions, arbitrary endpoint
+  order and widely differing rates/counts: relative cellwise charge-continuity
+  defects <=2.55e-15 transient and <=4.34e-16 stationary (40 cases each).
+- Separate full-state central differences on a two-reaction spectral example:
+  maximum row-normalized Jacobian discrepancies 5.16e-9 transient and 2.44e-8
+  stationary. No derivative appeared outside the declared sparse pattern.
+- Common gauge shifts preserved sources/current to approximately 4e-15 relative.
+- Boundary-node interpolation, non-midpoint nodes and affine-field reproduction
+  passed. Node-aligned FV currents agreed with the independent oriented
+  point-path current convention.
+- Occupancy dynamics pointed into [0,1] at both endpoints. Four thousand exact
+  fixed-rate time advances with log rates spanning [-600,600] stayed in [0,1].
+- Condensed steady residual and Jacobian have dimensions 3N and 3N-by-3N, and
+  equal the corresponding field block of the full steady API exactly.
+
+Defects found and corrected during review
+1. Unpaired five-point differences produced spurious port derivatives for
+   constant rates. Paired differences now cancel constants exactly, with a
+   regression; transient trap charge also has analytic zero port derivatives.
+2. Nonfinite statistics inputs formerly passed the convenience mapping.
+   Explicit finite checks now reject them.
+3. The initial condensed helper returned an unreduced residual vector with a
+   reduced Jacobian. Its vector is now reduced consistently and regression-tested.
+4. A brittle one-ratio refinement threshold was replaced by seven mesh levels,
+   an analytic interpolation-error upper-bound check, and final accuracy plus
+   overall reduction checks. Intermediate errors are honestly nonmonotonic.
+
+Interpretation and remaining validation boundaries
+The signs of electron/hole sources, trap charging and oriented internal current
+are mutually consistent. Shape interpolation/deposition preserves particle
+counts and first moments on nonuniform cells. Finite-distance reactions retain
+an internal current; it is not an independent constant terminal-current offset.
+The zero-distance fixed-rate control reproduces the local SRH convention.
+
+The returned Jacobian is a reaction-source/charge block. Full transport,
+Poisson, contacts, variable/residual scaling, consistent DOS-to-carrier
+statistics, path-count normalization, and displacement current remain the
+responsibility of a future device assembly. A stationary device solve should
+use the condensed fields rather than retain zero occupancy equations.
+The tests do not establish spectral/path quadrature convergence, contact
+behavior, material parameters, device J-V/onset predictions, or robustness for
+all representable finite inputs; exponentiated physical rates still must fit
+floating-point range. The conditional sequential Marcus kernel is not proof
+of a uniquely identified TAT mechanism.

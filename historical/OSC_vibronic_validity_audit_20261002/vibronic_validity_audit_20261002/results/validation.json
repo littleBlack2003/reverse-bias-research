@@ -1,0 +1,12 @@
+{
+  "detailed_balance_max_log_error": 1.4352963262354024e-12,
+  "quadrature_tolerance_max_log_error": 1.6761703136580763e-11,
+  "density_mass_max_error": 5.484501741648273e-14,
+  "density_mean_max_error_eV": 8.784639682346551e-15,
+  "density_variance_max_error_eV2": 1.2344725935919953e-15,
+  "sideband_L30_L40_max_log_error": 0.0,
+  "all_assertions_passed": true,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0"
+}

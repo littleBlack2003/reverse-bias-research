@@ -1,0 +1,1 @@
+Historical same-bias self-consistent PDE states. Original finite external shunt appears in their output JSON only; it did not enter the PDE. These are immutable continuation seeds and exact same-bias provenance, NOT the current active terminal-current model.

@@ -1,0 +1,29 @@
+% Authored conceptual comparison; embedded by native_figures.py.
+
+% Conceptual electronic energy layout: no measured organic energy or gap.
+\node[font=\small\bfseries]at(2.35,3.3){(a) {\cjkfont 周期无机晶体}};
+\node[font=\small\bfseries]at(9.15,3.3){(b) {\cjkfont 典型无序有机半导体}};
+\draw[-{Stealth},line width=.65pt](-.55,-.05)--(-.55,2.85);
+\node[rotate=90,font=\small]at(-.95,1.4){{\cjkfont 电子能量}};
+\draw[fill=tolblue!12,draw=tolblue,line width=.8pt](0,2.1)rectangle(4.6,2.75);
+\draw[fill=tolblue!12,draw=tolblue,line width=.8pt](0,0)rectangle(4.6,.65);
+\node[font=\small]at(2.3,2.43){{\cjkfont 导带：延展态}};
+\node[font=\small]at(2.3,.33){{\cjkfont 价带：延展态}};
+\node[anchor=west,font=\small]at(4.68,2.1){$E_C$};
+\node[anchor=west,font=\small]at(4.68,.65){$E_V$};
+\draw[<->,>=Stealth,line width=.75pt](2.0,.70)--node[right,font=\small]{$E_g=E_C-E_V$}(2.0,2.05);
+\node[font=\small]at(2.3,-.6){{\cjkfont 周期势}\quad Bloch{\cjkfont 态与能带色散}};
+\draw[-{Stealth},line width=.65pt](6.25,-.05)--(6.25,2.85);
+% Shaded envelopes mark disorder spread, not a continuous Bloch band.
+\fill[tolgreen!7](6.65,-.05)rectangle(11.65,.70);
+\fill[tolgreen!7](6.65,2.02)rectangle(11.65,2.78);
+\foreach \x/\y in {6.85/2.20,7.75/2.57,8.65/2.10,9.55/2.69,10.45/2.35}{
+ \draw[draw=tolgreen!80!black,line width=1.2pt](\x,\y)--++(.72,0);
+}
+\foreach \x/\y in {6.85/.20,7.75/.52,8.65/.08,9.55/.39,10.45/.61}{
+ \draw[draw=tolgreen!80!black,line width=1.2pt](\x,\y)--++(.72,0);
+}
+\node[font=\small]at(9.15,2.96){LUMO{\cjkfont 衍生态}};
+\node[font=\small]at(9.15,-.25){HOMO{\cjkfont 衍生态}};
+\node[font=\small,align=center]at(9.15,1.40){{\cjkfont 能量与空间分布依赖局部环境}\\{\cjkfont 短线：不同分子或有限片段的态}};
+\node[font=\small]at(9.15,-.75){{\cjkfont 局域态与有限离域}\quad {\cjkfont 重组、跳跃与连通性}};

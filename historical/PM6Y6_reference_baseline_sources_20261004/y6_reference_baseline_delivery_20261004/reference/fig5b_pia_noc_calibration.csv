@@ -1,0 +1,10 @@
+T_K,n_oc_cm3,n_lower_cm3,n_upper_cm3,readout_uncertainty_log10,illumination_sun_equiv,method,source,split,pixel_x,pixel_y
+100,2.35434e+17,2.22264e+17,2.49384e+17,0.025,1,PIA,main physical p8 Fig5b,calibration,1148,202
+125,2.02469e+17,1.91143e+17,2.14466e+17,0.025,1,PIA,main physical p8 Fig5b,calibration,1185,219
+150,1.66564e+17,1.57246e+17,1.76433e+17,0.025,1,PIA,main physical p8 Fig5b,calibration,1223,241
+175,1.33426e+17,1.25962e+17,1.41332e+17,0.025,1,PIA,main physical p8 Fig5b,calibration,1261,266
+200,1.05001e+17,9.91276e+16,1.11223e+17,0.025,1,PIA,main physical p8 Fig5b,calibration,1298,293
+225,8.04614e+16,7.59605e+16,8.52291e+16,0.025,1,PIA,main physical p8 Fig5b,calibration,1335,323
+250,6.11121e+16,5.76935e+16,6.47332e+16,0.025,1,PIA,main physical p8 Fig5b,calibration,1373,354
+275,4.85215e+16,4.58073e+16,5.13966e+16,0.025,1,PIA,main physical p8 Fig5b,calibration,1410,380
+300,3.99168e+16,3.76839e+16,4.22821e+16,0.025,1,PIA,main physical p8 Fig5b,calibration,1448,402

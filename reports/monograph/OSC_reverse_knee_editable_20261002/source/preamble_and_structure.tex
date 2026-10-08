@@ -1,0 +1,84 @@
+% Adapted from the approved latex-document-skill Academic paper template.
+% CJK / native-math / long-manuscript adaptations are recorded in README.
+% Compiled with existing XeLaTeX under explicit user authorization.
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\usepackage{amsmath,amsthm,mathtools}
+\usepackage{unicode-math}
+\usepackage[a4paper,margin=1in,headheight=15pt]{geometry}
+\usepackage[protrusion=true,expansion=false]{microtype}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{enumitem}
+\setlist{nosep}
+\usepackage{graphicx,xcolor,booktabs,longtable,array,pdflscape}
+\usepackage{fancyhdr,titlesec,caption,needspace,placeins}
+\usepackage{tikz,pgfplots}
+\usetikzlibrary{arrows.meta,positioning}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{compat=1.18}
+\definecolor{tolblue}{RGB}{0,114,178}
+\definecolor{tolorange}{RGB}{230,159,0}
+\definecolor{tolgreen}{RGB}{0,158,115}
+\definecolor{linkblue}{RGB}{0,51,153}
+\usepackage{xurl}
+\urlstyle{same}
+\usepackage[unicode,colorlinks=true,linkcolor=linkblue,citecolor=linkblue,urlcolor=linkblue,bookmarksnumbered=true,bookmarksopen=true,bookmarksopenlevel=1]{hyperref}
+\usepackage{bookmark}
+\setmainfont{LiberationSerif-Regular.ttf}[Path=assets/,BoldFont=LiberationSerif-Bold.ttf,ItalicFont=LiberationSerif-Italic.ttf,BoldItalicFont=LiberationSerif-BoldItalic.ttf,Ligatures=TeX]
+\newfontfamily\cjkfont{NotoSerifSC-Regular.ttf}[Path=assets/,BoldFont=NotoSerifSC-Bold.ttf]
+\setmathfont{latinmodern-math.otf}[Path=assets/]
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+\hypersetup{pdftitle={有机太阳能电池反偏电流上翘的物理机制},pdfauthor={dot},pdfsubject={机制、完整产生循环、材料证据与低温数值审查},pdfkeywords={organic solar cells, reverse bias, SRH, Poole-Frenkel, Marcus, hopping}}
+\pdfstringdefDisableCommands{\def\cjkfont{}\def\ensuremath#1{#1}\def\textsuperscript#1{#1}}
+\definecolor{SourceGray}{gray}{0.32}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{{\small\cjkfont 有机太阳能电池反偏电流上翘}}
+\fancyhead[R]{{\small 2026-10-02}}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\footrulewidth}{0pt}
+\titleformat{\part}[display]{\centering\Large\bfseries}{}{0pt}{}
+\titlespacing*{\part}{0pt}{2mm}{9mm}
+\titleformat{\section}{\large\bfseries}{\thesection}{.8em}{}
+\titlespacing*{\section}{0pt}{18pt plus 3pt minus 2pt}{9pt}
+\makeatletter
+\renewcommand{\l@section}[2]{\begingroup\fontsize{10.3}{15}\selectfont\@dottedtocline{1}{0em}{2.4em}{#1}{#2}\endgroup}
+\renewcommand{\l@part}[2]{\addpenalty{-\@highpenalty}\addvspace{.7em}\begingroup\bfseries\@dottedtocline{0}{0em}{0em}{#1}{#2}\endgroup}
+\makeatother
+\setcounter{tocdepth}{1}
+\renewcommand{\contentsname}{{\cjkfont 目录}}
+\renewcommand{\figurename}{{\cjkfont 图}}
+\renewcommand{\tablename}{{\cjkfont 表}}
+\captionsetup{font=small,labelfont=bf,format=hang,labelsep=quad,skip=7pt,justification=justified,singlelinecheck=false}
+\setlength{\parindent}{1.5em}
+\setlength{\parskip}{.35em plus .1em minus .1em}
+\setlength{\emergencystretch}{2em}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.18}
+\newlength{\TableWidth}
+\setlength{\LTpre}{8pt}
+\setlength{\LTpost}{9pt}
+\setlength{\textfloatsep}{15pt plus 3pt minus 2pt}
+\setlength{\intextsep}{15pt plus 3pt minus 2pt}
+\renewcommand{\topfraction}{.90}
+\renewcommand{\bottomfraction}{.80}
+\renewcommand{\textfraction}{.08}
+\renewcommand{\floatpagefraction}{.75}
+\hyphenpenalty=10000
+\widowpenalty=10000
+\clubpenalty=10000
+\brokenpenalty=10000
+\raggedbottom
+\allowdisplaybreaks[1]
+\renewcommand{\abstractname}{{\cjkfont 摘要}}
+\makeatletter
+\renewenvironment{thebibliography}[1]
+ {\list{\@biblabel{\@arabic\c@enumiv}}{\settowidth\labelwidth{\@biblabel{#1}}\leftmargin\labelwidth\advance\leftmargin\labelsep\usecounter{enumiv}\setlength\itemsep{.4em}\setlength\parsep{0pt}}\sloppy}
+ {\endlist}
+\makeatother
+\begin{document}
+%% FROZEN_MANUSCRIPT_CONTENT %%
+\end{document}

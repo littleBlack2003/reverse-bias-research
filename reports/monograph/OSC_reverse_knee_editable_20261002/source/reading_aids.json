@@ -1,0 +1,50 @@
+[
+  {
+    "section": 10,
+    "name": "pair_contact_bookkeeping",
+    "caption": "怎样读粒子账本：上半图是假设由体内产对并向两端收集的情形，箭头表示电子或空穴运动，不是常规电流方向。下半图单独画出右接触的电子注入与提取；它们是边界交换，不能再当成新增体产对。实际两类过程可共存，需用四个接触净通量和体源积分区分。电极标签只沿用本书坐标约定，不代表实际选择性已被测定。",
+    "provenance": "Original conceptual schematic derived from the adjacent existing text and equations; no new model result or measured parameter."
+  },
+  {
+    "section": 18,
+    "name": "pf_schottky_origins",
+    "caption": "两种降垒先从势的来源区分。左图的正中心吸引真实电子；右图用金属平面内的等效正像电荷表示像力，像电荷不是独立供给中心。蓝箭头表示使电子离开的外场力，橙箭头表示吸引力。两条势能式采用SI单位；像势含金属极化的自能因子，不能直接当作两独立电荷的相互作用能。二倍降垒关系只属于这些理想势及共同介电常数、场幅值，不直接标定真实有机界面。",
+    "provenance": "Original conceptual schematic derived from the adjacent existing text and equations; no new model result or measured parameter."
+  },
+  {
+    "section": 19,
+    "name": "balance_rates_cycles",
+    "caption": "左图箭头表示允许的跃迁，不表示已有净流；Pi、Pj为状态概率。详细平衡比较的是概率乘速率的通量，而不是要求两方向速率相等。右图是抽象的可逆状态图，节点不指定材料或电荷态；在同一热浴与共同电化学势下，闭合路径的状态能变化相消。不同储库的驱动必须进入同一能量与粒子定义，不能把非零静电场本身当成另一台泵。",
+    "provenance": "Original conceptual schematic derived from the adjacent existing text and equations; no new model result or measured parameter."
+  },
+  {
+    "section": 22,
+    "name": "finite_pf_endpoints",
+    "caption": "从左到右读一次完整产对：价态电子进入中心后，中心电子到传导端点，最终在两侧留下同一对空穴和电子。虚线是必须保留的逆过程；图只抽出原模型最有利的非局域端点，未画其它方向和局域通道。图中横轴是真实模型位置而非反应坐标，左向电场有利于电子向右、空穴向左分离。下方把端点电势做功与过渡态降垒分开，场功只计一次；SI能量式显式含q。距离和电子可达性仍是模型假设，不由示意图证明。",
+    "provenance": "Original conceptual schematic derived from the adjacent existing text and equations; no new model result or measured parameter."
+  },
+  {
+    "section": 25,
+    "name": "power_heat_boundaries",
+    "caption": "这张图画能量账本的边界，而不是已计算出的热流分配。实线连接外部电功与器件内部描述；虚线提示还需要明确的接触、热浴和其它能流。两行功率关系使用本书电压、电流符号，均为单位面积的功率。内部场功与外部端口功的差不能直接当成热，非局域场功也不是全部器件功率；原模型没有据此求得温升。",
+    "provenance": "Original conceptual schematic derived from the adjacent existing text and equations; no new model result or measured parameter."
+  },
+  {
+    "section": 32,
+    "name": "wkb_path_count",
+    "caption": "上半图仅说明固定能量E的电子通过两侧空间势垒，与一个陷阱顺序交换；Γ描述隧穿交换强度，实际进出还受储库费米占据与陷阱空满限制。折线势垒是概念草图，不是重新计算或实测势形，也不表示左右事件相干同时发生。下半图的两条线仅作计数例子：每条贯通路径可以含多个串联微结，不能把全部微结都当成独立并联通道。因此体陷阱数乘厚度不自动等于Npath。含多个串联微结的路径还需联合求解占据与交换，不能直接复用上方单微结的净率。",
+    "provenance": "Original conceptual schematic derived from the adjacent existing text and equations; no new model result or measured parameter."
+  },
+  {
+    "section": 49,
+    "name": "escape_collection",
+    "caption": "上排从已经形成的近态开始，只在两个恒定、互斥的指数等待出口u和b这一简化条件下，先成功离开的概率为u/(u+b)。箭头表示状态转移；离开这个近态不等于已被电极提取，也不排除更远处继续回跳。下排短线与箭头表示后续输运示意，没有假定固定跳数、能量阶梯或单向真实网络。最终端口电流仍需与占据、复合和自洽输运一起计算。",
+    "provenance": "Original conceptual schematic derived from the adjacent existing text and equations; no new model result or measured parameter."
+  },
+  {
+    "section": 57,
+    "name": "mechanism_diagnostics",
+    "caption": "先把四类候选看成可共存的原因，再用下方多种观察共同约束。连线表示“需要检验的可能关系”，不是已识别的样品机制，也没有声称某一种观测是唯一指纹。例如低温电流变小可以来自产生或提取，时长变化也须配合散热与初态。图的作用是帮助安排理论问题和未来判别逻辑，不是新增实验结论或测量操作方案。",
+    "provenance": "Original conceptual schematic derived from the adjacent existing text and equations; no new model result or measured parameter."
+  }
+]

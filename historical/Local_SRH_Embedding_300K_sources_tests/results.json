@@ -1,0 +1,14 @@
+{
+  "temperature_K": 300,
+  "tests": 15,
+  "passed": true,
+  "cn_cm3_s": 1e-08,
+  "cp_cm3_s": 1e-08,
+  "n1_cm3": 10000000000.0,
+  "p1_cm3": 10000000000.0,
+  "counterexample_eta": 1e-06,
+  "counterexample_epsilon": 500000.0,
+  "counterexample_G_per_trap": 9.999970000060001e-05,
+  "depletion_limit_per_trap": 50.00000000000001,
+  "is_material_fit": false
+}

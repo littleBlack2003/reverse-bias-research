@@ -1,0 +1,22 @@
+{
+  "current_primary_temperature_K": 300,
+  "parameters_unchanged_from": "/workspace/shared/wxh/research/trap_free_comparator_20261002/parameters.json",
+  "base_parameters_sha256": "72574b75776c2f645395c7e974dc6f3fb871718c5271377359d9b6cd716a785a",
+  "comparison_models": [
+    "direct_fixed",
+    "trap_fixed",
+    "direct_a05",
+    "direct_a10",
+    "direct_a20"
+  ],
+  "field_window_MVcm": [
+    0.5,
+    3.0
+  ],
+  "initial_grid_step_MVcm": 0.1,
+  "metric": "first upward crossings of 10, 50 and 90 percent of each curve maximum found in fixed window; not device V50",
+  "density_symbol": "Npair",
+  "Npair_conditional_cm3": 1000000000000000.0,
+  "thickness_conditional_nm": 100,
+  "legacy_temperature_role": "earlier 80 K results retained only as historical temperature stress controls, not the current experiment baseline"
+}

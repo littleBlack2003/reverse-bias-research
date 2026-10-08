@@ -1,0 +1,9 @@
+{
+  "temperature_K": 300,
+  "new_model_solves": 0,
+  "density_dark_U50_shift_V": 8.068840837955117,
+  "max_density_normalized_source_deviation_10to20V": 0.0031357103557180244,
+  "max_graph_conditional_J_mAcm2": 0.0340570083334083,
+  "direct_equal_vs_a05_peak_rate_ratio": 3362475.7315946934,
+  "all_graph_50mA_thresholds_unreached_at_Npair1e15": true
+}

@@ -1,0 +1,8 @@
+{
+  "all_material_parameters_exact": true,
+  "Rs_unchanged_zero": true,
+  "active_external_shunt_zero": true,
+  "archived_original_fit_byte_identical": true,
+  "core_device_fd_field_temperature_laws_byte_identical": true,
+  "note": "Only active shunt metadata and observable change. Historical fit preserved byte-identically in archive_record. Complete primary source states are reused exactly at every saved bias, as audited separately."
+}

@@ -1,0 +1,44 @@
+{
+  "main": {
+    "normalization_error": 2.2131618651272261e-221,
+    "generator_residual": 1.977716255360566e-221,
+    "continuity_relative": 5.717988321987729e-214,
+    "heat_vs_power_relative": 9.945821219500261e-72,
+    "heat_partition_relative": 5.144620246164547e-221,
+    "entropy_balance_relative": 8.32508264999082e-70,
+    "displacement_relative": 2.8589941609938645e-214,
+    "direct_DB_max_log_error": 2.842170943040401e-14,
+    "conditional_spectrum_mean_error_eV": 1.1796119636642288e-16
+  },
+  "distance": {
+    "normalization_error": 2.2131618651272261e-221,
+    "generator_residual": 2.5108275696614257e-221,
+    "continuity_relative": 5.717988321987729e-214,
+    "heat_vs_power_relative": 9.179829852566916e-215,
+    "heat_partition_relative": 3.5647860890420136e-221,
+    "entropy_balance_relative": 1.5171723179035922e-214,
+    "displacement_relative": 2.8589941609938645e-214,
+    "direct_DB_max_log_error": 1.4210854715202004e-14,
+    "conditional_spectrum_mean_error_eV": 1.1796119636642288e-16
+  },
+  "equilibrium_max_probability_relative": 1.9963568771022856e-213,
+  "equilibrium_max_edge_net_over_gross": 9.981784312504337e-214,
+  "independent_four_state_tree_max_relative": 5.780778791712315e-218,
+  "prior_three_site_model_rate_max_relative_difference": 0.0,
+  "focused_control_max_relative": 1.1102230246251565e-15,
+  "extra": {
+    "normalization_error": 1.1065809325636131e-221,
+    "generator_residual": 1.9737971934782586e-221,
+    "continuity_relative": 2.2738348125201684e-214,
+    "heat_vs_power_relative": 2.7638953782010584e-215,
+    "heat_partition_relative": 3.40965857079367e-221,
+    "entropy_balance_relative": 2.8046831822307943e-215,
+    "displacement_relative": 3.435626530468835e-215,
+    "direct_DB_max_log_error": 1.4210854715202004e-14,
+    "conditional_spectrum_mean_error_eV": 1.1796119636642288e-16
+  },
+  "all_assertions_passed": true,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "mpmath": "1.3.0"
+}

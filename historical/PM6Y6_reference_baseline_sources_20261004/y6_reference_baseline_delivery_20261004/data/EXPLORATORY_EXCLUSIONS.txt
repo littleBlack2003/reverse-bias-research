@@ -1,0 +1,1 @@
+N161 and absolute-quasi-Fermi exploratory attempts are retained in the original workspace but excluded from this final bundle. The live100Kdark continuation is represented only by its frozen partial snapshot. No results beyond snapshot coverage are claimed. The snapshot contains one final-gate failure at0.025V, explicitly marked and excluded from certified plotting.

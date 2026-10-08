@@ -1,0 +1,23 @@
+{
+  "rates.py": {
+    "source": "/workspace/shared/wxh/research/reversible_homo_trap_lumo_20261003/rates.py",
+    "sha256": "c8f4715000f785ba4987371e5d1bb8cc15ee7d8a8774163cfcc744a161b8fd80",
+    "unchanged_copy": true
+  },
+  "test_rates.py": {
+    "source": "/workspace/shared/wxh/research/reversible_homo_trap_lumo_20261003/test_rates.py",
+    "sha256": "954a984c46e13007dc6fa5a80c340042b873a5dcbf5c20b056e3f2f1c85f1e4d",
+    "unchanged_copy": true
+  },
+  "local_srh_control.py": {
+    "source": "/workspace/shared/wxh/research/selfconsistent_srh_300K_20261003/code/local_srh.py",
+    "sha256": "0681d05b9d6a30a1c32423fde1ddf32431b42062fbd04bcaf0e6dc563dd83b16",
+    "unchanged_copy": true
+  },
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "scope": "New finite-volume reaction adapter only; original solver untouched; no coupled device solution or JV scan."
+}

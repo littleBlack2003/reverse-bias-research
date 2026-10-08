@@ -1,0 +1,1722 @@
+{
+  "runs": [
+    {
+      "Nt_cm3": 100000000000000.0,
+      "light": 0,
+      "shapes": {
+        "terminal": [
+          {
+            "window_samples": 3,
+            "sample_footprint_V": 0.75,
+            "actual_support_V": 0.5,
+            "candidates": [
+              {
+                "U": 23.75,
+                "curvature": 0.026481143132425,
+                "normalized_curvature": 0.14908132944528513,
+                "prominence_fraction": 0.5634571221635452,
+                "scipy_local_prominence_fraction": 1.0000119917426178,
+                "slope_before": 0.023380087555606877,
+                "slope_after": 0.0003421496106705996,
+                "slope_ratio": 0.014634231367048379,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 1.1899729751271891e-06,
+                "normalized_curvature": 6.699210538184837e-06,
+                "prominence_fraction": -0.8498160843781091,
+                "scipy_local_prominence_fraction": 0.9999440186870132,
+                "slope_before": 1.2327040093533737e-08,
+                "slope_after": 2.73373107811748e-06,
+                "slope_ratio": 221.76703063953562,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.75,
+              "curvature": 0.026481143132425,
+              "normalized_curvature": 0.14908132944528513,
+              "prominence_fraction": 0.5634571221635452,
+              "scipy_local_prominence_fraction": 1.0000119917426178,
+              "slope_before": 0.023380087555606877,
+              "slope_after": 0.0003421496106705996,
+              "slope_ratio": 0.014634231367048379,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 5,
+            "sample_footprint_V": 1.25,
+            "actual_support_V": 1.0,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 0.024844529432009488,
+                "normalized_curvature": 0.13986765822927336,
+                "prominence_fraction": 0.5850953914648439,
+                "scipy_local_prominence_fraction": 1.0000000012374268,
+                "slope_before": 0.02060051503871249,
+                "slope_after": 0.0004970359914805988,
+                "slope_ratio": 0.024127357522206058,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 8.990829776369997e-07,
+                "normalized_curvature": 5.061582308492856e-06,
+                "prominence_fraction": -1.4829775117342499,
+                "scipy_local_prominence_fraction": 0.7164253066910871,
+                "slope_before": 1.1806475511611109e-08,
+                "slope_after": 2.7161980617166297e-06,
+                "slope_ratio": 230.0600258769332,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 0.024844529432009488,
+              "normalized_curvature": 0.13986765822927336,
+              "prominence_fraction": 0.5850953914648439,
+              "scipy_local_prominence_fraction": 1.0000000012374268,
+              "slope_before": 0.02060051503871249,
+              "slope_after": 0.0004970359914805988,
+              "slope_ratio": 0.024127357522206058,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 7,
+            "sample_footprint_V": 1.75,
+            "actual_support_V": 1.5,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 0.023955734146797494,
+                "normalized_curvature": 0.13486399271296634,
+                "prominence_fraction": 0.5672415933228372,
+                "scipy_local_prominence_fraction": 1.0000000067791905,
+                "slope_before": 0.020599910291665385,
+                "slope_after": 0.0004127020877149057,
+                "slope_ratio": 0.020034169172177548,
+                "passes": false
+              },
+              {
+                "U": 4.75,
+                "curvature": 7.158616464888105e-07,
+                "normalized_curvature": 4.0300981503614425e-06,
+                "prominence_fraction": -1.6301155904592382,
+                "scipy_local_prominence_fraction": 0.3056802536001149,
+                "slope_before": 7.067121203030786e-09,
+                "slope_after": 2.2135054429208723e-06,
+                "slope_ratio": 313.21175614924994,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 0.023955734146797494,
+              "normalized_curvature": 0.13486399271296634,
+              "prominence_fraction": 0.5672415933228372,
+              "scipy_local_prominence_fraction": 1.0000000067791905,
+              "slope_before": 0.020599910291665385,
+              "slope_after": 0.0004127020877149057,
+              "slope_ratio": 0.020034169172177548,
+              "passes": false
+            },
+            "strict_knee_U": null
+          }
+        ],
+        "excess": [
+          {
+            "window_samples": 3,
+            "sample_footprint_V": 0.75,
+            "actual_support_V": 0.5,
+            "candidates": [
+              {
+                "U": 23.75,
+                "curvature": 0.026481143132445872,
+                "normalized_curvature": 0.14908132945319139,
+                "prominence_fraction": 0.5634571221642163,
+                "scipy_local_prominence_fraction": 1.000011991739372,
+                "slope_before": 0.023380087555550325,
+                "slope_after": 0.00034214961066416033,
+                "slope_ratio": 0.014634231366808359,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 1.1899730808157268e-06,
+                "normalized_curvature": 6.699211133531345e-06,
+                "prominence_fraction": -0.8498160260638717,
+                "scipy_local_prominence_fraction": 0.9999332511697429,
+                "slope_before": 1.232640646108164e-08,
+                "slope_after": 2.7337309179791557e-06,
+                "slope_ratio": 221.7784174658209,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.75,
+              "curvature": 0.026481143132445872,
+              "normalized_curvature": 0.14908132945319139,
+              "prominence_fraction": 0.5634571221642163,
+              "scipy_local_prominence_fraction": 1.000011991739372,
+              "slope_before": 0.023380087555550325,
+              "slope_after": 0.00034214961066416033,
+              "slope_ratio": 0.014634231366808359,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 5,
+            "sample_footprint_V": 1.25,
+            "actual_support_V": 1.0,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 0.024844529432030582,
+                "normalized_curvature": 0.1398676582366995,
+                "prominence_fraction": 0.5850953914657497,
+                "scipy_local_prominence_fraction": 1.0000000005807934,
+                "slope_before": 0.02060051503865859,
+                "slope_after": 0.0004970359914726052,
+                "slope_ratio": 0.02412735752188116,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 8.99083070397892e-07,
+                "normalized_curvature": 5.061582830974828e-06,
+                "prominence_fraction": -1.4829773673952305,
+                "scipy_local_prominence_fraction": 0.7164252443464233,
+                "slope_before": 1.1805844248708287e-08,
+                "slope_after": 2.716197902597544e-06,
+                "slope_ratio": 230.07231379447782,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 0.024844529432030582,
+              "normalized_curvature": 0.1398676582366995,
+              "prominence_fraction": 0.5850953914657497,
+              "scipy_local_prominence_fraction": 1.0000000005807934,
+              "slope_before": 0.02060051503865859,
+              "slope_after": 0.0004970359914726052,
+              "slope_ratio": 0.02412735752188116,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 7,
+            "sample_footprint_V": 1.75,
+            "actual_support_V": 1.5,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 0.023955734146818283,
+                "normalized_curvature": 0.13486399272012933,
+                "prominence_fraction": 0.5672415933237619,
+                "scipy_local_prominence_fraction": 1.0000000063111742,
+                "slope_before": 0.020599910291611498,
+                "slope_after": 0.00041270208770693984,
+                "slope_ratio": 0.020034169171843263,
+                "passes": false
+              },
+              {
+                "U": 4.75,
+                "curvature": 7.158617530497037e-07,
+                "normalized_curvature": 4.030098750479618e-06,
+                "prominence_fraction": -1.6301152909412273,
+                "scipy_local_prominence_fraction": 0.30568024270007094,
+                "slope_before": 7.06640804937506e-09,
+                "slope_after": 2.2135052545684593e-06,
+                "slope_ratio": 313.2433393461078,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 0.023955734146818283,
+              "normalized_curvature": 0.13486399272012933,
+              "prominence_fraction": 0.5672415933237619,
+              "scipy_local_prominence_fraction": 1.0000000063111742,
+              "slope_before": 0.020599910291611498,
+              "slope_after": 0.00041270208770693984,
+              "slope_ratio": 0.020034169171843263,
+              "passes": false
+            },
+            "strict_knee_U": null
+          }
+        ]
+      },
+      "pair_perNt_ratio_10to20_min": 1.0002126990006692,
+      "pair_perNt_ratio_10to20_max": 1.0003114695351734,
+      "excess_perNt_ratio_10to20_min": 1.0002127415812867,
+      "excess_perNt_ratio_10to20_max": 1.0003114703403502
+    },
+    {
+      "Nt_cm3": 1000000000000000.0,
+      "light": 0,
+      "shapes": {
+        "terminal": [
+          {
+            "window_samples": 3,
+            "sample_footprint_V": 0.75,
+            "actual_support_V": 0.5,
+            "candidates": [
+              {
+                "U": 23.75,
+                "curvature": 0.2645656935941574,
+                "normalized_curvature": 0.14895681148635304,
+                "prominence_fraction": 0.563312731185743,
+                "scipy_local_prominence_fraction": 1.0000120148528386,
+                "slope_before": 0.23370941853892158,
+                "slope_after": 0.0034333445230450513,
+                "slope_ratio": 0.014690655363867024,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 1.1891814414894138e-05,
+                "normalized_curvature": 6.695375859076236e-06,
+                "prominence_fraction": -0.8504860875105997,
+                "scipy_local_prominence_fraction": 0.9999441436777595,
+                "slope_before": 1.2311572822594267e-07,
+                "slope_after": 2.7327555431611753e-05,
+                "slope_ratio": 221.96640368694463,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.75,
+              "curvature": 0.2645656935941574,
+              "normalized_curvature": 0.14895681148635304,
+              "prominence_fraction": 0.563312731185743,
+              "scipy_local_prominence_fraction": 1.0000120148528386,
+              "slope_before": 0.23370941853892158,
+              "slope_after": 0.0034333445230450513,
+              "slope_ratio": 0.014690655363867024,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 5,
+            "sample_footprint_V": 1.25,
+            "actual_support_V": 1.0,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 0.24819808886402006,
+                "normalized_curvature": 0.13974145865980633,
+                "prominence_fraction": 0.584912371876747,
+                "scipy_local_prominence_fraction": 1.0000000012394916,
+                "slope_before": 0.2059298616055515,
+                "slope_after": 0.004985585285536054,
+                "slope_ratio": 0.02421011332045518,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 8.989771497082726e-06,
+                "normalized_curvature": 5.061456306011073e-06,
+                "prominence_fraction": -1.482525307439963,
+                "scipy_local_prominence_fraction": 0.7162036994385961,
+                "slope_before": 1.1791508407533095e-07,
+                "slope_after": 2.715222686925991e-05,
+                "slope_ratio": 230.2693254402762,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 0.24819808886402006,
+              "normalized_curvature": 0.13974145865980633,
+              "prominence_fraction": 0.584912371876747,
+              "scipy_local_prominence_fraction": 1.0000000012394916,
+              "slope_before": 0.2059298616055515,
+              "slope_after": 0.004985585285536054,
+              "slope_ratio": 0.02421011332045518,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 7,
+            "sample_footprint_V": 1.75,
+            "actual_support_V": 1.5,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 0.2393748753045279,
+                "normalized_curvature": 0.134773778455202,
+                "prominence_fraction": 0.567154724235794,
+                "scipy_local_prominence_fraction": 1.0000000067771244,
+                "slope_before": 0.20592383566146477,
+                "slope_after": 0.004136122798990227,
+                "slope_ratio": 0.02008569229348438,
+                "passes": false
+              },
+              {
+                "U": 4.75,
+                "curvature": 7.155521518562002e-06,
+                "normalized_curvature": 4.028729709612362e-06,
+                "prominence_fraction": -1.6304047220745312,
+                "scipy_local_prominence_fraction": 0.30532848214743646,
+                "slope_before": 7.057517839978461e-08,
+                "slope_after": 2.2127007335147375e-05,
+                "slope_ratio": 313.5239306063859,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 0.2393748753045279,
+              "normalized_curvature": 0.134773778455202,
+              "prominence_fraction": 0.567154724235794,
+              "scipy_local_prominence_fraction": 1.0000000067771244,
+              "slope_before": 0.20592383566146477,
+              "slope_after": 0.004136122798990227,
+              "slope_ratio": 0.02008569229348438,
+              "passes": false
+            },
+            "strict_knee_U": null
+          }
+        ],
+        "excess": [
+          {
+            "window_samples": 3,
+            "sample_footprint_V": 0.75,
+            "actual_support_V": 0.5,
+            "candidates": [
+              {
+                "U": 23.75,
+                "curvature": 0.26456569359436344,
+                "normalized_curvature": 0.14895681149425077,
+                "prominence_fraction": 0.5633127311864053,
+                "scipy_local_prominence_fraction": 1.0000120148495737,
+                "slope_before": 0.23370941853835558,
+                "slope_after": 0.0034333445229806584,
+                "slope_ratio": 0.014690655363627075,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 1.189181546658812e-05,
+                "normalized_curvature": 6.6953764515548715e-06,
+                "prominence_fraction": -0.8504860297135386,
+                "scipy_local_prominence_fraction": 0.9999333066745704,
+                "slope_before": 1.2310939302401443e-07,
+                "slope_after": 2.7327553827692878e-05,
+                "slope_ratio": 221.9778130362661,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.75,
+              "curvature": 0.26456569359436344,
+              "normalized_curvature": 0.14895681149425077,
+              "prominence_fraction": 0.5633127311864053,
+              "scipy_local_prominence_fraction": 1.0000120148495737,
+              "slope_before": 0.23370941853835558,
+              "slope_after": 0.0034333445229806584,
+              "slope_ratio": 0.014690655363627075,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 5,
+            "sample_footprint_V": 1.25,
+            "actual_support_V": 1.0,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 0.248198088864231,
+                "normalized_curvature": 0.1397414586672254,
+                "prominence_fraction": 0.5849123718776528,
+                "scipy_local_prominence_fraction": 1.0000000005781167,
+                "slope_before": 0.2059298616050118,
+                "slope_after": 0.00498558528545523,
+                "slope_ratio": 0.024210113320126143,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 8.989772423206136e-06,
+                "normalized_curvature": 5.061456827705115e-06,
+                "prominence_fraction": -1.4825251633946694,
+                "scipy_local_prominence_fraction": 0.7162036368787518,
+                "slope_before": 1.179087725154908e-07,
+                "slope_after": 2.7152225275633353e-05,
+                "slope_ratio": 230.28163805255548,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 0.248198088864231,
+              "normalized_curvature": 0.1397414586672254,
+              "prominence_fraction": 0.5849123718776528,
+              "scipy_local_prominence_fraction": 1.0000000005781167,
+              "slope_before": 0.2059298616050118,
+              "slope_after": 0.00498558528545523,
+              "slope_ratio": 0.024210113320126143,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 7,
+            "sample_footprint_V": 1.75,
+            "actual_support_V": 1.5,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 0.23937487530473506,
+                "normalized_curvature": 0.13477377846235944,
+                "prominence_fraction": 0.5671547242367183,
+                "scipy_local_prominence_fraction": 1.0000000063065777,
+                "slope_before": 0.20592383566092548,
+                "slope_after": 0.004136122798909847,
+                "slope_ratio": 0.020085692293146645,
+                "passes": false
+              },
+              {
+                "U": 4.75,
+                "curvature": 7.155522583239359e-06,
+                "normalized_curvature": 4.028730309261637e-06,
+                "prominence_fraction": -1.6304044228433507,
+                "scipy_local_prominence_fraction": 0.3053284712091039,
+                "slope_before": 7.056804961586418e-08,
+                "slope_after": 2.2127005449078814e-05,
+                "slope_ratio": 313.5555760649011,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 0.23937487530473506,
+              "normalized_curvature": 0.13477377846235944,
+              "prominence_fraction": 0.5671547242367183,
+              "scipy_local_prominence_fraction": 1.0000000063065777,
+              "slope_before": 0.20592383566092548,
+              "slope_after": 0.004136122798909847,
+              "slope_ratio": 0.020085692293146645,
+              "passes": false
+            },
+            "strict_knee_U": null
+          }
+        ]
+      },
+      "pair_perNt_ratio_10to20_min": 1.0,
+      "pair_perNt_ratio_10to20_max": 1.0,
+      "excess_perNt_ratio_10to20_min": 1.0,
+      "excess_perNt_ratio_10to20_max": 1.0
+    },
+    {
+      "Nt_cm3": 1e+16,
+      "light": 0,
+      "shapes": {
+        "terminal": [
+          {
+            "window_samples": 3,
+            "sample_footprint_V": 0.75,
+            "actual_support_V": 0.5,
+            "candidates": [
+              {
+                "U": 23.75,
+                "curvature": 2.6202003788132515,
+                "normalized_curvature": 0.14766043365885412,
+                "prominence_fraction": 0.5616484175848673,
+                "scipy_local_prominence_fraction": 1.0000122540594654,
+                "slope_before": 2.3280655061775812,
+                "slope_after": 0.03558065600296662,
+                "slope_ratio": 0.015283356893761126,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 0.00011812765723758336,
+                "normalized_curvature": 6.657040902614581e-06,
+                "prominence_fraction": -0.8572465831275022,
+                "scipy_local_prominence_fraction": 0.9999454254227752,
+                "slope_before": 1.2157705329615758e-06,
+                "slope_after": 0.0002723014853568948,
+                "slope_ratio": 223.9744079777765,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.75,
+              "curvature": 2.6202003788132515,
+              "normalized_curvature": 0.14766043365885412,
+              "prominence_fraction": 0.5616484175848673,
+              "scipy_local_prominence_fraction": 1.0000122540594654,
+              "slope_before": 2.3280655061775812,
+              "slope_after": 0.03558065600296662,
+              "slope_ratio": 0.015283356893761126,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 5,
+            "sample_footprint_V": 1.25,
+            "actual_support_V": 1.0,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 2.457666285287967,
+                "normalized_curvature": 0.13850088428684681,
+                "prominence_fraction": 0.583084936715844,
+                "scipy_local_prominence_fraction": 1.000000001262336,
+                "slope_before": 2.051852612224417,
+                "slope_after": 0.051491241338382565,
+                "slope_ratio": 0.025095000016868083,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 8.979378074738379e-05,
+                "normalized_curvature": 5.060295659918977e-06,
+                "prominence_fraction": -1.4779765629653303,
+                "scipy_local_prominence_fraction": 0.7140028515891544,
+                "slope_before": 1.1642628986976836e-06,
+                "slope_after": 0.0002705483092528641,
+                "slope_ratio": 232.37733466856406,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 2.457666285287967,
+              "normalized_curvature": 0.13850088428684681,
+              "prominence_fraction": 0.583084936715844,
+              "scipy_local_prominence_fraction": 1.000000001262336,
+              "slope_before": 2.051852612224417,
+              "slope_after": 0.051491241338382565,
+              "slope_ratio": 0.025095000016868083,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 7,
+            "sample_footprint_V": 1.75,
+            "actual_support_V": 1.5,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 2.3728826345870035,
+                "normalized_curvature": 0.13372293267256785,
+                "prominence_fraction": 0.5657502204635926,
+                "scipy_local_prominence_fraction": 1.0000000067652648,
+                "slope_before": 2.0517943399741094,
+                "slope_after": 0.04208307205384543,
+                "slope_ratio": 0.020510375349985833,
+                "passes": false
+              },
+              {
+                "U": 4.75,
+                "curvature": 7.124698958771403e-05,
+                "normalized_curvature": 4.0150980300883055e-06,
+                "prominence_fraction": -1.6332806475934738,
+                "scipy_local_prominence_fraction": 0.3018108303930521,
+                "slope_before": 6.962052770281861e-07,
+                "slope_after": 0.00022046626480851398,
+                "slope_ratio": 316.668477075603,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 2.3728826345870035,
+              "normalized_curvature": 0.13372293267256785,
+              "prominence_fraction": 0.5657502204635926,
+              "scipy_local_prominence_fraction": 1.0000000067652648,
+              "slope_before": 2.0517943399741094,
+              "slope_after": 0.04208307205384543,
+              "slope_ratio": 0.020510375349985833,
+              "passes": false
+            },
+            "strict_knee_U": null
+          }
+        ],
+        "excess": [
+          {
+            "window_samples": 3,
+            "sample_footprint_V": 0.75,
+            "actual_support_V": 0.5,
+            "candidates": [
+              {
+                "U": 23.75,
+                "curvature": 2.620200378815298,
+                "normalized_curvature": 0.1476604336666786,
+                "prominence_fraction": 0.5616484175855351,
+                "scipy_local_prominence_fraction": 1.0000122540560064,
+                "slope_before": 2.3280655061718605,
+                "slope_after": 0.035580656002263185,
+                "slope_ratio": 0.015283356893496526,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 0.00011812766723744627,
+                "normalized_curvature": 6.657041466500753e-06,
+                "prominence_fraction": -0.8572465304941645,
+                "scipy_local_prominence_fraction": 0.9999338882754362,
+                "slope_before": 1.215707291503698e-06,
+                "slope_after": 0.0002723014690680386,
+                "slope_ratio": 223.98604579498016,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.75,
+              "curvature": 2.620200378815298,
+              "normalized_curvature": 0.1476604336666786,
+              "prominence_fraction": 0.5616484175855351,
+              "scipy_local_prominence_fraction": 1.0000122540560064,
+              "slope_before": 2.3280655061718605,
+              "slope_after": 0.035580656002263185,
+              "slope_ratio": 0.015283356893496526,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 5,
+            "sample_footprint_V": 1.25,
+            "actual_support_V": 1.0,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 2.4576662852900952,
+                "normalized_curvature": 0.1385008842941977,
+                "prominence_fraction": 0.5830849367167565,
+                "scipy_local_prominence_fraction": 1.0000000005532372,
+                "slope_before": 2.051852612218955,
+                "slope_after": 0.05149124133752281,
+                "slope_ratio": 0.02509500001651587,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 8.979378985914319e-05,
+                "normalized_curvature": 5.060296173673036e-06,
+                "prominence_fraction": -1.4779764218342422,
+                "scipy_local_prominence_fraction": 0.7140027869019497,
+                "slope_before": 1.1641998882736567e-06,
+                "slope_after": 0.000270548293076798,
+                "slope_ratio": 232.38989781899286,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 2.4576662852900952,
+              "normalized_curvature": 0.1385008842941977,
+              "prominence_fraction": 0.5830849367167565,
+              "scipy_local_prominence_fraction": 1.0000000005532372,
+              "slope_before": 2.051852612218955,
+              "slope_after": 0.05149124133752281,
+              "slope_ratio": 0.02509500001651587,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 7,
+            "sample_footprint_V": 1.75,
+            "actual_support_V": 1.5,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 2.3728826345890695,
+                "normalized_curvature": 0.13372293267966578,
+                "prominence_fraction": 0.5657502204645161,
+                "scipy_local_prominence_fraction": 1.0000000062690435,
+                "slope_before": 2.0517943399686507,
+                "slope_after": 0.04208307205298922,
+                "slope_ratio": 0.020510375349623106,
+                "passes": false
+              },
+              {
+                "U": 4.75,
+                "curvature": 7.124700014164188e-05,
+                "normalized_curvature": 4.015098625060672e-06,
+                "prominence_fraction": -1.6332803512087422,
+                "scipy_local_prominence_fraction": 0.3018108190876378,
+                "slope_before": 6.961342587179155e-07,
+                "slope_after": 0.00022046624569888192,
+                "slope_ratio": 316.7007555481022,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 2.3728826345890695,
+              "normalized_curvature": 0.13372293267966578,
+              "prominence_fraction": 0.5657502204645161,
+              "scipy_local_prominence_fraction": 1.0000000062690435,
+              "slope_before": 2.0517943399686507,
+              "slope_after": 0.04208307205298922,
+              "slope_ratio": 0.020510375349623106,
+              "passes": false
+            },
+            "strict_knee_U": null
+          }
+        ]
+      },
+      "pair_perNt_ratio_10to20_min": 0.9968892129476703,
+      "pair_perNt_ratio_10to20_max": 0.9978747736940721,
+      "excess_perNt_ratio_10to20_min": 0.996889204952929,
+      "excess_perNt_ratio_10to20_max": 0.9978743498226058
+    },
+    {
+      "Nt_cm3": 100000000000000.0,
+      "light": 1,
+      "shapes": {
+        "terminal": [
+          {
+            "window_samples": 3,
+            "sample_footprint_V": 0.75,
+            "actual_support_V": 0.5,
+            "candidates": [
+              {
+                "U": 23.75,
+                "curvature": 0.026481155895552888,
+                "normalized_curvature": 0.13089004176578084,
+                "prominence_fraction": 0.5634598333804685,
+                "scipy_local_prominence_fraction": 1.0198818450538722,
+                "slope_before": 0.023379963651983596,
+                "slope_after": 0.0003421694933374404,
+                "slope_ratio": 0.014635159336888455,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.75,
+              "curvature": 0.026481155895552888,
+              "normalized_curvature": 0.13089004176578084,
+              "prominence_fraction": 0.5634598333804685,
+              "scipy_local_prominence_fraction": 1.0198818450538722,
+              "slope_before": 0.023379963651983596,
+              "slope_after": 0.0003421694933374404,
+              "slope_ratio": 0.014635159336888455,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 5,
+            "sample_footprint_V": 1.25,
+            "actual_support_V": 1.0,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 0.024844468004197318,
+                "normalized_curvature": 0.12280028362599155,
+                "prominence_fraction": 0.585096808134657,
+                "scipy_local_prominence_fraction": 1.026267900794803,
+                "slope_before": 0.020600407204533266,
+                "slope_after": 0.000497060598577459,
+                "slope_ratio": 0.024128678314090667,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 0.024844468004197318,
+              "normalized_curvature": 0.12280028362599155,
+              "prominence_fraction": 0.585096808134657,
+              "scipy_local_prominence_fraction": 1.026267900794803,
+              "slope_before": 0.020600407204533266,
+              "slope_after": 0.000497060598577459,
+              "slope_ratio": 0.024128678314090667,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 7,
+            "sample_footprint_V": 1.75,
+            "actual_support_V": 1.5,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 0.02395576470000909,
+                "normalized_curvature": 0.1184076350172456,
+                "prominence_fraction": 0.5672446882801838,
+                "scipy_local_prominence_fraction": 1.0231002799357058,
+                "slope_before": 0.02059980245795566,
+                "slope_after": 0.00041271880828080976,
+                "slope_ratio": 0.020035085730708908,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 0.02395576470000909,
+              "normalized_curvature": 0.1184076350172456,
+              "prominence_fraction": 0.5672446882801838,
+              "scipy_local_prominence_fraction": 1.0231002799357058,
+              "slope_before": 0.02059980245795566,
+              "slope_after": 0.00041271880828080976,
+              "slope_ratio": 0.020035085730708908,
+              "passes": false
+            },
+            "strict_knee_U": null
+          }
+        ],
+        "excess": [
+          {
+            "window_samples": 3,
+            "sample_footprint_V": 0.75,
+            "actual_support_V": 0.5,
+            "candidates": [
+              {
+                "U": 23.75,
+                "curvature": 0.026481157929520105,
+                "normalized_curvature": 0.14908140750777749,
+                "prominence_fraction": 0.5634597253632997,
+                "scipy_local_prominence_fraction": 1.0000064334832997,
+                "slope_before": 0.023379941523147738,
+                "slope_after": 0.00034215611868789136,
+                "slope_ratio": 0.014634601132305376,
+                "passes": false
+              },
+              {
+                "U": 5.25,
+                "curvature": 1.2700163283252374e-06,
+                "normalized_curvature": 7.149831676111197e-06,
+                "prominence_fraction": -1.0969403775308897,
+                "scipy_local_prominence_fraction": 0.7925234455671698,
+                "slope_before": 2.109227470459274e-08,
+                "slope_after": 3.3395750354478512e-06,
+                "slope_ratio": 158.33166797892477,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.75,
+              "curvature": 0.026481157929520105,
+              "normalized_curvature": 0.14908140750777749,
+              "prominence_fraction": 0.5634597253632997,
+              "scipy_local_prominence_fraction": 1.0000064334832997,
+              "slope_before": 0.023379941523147738,
+              "slope_after": 0.00034215611868789136,
+              "slope_ratio": 0.014634601132305376,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 5,
+            "sample_footprint_V": 1.25,
+            "actual_support_V": 1.0,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 0.02484447018743846,
+                "normalized_curvature": 0.1398673197820947,
+                "prominence_fraction": 0.5850966797442212,
+                "scipy_local_prominence_fraction": 1.000008835113441,
+                "slope_before": 0.020600384111411324,
+                "slope_after": 0.0004970469020920687,
+                "slope_ratio": 0.024128040496911696,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 1.0200078707540365e-06,
+                "normalized_curvature": 5.742354977291533e-06,
+                "prominence_fraction": -1.1520731988055222,
+                "scipy_local_prominence_fraction": 0.4927374954440974,
+                "slope_before": 1.476942466591135e-08,
+                "slope_after": 2.7167092857757724e-06,
+                "slope_ratio": 183.94144303034957,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 0.02484447018743846,
+              "normalized_curvature": 0.1398673197820947,
+              "prominence_fraction": 0.5850966797442212,
+              "scipy_local_prominence_fraction": 1.000008835113441,
+              "slope_before": 0.020600384111411324,
+              "slope_after": 0.0004970469020920687,
+              "slope_ratio": 0.024128040496911696,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 7,
+            "sample_footprint_V": 1.75,
+            "actual_support_V": 1.5,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 0.023955766890116328,
+                "normalized_curvature": 0.1348641723074183,
+                "prominence_fraction": 0.5672445561786544,
+                "scipy_local_prominence_fraction": 1.0000071831891977,
+                "slope_before": 0.020599779365034397,
+                "slope_after": 0.0004127051118230085,
+                "slope_ratio": 0.020034443306879535,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 8.490511684370685e-07,
+                "normalized_curvature": 4.779917236761674e-06,
+                "prominence_fraction": -1.6278354955468328,
+                "scipy_local_prominence_fraction": 0.20199212503628258,
+                "slope_before": 1.466022006552236e-08,
+                "slope_after": 2.7156980594856814e-06,
+                "slope_ratio": 185.24265306715353,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 0.023955766890116328,
+              "normalized_curvature": 0.1348641723074183,
+              "prominence_fraction": 0.5672445561786544,
+              "scipy_local_prominence_fraction": 1.0000071831891977,
+              "slope_before": 0.020599779365034397,
+              "slope_after": 0.0004127051118230085,
+              "slope_ratio": 0.020034443306879535,
+              "passes": false
+            },
+            "strict_knee_U": null
+          }
+        ]
+      },
+      "pair_perNt_ratio_10to20_min": 1.0002127073562848,
+      "pair_perNt_ratio_10to20_max": 1.0003139655769382,
+      "excess_perNt_ratio_10to20_min": 1.0002127393942555,
+      "excess_perNt_ratio_10to20_max": 1.0003105905085379
+    },
+    {
+      "Nt_cm3": 1000000000000000.0,
+      "light": 1,
+      "shapes": {
+        "terminal": [
+          {
+            "window_samples": 3,
+            "sample_footprint_V": 0.75,
+            "actual_support_V": 0.5,
+            "candidates": [
+              {
+                "U": 23.75,
+                "curvature": 0.2645657677553501,
+                "normalized_curvature": 0.1469150243516264,
+                "prominence_fraction": 0.5633152626788148,
+                "scipy_local_prominence_fraction": 1.0022720981792426,
+                "slope_before": 0.23370814342806157,
+                "slope_after": 0.0034335386651780826,
+                "slope_ratio": 0.014691566219364413,
+                "passes": false
+              },
+              {
+                "U": 5.25,
+                "curvature": 4.66351504779805e-06,
+                "normalized_curvature": 2.589679052676956e-06,
+                "prominence_fraction": -4.091561427439139,
+                "scipy_local_prominence_fraction": 1.9427158884762534,
+                "slope_before": 4.724061445633152e-05,
+                "slope_after": 3.9880305248167554e-05,
+                "slope_ratio": 0.8441953117487978,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.75,
+              "curvature": 0.2645657677553501,
+              "normalized_curvature": 0.1469150243516264,
+              "prominence_fraction": 0.5633152626788148,
+              "scipy_local_prominence_fraction": 1.0022720981792426,
+              "slope_before": 0.23370814342806157,
+              "slope_after": 0.0034335386651780826,
+              "slope_ratio": 0.014691566219364413,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 5,
+            "sample_footprint_V": 1.25,
+            "actual_support_V": 1.0,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 0.24819747049767793,
+                "normalized_curvature": 0.1378256065837567,
+                "prominence_fraction": 0.5849136751782259,
+                "scipy_local_prominence_fraction": 1.003013447888894,
+                "slope_before": 0.20592874084076618,
+                "slope_after": 0.004985827181573477,
+                "slope_ratio": 0.024211419742661146,
+                "passes": false
+              },
+              {
+                "U": 5.25,
+                "curvature": 1.23820485660453e-06,
+                "normalized_curvature": 6.875828955640764e-07,
+                "prominence_fraction": -18.406149783977288,
+                "scipy_local_prominence_fraction": 1.8270092092915402,
+                "slope_before": 4.7043116287129316e-05,
+                "slope_after": 3.9638360005006534e-05,
+                "slope_ratio": 0.8425963910016592,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 0.24819747049767793,
+              "normalized_curvature": 0.1378256065837567,
+              "prominence_fraction": 0.5849136751782259,
+              "scipy_local_prominence_fraction": 1.003013447888894,
+              "slope_before": 0.20592874084076618,
+              "slope_after": 0.004985827181573477,
+              "slope_ratio": 0.024211419742661146,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 7,
+            "sample_footprint_V": 1.75,
+            "actual_support_V": 1.5,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 0.23937509133569862,
+                "normalized_curvature": 0.13292648429587234,
+                "prominence_fraction": 0.5671575474829618,
+                "scipy_local_prominence_fraction": 1.0026265121684927,
+                "slope_before": 0.20592271490193692,
+                "slope_after": 0.0041362784861882496,
+                "slope_ratio": 0.020086557659061553,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 0.23937509133569862,
+              "normalized_curvature": 0.13292648429587234,
+              "prominence_fraction": 0.5671575474829618,
+              "scipy_local_prominence_fraction": 1.0026265121684927,
+              "slope_before": 0.20592271490193692,
+              "slope_after": 0.0041362784861882496,
+              "slope_ratio": 0.020086557659061553,
+              "passes": false
+            },
+            "strict_knee_U": null
+          }
+        ],
+        "excess": [
+          {
+            "window_samples": 3,
+            "sample_footprint_V": 0.75,
+            "actual_support_V": 0.5,
+            "candidates": [
+              {
+                "U": 23.75,
+                "curvature": 0.2645657804581276,
+                "normalized_curvature": 0.1489568551423581,
+                "prominence_fraction": 0.5633152176789826,
+                "scipy_local_prominence_fraction": 1.0000064276848009,
+                "slope_before": 0.23370796398182125,
+                "slope_after": 0.0034334112045995516,
+                "slope_ratio": 0.014691032115904343,
+                "passes": false
+              },
+              {
+                "U": 5.25,
+                "curvature": 1.2717351233093588e-05,
+                "normalized_curvature": 7.160172574632055e-06,
+                "prominence_fraction": -1.0935622702475565,
+                "scipy_local_prominence_fraction": 0.7922984152519345,
+                "slope_before": 2.1064392163872014e-07,
+                "slope_after": 3.338495457037851e-05,
+                "slope_ratio": 158.48999729333636,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.75,
+              "curvature": 0.2645657804581276,
+              "normalized_curvature": 0.1489568551423581,
+              "prominence_fraction": 0.5633152176789826,
+              "scipy_local_prominence_fraction": 1.0000064276848009,
+              "slope_before": 0.23370796398182125,
+              "slope_after": 0.0034334112045995516,
+              "slope_ratio": 0.014691032115904343,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 5,
+            "sample_footprint_V": 1.25,
+            "actual_support_V": 1.0,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 0.24819748368048167,
+                "normalized_curvature": 0.13974111300135653,
+                "prominence_fraction": 0.5849136236430367,
+                "scipy_local_prominence_fraction": 1.0000088268599219,
+                "slope_before": 0.20592855696651802,
+                "slope_after": 0.004985697262676503,
+                "slope_ratio": 0.02421081046805533,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 1.0198875804596449e-05,
+                "normalized_curvature": 5.742210739459611e-06,
+                "prominence_fraction": -1.1516472313595048,
+                "scipy_local_prominence_fraction": 0.4927338602898009,
+                "slope_before": 1.4755136827290786e-07,
+                "slope_after": 2.7158020477285855e-05,
+                "slope_ratio": 184.05807275914216,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 0.24819748368048167,
+              "normalized_curvature": 0.13974111300135653,
+              "prominence_fraction": 0.5849136236430367,
+              "scipy_local_prominence_fraction": 1.0000088268599219,
+              "slope_before": 0.20592855696651802,
+              "slope_after": 0.004985697262676503,
+              "slope_ratio": 0.02421081046805533,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 7,
+            "sample_footprint_V": 1.75,
+            "actual_support_V": 1.5,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 0.23937510453114025,
+                "normalized_curvature": 0.13477390276470463,
+                "prominence_fraction": 0.5671574949422717,
+                "scipy_local_prominence_fraction": 1.0000071774399857,
+                "slope_before": 0.2059225310279399,
+                "slope_after": 0.0041361485673401255,
+                "slope_ratio": 0.020085944683629234,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 8.490327914559149e-06,
+                "normalized_curvature": 4.780257458429199e-06,
+                "prominence_fraction": -1.6270671291091836,
+                "scipy_local_prominence_fraction": 0.20182762853580044,
+                "slope_before": 1.4646053179135916e-07,
+                "slope_after": 2.714795297440977e-05,
+                "slope_ratio": 185.36019665068181,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 0.23937510453114025,
+              "normalized_curvature": 0.13477390276470463,
+              "prominence_fraction": 0.5671574949422717,
+              "scipy_local_prominence_fraction": 1.0000071774399857,
+              "slope_before": 0.2059225310279399,
+              "slope_after": 0.0041361485673401255,
+              "slope_ratio": 0.020085944683629234,
+              "passes": false
+            },
+            "strict_knee_U": null
+          }
+        ]
+      },
+      "pair_perNt_ratio_10to20_min": 1.0,
+      "pair_perNt_ratio_10to20_max": 1.0,
+      "excess_perNt_ratio_10to20_min": 1.0,
+      "excess_perNt_ratio_10to20_max": 1.0
+    },
+    {
+      "Nt_cm3": 1e+16,
+      "light": 1,
+      "shapes": {
+        "terminal": [
+          {
+            "window_samples": 3,
+            "sample_footprint_V": 0.75,
+            "actual_support_V": 0.5,
+            "candidates": [
+              {
+                "U": 23.75,
+                "curvature": 2.6201952831238486,
+                "normalized_curvature": 0.14745523837209085,
+                "prominence_fraction": 0.5616498091135876,
+                "scipy_local_prominence_fraction": 1.0005005249741497,
+                "slope_before": 2.3280532778771423,
+                "slope_after": 0.035582752192854956,
+                "slope_ratio": 0.015284337575513491,
+                "passes": false
+              },
+              {
+                "U": 5.25,
+                "curvature": 0.00011459719005513236,
+                "normalized_curvature": 6.4491208289655654e-06,
+                "prominence_fraction": -1.2687412717917783,
+                "scipy_local_prominence_fraction": 0.8704838042268106,
+                "slope_before": 9.006552574108441e-05,
+                "slope_after": 0.00035073315789885403,
+                "slope_ratio": 3.894199861855279,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.75,
+              "curvature": 2.6201952831238486,
+              "normalized_curvature": 0.14745523837209085,
+              "prominence_fraction": 0.5616498091135876,
+              "scipy_local_prominence_fraction": 1.0005005249741497,
+              "slope_before": 2.3280532778771423,
+              "slope_after": 0.035582752192854956,
+              "slope_ratio": 0.015284337575513491,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 5,
+            "sample_footprint_V": 1.25,
+            "actual_support_V": 1.0,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 2.457658886779292,
+                "normalized_curvature": 0.13830827012071933,
+                "prominence_fraction": 0.5830858743101898,
+                "scipy_local_prominence_fraction": 1.0006730336068117,
+                "slope_before": 2.051841811413441,
+                "slope_after": 0.05149394242984329,
+                "slope_ratio": 0.025096448538774508,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 8.571163239814994e-05,
+                "normalized_curvature": 4.8235447441391465e-06,
+                "prominence_fraction": -1.479648957962094,
+                "scipy_local_prominence_fraction": 0.5251550890901615,
+                "slope_before": 0.00010138143633708907,
+                "slope_after": 0.0002900772161041204,
+                "slope_ratio": 2.861245870887306,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 2.457658886779292,
+              "normalized_curvature": 0.13830827012071933,
+              "prominence_fraction": 0.5830858743101898,
+              "scipy_local_prominence_fraction": 1.0006730336068117,
+              "slope_before": 2.051841811413441,
+              "slope_after": 0.05149394242984329,
+              "slope_ratio": 0.025096448538774508,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 7,
+            "sample_footprint_V": 1.75,
+            "actual_support_V": 1.5,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 2.3728754146508293,
+                "normalized_curvature": 0.13353695892371148,
+                "prominence_fraction": 0.5657511763318521,
+                "scipy_local_prominence_fraction": 1.0005679248408148,
+                "slope_before": 2.0517835391009136,
+                "slope_after": 0.042084116705208174,
+                "slope_ratio": 0.02051099246251353,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 6.861525471180039e-05,
+                "normalized_curvature": 3.861421629393882e-06,
+                "prominence_fraction": -2.14932437580703,
+                "scipy_local_prominence_fraction": 0.17227441644093178,
+                "slope_before": 0.00010134185743211274,
+                "slope_after": 0.0002899804040413165,
+                "slope_ratio": 2.8614080241776665,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 2.3728754146508293,
+              "normalized_curvature": 0.13353695892371148,
+              "prominence_fraction": 0.5657511763318521,
+              "scipy_local_prominence_fraction": 1.0005679248408148,
+              "slope_before": 2.0517835391009136,
+              "slope_after": 0.042084116705208174,
+              "slope_ratio": 0.02051099246251353,
+              "passes": false
+            },
+            "strict_knee_U": null
+          }
+        ],
+        "excess": [
+          {
+            "window_samples": 3,
+            "sample_footprint_V": 0.75,
+            "actual_support_V": 0.5,
+            "candidates": [
+              {
+                "U": 23.75,
+                "curvature": 2.6201954022441214,
+                "normalized_curvature": 0.1476601478644656,
+                "prominence_fraction": 0.5616497702231366,
+                "scipy_local_prominence_fraction": 1.0000063837922466,
+                "slope_before": 2.3280515281510805,
+                "slope_after": 0.03558148566170478,
+                "slope_ratio": 0.015283805032426968,
+                "passes": false
+              },
+              {
+                "U": 5.25,
+                "curvature": 0.00012865768635394992,
+                "normalized_curvature": 7.250456578411434e-06,
+                "prominence_fraction": -1.0640625110689625,
+                "scipy_local_prominence_fraction": 0.7882686165100683,
+                "slope_before": 2.0793137522831517e-06,
+                "slope_after": 0.0003327714018913215,
+                "slope_ratio": 160.0390520795277,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.75,
+              "curvature": 2.6201954022441214,
+              "normalized_curvature": 0.1476601478644656,
+              "prominence_fraction": 0.5616497702231366,
+              "scipy_local_prominence_fraction": 1.0000063837922466,
+              "slope_before": 2.3280515281510805,
+              "slope_after": 0.03558148566170478,
+              "slope_ratio": 0.015283805032426968,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 5,
+            "sample_footprint_V": 1.25,
+            "actual_support_V": 1.0,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 2.457659009675961,
+                "normalized_curvature": 0.13850046926209267,
+                "prominence_fraction": 0.5830858302423326,
+                "scipy_local_prominence_fraction": 1.0000087599595011,
+                "slope_before": 2.0518400227179185,
+                "slope_after": 0.05149265212602927,
+                "slope_ratio": 0.025095841564597623,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 0.00010180891876853419,
+                "normalized_curvature": 5.737404159402651e-06,
+                "prominence_fraction": -1.1486842424302894,
+                "scipy_local_prominence_fraction": 0.49194679522585727,
+                "slope_before": 1.461637340198033e-06,
+                "slope_after": 0.0002706732539997725,
+                "slope_ratio": 185.18496110882046,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 2.457659009675961,
+              "normalized_curvature": 0.13850046926209267,
+              "prominence_fraction": 0.5830858302423326,
+              "scipy_local_prominence_fraction": 1.0000087599595011,
+              "slope_before": 2.0518400227179185,
+              "slope_after": 0.05149265212602927,
+              "slope_ratio": 0.025095841564597623,
+              "passes": false
+            },
+            "strict_knee_U": null
+          },
+          {
+            "window_samples": 7,
+            "sample_footprint_V": 1.75,
+            "actual_support_V": 1.5,
+            "candidates": [
+              {
+                "U": 23.5,
+                "curvature": 2.3728755376176927,
+                "normalized_curvature": 0.1337225278880011,
+                "prominence_fraction": 0.5657511315522924,
+                "scipy_local_prominence_fraction": 1.0000071397663208,
+                "slope_before": 2.0517817504061346,
+                "slope_after": 0.042082826401625084,
+                "slope_ratio": 0.020510381473709427,
+                "passes": false
+              },
+              {
+                "U": 5.0,
+                "curvature": 8.485858083293052e-05,
+                "normalized_curvature": 4.782174101453444e-06,
+                "prominence_fraction": -1.62023506409453,
+                "scipy_local_prominence_fraction": 0.19980596864809191,
+                "slope_before": 1.4508412073725611e-06,
+                "slope_after": 0.00027057700558208604,
+                "slope_ratio": 186.49663671470606,
+                "passes": false
+              }
+            ],
+            "largest_positive_curvature": {
+              "U": 23.5,
+              "curvature": 2.3728755376176927,
+              "normalized_curvature": 0.1337225278880011,
+              "prominence_fraction": 0.5657511315522924,
+              "scipy_local_prominence_fraction": 1.0000071397663208,
+              "slope_before": 2.0517817504061346,
+              "slope_after": 0.042082826401625084,
+              "slope_ratio": 0.020510381473709427,
+              "passes": false
+            },
+            "strict_knee_U": null
+          }
+        ]
+      },
+      "pair_perNt_ratio_10to20_min": 0.996864289644282,
+      "pair_perNt_ratio_10to20_max": 0.9978746914834656,
+      "excess_perNt_ratio_10to20_min": 0.9968980221958036,
+      "excess_perNt_ratio_10to20_max": 0.9978743727108298
+    }
+  ],
+  "frozen_checks": [
+    {
+      "light": 0,
+      "frozen_max_abs_per_center_spread": 5.9164567891575885e-31,
+      "frozen_max_relative_spread": 4.14278777195917e-16
+    },
+    {
+      "light": 1,
+      "frozen_max_abs_per_center_spread": 5.9164567891575885e-31,
+      "frozen_max_relative_spread": 4.169077065922601e-16
+    }
+  ],
+  "thresholds": [
+    {
+      "Nt_cm3": 100000000000000.0,
+      "light": 0,
+      "current_mAcm2": 25.0,
+      "U": 20.62164898691672,
+      "status": "linear_first_upcrossing"
+    },
+    {
+      "Nt_cm3": 100000000000000.0,
+      "light": 0,
+      "current_mAcm2": 50.0,
+      "U": 21.94862820410799,
+      "status": "linear_first_upcrossing"
+    },
+    {
+      "Nt_cm3": 100000000000000.0,
+      "light": 0,
+      "current_mAcm2": 100.0,
+      "U": 23.314777713560677,
+      "status": "linear_first_upcrossing"
+    },
+    {
+      "Nt_cm3": 1000000000000000.0,
+      "light": 0,
+      "current_mAcm2": 25.0,
+      "U": 16.50469524223785,
+      "status": "linear_first_upcrossing"
+    },
+    {
+      "Nt_cm3": 1000000000000000.0,
+      "light": 0,
+      "current_mAcm2": 50.0,
+      "U": 17.697389170384934,
+      "status": "linear_first_upcrossing"
+    },
+    {
+      "Nt_cm3": 1000000000000000.0,
+      "light": 0,
+      "current_mAcm2": 100.0,
+      "U": 18.931134508054367,
+      "status": "linear_first_upcrossing"
+    },
+    {
+      "Nt_cm3": 1e+16,
+      "light": 0,
+      "current_mAcm2": 25.0,
+      "U": 12.815366292827296,
+      "status": "linear_first_upcrossing"
+    },
+    {
+      "Nt_cm3": 1e+16,
+      "light": 0,
+      "current_mAcm2": 50.0,
+      "U": 13.879787366152874,
+      "status": "linear_first_upcrossing"
+    },
+    {
+      "Nt_cm3": 1e+16,
+      "light": 0,
+      "current_mAcm2": 100.0,
+      "U": 14.988037222342474,
+      "status": "linear_first_upcrossing"
+    },
+    {
+      "Nt_cm3": 100000000000000.0,
+      "light": 1,
+      "current_mAcm2": 25.0,
+      "U": 13.155214666800624,
+      "status": "linear_first_upcrossing"
+    },
+    {
+      "Nt_cm3": 100000000000000.0,
+      "light": 1,
+      "current_mAcm2": 50.0,
+      "U": 20.645233526288457,
+      "status": "linear_first_upcrossing"
+    },
+    {
+      "Nt_cm3": 100000000000000.0,
+      "light": 1,
+      "current_mAcm2": 100.0,
+      "U": 22.75320792893902,
+      "status": "linear_first_upcrossing"
+    },
+    {
+      "Nt_cm3": 1000000000000000.0,
+      "light": 1,
+      "current_mAcm2": 25.0,
+      "U": 9.894986470136512,
+      "status": "linear_first_upcrossing"
+    },
+    {
+      "Nt_cm3": 1000000000000000.0,
+      "light": 1,
+      "current_mAcm2": 50.0,
+      "U": 16.524843418390212,
+      "status": "linear_first_upcrossing"
+    },
+    {
+      "Nt_cm3": 1000000000000000.0,
+      "light": 1,
+      "current_mAcm2": 100.0,
+      "U": 18.42137203652105,
+      "status": "linear_first_upcrossing"
+    },
+    {
+      "Nt_cm3": 1e+16,
+      "light": 1,
+      "current_mAcm2": 25.0,
+      "U": 7.368314873340274,
+      "status": "linear_first_upcrossing"
+    },
+    {
+      "Nt_cm3": 1e+16,
+      "light": 1,
+      "current_mAcm2": 50.0,
+      "U": 12.83730173021109,
+      "status": "linear_first_upcrossing"
+    },
+    {
+      "Nt_cm3": 1e+16,
+      "light": 1,
+      "current_mAcm2": 100.0,
+      "U": 14.531504071125168,
+      "status": "linear_first_upcrossing"
+    }
+  ],
+  "forward": [
+    {
+      "model": "PF",
+      "Nt_cm3": 100000000000000.0,
+      "Jsc_mAcm2": 24.041297689473712,
+      "Voc_V": 0.9593636457788871,
+      "FF": 0.8027379208293144,
+      "Vmpp_V": 0.8485943205749606,
+      "Jmpp_mAcm2": 21.817994190706223,
+      "Pmpp_mWcm2": 18.514625956570786
+    },
+    {
+      "model": "DD",
+      "Nt_cm3": 100000000000000.0,
+      "Jsc_mAcm2": 24.04139822546645,
+      "Voc_V": 0.9593755594151956,
+      "FF": 0.8028018541723522,
+      "Vmpp_V": 0.8486304618333169,
+      "Jmpp_mAcm2": 21.819164806985587,
+      "Pmpp_mWcm2": 18.516407906969437
+    },
+    {
+      "model": "PF",
+      "Nt_cm3": 1000000000000000.0,
+      "Jsc_mAcm2": 23.968693172698412,
+      "Voc_V": 0.951408178768733,
+      "FF": 0.780274898557715,
+      "Vmpp_V": 0.8298417959995836,
+      "Jmpp_mAcm2": 21.441914876037945,
+      "Pmpp_mWcm2": 17.79339715040152
+    },
+    {
+      "model": "DD",
+      "Nt_cm3": 1000000000000000.0,
+      "Jsc_mAcm2": 23.969698568551667,
+      "Voc_V": 0.9515221423273312,
+      "FF": 0.7807698269406754,
+      "Vmpp_V": 0.8301707892848156,
+      "Jmpp_mAcm2": 21.450481489583066,
+      "Pmpp_mWcm2": 17.8075631487465
+    },
+    {
+      "model": "PF",
+      "Nt_cm3": 1e+16,
+      "Jsc_mAcm2": 23.256156105030378,
+      "Voc_V": 0.9010676372372112,
+      "FF": 0.686285253612857,
+      "Vmpp_V": 0.7426532829194081,
+      "Jmpp_mAcm2": 19.364838874002345,
+      "Pmpp_mWcm2": 14.381361162983216
+    },
+    {
+      "model": "DD",
+      "Nt_cm3": 1e+16,
+      "Jsc_mAcm2": 23.266217494023394,
+      "Voc_V": 0.9018842636244877,
+      "FF": 0.6878305140720066,
+      "Vmpp_V": 0.7442560658344677,
+      "Jmpp_mAcm2": 19.392582529985667,
+      "Pmpp_mWcm2": 14.433047180137361
+    }
+  ]
+}

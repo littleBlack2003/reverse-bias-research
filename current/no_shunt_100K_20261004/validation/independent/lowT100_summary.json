@@ -1,0 +1,31 @@
+{
+  "scope": "Read-only independent saved-state audit; direct 2049/4097-node normalized Gauss-Legendre FD quadrature on [-18,18], no PDE rerun. Direct-EOS residual is a constitutive perturbation check, not a re-solved solution.",
+  "completed_tags": [
+    "no_shunt_T100_N1281",
+    "no_shunt_T100_N321",
+    "no_shunt_T100_N641"
+  ],
+  "pending": [],
+  "states": 24,
+  "eos_tests": 48,
+  "rule_original_gaussian_mass": {
+    "2049": 1.0000000000000828,
+    "4097": 1.0000000000003444
+  },
+  "all_saved_state_gates": true,
+  "all_brackets_resolved": true,
+  "all_mpp_sampled_bounds": true,
+  "all_occupations_valid": true,
+  "max_eos_c_relative": 8.049116928532385e-14,
+  "max_eos_dc_relative": 4.318101431977084e-11,
+  "max_eos_g_relative": 4.319511415218358e-11,
+  "max_highorder_crosscheck_relative": 4.4297898682543746e-14,
+  "max_direct_eos_current_shift_Acm2": 6.6174449004242214e-21,
+  "max_direct_eos_local_continuity_L1_Acm2": 9.73817881025774e-13,
+  "all_frozen_input_comparisons_exact": true,
+  "caveats": [
+    "Closure-based current estimates exclude mesh, constitutive, contact, calibration and extrapolation uncertainties.",
+    "Near intrinsic open circuit, opposite carrier currents may exceed terminal current by many orders of magnitude; endpoint signs are tested against closure uncertainty.",
+    "Root voltage digits must also respect independent mesh shifts and direct-EOS perturbations; optimizer tolerance alone is not an uncertainty bound."
+  ]
+}

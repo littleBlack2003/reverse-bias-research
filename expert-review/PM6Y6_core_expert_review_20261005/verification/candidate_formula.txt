@@ -1,0 +1,2 @@
+PASS: candidate imports, formula limits, 100 K rejection, finite edge factors
+NOT ADOPTED; no candidate device solve or experimental validation performed

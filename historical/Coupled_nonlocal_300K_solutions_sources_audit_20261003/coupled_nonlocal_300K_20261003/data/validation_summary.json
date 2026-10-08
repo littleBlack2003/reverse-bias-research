@@ -1,0 +1,66 @@
+{
+  "solved_points": 24,
+  "continuation_points": 366,
+  "equilibrium_exact_zero": true,
+  "max_scaled_residual": 1.8003381889097209e-12,
+  "max_relative_current_ledger_error": 1.3415411625905232e-09,
+  "max_relative_charge_ledger_error": 1.0584261193346623e-10,
+  "max_relative_energy_ledger_error": 6.018544381693104e-11,
+  "max_LDB_cycle_error": 1.9184653865522705e-13,
+  "grid_161_to_321": [
+    {
+      "distance_nm": 0,
+      "V": -1.0,
+      "relative_change": 0.00011657699670875044
+    },
+    {
+      "distance_nm": 0,
+      "V": -5.0,
+      "relative_change": 4.471921801496581e-05
+    },
+    {
+      "distance_nm": 0,
+      "V": -15.0,
+      "relative_change": 0.0002701451325151094
+    },
+    {
+      "distance_nm": 1,
+      "V": -1.0,
+      "relative_change": 1.5272118986109362e-05
+    },
+    {
+      "distance_nm": 1,
+      "V": -5.0,
+      "relative_change": 0.00011359926031762058
+    },
+    {
+      "distance_nm": 1,
+      "V": -15.0,
+      "relative_change": 0.0003478914722492288
+    }
+  ],
+  "parameters": {
+    "temperature_K": 300,
+    "d_nm": 100,
+    "Eg_eV": 1.3,
+    "Nc_cm3": 1e+19,
+    "Nt_cm3": 1000000000000000.0,
+    "t0_eV": 0.001,
+    "lambda_eV": 0.3,
+    "xi_nm": 0.5,
+    "distance_per_leg_nm": [
+      0,
+      1
+    ],
+    "trap_support_nm": [
+      2,
+      98
+    ],
+    "integrated_traps_cm2": 9600000000.0
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}

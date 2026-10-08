@@ -1,0 +1,60 @@
+{
+  "2": {
+    "site_displacement_gram_normalized": [
+      [
+        1.0000000000000002,
+        0.5000000000000001
+      ],
+      [
+        0.5000000000000001,
+        1.0000000000000002
+      ]
+    ],
+    "site_addition_norm2": [
+      1.0000000000000002,
+      1.0000000000000002
+    ],
+    "all_transfer_norm2": [
+      1.0000000000000002
+    ],
+    "sector_reorganization_eV": {
+      "slow": 0.05,
+      "high": 0.15
+    },
+    "scope": "a possible shared harmonic bath; not a measured mode structure"
+  },
+  "3": {
+    "site_displacement_gram_normalized": [
+      [
+        1.0000000000000002,
+        0.5000000000000001,
+        0.5000000000000001
+      ],
+      [
+        0.5000000000000001,
+        1.0000000000000002,
+        0.5000000000000001
+      ],
+      [
+        0.5000000000000001,
+        0.5000000000000001,
+        1.0000000000000002
+      ]
+    ],
+    "site_addition_norm2": [
+      1.0000000000000002,
+      1.0000000000000002,
+      1.0000000000000002
+    ],
+    "all_transfer_norm2": [
+      1.0000000000000002,
+      1.0000000000000002,
+      1.0000000000000002
+    ],
+    "sector_reorganization_eV": {
+      "slow": 0.05,
+      "high": 0.15
+    },
+    "scope": "a possible shared harmonic bath; not a measured mode structure"
+  }
+}

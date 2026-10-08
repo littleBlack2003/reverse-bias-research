@@ -1,0 +1,11 @@
+{
+  "adopted": false,
+  "source_stage": "density_transport_20261005",
+  "byte_identical_files": {
+    "transport.py": "ed01790464c21c0c05510a34aa46bc2cad5cd1c2781d66e573dec9932160421b",
+    "density_device.py": "575eff79f19b9a3645f79855299256ef88e64b9bff719383d16e1a2b59aabbad",
+    "sclc.py": "76ed84b37b4da907195284905d2068ea8226eb3e49772cabd3079363969f483d",
+    "sclc_trace_calibration.json": "f6572511b1d4dfbdabcfdac43fb61e0b45d834e56ad4a125f82265a64d3955e4",
+    "review_density_transport_summary.json": "9749382fae41a442157bbf19b3697dab8a70d7ec36afd034a0da337752245a5e"
+  }
+}

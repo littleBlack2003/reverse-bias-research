@@ -1,0 +1,22 @@
+Verification summary
+
+Executed: python3 -m unittest -v test_rates
+Result: 23 tests passed (see tests.log).
+
+Mathematical review confirmed:
+- Spectral detailed balance requires matching forward/reverse spectral weights, coupling, temperature and reorganization energy
+- G is a net cycle flux, with sign set by the endpoint quasi-Fermi difference
+- Static field at common electrochemical potential gives zero net equilibrium generation
+- Nonlocal endpoint sources require branch currents with opposite divergence
+- Exact same-point collapse differs from an unproved coarse-graining approximation
+
+The specification was tightened to state the correct single-trap delta normalization and the subsequent trap-density integration, and to require a timescale separation before dynamically eliminating trap occupancy.
+
+Scope limits:
+No experimental calibration, device integration, terminal-current prediction, new parameter scan, or unique microscopic identification was performed. Tests validate the selected conditional equations and event accounting only.
+
+Code review additionally checked 243 combinations of endpoint ordering/coincidence and signed branch rates. A real cancellation defect was found in the original fixed-reservoir update at tiny occupancy and dt=0. It was corrected with an exact zero-step return and a convex exp/expm1 update; regression tests were added. Path inputs now reject nonfinite values and grid faces exactly coincident with point-event locations. The final suite contains 23 passing tests.
+
+A second intermediate-overflow issue was corrected by placing the near-equilibrium expm1 correction inside the final logarithmic magnitude before exponentiation; a dedicated large-log-rate regression passes. Final event evaluation still requires individually representable gross rates; arbitrary-precision/extreme-range guarantees are not claimed.
+
+Final independent rerun confirmed all 23 tests pass after corrections. No remaining sign or normalization defect was identified within the documented cell-interior convention.

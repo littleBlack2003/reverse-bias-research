@@ -1,0 +1,9 @@
+{
+  "code_compilation": "passed",
+  "300K_model_tests": "passed",
+  "final_four_panel_figure": "visually inspected; no clipping or missing glyphs",
+  "old_scientific_reports_and_CSVs": "preserved unchanged",
+  "main_comparison_temperature_K": 300,
+  "actual_fit": false,
+  "V50": "not predicted / threshold not reached at stated conditional density"
+}

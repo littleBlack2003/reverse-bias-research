@@ -1,0 +1,14 @@
+test_01_original_source_identity (test_core.CoreTests.test_01_original_source_identity) ... ok
+test_02_mobility_reference_and_temperature (test_core.CoreTests.test_02_mobility_reference_and_temperature) ... ok
+test_03_fd_eos (test_core.CoreTests.test_03_fd_eos) ... ok
+test_04_sg_zero_affinity (test_core.CoreTests.test_04_sg_zero_affinity) ... ok
+test_05_field_factor_no_density_multiplier (test_core.CoreTests.test_05_field_factor_no_density_multiplier) ... ok
+test_06_recombination_detailed_balance (test_core.CoreTests.test_06_recombination_detailed_balance) ... ok
+test_07_saved_states_residual_and_no_shunt (test_core.CoreTests.test_07_saved_states_residual_and_no_shunt) ... ok
+test_08_boundaries (test_core.CoreTests.test_08_boundaries) ... ok
+test_09_zero_field_and_cap (test_core.CoreTests.test_09_zero_field_and_cap) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.552s
+
+OK

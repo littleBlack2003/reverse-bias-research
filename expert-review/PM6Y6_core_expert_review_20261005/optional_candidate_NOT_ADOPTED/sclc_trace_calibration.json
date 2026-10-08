@@ -1,0 +1,245 @@
+[
+  {
+    "carrier": "hole",
+    "mode": "baseline",
+    "global_amplitude": 0.5303356498193665,
+    "mu_dilute300_cm2Vs": 6.894363447651765e-05,
+    "RMS_decade": 0.11514606385770572,
+    "max_abs_decade": 0.3180538963031381,
+    "fraction_within_0p1_decade": 0.5806451612903226,
+    "per_temperature": [
+      {
+        "T_K": 225.0,
+        "RMS_decade": 0.10272594477538174,
+        "geomean_ratio": 0.9680580588763318
+      },
+      {
+        "T_K": 245.0,
+        "RMS_decade": 0.12525690093053754,
+        "geomean_ratio": 1.1449580312801517
+      },
+      {
+        "T_K": 267.0,
+        "RMS_decade": 0.10935907748417494,
+        "geomean_ratio": 1.099384584907678
+      },
+      {
+        "T_K": 284.0,
+        "RMS_decade": 0.11149315163228901,
+        "geomean_ratio": 0.9434678325631731
+      },
+      {
+        "T_K": 306.0,
+        "RMS_decade": 0.12514407081362888,
+        "geomean_ratio": 0.8698258031943594
+      }
+    ],
+    "n": 155,
+    "status": "conditional fixed-sigma, fixed-N0, ideal-contact fit; raster reading tolerance0.10 decade is not statistical confidence"
+  },
+  {
+    "carrier": "hole",
+    "mode": "density_only",
+    "global_amplitude": 0.3980155766949606,
+    "mu_dilute300_cm2Vs": 5.174202497034488e-05,
+    "RMS_decade": 0.12047549967351324,
+    "max_abs_decade": 0.3129260644746098,
+    "fraction_within_0p1_decade": 0.5806451612903226,
+    "per_temperature": [
+      {
+        "T_K": 225.0,
+        "RMS_decade": 0.10862575425226652,
+        "geomean_ratio": 1.1890008456296568
+      },
+      {
+        "T_K": 245.0,
+        "RMS_decade": 0.12412171256960329,
+        "geomean_ratio": 1.2111799816114608
+      },
+      {
+        "T_K": 267.0,
+        "RMS_decade": 0.09052838472820564,
+        "geomean_ratio": 1.053783040439936
+      },
+      {
+        "T_K": 284.0,
+        "RMS_decade": 0.1165690648088461,
+        "geomean_ratio": 0.8619049527199009
+      },
+      {
+        "T_K": 306.0,
+        "RMS_decade": 0.15356510273470816,
+        "geomean_ratio": 0.7645371112439708
+      }
+    ],
+    "n": 155,
+    "status": "conditional fixed-sigma, fixed-N0, ideal-contact fit; raster reading tolerance0.10 decade is not statistical confidence"
+  },
+  {
+    "carrier": "hole",
+    "mode": "egdm",
+    "global_amplitude": 0.6474475124623891,
+    "mu_dilute300_cm2Vs": 8.416817662011057e-05,
+    "RMS_decade": 0.14778586597794371,
+    "max_abs_decade": 0.3644704298646171,
+    "fraction_within_0p1_decade": 0.4064516129032258,
+    "per_temperature": [
+      {
+        "T_K": 225.0,
+        "RMS_decade": 0.1695760681990046,
+        "geomean_ratio": 0.9209018126290358
+      },
+      {
+        "T_K": 245.0,
+        "RMS_decade": 0.16660637874544046,
+        "geomean_ratio": 1.0524453427421188
+      },
+      {
+        "T_K": 267.0,
+        "RMS_decade": 0.14083295773117846,
+        "geomean_ratio": 1.081271799698418
+      },
+      {
+        "T_K": 284.0,
+        "RMS_decade": 0.13524955314959433,
+        "geomean_ratio": 0.9702282292479043
+      },
+      {
+        "T_K": 306.0,
+        "RMS_decade": 0.12067816272745567,
+        "geomean_ratio": 0.9835090004346099
+      }
+    ],
+    "n": 155,
+    "status": "conditional fixed-sigma, fixed-N0, ideal-contact fit; raster reading tolerance0.10 decade is not statistical confidence"
+  },
+  {
+    "carrier": "electron",
+    "mode": "baseline",
+    "global_amplitude": 0.5794460735714358,
+    "mu_dilute300_cm2Vs": 0.00048673470180000614,
+    "RMS_decade": 0.09354014332973543,
+    "max_abs_decade": 0.16853173293153867,
+    "fraction_within_0p1_decade": 0.7333333333333333,
+    "per_temperature": [
+      {
+        "T_K": 224.0,
+        "RMS_decade": 0.05992072099336236,
+        "geomean_ratio": 0.8929487842923605
+      },
+      {
+        "T_K": 247.0,
+        "RMS_decade": 0.0950971555392041,
+        "geomean_ratio": 1.2324997015646502
+      },
+      {
+        "T_K": 263.0,
+        "RMS_decade": 0.08074591035833135,
+        "geomean_ratio": 1.2038556973453172
+      },
+      {
+        "T_K": 283.0,
+        "RMS_decade": 0.07178058394148563,
+        "geomean_ratio": 1.1789632435433552
+      },
+      {
+        "T_K": 309.0,
+        "RMS_decade": 0.0525589545146015,
+        "geomean_ratio": 0.9237510769209951
+      },
+      {
+        "T_K": 328.0,
+        "RMS_decade": 0.15946720891339522,
+        "geomean_ratio": 0.6930378776143102
+      }
+    ],
+    "n": 30,
+    "status": "conditional fixed-sigma, fixed-N0, ideal-contact fit; raster reading tolerance0.10 decade is not statistical confidence"
+  },
+  {
+    "carrier": "electron",
+    "mode": "density_only",
+    "global_amplitude": 0.47991937117646793,
+    "mu_dilute300_cm2Vs": 0.0004031322717882331,
+    "RMS_decade": 0.09063321904132632,
+    "max_abs_decade": 0.16965313546073962,
+    "fraction_within_0p1_decade": 0.7333333333333333,
+    "per_temperature": [
+      {
+        "T_K": 224.0,
+        "RMS_decade": 0.035767994606016415,
+        "geomean_ratio": 0.9651304286531283
+      },
+      {
+        "T_K": 247.0,
+        "RMS_decade": 0.09804524350607503,
+        "geomean_ratio": 1.242619640052038
+      },
+      {
+        "T_K": 263.0,
+        "RMS_decade": 0.07299022801431854,
+        "geomean_ratio": 1.1822776921238138
+      },
+      {
+        "T_K": 283.0,
+        "RMS_decade": 0.05716152165709854,
+        "geomean_ratio": 1.1394083434143196
+      },
+      {
+        "T_K": 309.0,
+        "RMS_decade": 0.06110249540920209,
+        "geomean_ratio": 0.8973261522047202
+      },
+      {
+        "T_K": 328.0,
+        "RMS_decade": 0.1614482432901886,
+        "geomean_ratio": 0.689805356576889
+      }
+    ],
+    "n": 30,
+    "status": "conditional fixed-sigma, fixed-N0, ideal-contact fit; raster reading tolerance0.10 decade is not statistical confidence"
+  },
+  {
+    "carrier": "electron",
+    "mode": "egdm",
+    "global_amplitude": 0.7366524045395189,
+    "mu_dilute300_cm2Vs": 0.0006187880198131959,
+    "RMS_decade": 0.038833009832939455,
+    "max_abs_decade": 0.11011492065243096,
+    "fraction_within_0p1_decade": 0.9666666666666667,
+    "per_temperature": [
+      {
+        "T_K": 224.0,
+        "RMS_decade": 0.040633668663221226,
+        "geomean_ratio": 1.0459930231405692
+      },
+      {
+        "T_K": 247.0,
+        "RMS_decade": 0.061440625719628834,
+        "geomean_ratio": 1.126138818201169
+      },
+      {
+        "T_K": 263.0,
+        "RMS_decade": 0.025635597448872692,
+        "geomean_ratio": 0.944013780969694
+      },
+      {
+        "T_K": 283.0,
+        "RMS_decade": 0.033160533199987456,
+        "geomean_ratio": 0.9274848607393219
+      },
+      {
+        "T_K": 309.0,
+        "RMS_decade": 0.041976209946188545,
+        "geomean_ratio": 0.9850717223511771
+      },
+      {
+        "T_K": 328.0,
+        "RMS_decade": 0.010156937439231082,
+        "geomean_ratio": 0.9842972399394595
+      }
+    ],
+    "n": 30,
+    "status": "conditional fixed-sigma, fixed-N0, ideal-contact fit; raster reading tolerance0.10 decade is not statistical confidence"
+  }
+]

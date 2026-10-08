@@ -1,0 +1,5 @@
+span_nm,binding_eV,gap_eV,field_for_deltaG_zero_MVcm,field_for_l0_activationless_MVcm,warning
+1.0,0.41141844222857143,1.3,8.885815577714286,9.385815577714286,"point-charge and uncalibrated energy parameters; energy alignment only, not upturn or breakdown prediction"
+2.0,0.20570922111428572,1.3,5.4714538944285716,5.7214538944285716,"point-charge and uncalibrated energy parameters; energy alignment only, not upturn or breakdown prediction"
+5.0,0.08228368844571429,1.3,2.4354326231085714,2.5354326231085715,"point-charge and uncalibrated energy parameters; energy alignment only, not upturn or breakdown prediction"
+10.0,0.041141844222857146,1.3,1.258858155777143,1.308858155777143,"point-charge and uncalibrated energy parameters; energy alignment only, not upturn or breakdown prediction"

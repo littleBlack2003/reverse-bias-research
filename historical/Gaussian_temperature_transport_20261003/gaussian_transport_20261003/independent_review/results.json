@@ -1,0 +1,588 @@
+{
+  "tests": [
+    {
+      "name": "default_affinity_equilibrium_n",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "dilute_SG_n",
+      "value": 1.887379141862766e-14,
+      "limit": 1e-11
+    },
+    {
+      "name": "default_affinity_equilibrium_p",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "dilute_SG_p",
+      "value": 2.3092638912203256e-14,
+      "limit": 1e-11
+    },
+    {
+      "name": "finite_gradient_second_order",
+      "value": 0.025934497712771787,
+      "limit": 0.04
+    },
+    {
+      "name": "EOS_256_2048_density_s2.0",
+      "value": 1.9894705941375962e-14,
+      "limit": 5e-06
+    },
+    {
+      "name": "EOS_256_2048_derivative_s2.0",
+      "value": 1.9865625901188558e-14,
+      "limit": 5e-06
+    },
+    {
+      "name": "EOS_256_2048_density_s4.0",
+      "value": 8.391190772359703e-11,
+      "limit": 5e-06
+    },
+    {
+      "name": "EOS_256_2048_derivative_s4.0",
+      "value": 1.7305838785865811e-09,
+      "limit": 5e-06
+    },
+    {
+      "name": "EOS_256_2048_density_s6.0",
+      "value": 2.8671286793579615e-07,
+      "limit": 5e-06
+    },
+    {
+      "name": "EOS_256_2048_derivative_s6.0",
+      "value": 4.106962640809262e-06,
+      "limit": 5e-06
+    },
+    {
+      "name": "port_LDB_H_300_0",
+      "value": 5.329070518200751e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "port_LDB_L_300_0",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "current_direct_master_300_0",
+      "value": 1.9563478764015667e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "bim_entropy_sign_300_0",
+      "value": 0.0,
+      "limit": 1e-20
+    },
+    {
+      "name": "rate_quad128_512_300_0",
+      "value": 1.0518127710335415e-07,
+      "limit": 0.0001
+    },
+    {
+      "name": "equilibrium_bim_300_0",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "equilibrium_generation_300_0",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "port_LDB_H_300_-5",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "port_LDB_L_300_-5",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "current_direct_master_300_-5",
+      "value": 2.9660989185313437e-16,
+      "limit": 1e-10
+    },
+    {
+      "name": "bim_entropy_sign_300_-5",
+      "value": 0.0,
+      "limit": 1e-20
+    },
+    {
+      "name": "rate_quad128_512_300_-5",
+      "value": 7.805012369041184e-08,
+      "limit": 0.0001
+    },
+    {
+      "name": "equilibrium_bim_300_-5",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "equilibrium_generation_300_-5",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "port_LDB_H_300_-15",
+      "value": 4.440892098500626e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "port_LDB_L_300_-15",
+      "value": 4.440892098500626e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "current_direct_master_300_-15",
+      "value": 1.9172338211447485e-16,
+      "limit": 1e-10
+    },
+    {
+      "name": "bim_entropy_sign_300_-15",
+      "value": 0.0,
+      "limit": 1e-20
+    },
+    {
+      "name": "rate_quad128_512_300_-15",
+      "value": 5.35788566823086e-08,
+      "limit": 0.0001
+    },
+    {
+      "name": "equilibrium_bim_300_-15",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "equilibrium_generation_300_-15",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "port_LDB_H_340_0",
+      "value": 5.329070518200751e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "port_LDB_L_340_0",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "current_direct_master_340_0",
+      "value": 2.075579906800299e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "bim_entropy_sign_340_0",
+      "value": 0.0,
+      "limit": 1e-20
+    },
+    {
+      "name": "rate_quad128_512_340_0",
+      "value": 6.760179733605847e-09,
+      "limit": 0.0001
+    },
+    {
+      "name": "equilibrium_bim_340_0",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "equilibrium_generation_340_0",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "port_LDB_H_340_-5",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "port_LDB_L_340_-5",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "current_direct_master_340_-5",
+      "value": 2.347075373521616e-16,
+      "limit": 1e-10
+    },
+    {
+      "name": "bim_entropy_sign_340_-5",
+      "value": 0.0,
+      "limit": 1e-20
+    },
+    {
+      "name": "rate_quad128_512_340_-5",
+      "value": 9.741556656759734e-09,
+      "limit": 0.0001
+    },
+    {
+      "name": "equilibrium_bim_340_-5",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "equilibrium_generation_340_-5",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "port_LDB_H_340_-15",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "port_LDB_L_340_-15",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "current_direct_master_340_-15",
+      "value": 1.900523355201608e-16,
+      "limit": 1e-10
+    },
+    {
+      "name": "bim_entropy_sign_340_-15",
+      "value": 0.0,
+      "limit": 1e-20
+    },
+    {
+      "name": "rate_quad128_512_340_-15",
+      "value": 3.0929493321347723e-09,
+      "limit": 0.0001
+    },
+    {
+      "name": "equilibrium_bim_340_-15",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "equilibrium_generation_340_-15",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "port_LDB_H_380_0",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "port_LDB_L_380_0",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "current_direct_master_380_0",
+      "value": 1.6983182029881084e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "bim_entropy_sign_380_0",
+      "value": 0.0,
+      "limit": 1e-20
+    },
+    {
+      "name": "rate_quad128_512_380_0",
+      "value": 5.644156343042043e-10,
+      "limit": 0.0001
+    },
+    {
+      "name": "equilibrium_bim_380_0",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "equilibrium_generation_380_0",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "port_LDB_H_380_-5",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "port_LDB_L_380_-5",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "current_direct_master_380_-5",
+      "value": 2.1573568647519205e-16,
+      "limit": 1e-10
+    },
+    {
+      "name": "bim_entropy_sign_380_-5",
+      "value": 0.0,
+      "limit": 1e-20
+    },
+    {
+      "name": "rate_quad128_512_380_-5",
+      "value": 4.452711635589996e-10,
+      "limit": 0.0001
+    },
+    {
+      "name": "equilibrium_bim_380_-5",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "equilibrium_generation_380_-5",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "port_LDB_H_380_-15",
+      "value": 5.329070518200751e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "port_LDB_L_380_-15",
+      "value": 5.329070518200751e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "current_direct_master_380_-15",
+      "value": 3.01724475682564e-16,
+      "limit": 1e-10
+    },
+    {
+      "name": "bim_entropy_sign_380_-15",
+      "value": 0.0,
+      "limit": 1e-20
+    },
+    {
+      "name": "rate_quad128_512_380_-15",
+      "value": 5.309953642393179e-11,
+      "limit": 0.0001
+    },
+    {
+      "name": "equilibrium_bim_380_-15",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "equilibrium_generation_380_-15",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "port_LDB_H_420_0",
+      "value": 2.6645352591003757e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "port_LDB_L_420_0",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "current_direct_master_420_0",
+      "value": 1.4456231192455416e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "bim_entropy_sign_420_0",
+      "value": 0.0,
+      "limit": 1e-20
+    },
+    {
+      "name": "rate_quad128_512_420_0",
+      "value": 9.329089810503078e-11,
+      "limit": 0.0001
+    },
+    {
+      "name": "equilibrium_bim_420_0",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "equilibrium_generation_420_0",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "port_LDB_H_420_-5",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "port_LDB_L_420_-5",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "current_direct_master_420_-5",
+      "value": 2.3554234868333233e-16,
+      "limit": 1e-10
+    },
+    {
+      "name": "bim_entropy_sign_420_-5",
+      "value": 0.0,
+      "limit": 1e-20
+    },
+    {
+      "name": "rate_quad128_512_420_-5",
+      "value": 4.198236543246118e-11,
+      "limit": 0.0001
+    },
+    {
+      "name": "equilibrium_bim_420_-5",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "equilibrium_generation_420_-5",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "port_LDB_H_420_-15",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "port_LDB_L_420_-15",
+      "value": 3.552713678800501e-15,
+      "limit": 1e-10
+    },
+    {
+      "name": "current_direct_master_420_-15",
+      "value": 1.774619319339661e-16,
+      "limit": 1e-10
+    },
+    {
+      "name": "bim_entropy_sign_420_-15",
+      "value": 0.0,
+      "limit": 1e-20
+    },
+    {
+      "name": "rate_quad128_512_420_-15",
+      "value": 1.5447961287071275e-11,
+      "limit": 0.0001
+    },
+    {
+      "name": "equilibrium_bim_420_-15",
+      "value": 0.0,
+      "limit": 1e-25
+    },
+    {
+      "name": "equilibrium_generation_420_-15",
+      "value": 0.0,
+      "limit": 1e-25
+    }
+  ],
+  "finite_gradient_errors": [
+    {
+      "delta_eta": 2.0,
+      "relative_error": 0.12769960851021533
+    },
+    {
+      "delta_eta": 1.0,
+      "relative_error": 0.03135613407601556
+    },
+    {
+      "delta_eta": 0.5,
+      "relative_error": 0.007804126089531405
+    },
+    {
+      "delta_eta": 0.25,
+      "relative_error": 0.001948859855989582
+    }
+  ],
+  "saved_state_reactions": [
+    {
+      "T": 300,
+      "V": 0,
+      "port_H_error": 5.329070518200751e-15,
+      "port_L_error": 3.552713678800501e-15,
+      "rate_quadrature_error": 1.0518127710335415e-07
+    },
+    {
+      "T": 300,
+      "V": -5,
+      "port_H_error": 3.552713678800501e-15,
+      "port_L_error": 3.552713678800501e-15,
+      "rate_quadrature_error": 7.805012369041184e-08
+    },
+    {
+      "T": 300,
+      "V": -15,
+      "port_H_error": 4.440892098500626e-15,
+      "port_L_error": 4.440892098500626e-15,
+      "rate_quadrature_error": 5.35788566823086e-08
+    },
+    {
+      "T": 340,
+      "V": 0,
+      "port_H_error": 5.329070518200751e-15,
+      "port_L_error": 1.7763568394002505e-15,
+      "rate_quadrature_error": 6.760179733605847e-09
+    },
+    {
+      "T": 340,
+      "V": -5,
+      "port_H_error": 3.552713678800501e-15,
+      "port_L_error": 3.552713678800501e-15,
+      "rate_quadrature_error": 9.741556656759734e-09
+    },
+    {
+      "T": 340,
+      "V": -15,
+      "port_H_error": 3.552713678800501e-15,
+      "port_L_error": 3.552713678800501e-15,
+      "rate_quadrature_error": 3.0929493321347723e-09
+    },
+    {
+      "T": 380,
+      "V": 0,
+      "port_H_error": 1.7763568394002505e-15,
+      "port_L_error": 3.552713678800501e-15,
+      "rate_quadrature_error": 5.644156343042043e-10
+    },
+    {
+      "T": 380,
+      "V": -5,
+      "port_H_error": 3.552713678800501e-15,
+      "port_L_error": 3.552713678800501e-15,
+      "rate_quadrature_error": 4.452711635589996e-10
+    },
+    {
+      "T": 380,
+      "V": -15,
+      "port_H_error": 5.329070518200751e-15,
+      "port_L_error": 5.329070518200751e-15,
+      "rate_quadrature_error": 5.309953642393179e-11
+    },
+    {
+      "T": 420,
+      "V": 0,
+      "port_H_error": 2.6645352591003757e-15,
+      "port_L_error": 1.7763568394002505e-15,
+      "rate_quadrature_error": 9.329089810503078e-11
+    },
+    {
+      "T": 420,
+      "V": -5,
+      "port_H_error": 3.552713678800501e-15,
+      "port_L_error": 3.552713678800501e-15,
+      "rate_quadrature_error": 4.198236543246118e-11
+    },
+    {
+      "T": 420,
+      "V": -15,
+      "port_H_error": 3.552713678800501e-15,
+      "port_L_error": 3.552713678800501e-15,
+      "rate_quadrature_error": 1.5447961287071275e-11
+    }
+  ],
+  "source_sha256": {
+    "gaussian_transport.py": "179f6386f449ec444c27d1e639895048ce6c01403fb752f9cda347f3247a43f9",
+    "gaussian_device.py": "90c8dfdab0758c745a5ae8c4f70e909f5e6718f8c147b6610201c12decc47345"
+  },
+  "scope": "Formula, equilibrium, quadrature and saved-state reaction audit; not material calibration or full temperature curve validation."
+}

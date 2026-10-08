@@ -1,0 +1,154 @@
+[
+  {
+    "F_MVcm": 1.5,
+    "T_K": 80,
+    "s_nm": 6.0,
+    "R_full_s": 237.72176299093417,
+    "R_reconstructed_s": 237.72176299093417,
+    "probability_max_relative": 1.4142257393036789e-216,
+    "current_relative": 9.373794184451933e-18,
+    "retained_probability_mass": 0.000265506317188741,
+    "trace_clock_factor": 3766.3887269737834,
+    "naive_trace_clock_R_s": 895352.568285388,
+    "effective_generator_colsum": 5.527232885321808e-245,
+    "lumpability_violation_s": 5324522.029251025,
+    "lumpability_example": {
+      "source_core": [
+        0,
+        1,
+        1
+      ],
+      "destination_core": [
+        1,
+        0,
+        1
+      ],
+      "aggregate_rates_s": [
+        5324522.029822791,
+        2436668.163249977,
+        0.000571765910570291,
+        0.048128700228511505
+      ],
+      "hidden_states": [
+        "00110",
+        "00111",
+        "10110",
+        "10111"
+      ]
+    }
+  },
+  {
+    "F_MVcm": 0.5,
+    "T_K": 80,
+    "s_nm": 6.0,
+    "R_full_s": 2.222592060427301e-20,
+    "R_reconstructed_s": 2.222592060427301e-20,
+    "probability_max_relative": 3.348528187141482e-143,
+    "current_relative": 1.5620477892766282e-17,
+    "retained_probability_mass": 1.0,
+    "trace_clock_factor": 1.0,
+    "naive_trace_clock_R_s": 2.222592060427301e-20,
+    "effective_generator_colsum": 6.281682546350342e-244,
+    "lumpability_violation_s": 2794822.2086997298,
+    "lumpability_example": {
+      "source_core": [
+        0,
+        0,
+        0
+      ],
+      "destination_core": [
+        1,
+        0,
+        0
+      ],
+      "aggregate_rates_s": [
+        0.0,
+        0.0,
+        2794822.2086997298,
+        2775199.707156857
+      ],
+      "hidden_states": [
+        "00000",
+        "00001",
+        "10000",
+        "10001"
+      ]
+    }
+  },
+  {
+    "F_MVcm": 1.5,
+    "T_K": 300,
+    "s_nm": 6.0,
+    "R_full_s": 13094.610062875749,
+    "R_reconstructed_s": 13094.610062875749,
+    "probability_max_relative": 3.7394363574408327e-242,
+    "current_relative": 7.6350023753484e-17,
+    "retained_probability_mass": 0.007262293303391345,
+    "trace_clock_factor": 137.69755065290738,
+    "naive_trace_clock_R_s": 1803095.7324129043,
+    "effective_generator_colsum": 6.355550495861731e-245,
+    "lumpability_violation_s": 2792977.5252330415,
+    "lumpability_example": {
+      "source_core": [
+        0,
+        1,
+        1
+      ],
+      "destination_core": [
+        1,
+        0,
+        1
+      ],
+      "aggregate_rates_s": [
+        2801313.7268991126,
+        2333642.022824676,
+        8336.201666070852,
+        27618.257596209765
+      ],
+      "hidden_states": [
+        "00110",
+        "00111",
+        "10110",
+        "10111"
+      ]
+    }
+  },
+  {
+    "F_MVcm": 1.5,
+    "T_K": 80,
+    "s_nm": 5.5,
+    "R_full_s": 64968.33986244496,
+    "R_reconstructed_s": 64968.33986244496,
+    "probability_max_relative": 1.8621745945749753e-200,
+    "current_relative": 1.5528558266762194e-18,
+    "retained_probability_mass": 0.022684024122219367,
+    "trace_clock_factor": 44.08388893487747,
+    "naive_trace_clock_R_s": 2864057.078779396,
+    "effective_generator_colsum": 9.574001783309196e-245,
+    "lumpability_violation_s": 5040603.049425681,
+    "lumpability_example": {
+      "source_core": [
+        0,
+        1,
+        0
+      ],
+      "destination_core": [
+        0,
+        0,
+        1
+      ],
+      "aggregate_rates_s": [
+        3173916.3465960864,
+        1.0016186889509718e-42,
+        5040603.049425681,
+        2.802028781991539e-39
+      ],
+      "hidden_states": [
+        "00100",
+        "00101",
+        "10100",
+        "10101"
+      ]
+    }
+  }
+]

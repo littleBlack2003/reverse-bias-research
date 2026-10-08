@@ -1,0 +1,47 @@
+[
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/code/plot_results.py",
+    "copy": "typography_inputs/rate_plot.py",
+    "sha256": "fdb675d140882a3a1d6a4b586aa4fec31fa01c01bce5706420555837dd6c31ba"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/code/plot_diagnostics.py",
+    "copy": "typography_inputs/solver_plot.py",
+    "sha256": "fd4356f8d96047b0b999850e31f596bf65bab8f2a339bc8756b74e2cdd600b10"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/code/plot_confidence.py",
+    "copy": "typography_inputs/confidence_plot.py",
+    "sha256": "490f984850f7a2a7dcc46030a6be46d952f181b89e43d6b87e84ee5f2065e6c1"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/run_audit.py",
+    "copy": "typography_inputs/cycle_plot_source.py",
+    "sha256": "b8a59413af29707f28d1af25cfa1cb233f7dc8a9eeabf667051665c356847542"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/extraction_feedback_test.py",
+    "copy": "typography_inputs/feedback_plot_source.py",
+    "sha256": "e70bb90cee63bfa5e5a275ff92d03c690bb323d6bc7215645b308960288ed87d"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/run_reservoir_audit.py",
+    "copy": "typography_inputs/reservoir_plot_source.py",
+    "sha256": "533143d7f96e5c4fe0f8c7b8d8463dc5207b756d384829bf273ba7e96cb33406"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/audit.py",
+    "copy": "typography_inputs/kernel_source.py",
+    "sha256": "1e9c5ba2da4654dec987f236f45174b1c369e11651cdd3b2ce1667e9d20aeb0d"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/parameters.json",
+    "copy": "typography_inputs/kernel_parameters.json",
+    "sha256": "3535dbb95b190fd206d5835a25d15f349fa8356666f367081feab25b7100532a"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_161_-20.npz",
+    "copy": "typography_inputs/baseline_161_-20.npz",
+    "sha256": "8bf6ae3b5ea683c2d710f8aa6de75803a14e41cc1418d601c02a0b1e6def9381"
+  }
+]

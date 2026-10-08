@@ -1,0 +1,66 @@
+[
+  {
+    "F_MVcm": 0.5,
+    "T_K": 80,
+    "topology": "direct",
+    "order": 48,
+    "dps": 220,
+    "relative_rate_error": 1.1102230246251565e-15
+  },
+  {
+    "F_MVcm": 0.5,
+    "T_K": 80,
+    "topology": "direct",
+    "order": 24,
+    "dps": 320,
+    "relative_rate_error": 0.0
+  },
+  {
+    "F_MVcm": 0.5,
+    "T_K": 80,
+    "topology": "trap",
+    "order": 48,
+    "dps": 220,
+    "relative_rate_error": 6.661338147750939e-16
+  },
+  {
+    "F_MVcm": 0.5,
+    "T_K": 80,
+    "topology": "trap",
+    "order": 24,
+    "dps": 320,
+    "relative_rate_error": 0.0
+  },
+  {
+    "F_MVcm": 3.0,
+    "T_K": 80,
+    "topology": "direct",
+    "order": 48,
+    "dps": 220,
+    "relative_rate_error": 0.0
+  },
+  {
+    "F_MVcm": 3.0,
+    "T_K": 80,
+    "topology": "direct",
+    "order": 24,
+    "dps": 320,
+    "relative_rate_error": 0.0
+  },
+  {
+    "F_MVcm": 3.0,
+    "T_K": 80,
+    "topology": "trap",
+    "order": 48,
+    "dps": 220,
+    "relative_rate_error": 8.881784197001252e-16
+  },
+  {
+    "F_MVcm": 3.0,
+    "T_K": 80,
+    "topology": "trap",
+    "order": 24,
+    "dps": 320,
+    "relative_rate_error": 0.0
+  }
+]

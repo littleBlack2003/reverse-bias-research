@@ -1,0 +1,184 @@
+{
+  "scope": "Independent thermodynamic, quadrature and numerical review; not a material-calibration certificate",
+  "source_sha256": {
+    "device.py": "cf080425d6093340900917bc9fc5ef1eee82df04f194aee503259a48149d34f0",
+    "fd_eos.py": "228f0d562423326b3310f545d589c083dd332c48de3307619c6e6625d7e7c958"
+  },
+  "unit_checks": {
+    "fd_eos_results.json": {
+      "checks": 117,
+      "all_passed": true
+    },
+    "flux_comparison_results.json": {
+      "checks": 80,
+      "all_passed": true
+    },
+    "device_results.json": {
+      "checks": 54,
+      "all_passed": true
+    }
+  },
+  "selected_refinement": [
+    {
+      "T": 100,
+      "V": 0.0,
+      "J321_Acm2": -3.4863574413976756e-09,
+      "J641_Acm2": -3.494017795870418e-09,
+      "relative_mesh_change": 0.002197237260236573,
+      "closure_relative_bound641": 3.802801332266982e-08
+    },
+    {
+      "T": 100,
+      "V": 0.8,
+      "J321_Acm2": -1.4700964750533038e-09,
+      "J641_Acm2": -1.4710226055787155e-09,
+      "relative_mesh_change": 0.0006299794204853715,
+      "closure_relative_bound641": 6.6267859483211094e-06
+    },
+    {
+      "T": 200,
+      "V": 0.0,
+      "J321_Acm2": -0.010366987220011318,
+      "J641_Acm2": -0.010369231103217556,
+      "relative_mesh_change": 0.00021644506341300662,
+      "closure_relative_bound641": 5.623301284491234e-10
+    },
+    {
+      "T": 200,
+      "V": 0.8,
+      "J321_Acm2": -0.0037294115727348988,
+      "J641_Acm2": -0.0037293840732746664,
+      "relative_mesh_change": 7.373672681665333e-06,
+      "closure_relative_bound641": 2.5111055508707005e-12
+    },
+    {
+      "T": 300,
+      "V": 0.0,
+      "J321_Acm2": -0.02199413327517553,
+      "J641_Acm2": -0.021994702064637318,
+      "relative_mesh_change": 2.5860962769908014e-05,
+      "closure_relative_bound641": 2.2213427148441376e-12
+    },
+    {
+      "T": 300,
+      "V": 0.8,
+      "J321_Acm2": 0.00010005088342966203,
+      "J641_Acm2": 0.00010004583677330724,
+      "relative_mesh_change": 5.044089748929004e-05,
+      "closure_relative_bound641": 2.6285518068913598e-05
+    }
+  ],
+  "voc_refinement": [
+    {
+      "T": 100,
+      "Voc321_V": 1.104630111563856,
+      "Voc641_V": 1.1046330992763798,
+      "central_mesh_shift_V": 2.987712523827568e-06,
+      "certified_641_bracket_V": [
+        1.1046325683593752,
+        1.1046386718750003
+      ],
+      "closure_uncertainty_as_V": 1.1638995570963525e-08,
+      "resolution_note": "Mesh shift not resolved at approximately10 microvolt root precision; central digits are not experimental accuracy"
+    },
+    {
+      "T": 200,
+      "Voc321_V": 0.9294368166003657,
+      "Voc641_V": 0.9294379610520273,
+      "central_mesh_shift_V": 1.1444516615499722e-06,
+      "certified_641_bracket_V": [
+        0.9294359671093749,
+        0.929442070625
+      ],
+      "closure_uncertainty_as_V": 7.607744606643345e-10,
+      "resolution_note": "Mesh shift not resolved at approximately10 microvolt root precision; central digits are not experimental accuracy"
+    },
+    {
+      "T": 300,
+      "Voc321_V": 0.7996367274168682,
+      "Voc641_V": 0.7996368935316297,
+      "central_mesh_shift_V": 1.6611476150174553e-07,
+      "certified_641_bracket_V": [
+        0.799635348671875,
+        0.7996414521875
+      ],
+      "closure_uncertainty_as_V": 3.5363487410025655e-15,
+      "resolution_note": "Mesh shift not resolved at approximately10 microvolt root precision; central digits are not experimental accuracy"
+    }
+  ],
+  "final_saved_state_checks": [
+    {
+      "T": 100,
+      "selected_points_passed": 4,
+      "root_endpoints_passed": 2,
+      "max_energy_relative": 2.1640739444479569e-13,
+      "max_charge_relative": 1.0330802698711165e-11
+    },
+    {
+      "T": 200,
+      "selected_points_passed": 4,
+      "root_endpoints_passed": 2,
+      "max_energy_relative": 2.6470449001500222e-11,
+      "max_charge_relative": 9.956205353390945e-13
+    },
+    {
+      "T": 300,
+      "selected_points_passed": 4,
+      "root_endpoints_passed": 2,
+      "max_energy_relative": 8.678205517393045e-10,
+      "max_charge_relative": 1.0826758859056546e-09
+    },
+    {
+      "T": 100,
+      "nodes": 1281,
+      "selected_points_passed": 1,
+      "final_source_gate_passed": true
+    }
+  ],
+  "Jsc100K_1281": {
+    "T": 100.0,
+    "V": 0.0,
+    "light": 1.0,
+    "nodes": 1281,
+    "local_continuity_L1_Acm2": 2.1064590834178122e-16,
+    "local_continuity_Linf_Acm2": 2.9740440797623854e-18,
+    "current_accuracy_gate_passed": true,
+    "current_gate_tolerance_Acm2": 3.4972795187153583e-12,
+    "J_Acm2": -3.4960025378719865e-09,
+    "current_spread_Acm2": 7.420273315743688e-19,
+    "current_spread_relative_to_terminal": 2.1225022680505266e-10,
+    "current_closure_uncertainty_Acm2": 2.1138798535453974e-16,
+    "numerical_sign_resolved": true,
+    "continuity_abs_Acm2": 6.591949208711867e-17,
+    "continuity_relative": 2.934334778199475e-15,
+    "charge_relative": 8.26985634860783e-13,
+    "generation_Acm2": 0.022464884571748577,
+    "recombination_Acm2": 0.02246488107574597,
+    "n_mean_cm3": 6.316960523498254e+17,
+    "p_mean_cm3": 1.231664734703824e+18,
+    "max_density_fraction": 0.500016252284223,
+    "transport_dissipation_Wcm2": 3.8750999054093596e-09,
+    "recombination_dissipation_Wcm2": 0.02239157602898578,
+    "light_chemical_work_Wcm2": 0.02239157990408576,
+    "terminal_Wcm2": -0.0,
+    "energy_relative": 3.4087738904503154e-15,
+    "mu_n_cm2Vs": 4.041352977282537e-12,
+    "mu_p_cm2Vs": 2.8954602150509694e-17,
+    "mobility_extrapolated": true,
+    "contact_status": "unvalidated idealized scenario",
+    "G_status": "conditional temperature-independent generation",
+    "gate_passed": true,
+    "Jsc641_Acm2": -3.494017795870418e-09,
+    "relative_641_to_1281_change": 0.0005680400380085882,
+    "scope": "One selected100K short-circuit spatial refinement; conditional extrapolative material model"
+  },
+  "remaining_limits": [
+    "Below223K mobility requires explicit unvalidated extrapolation opt-in",
+    "Contacts, epsilon and absolute G are scenario-dependent inputs",
+    "PIA n(T) calibrates beta/G and cannot also validate it",
+    "Published fitted Eg cannot turn the sameVoc data into a holdout",
+    "Some preliminary main-directory dark states have stale or failed final gates; use saved_state_audit and producer reconciliation before release",
+    "Electrical/chemical work balance is not full optical detailed balance",
+    "Full-device results are not experimental fits; 100K current collapse contradicts interpreting lowT GDM as a calibrated transport law"
+  ]
+}

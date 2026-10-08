@@ -1,0 +1,503 @@
+{
+  "tests": [
+    {
+      "name": "exact_equilibrium_J_100_blocking",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_R_100_blocking",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "energy_telescope_100_blocking",
+      "error": 3.263095684469691e-16,
+      "tolerance": 3e-14
+    },
+    {
+      "name": "transport_entropy_100_blocking",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "reaction_entropy_100_blocking",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "sg_continuum_order_100_blocking_n",
+      "error": 7.98944046098704e-05,
+      "tolerance": 0.02
+    },
+    {
+      "name": "sg_continuum_order_100_blocking_p",
+      "error": 5.6706831299324634e-05,
+      "tolerance": 0.02
+    },
+    {
+      "name": "colored_jacobian_100_blocking",
+      "error": 1.1005292775544465e-09,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "equilibrium_charge_100_blocking",
+      "error": 1.502733188435658e-15,
+      "tolerance": 1e-09
+    },
+    {
+      "name": "exact_equilibrium_J_100_equilibrium_reservoir",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_R_100_equilibrium_reservoir",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "energy_telescope_100_equilibrium_reservoir",
+      "error": 3.263095684469691e-16,
+      "tolerance": 3e-14
+    },
+    {
+      "name": "transport_entropy_100_equilibrium_reservoir",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "reaction_entropy_100_equilibrium_reservoir",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "sg_continuum_order_100_equilibrium_reservoir_n",
+      "error": 7.98944046098704e-05,
+      "tolerance": 0.02
+    },
+    {
+      "name": "sg_continuum_order_100_equilibrium_reservoir_p",
+      "error": 5.6706831299324634e-05,
+      "tolerance": 0.02
+    },
+    {
+      "name": "colored_jacobian_100_equilibrium_reservoir",
+      "error": 1.1005292775544465e-09,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "equilibrium_charge_100_equilibrium_reservoir",
+      "error": 1.502733188435658e-15,
+      "tolerance": 1e-09
+    },
+    {
+      "name": "exact_equilibrium_J_200_blocking",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_R_200_blocking",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "energy_telescope_200_blocking",
+      "error": 1.1494215412349022e-16,
+      "tolerance": 3e-14
+    },
+    {
+      "name": "transport_entropy_200_blocking",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "reaction_entropy_200_blocking",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "sg_continuum_order_200_blocking_n",
+      "error": 0.00018443929409661663,
+      "tolerance": 0.02
+    },
+    {
+      "name": "sg_continuum_order_200_blocking_p",
+      "error": 0.00016681878533209016,
+      "tolerance": 0.02
+    },
+    {
+      "name": "colored_jacobian_200_blocking",
+      "error": 9.96733928903904e-10,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "equilibrium_charge_200_blocking",
+      "error": 1.2787916351971064e-11,
+      "tolerance": 1e-09
+    },
+    {
+      "name": "exact_equilibrium_J_200_equilibrium_reservoir",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_R_200_equilibrium_reservoir",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "energy_telescope_200_equilibrium_reservoir",
+      "error": 1.1494215412349022e-16,
+      "tolerance": 3e-14
+    },
+    {
+      "name": "transport_entropy_200_equilibrium_reservoir",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "reaction_entropy_200_equilibrium_reservoir",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "sg_continuum_order_200_equilibrium_reservoir_n",
+      "error": 0.00018443929409661663,
+      "tolerance": 0.02
+    },
+    {
+      "name": "sg_continuum_order_200_equilibrium_reservoir_p",
+      "error": 0.00016681878533209016,
+      "tolerance": 0.02
+    },
+    {
+      "name": "colored_jacobian_200_equilibrium_reservoir",
+      "error": 9.96733928903904e-10,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "equilibrium_charge_200_equilibrium_reservoir",
+      "error": 1.2787916351971064e-11,
+      "tolerance": 1e-09
+    },
+    {
+      "name": "exact_equilibrium_J_300_blocking",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_R_300_blocking",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "energy_telescope_300_blocking",
+      "error": 0.0,
+      "tolerance": 3e-14
+    },
+    {
+      "name": "transport_entropy_300_blocking",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "reaction_entropy_300_blocking",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "sg_continuum_order_300_blocking_n",
+      "error": 0.00018547166604654386,
+      "tolerance": 0.02
+    },
+    {
+      "name": "sg_continuum_order_300_blocking_p",
+      "error": 0.00018545901353728134,
+      "tolerance": 0.02
+    },
+    {
+      "name": "colored_jacobian_300_blocking",
+      "error": 9.965441721782851e-10,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "equilibrium_charge_300_blocking",
+      "error": 1.8113917934209863e-11,
+      "tolerance": 1e-09
+    },
+    {
+      "name": "exact_equilibrium_J_300_equilibrium_reservoir",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_R_300_equilibrium_reservoir",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "energy_telescope_300_equilibrium_reservoir",
+      "error": 0.0,
+      "tolerance": 3e-14
+    },
+    {
+      "name": "transport_entropy_300_equilibrium_reservoir",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "reaction_entropy_300_equilibrium_reservoir",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "sg_continuum_order_300_equilibrium_reservoir_n",
+      "error": 0.00018547166604654386,
+      "tolerance": 0.02
+    },
+    {
+      "name": "sg_continuum_order_300_equilibrium_reservoir_p",
+      "error": 0.00018545901353728134,
+      "tolerance": 0.02
+    },
+    {
+      "name": "colored_jacobian_300_equilibrium_reservoir",
+      "error": 9.965441721782851e-10,
+      "tolerance": 2e-07
+    },
+    {
+      "name": "equilibrium_charge_300_equilibrium_reservoir",
+      "error": 1.8113795371864873e-11,
+      "tolerance": 1e-09
+    }
+  ],
+  "solved_equilibria": [
+    {
+      "success": true,
+      "iterations": 9,
+      "norm": 2.096511405437762e-14,
+      "T": 100,
+      "V": 0,
+      "light": 0,
+      "nodes": 41,
+      "local_continuity_L1_Acm2": 0.0,
+      "local_continuity_Linf_Acm2": 0.0,
+      "current_accuracy_gate_passed": true,
+      "current_gate_tolerance_Acm2": 5.684341886e-314,
+      "J_Acm2": 0.0,
+      "current_spread_Acm2": 0.0,
+      "current_spread_relative_to_terminal": 0.0,
+      "current_closure_uncertainty_Acm2": 1.4210854716e-314,
+      "numerical_sign_resolved": false,
+      "continuity_abs_Acm2": 0.0,
+      "continuity_relative": 0.0,
+      "charge_relative": 1.502733188435658e-15,
+      "generation_Acm2": 0.0,
+      "recombination_Acm2": 0.0,
+      "n_mean_cm3": 4.2415360928606483e+17,
+      "p_mean_cm3": 4.7038933417211226e+17,
+      "max_density_fraction": 0.5,
+      "transport_dissipation_Wcm2": 0.0,
+      "recombination_dissipation_Wcm2": 0.0,
+      "light_chemical_work_Wcm2": 0.0,
+      "terminal_Wcm2": 0.0,
+      "energy_relative": 0.0,
+      "mu_n_cm2Vs": 4.041352977282537e-12,
+      "mu_p_cm2Vs": 2.8954602150509694e-17,
+      "mobility_extrapolated": true,
+      "contact_status": "unvalidated idealized scenario",
+      "G_status": "conditional temperature-independent generation",
+      "gate_passed": true
+    },
+    {
+      "success": true,
+      "iterations": 9,
+      "norm": 2.096511405437762e-14,
+      "T": 100,
+      "V": 0,
+      "light": 0,
+      "nodes": 41,
+      "local_continuity_L1_Acm2": 0.0,
+      "local_continuity_Linf_Acm2": 0.0,
+      "current_accuracy_gate_passed": true,
+      "current_gate_tolerance_Acm2": 5.684341886e-314,
+      "J_Acm2": 0.0,
+      "current_spread_Acm2": 0.0,
+      "current_spread_relative_to_terminal": 0.0,
+      "current_closure_uncertainty_Acm2": 1.4210854716e-314,
+      "numerical_sign_resolved": false,
+      "continuity_abs_Acm2": 0.0,
+      "continuity_relative": 0.0,
+      "charge_relative": 1.502733188435658e-15,
+      "generation_Acm2": 0.0,
+      "recombination_Acm2": 0.0,
+      "n_mean_cm3": 4.2415360928606483e+17,
+      "p_mean_cm3": 4.703893341721123e+17,
+      "max_density_fraction": 0.5,
+      "transport_dissipation_Wcm2": 0.0,
+      "recombination_dissipation_Wcm2": 0.0,
+      "light_chemical_work_Wcm2": 0.0,
+      "terminal_Wcm2": 0.0,
+      "energy_relative": 0.0,
+      "mu_n_cm2Vs": 4.041352977282537e-12,
+      "mu_p_cm2Vs": 2.8954602150509694e-17,
+      "mobility_extrapolated": true,
+      "contact_status": "unvalidated idealized scenario",
+      "G_status": "conditional temperature-independent generation",
+      "gate_passed": true
+    },
+    {
+      "success": true,
+      "iterations": 8,
+      "norm": 2.833213539278967e-10,
+      "T": 200,
+      "V": 0,
+      "light": 0,
+      "nodes": 41,
+      "local_continuity_L1_Acm2": 0.0,
+      "local_continuity_Linf_Acm2": 0.0,
+      "current_accuracy_gate_passed": true,
+      "current_gate_tolerance_Acm2": 5.684341886e-314,
+      "J_Acm2": 0.0,
+      "current_spread_Acm2": 0.0,
+      "current_spread_relative_to_terminal": 0.0,
+      "current_closure_uncertainty_Acm2": 1.4210854716e-314,
+      "numerical_sign_resolved": false,
+      "continuity_abs_Acm2": 0.0,
+      "continuity_relative": 0.0,
+      "charge_relative": 1.2787916351971064e-11,
+      "generation_Acm2": 0.0,
+      "recombination_Acm2": 0.0,
+      "n_mean_cm3": 4.4399922790761043e+17,
+      "p_mean_cm3": 4.8564826478992237e+17,
+      "max_density_fraction": 0.5,
+      "transport_dissipation_Wcm2": 0.0,
+      "recombination_dissipation_Wcm2": 0.0,
+      "light_chemical_work_Wcm2": 0.0,
+      "terminal_Wcm2": 0.0,
+      "energy_relative": 0.0,
+      "mu_n_cm2Vs": 4.2133783331236225e-05,
+      "mu_p_cm2Vs": 1.3709861857735067e-06,
+      "mobility_extrapolated": true,
+      "contact_status": "unvalidated idealized scenario",
+      "G_status": "conditional temperature-independent generation",
+      "gate_passed": true
+    },
+    {
+      "success": true,
+      "iterations": 8,
+      "norm": 2.833186251073145e-10,
+      "T": 200,
+      "V": 0,
+      "light": 0,
+      "nodes": 41,
+      "local_continuity_L1_Acm2": 0.0,
+      "local_continuity_Linf_Acm2": 0.0,
+      "current_accuracy_gate_passed": true,
+      "current_gate_tolerance_Acm2": 5.684341886e-314,
+      "J_Acm2": 0.0,
+      "current_spread_Acm2": 0.0,
+      "current_spread_relative_to_terminal": 0.0,
+      "current_closure_uncertainty_Acm2": 1.4210854716e-314,
+      "numerical_sign_resolved": false,
+      "continuity_abs_Acm2": 0.0,
+      "continuity_relative": 0.0,
+      "charge_relative": 1.2787916351971064e-11,
+      "generation_Acm2": 0.0,
+      "recombination_Acm2": 0.0,
+      "n_mean_cm3": 4.4399922790761043e+17,
+      "p_mean_cm3": 4.8564826478992237e+17,
+      "max_density_fraction": 0.5,
+      "transport_dissipation_Wcm2": 0.0,
+      "recombination_dissipation_Wcm2": 0.0,
+      "light_chemical_work_Wcm2": 0.0,
+      "terminal_Wcm2": 0.0,
+      "energy_relative": 0.0,
+      "mu_n_cm2Vs": 4.2133783331236225e-05,
+      "mu_p_cm2Vs": 1.3709861857735067e-06,
+      "mobility_extrapolated": true,
+      "contact_status": "unvalidated idealized scenario",
+      "G_status": "conditional temperature-independent generation",
+      "gate_passed": true
+    },
+    {
+      "success": true,
+      "iterations": 8,
+      "norm": 2.790587768405599e-10,
+      "T": 300,
+      "V": 0,
+      "light": 0,
+      "nodes": 41,
+      "local_continuity_L1_Acm2": 0.0,
+      "local_continuity_Linf_Acm2": 0.0,
+      "current_accuracy_gate_passed": true,
+      "current_gate_tolerance_Acm2": 5.684341886e-314,
+      "J_Acm2": 0.0,
+      "current_spread_Acm2": 0.0,
+      "current_spread_relative_to_terminal": 0.0,
+      "current_closure_uncertainty_Acm2": 1.4210854716e-314,
+      "numerical_sign_resolved": false,
+      "continuity_abs_Acm2": 0.0,
+      "continuity_relative": 0.0,
+      "charge_relative": 1.8113917934209863e-11,
+      "generation_Acm2": 0.0,
+      "recombination_Acm2": 0.0,
+      "n_mean_cm3": 4.7210796173113715e+17,
+      "p_mean_cm3": 5.082686955432054e+17,
+      "max_density_fraction": 0.5,
+      "transport_dissipation_Wcm2": 0.0,
+      "recombination_dissipation_Wcm2": 0.0,
+      "light_chemical_work_Wcm2": 0.0,
+      "terminal_Wcm2": 0.0,
+      "energy_relative": 0.0,
+      "mu_n_cm2Vs": 0.00084,
+      "mu_p_cm2Vs": 0.00013,
+      "mobility_extrapolated": false,
+      "contact_status": "unvalidated idealized scenario",
+      "G_status": "conditional temperature-independent generation",
+      "gate_passed": true
+    },
+    {
+      "success": true,
+      "iterations": 8,
+      "norm": 2.790568517976438e-10,
+      "T": 300,
+      "V": 0,
+      "light": 0,
+      "nodes": 41,
+      "local_continuity_L1_Acm2": 0.0,
+      "local_continuity_Linf_Acm2": 0.0,
+      "current_accuracy_gate_passed": true,
+      "current_gate_tolerance_Acm2": 5.684341886e-314,
+      "J_Acm2": 0.0,
+      "current_spread_Acm2": 0.0,
+      "current_spread_relative_to_terminal": 0.0,
+      "current_closure_uncertainty_Acm2": 1.4210854716e-314,
+      "numerical_sign_resolved": false,
+      "continuity_abs_Acm2": 0.0,
+      "continuity_relative": 0.0,
+      "charge_relative": 1.8113795371864873e-11,
+      "generation_Acm2": 0.0,
+      "recombination_Acm2": 0.0,
+      "n_mean_cm3": 4.7210796173113715e+17,
+      "p_mean_cm3": 5.082686955432054e+17,
+      "max_density_fraction": 0.5,
+      "transport_dissipation_Wcm2": 0.0,
+      "recombination_dissipation_Wcm2": 0.0,
+      "light_chemical_work_Wcm2": 0.0,
+      "terminal_Wcm2": 0.0,
+      "energy_relative": 0.0,
+      "mu_n_cm2Vs": 0.00084,
+      "mu_p_cm2Vs": 0.00013,
+      "mobility_extrapolated": false,
+      "contact_status": "unvalidated idealized scenario",
+      "G_status": "conditional temperature-independent generation",
+      "gate_passed": true
+    }
+  ],
+  "scope": "Implementation checks, not material validation",
+  "sha256": {
+    "device.py": "cf080425d6093340900917bc9fc5ef1eee82df04f194aee503259a48149d34f0",
+    "fd_eos.py": "228f0d562423326b3310f545d589c083dd332c48de3307619c6e6625d7e7c958"
+  }
+}

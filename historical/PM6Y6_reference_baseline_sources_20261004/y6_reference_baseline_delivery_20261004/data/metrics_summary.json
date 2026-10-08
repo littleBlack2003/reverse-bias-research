@@ -1,0 +1,72 @@
+[
+  {
+    "tag": "T100_N321_I1_blocking_bn0_bp0_lightonly",
+    "T": 100.0,
+    "I": 1.0,
+    "contact": "blocking",
+    "Jsc_Acm2": -3.4863574413976756e-09,
+    "Voc_V": 1.104630111563856,
+    "FF": 0.32978168580182515,
+    "Vmp_V": 0.6532665120792795,
+    "Jmp_Acm2": -1.944128321433e-09,
+    "voltage_resolution_V": 1e-05,
+    "source": "independently converged N321 PDE states",
+    "status": "conditional prediction, not an experimental fit"
+  },
+  {
+    "tag": "T150_N321_I1_blocking_bn0_bp0",
+    "T": 150.0,
+    "I": 1.0,
+    "contact": "blocking",
+    "Jsc_Acm2": -0.000853960465770907,
+    "Voc_V": 0.9900303809706257,
+    "FF": 0.3063053587621554,
+    "Vmp_V": 0.5511338137826352,
+    "Jmp_Acm2": -0.0004698766080462825,
+    "voltage_resolution_V": 1e-05,
+    "source": "independently converged N321 PDE states",
+    "status": "conditional prediction, not an experimental fit"
+  },
+  {
+    "tag": "T200_N321_I1_blocking_bn0_bp0",
+    "T": 200.0,
+    "I": 1.0,
+    "contact": "blocking",
+    "Jsc_Acm2": -0.010366987220011318,
+    "Voc_V": 0.9294368166003657,
+    "FF": 0.3839644546005633,
+    "Vmp_V": 0.6163708727689862,
+    "Jmp_Acm2": -0.006002350457166945,
+    "voltage_resolution_V": 1e-05,
+    "source": "independently converged N321 PDE states",
+    "status": "conditional prediction, not an experimental fit"
+  },
+  {
+    "tag": "T250_N321_I1_blocking_bn0_bp0",
+    "T": 250.0,
+    "I": 1.0,
+    "contact": "blocking",
+    "Jsc_Acm2": -0.02114053573577094,
+    "Voc_V": 0.866466680190423,
+    "FF": 0.45849487449743365,
+    "Vmp_V": 0.6066382862459527,
+    "Jmp_Acm2": -0.013844348542605201,
+    "voltage_resolution_V": 1e-05,
+    "source": "independently converged N321 PDE states",
+    "status": "conditional prediction, not an experimental fit"
+  },
+  {
+    "tag": "T300_N321_I1_blocking_bn0_bp0",
+    "T": 300.0,
+    "I": 1.0,
+    "contact": "blocking",
+    "Jsc_Acm2": -0.02199413327517553,
+    "Voc_V": 0.7996367274168682,
+    "FF": 0.640609187970566,
+    "Vmp_V": 0.6151387078230411,
+    "Jmp_Acm2": -0.018315538530446124,
+    "voltage_resolution_V": 1e-05,
+    "source": "independently converged N321 PDE states",
+    "status": "conditional prediction, not an experimental fit"
+  }
+]

@@ -1,0 +1,25 @@
+process,source,destination,delta_G_eV,Ec_meV,quantum_over_existing,scope
+C_Co,01010,01001,-0.14688319361948052,1.0,1.0033807145886582,single edge kernel only; not current ratio
+C_Co,01010,01001,-0.14688319361948052,5.0,1.0824101792787009,single edge kernel only; not current ratio
+C_Co,01010,01001,-0.14688319361948052,20.0,1.9259074354801173,single edge kernel only; not current ratio
+D_C,10100,10010,-0.05885815577714286,1.0,0.9978481112687069,single edge kernel only; not current ratio
+D_C,10100,10010,-0.05885815577714286,5.0,0.9537482545292543,single edge kernel only; not current ratio
+D_C,10100,10010,-0.05885815577714286,20.0,0.6941823334374595,single edge kernel only; not current ratio
+V_D,11000,10100,-0.1822836884457143,1.0,1.0006789044902447,single edge kernel only; not current ratio
+V_D,11000,10100,-0.1822836884457143,5.0,1.014436598868663,single edge kernel only; not current ratio
+V_D,11000,10100,-0.1822836884457143,20.0,1.06271519562352,single edge kernel only; not current ratio
+V_D,11001,10101,-0.15111562464051947,1.0,1.0030876716451609,single edge kernel only; not current ratio
+V_D,11001,10101,-0.15111562464051947,5.0,1.0736854378919756,single edge kernel only; not current ratio
+V_D,11001,10101,-0.15111562464051947,20.0,1.830645614866807,single edge kernel only; not current ratio
+D_C,01100,01010,-0.0688319361948052,1.0,0.9975482868850665,single edge kernel only; not current ratio
+D_C,01100,01010,-0.0688319361948052,5.0,0.9477743812473327,single edge kernel only; not current ratio
+D_C,01100,01010,-0.0688319361948052,20.0,0.6810356832095804,single edge kernel only; not current ratio
+Vo_V,10101,01101,-0.1331692455451948,1.0,1.0078977006706114,single edge kernel only; not current ratio
+Vo_V,10101,01101,-0.1331692455451948,5.0,1.1949096715263117,single edge kernel only; not current ratio
+Vo_V,10101,01101,-0.1331692455451948,20.0,2.6399620751603052,single edge kernel only; not current ratio
+Vo_V,10010,01010,-0.1462598323433766,1.0,1.003439633103459,single edge kernel only; not current ratio
+Vo_V,10010,01010,-0.1462598323433766,5.0,1.0841201919417014,single edge kernel only; not current ratio
+Vo_V,10010,01010,-0.1462598323433766,20.0,1.941836715071894,single edge kernel only; not current ratio
+C_Co,10010,10001,-0.1462598323433766,1.0,1.003439633103459,single edge kernel only; not current ratio
+C_Co,10010,10001,-0.1462598323433766,5.0,1.0841201919417014,single edge kernel only; not current ratio
+C_Co,10010,10001,-0.1462598323433766,20.0,1.941836715071894,single edge kernel only; not current ratio

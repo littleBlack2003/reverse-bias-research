@@ -1,0 +1,31 @@
+{
+  "main": {
+    "grid_step_eV": 0.002,
+    "sideband_L": 30,
+    "Fourier_tolerance": 2e-10,
+    "off_grid_max_log_error": 6.317776524156216e-09,
+    "sideband_mass": 1.0,
+    "slow_density_mass": 0.999999999533558,
+    "slow_density_mean_eV": 0.05000000000212693,
+    "slow_density_variance_eV2": 0.00282011164562203,
+    "exact_variance_eV2": 0.002820111645572437
+  },
+  "refined": {
+    "grid_step_eV": 0.001,
+    "sideband_L": 40,
+    "Fourier_tolerance": 1e-12,
+    "off_grid_max_log_error": 1.0209544321071462e-10,
+    "sideband_mass": 1.0,
+    "slow_density_mass": 0.9999999999685316,
+    "slow_density_mean_eV": 0.05000000000019776,
+    "slow_density_variance_eV2": 0.0028201116456050192,
+    "exact_variance_eV2": 0.002820111645572437
+  },
+  "rate_ratio": 0.9968588094545426,
+  "full_quantum_R_refinement_relative": 6.395695084648878e-10,
+  "baseline_R_refinement_relative": 0.0,
+  "budget_equal": true,
+  "all_positive": true,
+  "max_raw_DB_log_error": 7.105427357601002e-15,
+  "assertions_passed": true
+}

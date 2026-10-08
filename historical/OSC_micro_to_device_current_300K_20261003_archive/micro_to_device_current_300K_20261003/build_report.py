@@ -1,0 +1,70 @@
+from pathlib import Path
+import json,html
+import pandas as pd
+from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer,Table,TableStyle,Image,PageBreak
+from reportlab.lib.styles import ParagraphStyle
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.cidfonts import UnicodeCIDFont
+from reportlab.lib import colors
+P=Path(__file__).resolve().parent;v=json.loads((P/'results/checks.json').read_text());cap=pd.read_csv(P/'results/conditional_capacity.csv');cou=pd.read_csv(P/'results/uniform_coupling_scaling.csv')
+pdfmetrics.registerFont(UnicodeCIDFont('STSong-Light'))
+body=ParagraphStyle('body',fontName='STSong-Light',fontSize=10.2,leading=15.5,spaceAfter=8)
+head=ParagraphStyle('head',parent=body,fontSize=14.3,leading=20,spaceAfter=10)
+title=ParagraphStyle('title',parent=body,fontSize=21,leading=29,spaceAfter=12)
+small=ParagraphStyle('small',parent=body,fontSize=9,leading=13,spaceAfter=6)
+para=lambda s:Paragraph(html.escape(s),body)
+markdown=[];story=[]
+def page(t):
+ if story:story.append(PageBreak())
+ story.append(Paragraph(t,title));markdown.append('# '+t+'\n')
+def section(t,s):
+ story.extend([Paragraph(t,head),para(s)]);markdown.extend(['## '+t+'\n',s+'\n'])
+def text(s):story.append(para(s));markdown.append(s+'\n')
+def table(rows,widths):
+ t=Table([[Paragraph(html.escape(str(c)),small) for c in r] for r in rows],colWidths=widths,repeatRows=1)
+ t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#e8eff5')),('VALIGN',(0,0),(-1,-1),'TOP'),('BOTTOMPADDING',(0,0),(-1,-1),5)]));story.extend([t,Spacer(1,10)])
+ markdown.append('\n'.join('| '+' | '.join(map(str,r))+' |' for r in [rows[0],['---']*len(rows[0])]+rows[1:])+'\n')
+page('300 K 微观图到器件电流的接口审计')
+text('2026年10月3日。固定12 nm、五位点、32态图；保持300 K、F=1.5 MV/cm与原有电子库定义。本轮重算逐边账目和容量换算，不新增物理场扫描，不拟合器件。')
+section('结论','现有净周转率已包含图内可逆跃迁、占据阻塞和两端交换；继续乘同一“逃逸概率”会重复扣减。更重要的是，它是给定两库分布下的净电子转移率，不是仅凭电场就确定的器件对产生率。幅值要成立，必须同时满足位点容量、局部驱动、传输和电荷闭合。')
+table([['已核验的量','数值'],['基线 R；全量子慢浴 R','13094.610063；13053.477398 s-1'],['N=10^15 cm-3、100 nm、完全收集条件电流','0.0209799 mA/cm2'],['50 mA/cm2 所需独立图密度','2.38324 x 10^18 cm-3'],['相应五位点独占轨道需求','至少1.19162 x 10^19 cm-3']], [245,255])
+story.append(Image(str(P/'micro_to_device_bridge.png'),width=500,height=364));markdown.append('![微观图到器件接口](micro_to_device_bridge.png)\n')
+text('图中50 mA/cm2只是诊断线，不是已核实的实验上翘或击穿阈值。图B是冻结图电荷未经体补偿时的两端场差，不是已求得的器件电场。')
+page('先定义通量 再定义收集')
+section('净通量的逐边复核','原代码取 R=sum(p_i k_ij - p_j k_ji)，其中求和覆盖 V-D 键的全部Fock态边。逐边CSV重构显示 Vo-V、V-D、D-C、C-Co 四个键的净流均等于R，左库注入+R、右库注入-R。基线和全量子两组复核的最大相对差均为2.22 x 10^-16。')
+section('为什么不能再乘 net over gross','D-C 键的正向事件通量为16162.354736 s-1，反向3067.744673 s-1；gross=19230.099410 s-1。因此0.68094344=(正向-反向)/(正向+反向)，是方向不对称度，不是首达或最终收集概率。连 R/正向=0.810192 也没有被证明是收集概率。模型允许的回跳和复合路径已计入，未建模的体复合、接触损失和光照效应仍未计入。[S1]')
+section('三个量纲一致但含义不同的式子','一张两端图的库间电流幅值为 i_graph=qR=2.09799 fA。若同一横截面有 M 个真正并联端口、面积A，则 J=q(M/A)R；M/A单位cm-2。不能把沿厚度串联的段数也作为独立并联图相加。')
+text('若 N 是每cm3独立局部对源的数量，且每次净库间转移确实对应一对载流子的产生、其余运动将载流子送到器件相反电极且不改变R，则 J_complete=q N d R。q为C，N为cm-3，d为cm，R为s-1，结果为A/cm2。非均匀情形可条件写为 q integral[N(x)R(x) dx]，但R本身必须由局部场和两库分布自洽给出。')
+section('12 nm到100 nm之间还缺什么','逐边电子位移之和精确为12R nm/s。理想平行板、沿厚度对齐、均匀权重场1/d时，仅对已表示的物理运动求权重电流，得到 J_represented=q N ell R，ell=12 nm。它是完整运动账目中的局部贡献，不是单独完整DC器件模型。以满足上述50 mA条件的N代入，仅该12 nm运动贡献为6 mA/cm2，其余88 nm的运动尚未表示。完整对收集补足后才可恢复每对q；不要在已含全程收集的结果上再乘ell/d。[S1,S6]')
+text('若载流子离开图后又返回或复合，则必须计入对应的有符号位移与库分布反馈。仅在明确的一次通过、稀薄、无反馈的源-输运分解中，才可另设“图外”收集因子；不能将其与上述方向不对称度混同。')
+page('容量界与耦合代价')
+text('以下为基线、冻结速率、均匀独立源、100 nm且完全收集条件下的容量要求。若R在这些条件下固定且未表示损失只会降低收集，则所需N是不小于表中值的条件下界；它不是无条件材料下界。')
+rows=[['诊断 J\nmA/cm2','N需求\ncm-3','独占轨道至少\ncm-3','中心间距\nnm']]
+for _,r in cap.iterrows(): rows.append([f'{r.target_J_mAcm2:g}',f'{r.required_independent_N_cm3:.4g}',f'{r.required_5site_orbitals_cm3:.4g}',f'{r.mean_center_spacing_nm:.3f}'])
+table(rows,[85,145,165,105])
+section('什么是严格界 什么是假设','若每图确实占用五个不同、不可共享的自旋无简并轨道，则5N <= N_orb，这是计数必要条件。若仅可用一部分合适轨道，则N_orb还应限定能级、组分、空间连接与占据条件。共享同一物理轨道必须联合求占据；共享有限或可耗尽的电子库必须自洽求输运。独立图接到同一理想固定库，仍可相加。')
+text('单凭纵向跨度12 nm不能推出 N <= (12 nm)^-3，因为没有给横向排斥体积。若额外假设每图独占12 nm立方体，则N上限5.787 x 10^17、条件电流上限12.14 mA/cm2；此为示意几何。若另假定可用轨道总池10^19 cm-3，则独占图上限2 x 10^18、电流上限41.96 mA/cm2。既有PF模型的Nc=10^19是有效态密度参数，不能直接当作真实五轨道总池。[S3,S4]')
+section('提高耦合并非免费的幅值旋钮','在固定能量、谱、库、图拓扑的二阶速率模型里，将所有真实轨道键及库耦合同时乘alpha，严格有 Q变为alpha^2 Q、稳态概率不变、R变为alpha^2 R。仅改两条内部键不满足该恒等式，串行提取可成为瓶颈。预算按六条物理键计数，不能按64条Fock态边重复计数。[S1]')
+table([['假定N cm-3','达到50的alpha','内键H / microeV','1%事件诊断 tau / ns']]+[[f'{r.assumed_N_cm3:.0e}',f'{r.all_H_multiplier:.4f}',f'{r.inner_H_microeV:.3f}',f'{r.relaxation_time_for_1pct_event_ns:.4g}'] for _,r in cou.iterrows()],[110,115,135,140])
+text('最后一列为 -ln(0.99)/最大总离开率，要求等待该弛豫时间内发生下一事件概率不超过1%。它不是电流误差界，也没有材料弛豫时间或弱耦合有效性保证。N=10^15时，补足幅值需全率提高2383倍、H提高48.82倍，使该诊断缩到0.810 ps。')
+page('密度放大必须同时过电荷与驱动关')
+section('同一个电场不决定同一个R','主点设置Delta mu=1.5 eV，而12 nm静电降F ell=1.8 V；若100 nm场均匀，F d=15 V。三者不能直接认作同一个外加电压，也不能把电化学功与静电降相加成两个电源。已有同场、共同mu对照R约为数值零，证明当前R是被指定两库驱动下的通量，而非已建立的“场单变量”产生律。局部准费米水平与库DOS必须由器件嵌入定义。[S1,S2]')
+section('新的条件Poisson压力检验','源表给基线平均图电荷 zbar=+0.10142571854 e，相对于代码固定背景b=(1,1,0,0,0)。在N=2.38324 x 10^18、d=100 nm、epsilon_r=3.5且均匀冻结图电荷无体补偿时，rho=q N zbar=0.038728 C/cm3，Poisson积分给 |F(d)-F(0)|=rho d/epsilon=1.24971 MV/cm。相对均场1.5 MV/cm是83.314%；固定总电压时两端偏离均场各约41.657%。')
+text('这不是实际器件场预测。被省略库的电荷、自由载流子、补偿背景和空间相关性都未知；电極表面补偿电荷并不自动消除体内场梯度。把该固定图电荷乘N，只是检验冻结场近似是否需要额外补偿，不证明一定出现这种空间电荷。')
+text('若预先要求上述未补偿两端场差不超过均场10%，冻结模型给N <=2.86055 x 10^17，完全收集条件电流<=6.0014 mA/cm2。要在同一冻结电荷构造下达到50并保持这一判据，体净电荷需至少抵消87.997%。该10%是本轮明确标注的容差示例，并非物理阈值。')
+section('尚未建立的最小器件闭合','需要同时提供：(1) 图的空间位置、取向、可用独立数量及共享规则；(2) 局部两库能级、DOS及准费米分布，不能沿用任意Delta mu(F)；(3) 图外电子/空穴连续性、复合与接触边界；(4) 总电荷Poisson、偏压积分和每条物理跃迁只计一次的电流；(5) 光生输入与前向J-V，随后才能计算FF。若要解释不可逆损伤，还需要独立的温度、时序与损伤闭合，不能从等温R直接推断。[S1-S5]')
+section('已有材料标签不足以补全','D18:L8-BO、100 nm、D:A=1:1.2仍是未确认的材料/样品条件，不能据此认定轨道密度、耦合、介电常数、温度系数或接触预测。全量子慢浴本单点R只下降0.314%，相应50诊断所需N增加0.315%；这不能补上数量级容量或器件闭合缺口。')
+page('用最小检验同时约束幅值和上翘')
+section('先消去自由密度','在冻结驱动、独立源且相同完整收集条件下，源电流J_s(F)=q d N R(F)。两点的比值 J_s(F2)/J_s(F1)=R(F2)/R(F1) 不含N。N_req(F)=J_s(F)/(q d R(F))必须在各点给出同一N，且低于独立位点与电荷约束允许范围。扣除背景必须有独立依据，不能将任意两条自洽J-V相减后自动当作线性物理支路。')
+text('无需重跑，已有显式图300 K两个点给R(3 MV/cm)/R(1.5 MV/cm)=3.284298。这个数字是旧Delta mu=F协议下的可证伪形状约束，不是实验预测；改N不能改变它。仅靠1.5 MV/cm单点匹配幅值，尚不能决定上翘起点。')
+section('建议的最小新增测试及停止条件','先给出一个有物理解释且固定的局部库/器件嵌入，以及同一样品损伤前的暗态电流和电场/端压映射。如果目标只是两个电流点，最小两点比值已能否决单一N。若目标包含操作性上翘位置，预先选上翘前后两个点和一个高电流但未损伤锚点，共三个偏压；先用冻结源反推三个N区间，再要求同一个独立可容许N通过这三个自洽点，禁止逐偏压重新拟合N。冻结三点N区间无交集可否决冻结模型；容量不够可否决该容量方案；若占据/场反馈破坏冻结假设，则须改用自洽结果判别，不能仅凭冻结比值否决所有嵌入。不通过时不继续放宽N或另调起点。通过只代表未被这项必要条件否决，不是机制已证实。')
+text('起点应先定义为具体的背景扣除/斜率或实验噪声判据。50 mA/cm2仅用作幅值诊断。若起点采用归一F50等全窗峰值定义，三个点不够验收该定义，必须另有已测得的峰值或窗口信息，不得中途换定义来宣称通过。')
+section('新实验描述的约束','用户目前倾向“载流子产生增加”，这是假说而非已测得产生率。用户观察到的器件有上翘后损坏，不能推广为全部有机光伏器件。损伤前可逆或历史依赖的电流变化与不可逆损坏必须分开，也不能预设热致损伤。用户已确认较高读数是串联组件两端总电压；理想一致串联时总上翘电压应为单节的节数倍，这是理想预期，尚无实际节数与测得比例。仍需核对各节分压；总压更高本身不证明单节材料本征更耐反偏。用户补充：在已测试范围内扫描速率以及脉冲/连续方式不明显改变上翘位置，且现象见于不同材料、厚度和电极；这不等于各器件阈值相同。未给具体时标，去偏压后恢复性待确认。慢累积加热作为启动必要条件的优先级应降低，快速局部热或后续损伤仍未排除。此次未建立组件模型或新增拟合。')
+section('来源与复现','S1：full_network_bath_300K_20261003 中 spatial_model.py、results/summary.csv与逐边/逐态表。S2：matched_evidence_300K_20261002/spatial_300K.csv及REPORT_300K.md。S3：trap_free_comparator_20261002/room_temperature_300K/results/rise_metrics_300K.csv。S4：density_knee_disentangling_20261002/REPORT.md。S5：spatial_escape_audit_20261002/REPORT.md。本归档保留本轮用到的原始表、源码和哈希；audit_bridge.py重建CSV、图和算术验收；build_report.py重建报告。')
+text('S6：I. V. Kotov, Currents Induced by Charges Moving in Semiconductor, arXiv:physics/0311031 (2003), https://arxiv.org/html/physics/0311031v1。这里只用其准静态权重场和介质响应区分；实际半导体中其余介质/载流子响应不能从单粒子局部运动项省略。平行板1/d及上述尺寸换算由本报告显式假设推导。')
+text('原61页报告未改动；所有上游文件只读。新增结果为逐边去重审计、三种电流映射、位点容量、统一耦合代价、条件Poisson压力检验及不含自由N的否决条件。')
+(P/'REPORT_300K.md').write_text('\n'.join(markdown))
+def footer(c,d):
+ c.setFont('STSong-Light',9);c.setFillColor(colors.gray);c.drawString(45,24,'条件接口审计  非材料预测  300 K');c.drawRightString(550,24,str(d.page))
+SimpleDocTemplate(str(P/'OSC_micro_to_device_current_300K_20261003.pdf'),pagesize=(595.28,841.89),leftMargin=45,rightMargin=45,topMargin=40,bottomMargin=42).build(story,onFirstPage=footer,onLaterPages=footer)
+print('Report generated')

@@ -1,0 +1,10 @@
+T_K,source_saved_states,identical_bias_matches,max_same_bias_state_error,all_source_states_reused_exactly
+100,148,148,0,True
+125,133,133,0,True
+150,130,130,0,True
+175,127,127,0,True
+200,138,138,0,True
+225,141,141,0,True
+250,136,136,0,True
+275,140,140,0,True
+300,127,127,0,True

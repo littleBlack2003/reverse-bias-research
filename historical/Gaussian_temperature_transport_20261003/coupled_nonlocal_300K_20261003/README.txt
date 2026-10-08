@@ -1,0 +1,8 @@
+Actual coupled nonlocal 300 K stationary device diagnostic
+Start with REPORT_ZH.txt. This is a conditional localized Marcus / single-level Fermi DOS / lattice-gas SG model, not a material fit or a unique Huang-TAT implementation.
+24 fully solved saved states: N=81,161,321; distance per leg 0 or 1nm; V=0,-1,-5,-15V. 366 intermediate continuation solves; no added experimental parameter sweep.
+Run reproduce.sh from the extracted archive. Python + NumPy + SciPy required; no network needed. Original dependencies are included unchanged in adjacent localselfconsistent_srh_300K_20261003 and nonlocal_adapter_300K_20261003. Source archives used are listed in SOURCE_PROVENANCE.json.
+Independent checks: independent_audit/audit.py and results.json compare full assembly with original adapter, d=0 analytic matched local spectral rates, full sparse Jacobian against uncolored complex steps and real finite differences. Four extra unittest groups cover equilibrium, inputs, count/boundaries, saved charge/current/energy gates.
+Full numerical data and continuation traces: data/*.json, data/*.npz, point_summary.csv. Maximum errors and environment: data/validation_summary.json.
+One artifact output named f is an effective Poisson bookkeeping value, not the physical trap occupancy. actual_f and actual_fb are physical reaction-population occupancies. Independent opposite orientations are separate half-Nt subpopulations. All spatial counts and contact exclusions are explicit.
+Energy ledger uses electrical terminal power V*J and chemical-potential dissipation; it is not a temperature or irreversible-damage model. Dark-only steady results do not validate light/dark coincidence or scan/pulse independence.

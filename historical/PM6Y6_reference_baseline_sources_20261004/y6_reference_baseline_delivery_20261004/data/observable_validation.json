@@ -1,0 +1,512 @@
+{
+  "calibration": {
+    "material": "PM6:Y6",
+    "N0_cm3": 2.4e+20,
+    "beta300_cm3s": 8e-12,
+    "n300_cm3": 3.99168e+16,
+    "G0_conditional_cm3s": 1.274680737792e+22,
+    "Jgeneration_110nm_mAcm2": 22.464900632902452,
+    "Eg_single_global_fit_eV": 1.407221201656948,
+    "global_fit_rmse_mV": 19.348932961574413,
+    "rows": [
+      {
+        "T_K": 100.0,
+        "n_pia_cm3": 2.354339999999999e+17,
+        "beta_inferred_cm3s": 2.2996569777219503e-13,
+        "Voc_readout_V": 0.960308,
+        "offset_V": -0.4265097406667115,
+        "Eg_individual_diagnostic_eV": 1.3868177406667115,
+        "Voc_fixed142_V": 0.9934902593332884,
+        "Voc_global_fit_V": 0.9807114609902365,
+        "residual_global_fit_mV": 20.40346099023649
+      },
+      {
+        "T_K": 125.0,
+        "n_pia_cm3": 2.024689999999995e+17,
+        "beta_inferred_cm3s": 3.109455509951321e-13,
+        "Voc_readout_V": 0.947784,
+        "offset_V": -0.43950742748389876,
+        "Eg_individual_diagnostic_eV": 1.3872914274838988,
+        "Voc_fixed142_V": 0.9804925725161011,
+        "Voc_global_fit_V": 0.9677137741730493,
+        "residual_global_fit_mV": 19.92977417304931
+      },
+      {
+        "T_K": 150.0,
+        "n_pia_cm3": 1.665639999999995e+17,
+        "beta_inferred_cm3s": 4.594509348154014e-13,
+        "Voc_readout_V": 0.934297,
+        "offset_V": -0.45624096308953466,
+        "Eg_individual_diagnostic_eV": 1.3905379630895347,
+        "Voc_fixed142_V": 0.9637590369104653,
+        "Voc_global_fit_V": 0.9509802385674134,
+        "residual_global_fit_mV": 16.683238567413383
+      },
+      {
+        "T_K": 175.0,
+        "n_pia_cm3": 1.3342600000000026e+17,
+        "beta_inferred_cm3s": 7.160123120424112e-13,
+        "Voc_readout_V": 0.918882,
+        "offset_V": -0.47624562080524735,
+        "Eg_individual_diagnostic_eV": 1.3951276208052472,
+        "Voc_fixed142_V": 0.9437543791947526,
+        "Voc_global_fit_V": 0.9309755808517007,
+        "residual_global_fit_mV": 12.093580851700757
+      },
+      {
+        "T_K": 200.0,
+        "n_pia_cm3": 1.0500099999999987e+17,
+        "beta_inferred_cm3s": 1.1561509827716551e-12,
+        "Voc_readout_V": 0.901541,
+        "offset_V": -0.4994574689445496,
+        "Eg_individual_diagnostic_eV": 1.4009984689445496,
+        "Voc_fixed142_V": 0.9205425310554503,
+        "Voc_global_fit_V": 0.9077637327123984,
+        "residual_global_fit_mV": 6.222732712398371
+      },
+      {
+        "T_K": 225.0,
+        "n_pia_cm3": 8.046139999999995e+16,
+        "beta_inferred_cm3s": 1.968911761637919e-12,
+        "Voc_readout_V": 0.882274,
+        "offset_V": -0.5266216445456343,
+        "Eg_individual_diagnostic_eV": 1.4088956445456344,
+        "Voc_fixed142_V": 0.8933783554543656,
+        "Voc_global_fit_V": 0.8805995571113138,
+        "residual_global_fit_mV": -1.674442888686234
+      },
+      {
+        "T_K": 250.0,
+        "n_pia_cm3": 6.111209999999992e+16,
+        "beta_inferred_cm3s": 3.413084242136997e-12,
+        "Voc_readout_V": 0.863006,
+        "offset_V": -0.5573187190581753,
+        "Eg_individual_diagnostic_eV": 1.4203247190581754,
+        "Voc_fixed142_V": 0.8626812809418246,
+        "Voc_global_fit_V": 0.8499024825987728,
+        "residual_global_fit_mV": -13.103517401227283
+      },
+      {
+        "T_K": 275.0,
+        "n_pia_cm3": 4.8521500000000056e+16,
+        "beta_inferred_cm3s": 5.414183694385765e-12,
+        "Voc_readout_V": 0.841811,
+        "offset_V": -0.5891808214634419,
+        "Eg_individual_diagnostic_eV": 1.4309918214634418,
+        "Voc_fixed142_V": 0.8308191785365581,
+        "Voc_global_fit_V": 0.8180403801935062,
+        "residual_global_fit_mV": -23.770619806493755
+      },
+      {
+        "T_K": 300.0,
+        "n_pia_cm3": 3.99168e+16,
+        "beta_inferred_cm3s": 8e-12,
+        "Voc_readout_V": 0.82158,
+        "offset_V": -0.6224254088553403,
+        "Eg_individual_diagnostic_eV": 1.4440054088553402,
+        "Voc_fixed142_V": 0.7975745911446597,
+        "Voc_global_fit_V": 0.7847957928016078,
+        "residual_global_fit_mV": -36.78420719839215
+      }
+    ],
+    "limitations": [
+      "PIA is an INPUT not validation",
+      "G(T)=G300 is an explicit unverified assumption",
+      "beta300 is printed approximate independent RT anchor; common sample/optical condition unproven",
+      "Eg142 chosen from published fitted bracket, so Fig5a is reproduction/consistency rather than independent prediction",
+      "Only S16 lower intensities and separately conditioned BACE data are holdouts",
+      "No temperature-by-temperature fitted Eg used"
+    ]
+  },
+  "s16_holdout": [
+    {
+      "T_K": 100.0,
+      "I_sun": 0.5,
+      "Voc_measured_V": 0.950282,
+      "Voc_predicted_V": 0.9667062828980413,
+      "residual_mV": 16.42428289804132,
+      "deltaVoc_predicted_V": -0.014005178092195258,
+      "deltaVoc_measured_V": -0.011300000000000088,
+      "delta_residual_mV": -2.7051780921951707
+    },
+    {
+      "T_K": 125.0,
+      "I_sun": 0.5,
+      "Voc_measured_V": 0.938983,
+      "Voc_predicted_V": 0.9535912980703092,
+      "residual_mV": 14.608298070309168,
+      "deltaVoc_predicted_V": -0.014122476102740089,
+      "deltaVoc_measured_V": -0.00988699999999998,
+      "delta_residual_mV": -4.23547610274011
+    },
+    {
+      "T_K": 150.0,
+      "I_sun": 0.5,
+      "Voc_measured_V": 0.924859,
+      "Voc_predicted_V": 0.9366788699892774,
+      "residual_mV": 11.819869989277421,
+      "deltaVoc_predicted_V": -0.01430136857813602,
+      "deltaVoc_measured_V": -0.011299000000000059,
+      "delta_residual_mV": -3.002368578135961
+    },
+    {
+      "T_K": 175.0,
+      "I_sun": 0.5,
+      "Voc_measured_V": 0.90791,
+      "Voc_predicted_V": 0.9163875995622549,
+      "residual_mV": 8.477599562254913,
+      "deltaVoc_predicted_V": -0.014587981289445828,
+      "deltaVoc_measured_V": -0.011299000000000059,
+      "delta_residual_mV": -3.2889812894457693
+    },
+    {
+      "T_K": 200.0,
+      "I_sun": 0.5,
+      "Voc_measured_V": 0.889548,
+      "Voc_predicted_V": 0.8927459794679118,
+      "residual_mV": 3.1979794679117823,
+      "deltaVoc_predicted_V": -0.01501775324448662,
+      "deltaVoc_measured_V": -0.012711999999999946,
+      "delta_residual_mV": -2.3057532444866746
+    },
+    {
+      "T_K": 225.0,
+      "I_sun": 0.5,
+      "Voc_measured_V": 0.868362,
+      "Voc_predicted_V": 0.8649928193240657,
+      "residual_mV": -3.36918067593428,
+      "deltaVoc_predicted_V": -0.015606737787248082,
+      "deltaVoc_measured_V": -0.015535999999999994,
+      "delta_residual_mV": -0.07073778724808744
+    },
+    {
+      "T_K": 250.0,
+      "I_sun": 0.5,
+      "Voc_measured_V": 0.848588,
+      "Voc_predicted_V": 0.8335199725542449,
+      "residual_mV": -15.068027445755083,
+      "deltaVoc_predicted_V": -0.016382510044527843,
+      "deltaVoc_measured_V": -0.015535999999999994,
+      "delta_residual_mV": -0.8465100445278484
+    },
+    {
+      "T_K": 275.0,
+      "I_sun": 0.5,
+      "Voc_measured_V": 0.827401,
+      "Voc_predicted_V": 0.8006754763976396,
+      "residual_mV": -26.725523602360468,
+      "deltaVoc_predicted_V": -0.017364903795866637,
+      "deltaVoc_measured_V": -0.015536999999999912,
+      "delta_residual_mV": -1.8279037958667255
+    },
+    {
+      "T_K": 300.0,
+      "I_sun": 0.5,
+      "Voc_measured_V": 0.806215,
+      "Voc_predicted_V": 0.7662838715877915,
+      "residual_mV": -39.93112841220847,
+      "deltaVoc_predicted_V": -0.018511921213816285,
+      "deltaVoc_measured_V": -0.016948999999999992,
+      "delta_residual_mV": -1.562921213816293
+    },
+    {
+      "T_K": 100.0,
+      "I_sun": 0.25,
+      "Voc_measured_V": 0.936158,
+      "Voc_predicted_V": 0.9530693485779185,
+      "residual_mV": 16.911348577918428,
+      "deltaVoc_predicted_V": -0.027642112412318065,
+      "deltaVoc_measured_V": -0.025424000000000002,
+      "delta_residual_mV": -2.218112412318063
+    },
+    {
+      "T_K": 125.0,
+      "I_sun": 0.25,
+      "Voc_measured_V": 0.923446,
+      "Voc_predicted_V": 0.9398250605869103,
+      "residual_mV": 16.3790605869103,
+      "deltaVoc_predicted_V": -0.02788871358613898,
+      "deltaVoc_measured_V": -0.025424000000000002,
+      "delta_residual_mV": -2.464713586138978
+    },
+    {
+      "T_K": 150.0,
+      "I_sun": 0.25,
+      "Voc_measured_V": 0.909322,
+      "Voc_predicted_V": 0.922715044787995,
+      "residual_mV": 13.393044787995079,
+      "deltaVoc_predicted_V": -0.028265193779418385,
+      "deltaVoc_measured_V": -0.026836000000000082,
+      "delta_residual_mV": -1.429193779418303
+    },
+    {
+      "T_K": 175.0,
+      "I_sun": 0.25,
+      "Voc_measured_V": 0.89096,
+      "Voc_predicted_V": 0.9021113897397064,
+      "residual_mV": 11.151389739706419,
+      "deltaVoc_predicted_V": -0.02886419111199434,
+      "deltaVoc_measured_V": -0.02824900000000008,
+      "delta_residual_mV": -0.6151911119942621
+    },
+    {
+      "T_K": 200.0,
+      "I_sun": 0.25,
+      "Voc_measured_V": 0.872599,
+      "Voc_predicted_V": 0.878006420763602,
+      "residual_mV": 5.407420763602011,
+      "deltaVoc_predicted_V": -0.029757311948796383,
+      "deltaVoc_measured_V": -0.029660999999999937,
+      "delta_residual_mV": -0.09631194879644589
+    },
+    {
+      "T_K": 225.0,
+      "I_sun": 0.25,
+      "Voc_measured_V": 0.851412,
+      "Voc_predicted_V": 0.8496222833782836,
+      "residual_mV": -1.7897166217163418,
+      "deltaVoc_predicted_V": -0.030977273733030164,
+      "deltaVoc_measured_V": -0.032486000000000015,
+      "delta_residual_mV": 1.508726266969851
+    },
+    {
+      "T_K": 250.0,
+      "I_sun": 0.25,
+      "Voc_measured_V": 0.828814,
+      "Voc_predicted_V": 0.8173267488985049,
+      "residual_mV": -11.487251101495177,
+      "deltaVoc_predicted_V": -0.032575733700267895,
+      "deltaVoc_measured_V": -0.03530999999999995,
+      "delta_residual_mV": 2.7342662997320577
+    },
+    {
+      "T_K": 275.0,
+      "I_sun": 0.25,
+      "Voc_measured_V": 0.806215,
+      "Voc_predicted_V": 0.7834554654064111,
+      "residual_mV": -22.759534593588924,
+      "deltaVoc_predicted_V": -0.03458491478709513,
+      "deltaVoc_measured_V": -0.03672299999999995,
+      "delta_residual_mV": 2.1380852129048167
+    },
+    {
+      "T_K": 300.0,
+      "I_sun": 0.25,
+      "Voc_measured_V": 0.786441,
+      "Voc_predicted_V": 0.7478781031884272,
+      "residual_mV": -38.56289681157277,
+      "deltaVoc_predicted_V": -0.03691768961318065,
+      "deltaVoc_measured_V": -0.03672300000000006,
+      "delta_residual_mV": -0.19468961318058753
+    },
+    {
+      "T_K": 100.0,
+      "I_sun": 0.08,
+      "Voc_measured_V": 0.903672,
+      "Voc_predicted_V": 0.9313819353107899,
+      "residual_mV": 27.709935310789913,
+      "deltaVoc_predicted_V": -0.049329525679446595,
+      "deltaVoc_measured_V": -0.05791000000000002,
+      "delta_residual_mV": 8.58047432055342
+    },
+    {
+      "T_K": 125.0,
+      "I_sun": 0.08,
+      "Voc_measured_V": 0.893785,
+      "Voc_predicted_V": 0.9179014934172016,
+      "residual_mV": 24.116493417201568,
+      "deltaVoc_predicted_V": -0.04981228075584765,
+      "deltaVoc_measured_V": -0.05508499999999994,
+      "delta_residual_mV": 5.272719244152291
+    },
+    {
+      "T_K": 150.0,
+      "I_sun": 0.08,
+      "Voc_measured_V": 0.876836,
+      "Voc_predicted_V": 0.900428728510578,
+      "residual_mV": 23.59272851057803,
+      "deltaVoc_predicted_V": -0.05055151005683545,
+      "deltaVoc_measured_V": -0.0593220000000001,
+      "delta_residual_mV": 8.77048994316465
+    },
+    {
+      "T_K": 175.0,
+      "I_sun": 0.08,
+      "Voc_measured_V": 0.857062,
+      "Voc_predicted_V": 0.8792577118286248,
+      "residual_mV": 22.195711828624788,
+      "deltaVoc_predicted_V": -0.05171786902307596,
+      "deltaVoc_measured_V": -0.06214700000000006,
+      "delta_residual_mV": 10.429130976924107
+    },
+    {
+      "T_K": 200.0,
+      "I_sun": 0.08,
+      "Voc_measured_V": 0.834463,
+      "Voc_predicted_V": 0.8543196779213817,
+      "residual_mV": 19.856677921381795,
+      "deltaVoc_predicted_V": -0.05344405479101666,
+      "deltaVoc_measured_V": -0.067797,
+      "delta_residual_mV": 14.352945208983336
+    },
+    {
+      "T_K": 225.0,
+      "I_sun": 0.08,
+      "Voc_measured_V": 0.80904,
+      "Voc_predicted_V": 0.8248090450416732,
+      "residual_mV": 15.769045041673202,
+      "deltaVoc_predicted_V": -0.055790512069640585,
+      "deltaVoc_measured_V": -0.07485799999999998,
+      "delta_residual_mV": 19.067487930359395
+    },
+    {
+      "T_K": 250.0,
+      "I_sun": 0.08,
+      "Voc_measured_V": 0.780791,
+      "Voc_predicted_V": 0.7910627002208237,
+      "residual_mV": 10.271700220823687,
+      "deltaVoc_predicted_V": -0.05883978237794907,
+      "deltaVoc_measured_V": -0.08333299999999999,
+      "delta_residual_mV": 24.49321762205092
+    },
+    {
+      "T_K": 275.0,
+      "I_sun": 0.08,
+      "Voc_measured_V": 0.755367,
+      "Voc_predicted_V": 0.7554123501757222,
+      "residual_mV": 0.0453501757221586,
+      "deltaVoc_predicted_V": -0.06262803001778405,
+      "deltaVoc_measured_V": -0.08757099999999995,
+      "delta_residual_mV": 24.9429699822159
+    },
+    {
+      "T_K": 300.0,
+      "I_sun": 0.08,
+      "Voc_measured_V": 0.735593,
+      "Voc_predicted_V": 0.7178087508286675,
+      "residual_mV": -17.78424917133259,
+      "deltaVoc_predicted_V": -0.06698704197294036,
+      "deltaVoc_measured_V": -0.08757099999999995,
+      "delta_residual_mV": 20.58395802705959
+    }
+  ],
+  "s16_rmse_mV": 18.996150868342202,
+  "s16_intensity_shift_rmse_mV": 9.788801499487606,
+  "bace_independent_condition": [
+    {
+      "T_K": 300.0,
+      "k2_bace_cm3s": 2.10102e-11,
+      "beta_PIA_conditional_cm3s": 8e-12,
+      "bace_ratio_to300": 1.0,
+      "pia_ratio_to300": 1.0,
+      "normalized_ratio_mismatch": 1.0
+    },
+    {
+      "T_K": 275.0,
+      "k2_bace_cm3s": 8.32838e-12,
+      "beta_PIA_conditional_cm3s": 5.414183694385765e-12,
+      "bace_ratio_to300": 0.3963969881295752,
+      "pia_ratio_to300": 0.6767729617982207,
+      "normalized_ratio_mismatch": 1.7073110595305419
+    },
+    {
+      "T_K": 250.0,
+      "k2_bace_cm3s": 3.9935e-12,
+      "beta_PIA_conditional_cm3s": 3.413084242136997e-12,
+      "bace_ratio_to300": 0.19007434484202912,
+      "pia_ratio_to300": 0.42663553026712464,
+      "normalized_ratio_mismatch": 2.244571883815786
+    },
+    {
+      "T_K": 225.0,
+      "k2_bace_cm3s": 1.82383e-12,
+      "beta_PIA_conditional_cm3s": 1.968911761637919e-12,
+      "bace_ratio_to300": 0.08680688427525678,
+      "pia_ratio_to300": 0.24611397020473985,
+      "normalized_ratio_mismatch": 2.835189538934893
+    },
+    {
+      "T_K": 200.0,
+      "k2_bace_cm3s": 9.62863e-13,
+      "beta_PIA_conditional_cm3s": 1.1561509827716551e-12,
+      "bace_ratio_to300": 0.04582835955869054,
+      "pia_ratio_to300": 0.1445188728464569,
+      "normalized_ratio_mismatch": 3.153481255670463
+    }
+  ],
+  "coefficients": [
+    {
+      "T_K": 100.0,
+      "mu_n": 4.041352977282537e-12,
+      "mu_p": 2.8954602150509694e-17,
+      "beta": 2.2996569777219503e-13,
+      "beta_Langevin_scenario": 2.0894092594482714e-18,
+      "beta_over_Langevin": 110062.54362676639
+    },
+    {
+      "T_K": 125.0,
+      "mu_n": 9.445317199998375e-09,
+      "mu_p": 3.853621273759015e-12,
+      "beta": 3.109455509951321e-13,
+      "beta_Langevin_scenario": 4.885255920087524e-15,
+      "beta_over_Langevin": 63.649797693620364
+    },
+    {
+      "T_K": 150.0,
+      "mu_n": 6.384429531478776e-07,
+      "mu_p": 2.3407697474102777e-09,
+      "beta": 4.594509348154014e-13,
+      "beta_Langevin_scenario": 3.3128753146495516e-13,
+      "beta_over_Langevin": 1.3868645547380158
+    },
+    {
+      "T_K": 175.0,
+      "mu_n": 8.100231476558902e-06,
+      "mu_p": 1.1161310061136068e-07,
+      "beta": 7.160123120424112e-13,
+      "beta_Langevin_scenario": 4.24555372045425e-12,
+      "beta_over_Langevin": 0.1686499239410877
+    },
+    {
+      "T_K": 200.0,
+      "mu_n": 4.2133783331236225e-05,
+      "mu_p": 1.3709861857735067e-06,
+      "beta": 1.1561509827716551e-12,
+      "beta_Langevin_scenario": 2.249212516685163e-11,
+      "beta_over_Langevin": 0.05140247860951635
+    },
+    {
+      "T_K": 225.0,
+      "mu_n": 0.0001304995168893255,
+      "mu_p": 7.653601548028143e-06,
+      "beta": 1.968911761637919e-12,
+      "beta_Langevin_scenario": 7.142566818722954e-11,
+      "beta_over_Langevin": 0.02756588508877188
+    },
+    {
+      "T_K": 250.0,
+      "mu_n": 0.00029295633813778457,
+      "mu_p": 2.61861068735636e-05,
+      "beta": 3.413084242136997e-12,
+      "beta_Langevin_scenario": 1.649978128592024e-10,
+      "beta_over_Langevin": 0.020685633239571996
+    },
+    {
+      "T_K": 275.0,
+      "mu_n": 0.0005329012475420531,
+      "mu_p": 6.506123246379568e-05,
+      "beta": 5.414183694385765e-12,
+      "beta_Langevin_scenario": 3.09148792067822e-10,
+      "beta_over_Langevin": 0.017513196988969585
+    },
+    {
+      "T_K": 300.0,
+      "mu_n": 0.00084,
+      "mu_p": 0.00013,
+      "beta": 8e-12,
+      "beta_Langevin_scenario": 5.014935524095998e-10,
+      "beta_over_Langevin": 0.015952348662432895
+    }
+  ],
+  "interpretation": "S16 absolute predictions use one globally fitted Eg. Intensity shifts cancel Eg and same-temperature baseline offset. BACE absolute data are not asserted same device/optical condition. PIA n(T) was consumed as input; it cannot count as successful holdout."
+}

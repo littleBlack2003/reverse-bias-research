@@ -1,0 +1,3 @@
+tag,parameters_exact,gamma_n_exact,gamma_p_exact,field_cap_exact,Rs_zero,Jsc_difference_Acm2,Voc_shift_V
+no_shunt_T100_N321,True,True,True,True,True,0.0,1.1321979388243646
+no_shunt_T100_N641,True,True,True,True,True,0.0,1.1321933090989822

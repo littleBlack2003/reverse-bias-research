@@ -1,0 +1,25 @@
+{
+  "status": "scientific_review_passed_after_corrections",
+  "review_scope": "Theory, source equations, selected independent numerical checks, all four scientific figures; PDF layout QA belongs to author.",
+  "source_sha256": {
+    "REPORT.md": "883cb218c83ec10777b7f583d65d74dab7bbd3d51c3be70c642810f208fc2f8b",
+    "THEORY_BEFORE_CODE.md": "ba2cfbf1b8420b8b149aa61090ed9d4b51d327f76c7dd408d8e9b601a6f65b63",
+    "spatial_model.py": "cd92c5cef06517d4a6367f0afc2d7f6cb9c0fc53529f9f7424a45e430bc4b266",
+    "run_audit.py": "f199dce7259e65d4cce0e84cfea7d8cc0e40677aa6a6a969adf03e0c975d1207",
+    "run_followup_controls.py": "4a287a05ea456c9661489c4f73026ce16be1d44a2ba345f5e15cdde92667d955",
+    "plot_results.py": "c4c33c3928e803351356c97060e750cddcd5f1ca269c3ec3f0227e6bc000a9ad"
+  },
+  "run_code_hash_checks": {
+    "provenance.json": {
+      "spatial_model.py": true,
+      "run_audit.py": true
+    },
+    "followup_provenance.json": {
+      "spatial_model.py": true,
+      "run_followup_controls.py": true,
+      "run_audit.py": true
+    }
+  },
+  "independent_invariant_assertions": 59,
+  "restricted_graph_checks": 15
+}

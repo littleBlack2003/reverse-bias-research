@@ -1,0 +1,7 @@
+T_K,F_MVcm,variant,s_nm,max_total_exit_rate_s,min_state_dwell_ns,tau_relax_for_one_percent_reset_ns,largest_edge_gross_s,scope
+300,1.5,colocated,6.0,2768871.854973293,361.1579200401983,3.611579200401983,410472.926256416,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic
+300,1.5,direct,6.0,3002632.2987930817,333.041112094196,3.33041112094196,371009.1441192849,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic
+300,1.5,explicit,6.0,5208351.104879336,191.9993448719636,1.919993448719636,15211.817816883302,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic
+300,1.5,explicit,5.5,4170790.056038144,239.76272758018067,2.397627275801807,107464.89934689774,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic
+300,1.5,left_only,6.0,5208351.104759261,191.99934487639,1.9199934487639,33602.09671925603,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic
+300,1.5,right_only,6.0,4475006.6670991415,223.46335422294143,2.2346335422294143,56805.8443383834,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic

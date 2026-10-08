@@ -1,0 +1,20 @@
+{
+  "source_root": "/workspace/shared/wxh/research/density_knee_disentangling_20261002",
+  "local_srh_source": "/workspace/shared/wxh/research/newembedding_20261003",
+  "originals_unchanged": true,
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "reference_hashes": {
+    "reference/code/temperature_probe.py": "02c44d86f49765c57d02149510096dce3e123f94b916c241d13aa54e84a89a2e",
+    "reference/code/stable_cycle_solver.py": "82b48f996e7bd15133c566aabf9b0330bbafcea666480e0076f4dfc0f6b00746",
+    "reference/reference_solver/code/qf_solver.py": "5a5199d71c88ac744d61728d4f274b57e11e7633c8e9eb7707058d31ad8fc1e0",
+    "reference/reference_solver/code/solver_probe.py": "dfea428e8ef58186fce1581e9f6fdc996a76e525d9fb42f328ab35858052d7ef",
+    "reference/reference_solver/reference_audit/code/rate_audit.py": "7258594384a7c134e510bee079abb827236fd0302c426d47de93f66c46ec7ffc",
+    "reference/reference_solver/reference_audit/source_snapshot/solvers/pf_solver.py": "5b8c8b4edeba0674dd1ff09b2ecf51d7458653d8175273c2b8495323984867b4",
+    "reference/reference_solver/reference_audit/source_snapshot/solvers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reference/reference_solver/reference_audit/source_snapshot/solvers/base_dd_solver.py": "40e2cf449edd2bbde41f0a710c7f13d2b494598f84ef31ab1a7a51de5082da31"
+  }
+}

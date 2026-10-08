@@ -1,0 +1,934 @@
+{
+  "finite_mesh": [
+    {
+      "T": 100,
+      "sigma_eV": 0.06,
+      "scheme": "secant",
+      "rows": [
+        {
+          "N": 41,
+          "relative_L2_error": 0.008068443348407407
+        },
+        {
+          "N": 81,
+          "relative_L2_error": 0.002024260053358738
+        },
+        {
+          "N": 161,
+          "relative_L2_error": 0.0005065134273384418
+        },
+        {
+          "N": 321,
+          "relative_L2_error": 0.00012665640760119124
+        },
+        {
+          "N": 641,
+          "relative_L2_error": 3.166585546227862e-05
+        }
+      ],
+      "orders": [
+        1.9948957173797632,
+        1.9987222230524113,
+        1.9996804489832236,
+        1.9999201055778464
+      ]
+    },
+    {
+      "T": 100,
+      "sigma_eV": 0.06,
+      "scheme": "inverse_activity",
+      "rows": [
+        {
+          "N": 41,
+          "relative_L2_error": 0.0251051406634061
+        },
+        {
+          "N": 81,
+          "relative_L2_error": 0.006264460810873472
+        },
+        {
+          "N": 161,
+          "relative_L2_error": 0.0015653765221561866
+        },
+        {
+          "N": 321,
+          "relative_L2_error": 0.00039129796906908277
+        },
+        {
+          "N": 641,
+          "relative_L2_error": 9.782160727305032e-05
+        }
+      ],
+      "orders": [
+        2.0027205627759974,
+        2.000680628209975,
+        2.0001701848748175,
+        2.0000425479154944
+      ]
+    },
+    {
+      "T": 100,
+      "sigma_eV": 0.074,
+      "scheme": "secant",
+      "rows": [
+        {
+          "N": 41,
+          "relative_L2_error": 0.005855216361572826
+        },
+        {
+          "N": 81,
+          "relative_L2_error": 0.0014674865178222428
+        },
+        {
+          "N": 161,
+          "relative_L2_error": 0.00036710235966342335
+        },
+        {
+          "N": 321,
+          "relative_L2_error": 9.179001961299324e-05
+        },
+        {
+          "N": 641,
+          "relative_L2_error": 2.2948406900935595e-05
+        }
+      ],
+      "orders": [
+        1.9963752331003033,
+        1.9990929560377713,
+        1.9997731857007641,
+        1.999943293093465
+      ]
+    },
+    {
+      "T": 100,
+      "sigma_eV": 0.074,
+      "scheme": "inverse_activity",
+      "rows": [
+        {
+          "N": 41,
+          "relative_L2_error": 0.03290975697655231
+        },
+        {
+          "N": 81,
+          "relative_L2_error": 0.0081822313936315
+        },
+        {
+          "N": 161,
+          "relative_L2_error": 0.0020427374952181796
+        },
+        {
+          "N": 321,
+          "relative_L2_error": 0.0005105081829433147
+        },
+        {
+          "N": 641,
+          "relative_L2_error": 0.00012761603507957633
+        }
+      ],
+      "orders": [
+        2.0079491305072232,
+        2.0019905167625174,
+        2.000497829097146,
+        2.0001244697339593
+      ]
+    },
+    {
+      "T": 150,
+      "sigma_eV": 0.06,
+      "scheme": "secant",
+      "rows": [
+        {
+          "N": 41,
+          "relative_L2_error": 0.015038410125586049
+        },
+        {
+          "N": 81,
+          "relative_L2_error": 0.0037850624010210515
+        },
+        {
+          "N": 161,
+          "relative_L2_error": 0.0009478682221370216
+        },
+        {
+          "N": 321,
+          "relative_L2_error": 0.00023706739844180303
+        },
+        {
+          "N": 641,
+          "relative_L2_error": 5.927312384170435e-05
+        }
+      ],
+      "orders": [
+        1.9902630620698527,
+        1.9975586780980008,
+        1.9993892249136944,
+        1.9998472784823584
+      ]
+    },
+    {
+      "T": 150,
+      "sigma_eV": 0.06,
+      "scheme": "inverse_activity",
+      "rows": [
+        {
+          "N": 41,
+          "relative_L2_error": 0.016600000515042117
+        },
+        {
+          "N": 81,
+          "relative_L2_error": 0.0041782263255795505
+        },
+        {
+          "N": 161,
+          "relative_L2_error": 0.0010463340242776893
+        },
+        {
+          "N": 321,
+          "relative_L2_error": 0.00026169480590506434
+        },
+        {
+          "N": 641,
+          "relative_L2_error": 6.543066099886811e-05
+        }
+      ],
+      "orders": [
+        1.9902207389965798,
+        1.9975471613452902,
+        1.9993862855781352,
+        1.999846539793333
+      ]
+    },
+    {
+      "T": 150,
+      "sigma_eV": 0.074,
+      "scheme": "secant",
+      "rows": [
+        {
+          "N": 41,
+          "relative_L2_error": 0.01106171704249283
+        },
+        {
+          "N": 81,
+          "relative_L2_error": 0.0027790521334489365
+        },
+        {
+          "N": 161,
+          "relative_L2_error": 0.0006956187316303498
+        },
+        {
+          "N": 321,
+          "relative_L2_error": 0.00017395823105730276
+        },
+        {
+          "N": 641,
+          "relative_L2_error": 4.349290557043097e-05
+        }
+      ],
+      "orders": [
+        1.9929105396083824,
+        1.9982242117455002,
+        1.9995558385355154,
+        1.999888946275303
+      ]
+    },
+    {
+      "T": 150,
+      "sigma_eV": 0.074,
+      "scheme": "inverse_activity",
+      "rows": [
+        {
+          "N": 41,
+          "relative_L2_error": 0.018953341726393923
+        },
+        {
+          "N": 81,
+          "relative_L2_error": 0.004751028709448625
+        },
+        {
+          "N": 161,
+          "relative_L2_error": 0.0011885543147920616
+        },
+        {
+          "N": 321,
+          "relative_L2_error": 0.00029718846008263024
+        },
+        {
+          "N": 641,
+          "relative_L2_error": 7.430023355230734e-05
+        }
+      ],
+      "orders": [
+        1.9961404073746556,
+        1.999032091319707,
+        1.999757831558419,
+        1.999939445889313
+      ]
+    },
+    {
+      "T": 200,
+      "sigma_eV": 0.06,
+      "scheme": "secant",
+      "rows": [
+        {
+          "N": 41,
+          "relative_L2_error": 0.017744394702680272
+        },
+        {
+          "N": 81,
+          "relative_L2_error": 0.004472355242870945
+        },
+        {
+          "N": 161,
+          "relative_L2_error": 0.001120375375290519
+        },
+        {
+          "N": 321,
+          "relative_L2_error": 0.00028023707785857475
+        },
+        {
+          "N": 641,
+          "relative_L2_error": 7.00682266647488e-05
+        }
+      ],
+      "orders": [
+        1.9882566696782273,
+        1.9970526072851054,
+        1.9992624250069038,
+        1.9998155607065502
+      ]
+    },
+    {
+      "T": 200,
+      "sigma_eV": 0.06,
+      "scheme": "inverse_activity",
+      "rows": [
+        {
+          "N": 41,
+          "relative_L2_error": 0.017752207219780502
+        },
+        {
+          "N": 81,
+          "relative_L2_error": 0.00447433106392703
+        },
+        {
+          "N": 161,
+          "relative_L2_error": 0.001120870822118989
+        },
+        {
+          "N": 321,
+          "relative_L2_error": 0.0002803610339415581
+        },
+        {
+          "N": 641,
+          "relative_L2_error": 7.009922160002462e-05
+        }
+      ],
+      "orders": [
+        1.9882545000841083,
+        1.9970519876736,
+        1.9992622653023235,
+        1.9998155205220147
+      ]
+    },
+    {
+      "T": 200,
+      "sigma_eV": 0.074,
+      "scheme": "secant",
+      "rows": [
+        {
+          "N": 41,
+          "relative_L2_error": 0.01631401161019839
+        },
+        {
+          "N": 81,
+          "relative_L2_error": 0.004108665264198181
+        },
+        {
+          "N": 161,
+          "relative_L2_error": 0.0010290664421889052
+        },
+        {
+          "N": 321,
+          "relative_L2_error": 0.00025738560429967926
+        },
+        {
+          "N": 641,
+          "relative_L2_error": 6.435384187717343e-05
+        }
+      ],
+      "orders": [
+        1.989369880877416,
+        1.9973336643649653,
+        1.9993328632631229,
+        1.9998331812236363
+      ]
+    },
+    {
+      "T": 200,
+      "sigma_eV": 0.074,
+      "scheme": "inverse_activity",
+      "rows": [
+        {
+          "N": 41,
+          "relative_L2_error": 0.016914579276306223
+        },
+        {
+          "N": 81,
+          "relative_L2_error": 0.004260380089296107
+        },
+        {
+          "N": 161,
+          "relative_L2_error": 0.0010670949880182213
+        },
+        {
+          "N": 321,
+          "relative_L2_error": 0.00026689900510530905
+        },
+        {
+          "N": 641,
+          "relative_L2_error": 6.673258398291625e-05
+        }
+      ],
+      "orders": [
+        1.989213241626705,
+        1.9972935419252884,
+        1.9993227713298365,
+        1.9998306543893793
+      ]
+    },
+    {
+      "T": 300,
+      "sigma_eV": 0.06,
+      "scheme": "secant",
+      "rows": [
+        {
+          "N": 41,
+          "relative_L2_error": 0.017812490588831744
+        },
+        {
+          "N": 81,
+          "relative_L2_error": 0.004489720430836289
+        },
+        {
+          "N": 161,
+          "relative_L2_error": 0.0011247383757550093
+        },
+        {
+          "N": 321,
+          "relative_L2_error": 0.0002813291904094382
+        },
+        {
+          "N": 641,
+          "relative_L2_error": 7.034134004459784e-05
+        }
+      ],
+      "orders": [
+        1.9881917338258344,
+        1.9970361563374999,
+        1.9992582986529832,
+        1.999814528339341
+      ]
+    },
+    {
+      "T": 300,
+      "sigma_eV": 0.06,
+      "scheme": "inverse_activity",
+      "rows": [
+        {
+          "N": 41,
+          "relative_L2_error": 0.017812489936805398
+        },
+        {
+          "N": 81,
+          "relative_L2_error": 0.004489720256900035
+        },
+        {
+          "N": 161,
+          "relative_L2_error": 0.0011247383315840305
+        },
+        {
+          "N": 321,
+          "relative_L2_error": 0.00028132917932408344
+        },
+        {
+          "N": 641,
+          "relative_L2_error": 7.034133727111931e-05
+        }
+      ],
+      "orders": [
+        1.9881917369074191,
+        1.9970361571038975,
+        1.9992582988423728,
+        1.999814528375921
+      ]
+    },
+    {
+      "T": 300,
+      "sigma_eV": 0.074,
+      "scheme": "secant",
+      "rows": [
+        {
+          "N": 41,
+          "relative_L2_error": 0.01781173520057435
+        },
+        {
+          "N": 81,
+          "relative_L2_error": 0.004489527554582636
+        },
+        {
+          "N": 161,
+          "relative_L2_error": 0.0011246899000204962
+        },
+        {
+          "N": 321,
+          "relative_L2_error": 0.00028131705535791915
+        },
+        {
+          "N": 641,
+          "relative_L2_error": 7.033830527485778e-05
+        }
+      ],
+      "orders": [
+        1.9881925298523875,
+        1.997036358382029,
+        1.9992583493511553,
+        1.9998145409907566
+      ]
+    },
+    {
+      "T": 300,
+      "sigma_eV": 0.074,
+      "scheme": "inverse_activity",
+      "rows": [
+        {
+          "N": 41,
+          "relative_L2_error": 0.017811707827635394
+        },
+        {
+          "N": 81,
+          "relative_L2_error": 0.004489520155302567
+        },
+        {
+          "N": 161,
+          "relative_L2_error": 0.0011246880154464772
+        },
+        {
+          "N": 321,
+          "relative_L2_error": 0.00028131658204106025
+        },
+        {
+          "N": 641,
+          "relative_L2_error": 7.033818680955627e-05
+        }
+      ],
+      "orders": [
+        1.9881926904644194,
+        1.9970363980833385,
+        1.9992583592544944,
+        1.9998145434699945
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "name": "exact_equilibrium_100_0.06_n_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_100_0.06_n_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_100_0.06_n_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_100_0.06_n_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_100_0.06_p_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_100_0.06_p_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_100_0.06_p_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_100_0.06_p_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "second_order_100_0.06_secant",
+      "error": 7.989442215361464e-05,
+      "tolerance": 0.02
+    },
+    {
+      "name": "second_order_100_0.06_inverse_activity",
+      "error": 4.2547915494406396e-05,
+      "tolerance": 0.02
+    },
+    {
+      "name": "exact_equilibrium_100_0.074_n_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_100_0.074_n_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_100_0.074_n_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_100_0.074_n_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_100_0.074_p_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_100_0.074_p_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_100_0.074_p_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_100_0.074_p_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "second_order_100_0.074_secant",
+      "error": 5.6706906534920165e-05,
+      "tolerance": 0.02
+    },
+    {
+      "name": "second_order_100_0.074_inverse_activity",
+      "error": 0.00012446973395929817,
+      "tolerance": 0.02
+    },
+    {
+      "name": "exact_equilibrium_150_0.06_n_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_150_0.06_n_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_150_0.06_n_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_150_0.06_n_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_150_0.06_p_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_150_0.06_p_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_150_0.06_p_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_150_0.06_p_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "second_order_150_0.06_secant",
+      "error": 0.00015272151764156305,
+      "tolerance": 0.02
+    },
+    {
+      "name": "second_order_150_0.06_inverse_activity",
+      "error": 0.0001534602066670665,
+      "tolerance": 0.02
+    },
+    {
+      "name": "exact_equilibrium_150_0.074_n_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_150_0.074_n_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_150_0.074_n_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_150_0.074_n_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_150_0.074_p_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_150_0.074_p_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_150_0.074_p_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_150_0.074_p_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "second_order_150_0.074_secant",
+      "error": 0.00011105372469710773,
+      "tolerance": 0.02
+    },
+    {
+      "name": "second_order_150_0.074_inverse_activity",
+      "error": 6.055411068706107e-05,
+      "tolerance": 0.02
+    },
+    {
+      "name": "exact_equilibrium_200_0.06_n_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_200_0.06_n_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_200_0.06_n_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_200_0.06_n_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_200_0.06_p_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_200_0.06_p_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_200_0.06_p_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_200_0.06_p_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "second_order_200_0.06_secant",
+      "error": 0.0001844392934498007,
+      "tolerance": 0.02
+    },
+    {
+      "name": "second_order_200_0.06_inverse_activity",
+      "error": 0.00018447947798527764,
+      "tolerance": 0.02
+    },
+    {
+      "name": "exact_equilibrium_200_0.074_n_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_200_0.074_n_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_200_0.074_n_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_200_0.074_n_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_200_0.074_p_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_200_0.074_p_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_200_0.074_p_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_200_0.074_p_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "second_order_200_0.074_secant",
+      "error": 0.00016681877636370857,
+      "tolerance": 0.02
+    },
+    {
+      "name": "second_order_200_0.074_inverse_activity",
+      "error": 0.00016934561062065256,
+      "tolerance": 0.02
+    },
+    {
+      "name": "exact_equilibrium_300_0.06_n_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_300_0.06_n_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_300_0.06_n_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_300_0.06_n_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_300_0.06_p_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_300_0.06_p_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_300_0.06_p_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_300_0.06_p_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "second_order_300_0.06_secant",
+      "error": 0.0001854716606590756,
+      "tolerance": 0.02
+    },
+    {
+      "name": "second_order_300_0.06_inverse_activity",
+      "error": 0.0001854716240790033,
+      "tolerance": 0.02
+    },
+    {
+      "name": "exact_equilibrium_300_0.074_n_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_300_0.074_n_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_300_0.074_n_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_300_0.074_n_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_300_0.074_p_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_300_0.074_p_secant",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "exact_equilibrium_300_0.074_p_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "flux_entropy_300_0.074_p_inverse_activity",
+      "error": 0.0,
+      "tolerance": 1e-300
+    },
+    {
+      "name": "second_order_300_0.074_secant",
+      "error": 0.00018545900924338277,
+      "tolerance": 0.02
+    },
+    {
+      "name": "second_order_300_0.074_inverse_activity",
+      "error": 0.0001854565300054567,
+      "tolerance": 0.02
+    }
+  ]
+}

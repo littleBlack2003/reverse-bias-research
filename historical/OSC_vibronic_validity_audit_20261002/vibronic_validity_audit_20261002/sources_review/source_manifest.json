@@ -1,0 +1,28 @@
+{
+  "checked_utc_date": "2026-10-02",
+  "sources": [
+    {
+      "file": "heller_richardson_2020.pdf",
+      "url": "https://arxiv.org/pdf/2005.05860",
+      "version": "2005.05860v1",
+      "doi": "10.1063/5.0013521",
+      "sha256": "11f37a4c64ceeeec0264e544f587b466d137f036d1873f6a79262f1a2086c918",
+      "visual_pages_checked_1based": [3,4,5],
+      "mineru_pages_1based": "3-5",
+      "mineru_output": "heller_richardson_2020_pages3-5.zip"
+    },
+    {
+      "file": "braig_flensberg_2003.pdf",
+      "url": "https://arxiv.org/pdf/cond-mat/0303236",
+      "version": "cond-mat/0303236v3",
+      "doi": "10.1103/PhysRevB.68.205324",
+      "sha256": "7edfcf5ff38e04156aed2ef2f2668036b1d0f7ac37b49c473dee48694deac115",
+      "visual_pages_checked_1based": [1,3,4,5,9],
+      "mineru_pages_1based": "4-5",
+      "mineru_output": "braig_flensberg_2003_pages4-5.zip"
+    }
+  ],
+  "mineru_command": "/workspace/shared/tools/mineru/bin/mineru-cpu INPUT --pages PAGES --ocr-mode ocr --format zip -o OUTPUT",
+  "external_pdf_vlm_used": false,
+  "publisher_version_checked": false
+}

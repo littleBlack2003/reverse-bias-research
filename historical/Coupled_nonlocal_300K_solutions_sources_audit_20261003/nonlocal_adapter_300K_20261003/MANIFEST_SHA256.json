@@ -1,0 +1,14 @@
+{
+  "README.txt": "25da580830b7987b80252df61136f903ee5151ca845bcd7780b9e65ad6eb0dd9",
+  "REPORT_ZH.txt": "cc5e6b6ad10aff0e3b35bd568ef03a4a5df8deb41c8dc183f3ba9acdf1e7a612",
+  "SOURCE_PROVENANCE.json": "7d7eacc6359519df9c1b66f388cafdeb15f9ebdc13ede01722e270d98556e185",
+  "adapter.py": "45cb95d60b11818183217d993631f47097328c53b4adf78c086e1d2aa38a1b82",
+  "example.log": "ec4680e5942b2c2f1fb26bc118d137f829e96d14c9b9c3d81451456f4ace473b",
+  "example_frozen_state.py": "f36f4c144b95ccc65a75c413cc0c28c96f2e550097792b5d051b886a794772eb",
+  "independent_review.txt": "5451c5b2c8758db47c5aaaea01af15dd12449715e0cbb0b5ea069dfa53ef0a4b",
+  "local_srh_control.py": "0681d05b9d6a30a1c32423fde1ddf32431b42062fbd04bcaf0e6dc563dd83b16",
+  "rates.py": "c8f4715000f785ba4987371e5d1bb8cc15ee7d8a8774163cfcc744a161b8fd80",
+  "test_adapter.py": "5e3ef8f5919473b2501311631c07dbcd6de88b5bb3710a11b2682c50fd54a747",
+  "test_rates.py": "954a984c46e13007dc6fa5a80c340042b873a5dcbf5c20b056e3f2f1c85f1e4d",
+  "tests.log": "84a32b0cf54dfdac8988ba061037686176708a123c504f91f5e5fa1fb8b25419"
+}

@@ -1,0 +1,12 @@
+{
+  "date_utc": "2026-10-02",
+  "compilation": "passed",
+  "primary_run": "passed",
+  "focused_run": "passed",
+  "source_equations": "source PDFs downloaded; source worker visually checked listed pages, independent mathematical checks recorded",
+  "figure_visual_review": "final four-panel PNG inspected; no clipping or text/data overlap",
+  "old_outputs_modified": false,
+  "full_graph_recomputed": false,
+  "new_PDF_created": false,
+  "backup_scope": "Self-contained research code, input snapshots, CSV/JSON, report, sources and source checks"
+}

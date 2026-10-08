@@ -1,0 +1,16 @@
+scenario,fraction,F_MVcm,R_s,target_s,relative_target_error,metric_warning
+direct_fixed,0.1,1.1920755188632524,1943.9978961375905,1943.9978966105227,2.4327817538249974e-10,fraction of each model own bounded-window maximum; not a common current threshold
+direct_fixed,0.5,1.2488382313030038,9719.989810182005,9719.989483052614,3.36553236390813e-08,fraction of each model own bounded-window maximum; not a common current threshold
+direct_fixed,0.9,1.30550284484033,17495.981088695182,17495.981069494705,1.0974221531512285e-09,fraction of each model own bounded-window maximum; not a common current threshold
+trap_fixed,0.1,1.1967216119980661,2125.671272732519,2125.6712656195373,3.3462284054763813e-09,fraction of each model own bounded-window maximum; not a common current threshold
+trap_fixed,0.5,1.3557445263910448,10628.356327291012,10628.356328097687,7.589828765475204e-11,fraction of each model own bounded-window maximum; not a common current threshold
+trap_fixed,0.9,1.4721119610001339,19131.041389412752,19131.041390575836,6.079559078386865e-11,fraction of each model own bounded-window maximum; not a common current threshold
+direct_a05,0.1,1.1997266214279165,0.0005781448110415612,0.0005781448110819784,6.99084123922944e-11,fraction of each model own bounded-window maximum; not a common current threshold
+direct_a05,0.5,1.249829493014468,0.002890724055246338,0.0028907240554098923,5.6579074758644765e-11,fraction of each model own bounded-window maximum; not a common current threshold
+direct_a05,0.9,1.2874830492690126,0.005203303285550512,0.005203303299737806,2.726593617552453e-09,fraction of each model own bounded-window maximum; not a common current threshold
+direct_a10,0.1,1.1996899058753157,12.65189565935312,12.651895657721596,1.289548468008661e-10,fraction of each model own bounded-window maximum; not a common current threshold
+direct_a10,0.5,1.2498240978184914,63.25947829391015,63.25947828860798,8.381628724407619e-11,fraction of each model own bounded-window maximum; not a common current threshold
+direct_a10,0.9,1.2875609780766948,113.86706062264824,113.86706091949436,2.6069534309058895e-09,fraction of each model own bounded-window maximum; not a common current threshold
+direct_a20,0.1,1.19656423483331,959.9186892627994,959.9186895569297,3.064117848339265e-10,fraction of each model own bounded-window maximum; not a common current threshold
+direct_a20,0.5,1.2493839804903257,4799.593330627785,4799.593447784649,2.440974744555291e-08,fraction of each model own bounded-window maximum; not a common current threshold
+direct_a20,0.9,1.2947538001233803,8639.268205816335,8639.268206012368,2.2690849199591412e-11,fraction of each model own bounded-window maximum; not a common current threshold

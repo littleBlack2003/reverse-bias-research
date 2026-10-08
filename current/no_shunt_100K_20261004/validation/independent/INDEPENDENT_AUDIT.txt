@@ -1,0 +1,56 @@
+Independent audit of no-external-shunt recomputation
+
+Result: PASS for the requested computational change and numerical checks. No PDE solve was repeated by this auditor, and no material parameter, model law, or solver source was altered by this audit.
+
+Scope
+- All 21 completed datasets: nine 321-node full curves, nine 641-node refinements, and 1281-node refinements at 100/125/150 K
+- 168 saved equilibrium, short-circuit, open-circuit, MPP, signed-bracket and beyond-open-circuit states
+- 336 carrier/state EOS checks at every spatial node against independently constructed normalized Gauss-Legendre rules (2049 and 4097 points over Gaussian z in [-18,18])
+
+Change identity
+- All 1,220 saved states from the nine primary prior datasets are reused bit-for-bit at matching bias/light conditions
+- device.py, fd_eos.py, field_device.py and extend_device.py are byte-identical to the prior source
+- All device/material parameters and Rs=0 are exactly unchanged
+- Only external observable V/Rsh is removed; terminal current equals intrinsic current and external shunt current/heat are zero
+- Original fitted metadata is preserved byte-identically in archive_record/room_fit_with_shunt_original.json
+- Jsc is exactly unchanged on the primary mesh
+- At 1,127 common reported voltage samples, Jnew = Jold - V/Rsh holds within 8.674e-19 A/cm2, and delivered-power increase V^2/Rsh holds within 3.470e-18 W/cm2
+
+Precision and closure
+- Every inspected saved state passes its production nonlinear/current/charge gate
+- Maximum scaled nonlinear residual: 2.947e-10 (threshold 3e-10)
+- Maximum relative charge closure residual: 1.513e-9
+- All 21 +/-5 microvolt root brackets are signed and closure-resolved; smallest endpoint current/closure ratio is 1127
+- Maximum local closure/slope voltage indicator is 4.437e-9 V
+- The exact root current need not have resolved sign; the independently resolved endpoints establish the numerical root interval
+- High-order rules agree to 4.43e-14 relative; production EOS occupation error <=1.30e-12 and derivative/Einstein-factor error <=6.32e-10
+- Fixed-state direct-EOS terminal-current shift <=6.46e-15 A/cm2; maximum integrated-reaction or edge-current perturbation divided by local root slope is 2.195e-9 V
+- Occupations remain strictly between zero and one, with maximum approximately 0.5 at the majority contacts and maximum core occupation 0.0151167
+- Transport and reaction dissipation are nonnegative
+- All reported MPPs meet the sampled-power lower bound; all curves have one sampled sign crossing and ordered distinct voltages
+
+100 K precision detail, nominal 321-node mesh
+- Voc = 1.1335809325103408 V
+- J(Voc-5 microvolt) = -1.10157408034e-12 A/cm2
+- J(Voc+5 microvolt) = +1.10154612153e-12 A/cm2
+- Endpoint current/closure ratios are 13869 and 11663
+- Local closure/slope voltage indicator = 4.287e-10 V
+- At Voc, long-double accumulation of local continuity sources differs from the edge-current mean by 4.718e-18 A/cm2
+- Direct-EOS integrated recombination shifts around the bracket are <=4.70e-16 A/cm2, over 2300 times smaller than endpoint currents
+- At MPP, production closure uncertainty is 8.92e-13 A/cm2 against current magnitude 1.84e-7 A/cm2; this is adequate for the reported power despite a larger residual than at open circuit
+
+Mesh interpretation
+- Across the nine temperatures, 321 -> 641 changes: |dVoc| <=5.265 microvolt, relative |dJsc| <=0.06983%, |dPmax| <=0.03072%, |dFF| <=0.03998%
+- At 100/125/150 K, 641 -> 1281 changes: |dVoc| <=2.781 microvolt, relative |dJsc| <=0.004509%, |dPmax| <=0.001144%
+- The 100 K Voc shifts are non-monotonic; do not infer an asymptotic Richardson order or claim the optimizer/root tolerance is a physical error bound
+- Primary-vs-1281 Voc difference reaches 6.602 microvolt at 125 K. Mesh changes dominate the closure and FD quadrature indicators
+
+Limits
+These are numerical diagnostics, not rigorous total solution-error bounds. The direct-EOS check perturbs the constitutive evaluation at a fixed saved state; it does not independently re-solve the coupled PDE. Closure and mesh checks do not validate the extrapolated low-temperature mobility, hole field coefficient, recombination law, fixed generation, idealized contacts, or inherited calibration. Removing the previously fitted shunt while freezing every other parameter intentionally changes the old room-temperature fit.
+
+Detailed records
+circuit_identity.csv; full21_summary.json; full21_states.csv; full21_eos.csv; full21_metrics.csv; full21_frozen_inputs.csv; root_precision_components.csv; mesh_convergence.csv; same_bias_state_identity.csv; core_reference_identity.csv; immutability_summary.json
+
+Reproduction of the numerical saved-state audit
+python validation/independent/audit_saved_states.py --root . --out validation/independent --prefix full21
+The audit automatically uses the portable bundled input_with_shunt_saved_states tree. Optional --source PATH_TO_PRIOR_SOURCE overrides it. The prior legacy directory is not needed. The separately saved hash/state-identity records were generated before that directory was archived.

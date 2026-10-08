@@ -1,0 +1,37 @@
+[
+  {
+    "source": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/model.py",
+    "snapshot": "inputs/old_cycle/model.py",
+    "sha256": "cc81085df8b2e041e3a8b14e205845ab67ca9341c1ba4832f84f9651f8017ede"
+  },
+  {
+    "source": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/parameters.json",
+    "snapshot": "inputs/old_cycle/parameters.json",
+    "sha256": "cec3a0333d8f9e366d1e22e7b4ef3cbd84ff652d06eadf308d5c2cc3cd973cde"
+  },
+  {
+    "source": "/workspace/shared/wxh/research/spatial_escape_audit_20261002/results/representative_edges.csv",
+    "snapshot": "inputs/representative_edges.csv",
+    "sha256": "21bc410beb9511481cb99e57df45d4340e6f32846c2b63555b97b37c3b9d685f"
+  },
+  {
+    "source": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/parameters.json",
+    "sha256": "3535dbb95b190fd206d5835a25d15f349fa8356666f367081feab25b7100532a",
+    "role": "parameters inspected, no changes"
+  },
+  {
+    "source": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/parameters.json",
+    "sha256": "cec3a0333d8f9e366d1e22e7b4ef3cbd84ff652d06eadf308d5c2cc3cd973cde",
+    "role": "parameters inspected, no changes"
+  },
+  {
+    "source": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/parameters.json",
+    "sha256": "89b62799084523be91bc006b9194566eb5b6d68b61aa3e535964b675a322b196",
+    "role": "parameters inspected, no changes"
+  },
+  {
+    "source": "/workspace/shared/wxh/research/spatial_escape_audit_20261002/parameters.json",
+    "sha256": "6586f4b157c1578b3af9aaa98881fd2d228802aeed5cd21bfc69ea47518799a6",
+    "role": "parameters inspected, no changes"
+  }
+]

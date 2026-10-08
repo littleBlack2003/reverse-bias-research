@@ -1,0 +1,4 @@
+from_state,to_state,process,delta_state_energy_eV,chemical_work_into_system_eV,total_heat_to_baths_eV
+10,01,V_C,-0.24114184422285714,0,0.24114184422285714
+01,00,bathR,0.14114184422285714,0.75,0.6088581557771429
+00,10,bathL,0.1,0.75,0.65

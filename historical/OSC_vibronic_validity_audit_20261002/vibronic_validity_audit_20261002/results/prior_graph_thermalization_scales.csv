@@ -1,0 +1,13 @@
+T_K,F_MVcm,variant,s_nm,max_total_exit_rate_s,min_state_dwell_ns,tau_relax_for_one_percent_reset_ns,largest_edge_gross_s,scope
+80,1.5,colocated,6.0,5040603.135979344,198.38895723848907,1.9838895723848906,2143.7768724861003,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic
+80,1.5,direct,6.0,5316542.952610599,188.092151030016,1.88092151030016,221778.91328124487,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic
+80,1.5,explicit,6.0,6421772.063439125,155.72025760510388,1.5572025760510388,165.23848803184794,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic
+80,1.5,explicit,5.5,7277646.078769632,137.4070666773976,1.3740706667739762,49737.43686076721,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic
+80,1.5,left_only,6.0,6078751.33893487,164.50746941973478,1.6450746941973478,5116.421257830395,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic
+80,1.5,right_only,6.0,5316542.952610599,188.092151030016,1.88092151030016,42387.274471536744,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic
+300,1.5,colocated,6.0,2768871.854973293,361.1579200401983,3.611579200401983,410472.92625641596,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic
+300,1.5,direct,6.0,3002632.2987930817,333.04111209419597,3.33041112094196,371009.1441192849,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic
+300,1.5,explicit,6.0,5208351.1048793355,191.99934487196356,1.9199934487196357,15211.817816883302,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic
+300,1.5,explicit,5.5,4170790.056038144,239.76272758018067,2.397627275801807,107464.89934689774,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic
+300,1.5,left_only,6.0,5208351.104759261,191.99934487638996,1.9199934487638997,33602.09671925603,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic
+300,1.5,right_only,6.0,4475006.6670991415,223.46335422294143,2.2346335422294143,56805.844338383395,existing MLJ graph only; relaxation criterion is a conditional 1% diagnostic

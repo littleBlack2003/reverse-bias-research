@@ -1,0 +1,27 @@
+{
+  "downloaded_primary": {
+    "url": "https://arxiv.org/pdf/1010.5743",
+    "arxiv_version": "1010.5743v1",
+    "journal_doi": "10.1021/nl102916n",
+    "pages": 24,
+    "sha256": "8820d405476d11d68d756691d4637ce21005b5868af9fa00a9139d560a701770",
+    "visual_pages_checked": [
+      10,
+      11,
+      14,
+      21,
+      22,
+      23
+    ],
+    "MinerU_ranges": [
+      "10-14",
+      "21-23"
+    ]
+  },
+  "distinct_followup": {
+    "doi": "10.1016/j.orgel.2012.11.001",
+    "full_text_checked": false,
+    "checked": "author institutional record and publisher abstract only"
+  },
+  "external_pdf_VLM_used": false
+}

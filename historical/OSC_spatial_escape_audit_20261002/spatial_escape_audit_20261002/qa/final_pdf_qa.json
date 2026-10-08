@@ -1,0 +1,8 @@
+{
+  "pdf_pages": 6,
+  "all_pages_visually_reviewed": true,
+  "scientific_review": "review/SCIENCE_REVIEW_RELEASE.md",
+  "remaining_layout_issues": [],
+  "unicode_math_pdf": "ASCII equivalents used for unsupported CID glyphs; Markdown retains Unicode",
+  "pdf_sha256": "16c7177e228a9cc4187763ae401d17fd175adfa6c647ca908a8ec2ffcfd61182"
+}

@@ -1,0 +1,13 @@
+tag,parameters_exact,gamma_n_exact,gamma_p_exact,field_cap_exact,Rs_zero,Jsc_difference_Acm2,Voc_shift_V
+no_shunt_T100_N321,True,True,True,True,True,0.0,1.1321979388243646
+no_shunt_T100_N641,True,True,True,True,True,0.0,1.1321933090989822
+no_shunt_T125_N321,True,True,True,True,True,0.0,0.5747830869844849
+no_shunt_T150_N321,True,True,True,True,True,0.0,0.04678049353918112
+no_shunt_T150_N641,True,True,True,True,True,0.0,0.04678219640007886
+no_shunt_T175_N321,True,True,True,True,True,0.0,0.008293858631024054
+no_shunt_T200_N321,True,True,True,True,True,0.0,0.0029847964986278175
+no_shunt_T200_N641,True,True,True,True,True,0.0,0.002985532231027599
+no_shunt_T225_N321,True,True,True,True,True,0.0,0.0015086717712763376
+no_shunt_T250_N321,True,True,True,True,True,0.0,0.0010092884241312827
+no_shunt_T275_N321,True,True,True,True,True,0.0,0.0007503845518990193
+no_shunt_T300_N321,True,True,True,True,True,0.0,0.0006264018123594006

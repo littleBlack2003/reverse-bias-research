@@ -1,0 +1,25 @@
+{
+  "upstream_archives": [
+    {
+      "library_file_id": "libfile_b11abaa36d688191b9521b89a85399c3",
+      "file_id": "file_00000000df9881f5a262bf01a46d5551",
+      "file_name": "OSC_spatial_escape_audit_20261002.zip",
+      "current_version_number": 0,
+      "workspace_path": "/workspace/scratch/d9cc890e37cd/restore/OSC_spatial_escape_audit_20261002.zip"
+    },
+    {
+      "library_file_id": "libfile_875beb6a33c48191a0f5905ea99dec74",
+      "file_id": "file_00000000a92c81f6821dbd636ec68d1e",
+      "file_name": "OSC_vibronic_validity_audit_20261002.zip",
+      "current_version_number": 0,
+      "workspace_path": "/workspace/scratch/d9cc890e37cd/restore/OSC_vibronic_validity_audit_20261002.zip"
+    }
+  ],
+  "source_interpretation": "Scenario kernels and state energies are inherited unchanged; state energies are relaxed minima. No measured D18 input is added.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "mpmath": "1.3.0",
+  "pandas": "2.2.3",
+  "matplotlib": "3.10.8"
+}

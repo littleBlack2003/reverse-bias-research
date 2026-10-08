@@ -1,0 +1,17 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "mpmath": "1.3.0",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "input_sha256": {
+    "inputs/reservoir.py": "558aaa796605bcf0995e309d51cf6940d5f1d2e99b55b2bf7ba966fd7aa1ad0f",
+    "inputs/parameters.json": "89b62799084523be91bc006b9194566eb5b6d68b61aa3e535964b675a322b196",
+    "inputs/inputs/model.py": "cc81085df8b2e041e3a8b14e205845ab67ca9341c1ba4832f84f9651f8017ede",
+    "inputs/inputs/parameters.json": "cec3a0333d8f9e366d1e22e7b4ef3cbd84ff652d06eadf308d5c2cc3cd973cde"
+  },
+  "code_sha256": {
+    "spatial_model.py": "cd92c5cef06517d4a6367f0afc2d7f6cb9c0fc53529f9f7424a45e430bc4b266",
+    "run_audit.py": "f199dce7259e65d4cce0e84cfea7d8cc0e40677aa6a6a969adf03e0c975d1207"
+  }
+}

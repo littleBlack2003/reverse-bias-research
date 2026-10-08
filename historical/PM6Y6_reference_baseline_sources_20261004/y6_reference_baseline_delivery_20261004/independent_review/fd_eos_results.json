@@ -1,0 +1,592 @@
+{
+  "tests": [
+    {
+      "name": "c_adaptive_100.0_0.06",
+      "error": 4.258296506070673e-14,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "dc_adaptive_100.0_0.06",
+      "error": 1.85841907900382e-11,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "particle_hole_100.0_0.06",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 3e-16
+    },
+    {
+      "name": "inverse_direct_100.0_0.06",
+      "error": 3.9042924912502906e-14,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "log_roundtrip_100.0_0.06",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "derivative_consistency_100.0_0.06",
+      "error": 2.235454044097196e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "secant_equal_state_100.0_0.06",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "secant_symmetry_100.0_0.06",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "c_adaptive_100.0_0.074",
+      "error": 7.627411969146469e-14,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "dc_adaptive_100.0_0.074",
+      "error": 1.8789435116440287e-11,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "particle_hole_100.0_0.074",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 3e-16
+    },
+    {
+      "name": "inverse_direct_100.0_0.074",
+      "error": 3.701633241174799e-14,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "log_roundtrip_100.0_0.074",
+      "error": 8.673617379884035e-18,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "derivative_consistency_100.0_0.074",
+      "error": 1.0579892517625922e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "secant_equal_state_100.0_0.074",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "secant_symmetry_100.0_0.074",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "c_adaptive_120.0_0.06",
+      "error": 6.496541734584881e-14,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "dc_adaptive_120.0_0.06",
+      "error": 3.0238043201471204e-11,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "particle_hole_120.0_0.06",
+      "error": 0.0,
+      "tolerance": 3e-16
+    },
+    {
+      "name": "inverse_direct_120.0_0.06",
+      "error": 5.509022879603164e-14,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "log_roundtrip_120.0_0.06",
+      "error": 3.552713678800501e-15,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "derivative_consistency_120.0_0.06",
+      "error": 4.33532099108902e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "secant_equal_state_120.0_0.06",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "secant_symmetry_120.0_0.06",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "c_adaptive_120.0_0.074",
+      "error": 4.0913722120658464e-14,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "dc_adaptive_120.0_0.074",
+      "error": 1.7272165305314912e-11,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "particle_hole_120.0_0.074",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 3e-16
+    },
+    {
+      "name": "inverse_direct_120.0_0.074",
+      "error": 4.6650078491149754e-14,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "log_roundtrip_120.0_0.074",
+      "error": 1.1368683772161603e-13,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "derivative_consistency_120.0_0.074",
+      "error": 1.940487770468735e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "secant_equal_state_120.0_0.074",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "secant_symmetry_120.0_0.074",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "c_adaptive_150.0_0.06",
+      "error": 1.0925713704747694e-13,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "dc_adaptive_150.0_0.06",
+      "error": 5.49927128163704e-11,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "particle_hole_150.0_0.06",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 3e-16
+    },
+    {
+      "name": "inverse_direct_150.0_0.06",
+      "error": 1.0354130747236567e-13,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "log_roundtrip_150.0_0.06",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "derivative_consistency_150.0_0.06",
+      "error": 9.142644419313228e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "secant_equal_state_150.0_0.06",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "secant_symmetry_150.0_0.06",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "c_adaptive_150.0_0.074",
+      "error": 5.949981950627113e-14,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "dc_adaptive_150.0_0.074",
+      "error": 3.1329789579150904e-11,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "particle_hole_150.0_0.074",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 3e-16
+    },
+    {
+      "name": "inverse_direct_150.0_0.074",
+      "error": 6.088049308390284e-14,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "log_roundtrip_150.0_0.074",
+      "error": 3.552713678800501e-15,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "derivative_consistency_150.0_0.074",
+      "error": 4.4563908119243933e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "secant_equal_state_150.0_0.074",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "secant_symmetry_150.0_0.074",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "c_adaptive_200.0_0.06",
+      "error": 2.452123073436149e-13,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "dc_adaptive_200.0_0.06",
+      "error": 1.230881745415051e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "particle_hole_200.0_0.06",
+      "error": 0.0,
+      "tolerance": 3e-16
+    },
+    {
+      "name": "inverse_direct_200.0_0.06",
+      "error": 3.178491134571762e-13,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "log_roundtrip_200.0_0.06",
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "derivative_consistency_200.0_0.06",
+      "error": 1.5777477102574267e-09,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "secant_equal_state_200.0_0.06",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "secant_symmetry_200.0_0.06",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "c_adaptive_200.0_0.074",
+      "error": 1.226202907893699e-13,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "dc_adaptive_200.0_0.074",
+      "error": 6.811785203681608e-11,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "particle_hole_200.0_0.074",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 3e-16
+    },
+    {
+      "name": "inverse_direct_200.0_0.074",
+      "error": 1.2163393122571753e-13,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "log_roundtrip_200.0_0.074",
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "derivative_consistency_200.0_0.074",
+      "error": 1.132607119203044e-09,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "secant_equal_state_200.0_0.074",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "secant_symmetry_200.0_0.074",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "c_adaptive_223.0_0.06",
+      "error": 4.010515871581905e-13,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "dc_adaptive_223.0_0.06",
+      "error": 1.7562219083203378e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "particle_hole_223.0_0.06",
+      "error": 0.0,
+      "tolerance": 3e-16
+    },
+    {
+      "name": "inverse_direct_223.0_0.06",
+      "error": 3.8372083288606973e-13,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "log_roundtrip_223.0_0.06",
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "derivative_consistency_223.0_0.06",
+      "error": 1.649209879772684e-09,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "secant_equal_state_223.0_0.06",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "secant_symmetry_223.0_0.06",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "c_adaptive_223.0_0.074",
+      "error": 1.872460193664603e-13,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "dc_adaptive_223.0_0.074",
+      "error": 9.222730274472666e-11,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "particle_hole_223.0_0.074",
+      "error": 0.0,
+      "tolerance": 3e-16
+    },
+    {
+      "name": "inverse_direct_223.0_0.074",
+      "error": 2.1122884122154115e-13,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "log_roundtrip_223.0_0.074",
+      "error": 3.4512664603419266e-31,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "derivative_consistency_223.0_0.074",
+      "error": 1.4075223209175647e-09,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "secant_equal_state_223.0_0.074",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "secant_symmetry_223.0_0.074",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "c_adaptive_250.0_0.06",
+      "error": 6.249687717429674e-13,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "dc_adaptive_250.0_0.06",
+      "error": 2.521571051097484e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "particle_hole_250.0_0.06",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 3e-16
+    },
+    {
+      "name": "inverse_direct_250.0_0.06",
+      "error": 5.144539308443719e-13,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "log_roundtrip_250.0_0.06",
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "derivative_consistency_250.0_0.06",
+      "error": 1.6587096141051916e-09,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "secant_equal_state_250.0_0.06",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "secant_symmetry_250.0_0.06",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "c_adaptive_250.0_0.074",
+      "error": 2.6012122159786077e-13,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "dc_adaptive_250.0_0.074",
+      "error": 1.2859982587781833e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "particle_hole_250.0_0.074",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 3e-16
+    },
+    {
+      "name": "inverse_direct_250.0_0.074",
+      "error": 2.638948087829718e-13,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "log_roundtrip_250.0_0.074",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "derivative_consistency_250.0_0.074",
+      "error": 1.5962555721671379e-09,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "secant_equal_state_250.0_0.074",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "secant_symmetry_250.0_0.074",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "c_adaptive_300.0_0.06",
+      "error": 1.157122362102808e-12,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "dc_adaptive_300.0_0.06",
+      "error": 4.4024858488233103e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "particle_hole_300.0_0.06",
+      "error": 0.0,
+      "tolerance": 3e-16
+    },
+    {
+      "name": "inverse_direct_300.0_0.06",
+      "error": 1.028772336417183e-12,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "log_roundtrip_300.0_0.06",
+      "error": 3.4512664603419266e-31,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "derivative_consistency_300.0_0.06",
+      "error": 1.6718932904780104e-09,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "secant_equal_state_300.0_0.06",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "secant_symmetry_300.0_0.06",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "c_adaptive_300.0_0.074",
+      "error": 5.701943387174455e-13,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "dc_adaptive_300.0_0.074",
+      "error": 2.314340608211526e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "particle_hole_300.0_0.074",
+      "error": 0.0,
+      "tolerance": 3e-16
+    },
+    {
+      "name": "inverse_direct_300.0_0.074",
+      "error": 5.495603971894525e-13,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "log_roundtrip_300.0_0.074",
+      "error": 3.4512664603419266e-31,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "derivative_consistency_300.0_0.074",
+      "error": 1.6618930676060018e-09,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "secant_equal_state_300.0_0.074",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "secant_symmetry_300.0_0.074",
+      "error": 0.0,
+      "tolerance": 1e-15
+    },
+    {
+      "name": "edge_c_0.0",
+      "error": 3.1687876526831177e-16,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "edge_dc_0.0",
+      "error": 4.75318147902468e-16,
+      "tolerance": 1e-07
+    },
+    {
+      "name": "single_level_fermi",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 2e-16
+    },
+    {
+      "name": "edge_c_8.7",
+      "error": 1.6655835230499434e-13,
+      "tolerance": 2e-10
+    },
+    {
+      "name": "edge_dc_8.7",
+      "error": 1.0069834888846607e-11,
+      "tolerance": 1e-07
+    }
+  ],
+  "domain": "100\u2013300 K, sigma_e=60 meV, sigma_h=74 meV; auxiliary sigma=0 and numerical s=8.7 edge",
+  "wall_seconds": 3.463343858718872,
+  "source_sha256": "228f0d562423326b3310f545d589c083dd332c48de3307619c6e6625d7e7c958"
+}

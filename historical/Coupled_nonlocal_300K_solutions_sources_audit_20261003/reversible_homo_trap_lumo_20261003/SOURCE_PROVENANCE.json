@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "path": "/workspace/shared/wxh/002高YZ/文献/Huang2026_reverse_bias/main.pdf",
+      "sha256": "c6788857d6a502aadafebf15fcb1808961dbe0945347039f0c005c07c0b5dd88",
+      "bytes": 5078826
+    },
+    {
+      "path": "/workspace/shared/wxh/002高YZ/文献/Huang2026_reverse_bias/SI.pdf",
+      "sha256": "a98227a9326a77ba66fb04a913796c36cfdd2c2e4ee5e550aeab14f4945b383b",
+      "bytes": 7893922
+    },
+    {
+      "path": "/workspace/shared/wxh/002高YZ/文献/Huang2026_reverse_bias/MAIN_TEXT_AUDIT_20261003.txt",
+      "sha256": "379967d4f3bedce6807ab2e15b4e30a03bd2c3f83604a50e0784840548a46093",
+      "bytes": 5836
+    },
+    {
+      "path": "/workspace/shared/wxh/002高YZ/文献/Huang2026_reverse_bias/mineru/QUALITY_NOTES.txt",
+      "sha256": "601e4a4547f280994169c1dd739e2b1dcaa9b33a9abe14ccc4f2e21b063ef502",
+      "bytes": 5088
+    },
+    {
+      "path": "/workspace/shared/wxh/research/newembedding_20261003/local_srh.py",
+      "sha256": "0681d05b9d6a30a1c32423fde1ddf32431b42062fbd04bcaf0e6dc563dd83b16",
+      "bytes": 3815
+    },
+    {
+      "path": "/workspace/shared/wxh/research/selfconsistent_srh_300K_20261003/code/integrate.py",
+      "sha256": "3739434215685cb3f5a13d22b68ea323e0ddd437968fb955db40b891e5c46f01",
+      "bytes": 2640
+    },
+    {
+      "path": "/workspace/shared/wxh/research/selfconsistent_srh_300K_20261003/code/run_density.py",
+      "sha256": "bcf299e27bc048cbb06dc45739a32c138b28db5fcc315c3d061d2034a5a9a87c",
+      "bytes": 6493
+    }
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "temperature_K": 300,
+  "scope": "Conditional rate specification and tests only; no device integration or new scans"
+}

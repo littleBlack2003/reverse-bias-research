@@ -1,0 +1,16 @@
+{
+  "pages": 73,
+  "missing_characters": false,
+  "overfull": false,
+  "scope": "reverse temperature and dark forward temperature",
+  "additional_figures": 3,
+  "additional_tables": 3,
+  "visual_review_pages": [
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "preserved_historical_sections": true
+}

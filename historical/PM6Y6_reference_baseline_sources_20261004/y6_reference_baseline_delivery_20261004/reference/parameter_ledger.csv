@@ -1,0 +1,19 @@
+parameter,value,unit,evidence_class,source,qualification
+mu_e_zero_field_300K,0.00084,cm2 V-1 s-1,published_table,main physical p6 Table1,SCLC carrier-only samples thicker than typical solar cell; not mobility at arbitrary field/T
+mu_h_zero_field_300K,0.00013,cm2 V-1 s-1,published_table,main physical p6 Table1,Same SCLC qualification
+sigma_LA,60,meV,published_table,main physical p6 Table1,Gaussian electron DOS disorder
+sigma_HD,74,meV,published_table,main physical p6 Table1,Gaussian hole DOS disorder
+N0,2.4e+20,cm-3,author_fixed_not_fit,main physical p9; SI physical p17 TableS3,Y6 molecular number density in blend used by authors
+Eg_DOS_nondegenerate,1.43,eV,author_fit_not_independent_measurement,SI physical p17 TableS3,High-T Gaussian-Gaussian analytic branch
+Eg_DOS_degenerate,1.41,eV,author_fit_not_independent_measurement,SI physical p17 TableS3,Low-T Gaussian-Gaussian analytic branch; do not make temperature-dependent material gap by fiat
+k2_room_temperature_Fig1,8e-12,cm3 s-1,published_approximate,main physical p4 paragraph on Fig1d,Explicit approximately sign; Fig3-derived 300K coefficient is materially higher
+nominal_active_thickness,110,nm,published_approximate,SI physical p3 methods,ca.110nm; main physical p3 Fig1 discussion says100nm; individual measured device thickness unavailable
+active_area_BACE,0.011,cm2,published_methods,SI physical p3 methods,Distinct from other measurements
+active_area_other,0.06,cm2,published_methods,SI physical p3 methods,General method statement; exact sample IDs unavailable
+Ag_semtransparent,45,nm,published_methods,SI physical p3 methods,Main p4 assigns regular semitransparent-cathode devices to recombination studies
+Ag_regular,100,nm,published_methods,SI physical p3 methods,Generic regular solar cells
+PIA_excitation_wavelength,405,nm,published_methods,SI physical p4 PIA methods,CW excitation; chopped570Hz
+PIA_modulation_frequency,570,Hz,published_methods,SI physical p4 PIA methods,Instrument sensitivity order1e-7 is not carrier-density error bar
+BACE_excitation_wavelength,445,nm,published_methods,SI physical p4 BACE methods,1W laser rating is not absorbed G or actual illumination flux
+BACE_modulation_frequency,500,Hz,published_methods,SI physical p4 BACE methods,50percent duty cycle;1ms illumination then1ms off
+100K_leakage_Voc_correction_upper_bound,0.005,V,published_bound,main physical p9 paragraph discussing FigS15,Less than5mV after subtracting dark leakage; both blends

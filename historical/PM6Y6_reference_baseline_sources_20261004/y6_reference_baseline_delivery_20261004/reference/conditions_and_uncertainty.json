@@ -1,0 +1,122 @@
+{
+  "reference": {
+    "title": "Understanding the Role of Order in Y-Series Non-Fullerene Solar Cells to Realize High Open-Circuit Voltages",
+    "doi": "10.1002/aenm.202103422",
+    "authors": "Perdigon-Toro et al.",
+    "year": 2022,
+    "material": "PM6:Y6",
+    "main_pdf_sha256": "86d6f6cf4932799552dbdde1f6e2d3f0c84d24a1773f49dfc131db69018b555a",
+    "si_pdf_sha256": "f61952596f108e203d0219cfce94d9f99b3f7133248beb3351f8163701f9cc16"
+  },
+  "digitization": {
+    "method": "Independent symbol-center read-off from original PDF embedded raster images; coordinate transforms are reproduced in extract_anchors.py. No inferred model-fit curves are represented as measurements.",
+    "uncertainty": "Intervals are conservative readout/digitization bounds, not author experimental confidence intervals or standard errors. Unknown systematic calibration uncertainty is additional.",
+    "temperature_uncertainty": "Displayed nominal temperatures retained; instrument/calibration uncertainty not reported in the inspected pages.",
+    "fig5b_log10_n_bound": 0.025,
+    "fig5a_Voc_bound_V": 0.005,
+    "figS16a_Voc_bound_V": 0.006,
+    "fig3a_log10_k2_bound": 0.1,
+    "figS15a_log10_absJ_bound": 0.07,
+    "figS15a_voltage_bound_V": 0.006
+  },
+  "dataset_conditions": {
+    "Fig3a": {
+      "technique": "BACE R versus n, steady-state open circuit",
+      "temperatures_K": [
+        300,
+        275,
+        250,
+        225,
+        200
+      ],
+      "illumination": "Variable-intensity445nm laser; no single1sun point identity attached to each selected symbol",
+      "coefficient_definition": "Local R/n^2 evaluated at3 selected measured squares perT, then median; delta slightly above2 means k2 is approximate/effective",
+      "role": "Independent validation; retain separately from PIA normalization"
+    },
+    "Fig4a": {
+      "technique": "Derived recombination order delta and m from BACE; n_id from temperature-dependent JV",
+      "fact": "No direct k2(T) plot; k2 must be derived from Fig3a",
+      "role": "Mechanism validation"
+    },
+    "Fig5a": {
+      "technique": "Open-circuit voltage versus T",
+      "illumination": "1sun-equivalent temperature-dependent white-LED protocol",
+      "temperatures_K": [
+        80,
+        100,
+        125,
+        150,
+        175,
+        200,
+        225,
+        250,
+        275,
+        300
+      ],
+      "role": "Calibration of one global energy offset is permissible; no perT adjustable fit"
+    },
+    "Fig5b": {
+      "technique": "Extraction-less PIA carrier density at open circuit",
+      "illumination": "Stated1sun conditions;405nm CW excitation method",
+      "temperatures_K": [
+        100,
+        125,
+        150,
+        175,
+        200,
+        225,
+        250,
+        275,
+        300
+      ],
+      "density_definition": "n in cm^-3, interpreted by authors as equal electron and hole densities n=p; not n+p",
+      "calibration_available": "Published n-axis values. Exact PM6:Y6 PIA differential-absorption-to-density coefficient and uncertainty are not supplied in the inspected main/SI. PIA instrument sensitivity1e-7 does not establish absolute n calibration.",
+      "caution": "SI S6 uses1.25eV probe and an Ag-reflection correction for PM6:N4. Do not transfer that calibration to PM6:Y6 without evidence.",
+      "role": "Calibration n(T) anchors; do not claim low-T BACE measurement"
+    },
+    "FigS15a": {
+      "technique": "Dark symbols and1sun-equivalent white-light JV solid lines",
+      "explicit_temperature_labels_K": [
+        300,
+        100
+      ],
+      "intermediate_temperatures": "Unlabelled trace sequence;150/200/250K are not assigned.",
+      "current": "Logarithmic magnitude axis in mA cm^-2. Signed JV cannot be uniquely reconstructed from the plotted magnitude.",
+      "role": "Sparse endpoint transport/leakage validation, not full multiT JV fit"
+    },
+    "FigS16a": {
+      "technique": "Voc(T) at1,.5,.25,.08sun",
+      "temperatures_K": [
+        100,
+        125,
+        150,
+        175,
+        200,
+        225,
+        250,
+        275,
+        300
+      ],
+      "role": "All27 lower-intensity points are held out. Nine1sun points duplicate Fig5 and are not independent validation.",
+      "author_prediction": "n(T,I)=n(T,1sun)*sqrt(I/I1sun), assuming bimolecular recombination at allT. Fits derived at1sun."
+    }
+  },
+  "cross_figure_warning": {
+    "same_material": true,
+    "same_exact_device_and_absorbed_generation": "Not established. Same material and nominal architecture do not imply same optical excitation, area, cathode or identical sample.",
+    "observed_mismatch": "Fig3a apparent300K coefficient median2.10e-11cm3/s versus explicit Fig1 RTapproximately8e-12; factor2.63. Fig3 k200/k300 approximately.0458 while constant-G Fig5b inverse-density-squared ratio approximately.1445. The differences exceed assigned readout bounds.",
+    "consequence": "Keep Fig1,Fig3,Fig5 as separate-condition evidence. Report joint-model residuals and uncertainty; do not silently rescale data, add arbitrary perT parameters, claim extraction error in the paper, or assert independently measured G(T)."
+  },
+  "unidentified_inputs": [
+    "Raw spectral or absorbed G(T,F)",
+    "Field-dependent generation yield at everyT",
+    "Exact absolute PIA cross-section and its temperature dependence for these PM6:Y6 samples",
+    "Exact device IDs across figures",
+    "Exact intermediate S15 trace temperature map",
+    "Contact work functions, injection barriers, surface recombination velocities for quantitative boundary conditions",
+    "Independent experimental uncertainty/covariance for digitized curves"
+  ],
+  "source_issue": {
+    "S1c": "SI physical p12 actually prints positive exponent in mu0(T)=muinf*exp[(2sigma/(3kBT))^2]. QA.md confirms missing minus sign is in the original PDF, not OCR. Using the standard negative exponent is an explicit correction/model choice, not literal transcription."
+  }
+}

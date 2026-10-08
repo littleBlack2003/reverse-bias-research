@@ -1,0 +1,17 @@
+[
+  {
+    "relative_path": "solvers/base_dd_solver.py",
+    "sha256": "40e2cf449edd2bbde41f0a710c7f13d2b494598f84ef31ab1a7a51de5082da31",
+    "matches_reference_copy": true
+  },
+  {
+    "relative_path": "solvers/pf_solver.py",
+    "sha256": "5b8c8b4edeba0674dd1ff09b2ecf51d7458653d8175273c2b8495323984867b4",
+    "matches_reference_copy": true
+  },
+  {
+    "relative_path": "model_comparison/baseline_ff78.json",
+    "sha256": "0b3998615db5dd581170eb5a607bc839e80117f99d6c864cfb676d1ddf233eca",
+    "matches_reference_copy": true
+  }
+]

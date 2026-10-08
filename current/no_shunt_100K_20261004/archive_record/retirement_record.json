@@ -1,0 +1,26 @@
+[
+  {
+    "original": "temperature_curves/latest_calibrated_100K_20261004",
+    "recoverable_history": "retired_models_recoverable_20261004T1934Z/latest_calibrated_100K_20261004",
+    "files": 100,
+    "hashes_verified_unchanged": true
+  },
+  {
+    "original": "temperature_curves/PM6Y6_latest_calibrated_100-300K_20261004.zip",
+    "recoverable_history": "retired_models_recoverable_20261004T1934Z/PM6Y6_latest_calibrated_100-300K_20261004.zip",
+    "files": 1,
+    "hashes_verified_unchanged": true
+  },
+  {
+    "original": "temperature_curves/no_external_shunt_diagnostic_20261004",
+    "recoverable_history": "retired_models_recoverable_20261004T1934Z/no_external_shunt_diagnostic_20261004",
+    "files": 12,
+    "hashes_verified_unchanged": true
+  },
+  {
+    "original": "temperature_curves/No_external_shunt_diagnostic_20261004.zip",
+    "recoverable_history": "retired_models_recoverable_20261004T1934Z/No_external_shunt_diagnostic_20261004.zip",
+    "files": 1,
+    "hashes_verified_unchanged": true
+  }
+]

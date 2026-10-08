@@ -1,0 +1,8 @@
+{
+  "fresh_run_with_only_bundled_inputs": true,
+  "success": true,
+  "metrics_exactly_equal": true,
+  "states_bitwise_equal": true,
+  "labels_bitwise_equal": true,
+  "legacy_model_not_needed": true
+}

@@ -1,0 +1,181 @@
+{
+  "colocated": {
+    "max_energy_error_eV": 0.0,
+    "max_edge_LDB_log_error": 0.0,
+    "number_conservation_abs_s": 3.711533244009824e-128,
+    "dipole_stationarity_abs_nm_s": 6.666228004550874e-128,
+    "left_right_current_relative": 1.9884061938578322e-130,
+    "reported_current_relative": 4.0599991137781984e-18,
+    "heat_chemical_relative": 1.223634580835589e-130,
+    "full_displacement_relative": 1.4683614970027068e-130,
+    "actual_drop_V": 1.5,
+    "reported_drop_V": 1.7999999999999998,
+    "R_s": 188.63839667478115,
+    "minimum_probability": 6.572490429738373e-14,
+    "charge_from_population_e": 0.008128914377407604
+  },
+  "direct": {
+    "max_energy_error_eV": 0.0,
+    "max_edge_LDB_log_error": 0.0,
+    "number_conservation_abs_s": 1.8465957235571472e-127,
+    "dipole_stationarity_abs_nm_s": 1.4772765788457177e-125,
+    "left_right_current_relative": 1.221896313166303e-131,
+    "reported_current_relative": 4.209864694132708e-17,
+    "heat_chemical_relative": 0.0,
+    "full_displacement_relative": 3.258390168443474e-131,
+    "actual_drop_V": 1.8,
+    "reported_drop_V": 1.7999999999999998,
+    "R_s": 241800.6442817799,
+    "minimum_probability": 0.01221903287839756,
+    "charge_from_population_e": -0.03910041142752087
+  },
+  "explicit": {
+    "max_energy_error_eV": 1.1270725851789228e-131,
+    "max_edge_LDB_log_error": 2.8853058180580424e-129,
+    "number_conservation_abs_s": 2.0520185584658387e-128,
+    "dipole_stationarity_abs_nm_s": 1.0011785884211253e-127,
+    "left_right_current_relative": 8.496126089716296e-131,
+    "reported_current_relative": 9.373794184451933e-18,
+    "heat_chemical_relative": 9.709858388247196e-131,
+    "full_displacement_relative": 1.6183097313745327e-131,
+    "actual_drop_V": 1.8,
+    "reported_drop_V": 1.7999999999999998,
+    "R_s": 237.72176299093417,
+    "minimum_probability": 3.674067392085318e-39,
+    "charge_from_population_e": 0.020163802506189793
+  },
+  "explicit_gauge": {
+    "max_energy_error_eV": 1.6906088777683842e-131,
+    "max_edge_LDB_log_error": 2.8853058180580424e-129,
+    "number_conservation_abs_s": 2.098605084703127e-128,
+    "dipole_stationarity_abs_nm_s": 1.0082230541635314e-127,
+    "left_right_current_relative": 8.496126089716296e-131,
+    "reported_current_relative": 9.373794184451933e-18,
+    "heat_chemical_relative": 9.709858388247196e-131,
+    "full_displacement_relative": 1.6183097313745327e-131,
+    "actual_drop_V": 1.8,
+    "reported_drop_V": 1.7999999999999998,
+    "R_s": 237.72176299093417,
+    "minimum_probability": 3.674067392085318e-39,
+    "charge_from_population_e": 0.020163802506189793
+  },
+  "explicit_common_mu": {
+    "max_energy_error_eV": 1.1270725851789228e-131,
+    "max_edge_LDB_log_error": 2.8853058180580424e-129,
+    "number_conservation_abs_s": 3.2577749714615386e-135,
+    "dipole_stationarity_abs_nm_s": 2.3789528801244198e-135,
+    "left_right_current_relative": 1.8816605693545485,
+    "reported_current_relative": 0.877523410835638,
+    "heat_chemical_relative": 1.1790125535161204e-135,
+    "full_displacement_relative": 1.0553353755776624,
+    "actual_drop_V": 1.8,
+    "reported_drop_V": 1.7999999999999998,
+    "R_s": 1.7313297756879862e-135,
+    "minimum_probability": 7.107043148826318e-45,
+    "charge_from_population_e": -0.9656533013289901
+  },
+  "direct_no_Coulomb": {
+    "max_energy_error_eV": 0.0,
+    "max_edge_LDB_log_error": 0.0,
+    "number_conservation_abs_s": 1.1079574341342883e-125,
+    "dipole_stationarity_abs_nm_s": 8.863659473074306e-126,
+    "left_right_current_relative": 5.936366166296411e-131,
+    "reported_current_relative": 1.696351761369116e-17,
+    "heat_chemical_relative": 3.957577444197607e-131,
+    "full_displacement_relative": 3.957577444197607e-131,
+    "actual_drop_V": 1.8,
+    "reported_drop_V": 1.7999999999999998,
+    "R_s": 199081.5980635323,
+    "minimum_probability": 0.1099024017811252,
+    "charge_from_population_e": -0.5
+  },
+  "explicit_no_Coulomb": {
+    "max_energy_error_eV": 0.0,
+    "max_edge_LDB_log_error": 0.0,
+    "number_conservation_abs_s": 3.808603679836616e-127,
+    "dipole_stationarity_abs_nm_s": 1.8465957235571472e-127,
+    "left_right_current_relative": 6.418486267456461e-131,
+    "reported_current_relative": 2.0928588010689077e-16,
+    "heat_chemical_relative": 4.2789908449709745e-131,
+    "full_displacement_relative": 2.852660563313983e-131,
+    "actual_drop_V": 1.8,
+    "reported_drop_V": 1.7999999999999998,
+    "R_s": 4315.493513447032,
+    "minimum_probability": 5.9110442067516345e-06,
+    "charge_from_population_e": -0.5
+  },
+  "gauge_invariance": {
+    "population_max_relative": 1.358499162202164e-97,
+    "current_relative": 0.0,
+    "phonon_heat_relative": 0.0
+  },
+  "schur_and_lumping": {
+    "retained_probability": 0.000265506317188741,
+    "naively_renormalized_current_multiplier": 3766.3887269737834,
+    "full_probability_max_relative": 4.524823217768356e-96,
+    "restored_current_relative": 1.2137322985308996e-131,
+    "schur_column_sum_abs": 5.905640216326996e-125,
+    "strong_lumpability_example": {
+      "source_microstates": [
+        "01000",
+        "11000"
+      ],
+      "source_inner": "100",
+      "destination_inner": "010",
+      "rates_s": [
+        0.00013255500926626288,
+        4249481.592285361
+      ],
+      "ratio": 3.119321884036568e-11
+    }
+  },
+  "terminal_pair_barrier": {
+    "5.1": {
+      "binding_eV": 0.04033514139495799,
+      "remaining_field_gain_eV": 0.13500000000000006,
+      "outgoing_min_absorption_eV": -0.09466485860504208
+    },
+    "5.5": {
+      "binding_eV": 0.03740167656623377,
+      "remaining_field_gain_eV": 0.07500000000000001,
+      "outgoing_min_absorption_eV": -0.03759832343376624
+    },
+    "5.8": {
+      "binding_eV": 0.03546710708866995,
+      "remaining_field_gain_eV": 0.03000000000000003,
+      "outgoing_min_absorption_eV": 0.005467107088669921
+    },
+    "5.9": {
+      "binding_eV": 0.03486596968038741,
+      "remaining_field_gain_eV": 0.01499999999999995,
+      "outgoing_min_absorption_eV": 0.01986596968038746
+    },
+    "6.0": {
+      "binding_eV": 0.034284870185714286,
+      "remaining_field_gain_eV": 0.0,
+      "outgoing_min_absorption_eV": 0.034284870185714286
+    }
+  },
+  "last_tag_zero_mismatch_s_nm": 5.761992974750557,
+  "residual_binding_at_12nm_in_kBT": {
+    "80": 4.973242467064022,
+    "300": 1.3261979912170725
+  },
+  "distance_for_binding_below_point1_kBT_nm": {
+    "80": 596.7890960476826,
+    "300": 159.1437589460487
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "mpmath": "1.3.0"
+  },
+  "snapshot_sha256": {
+    "snapshot/THEORY_BEFORE_CODE.md": "6079111d43e383ce2c177a1830317ff6b17dcdddf8a85b3d238bc345388e49df",
+    "snapshot/inputs/inputs/model.py": "cc81085df8b2e041e3a8b14e205845ab67ca9341c1ba4832f84f9651f8017ede",
+    "snapshot/inputs/inputs/parameters.json": "cec3a0333d8f9e366d1e22e7b4ef3cbd84ff652d06eadf308d5c2cc3cd973cde",
+    "snapshot/inputs/reservoir.py": "558aaa796605bcf0995e309d51cf6940d5f1d2e99b55b2bf7ba966fd7aa1ad0f",
+    "snapshot/spatial_model.py": "645c200a97a0b0a6a536ca383731d413cdb215c4490cc63d442682a40f26b69a"
+  }
+}

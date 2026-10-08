@@ -1,0 +1,23 @@
+{
+  "kind": "narrow root and MPP recalculation using archived seeds",
+  "newly_solved_bias_points": 29,
+  "metrics": {
+    "T_K": 300,
+    "N": 321,
+    "Jsc_mAcm2": 26.836715488777635,
+    "Voc_V": 0.82062580212322,
+    "FF": 0.6730529205609922,
+    "Pmax_mWcm2": 14.822577954609441,
+    "Vmp_V": 0.6432804872785596,
+    "Jmp_mAcm2": 23.042169392262046
+  },
+  "difference_from_saved": {
+    "Jsc_mAcm2": 0.0,
+    "Voc_V": 4.605638093124753e-11,
+    "FF": 2.065584592259029e-09,
+    "Pmax_mWcm2": 4.632206085375401e-08,
+    "Vmp_V": -1.0537406735622312e-05,
+    "Jmp_mAcm2": 0.00037751347943171254
+  },
+  "note": "Solver tolerance is not mesh uncertainty or physical validation"
+}

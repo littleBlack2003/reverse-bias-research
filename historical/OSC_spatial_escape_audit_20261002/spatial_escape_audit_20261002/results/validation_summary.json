@@ -1,0 +1,18 @@
+{
+  "number_main_and_control_points": 197,
+  "max_node_continuity_relative": 2.4562580145859e-230,
+  "max_heat_chemical_relative": 8.571651516137951e-162,
+  "max_heat_partition_relative": 5.676438523061996e-251,
+  "max_entropy_heat_relative": 1.1864786730194504e-164,
+  "max_displacement_relative": 4.2502671168835536e-231,
+  "min_probability": 9.26477408911206e-251,
+  "max_direct_DB_log_error": 5.684341886080802e-14,
+  "max_direct_mean_energy_error_eV": 2.5202062658991053e-14,
+  "max_common_mu_probability_relative": 5.76751850580344e-175,
+  "max_common_mu_edge_flux_over_gross": 8.235114416781313e-252,
+  "max_gauge_probability_relative": 2.490517484437516e-110,
+  "max_quadrature_R_relative": 9.564697509495714e-16,
+  "max_precision_probability_relative": 1.1909616550577726e-110,
+  "max_elimination_probability_relative": 3.348528187141482e-143,
+  "runtime_s": 22.627806901931763
+}

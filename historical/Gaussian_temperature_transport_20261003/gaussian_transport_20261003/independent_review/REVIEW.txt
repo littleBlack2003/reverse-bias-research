@@ -1,0 +1,25 @@
+Independent numerical and physical review, 2026-10-03
+
+Scope: Gaussian-DOS EOS, Pasveer mobility, inverse-activity SG flux, and Gaussian-DOS-integrated Marcus trap reactions in saved states. This is not a material fit or validation of an experimental reverse-knee mechanism.
+
+Result: 95 checks pass. Reproduce with python independent_review/review.py. Source hashes and numerical tolerances are recorded in results.json.
+
+Confirmed:
+* Mobility formula agrees with Pasveer et al., PRL 94, 206601 (2005), equations 3-5. N=a^-3 is enforced by the lattice convention; length and field use cm and V/cm, energies eV.
+* Gaussian Fermi occupation derivative and c/(dc/deta) generalized Einstein factor are consistent.
+* Electron and hole inverse-activity flux signs agree with Doan, Glitzky and Liero, WIAS Preprint 2493 (2018), section 4.1. Default-affinity equilibrium and dilute classical SG limits pass independently.
+* Each integrated trap port obeys log(a/b)=(mu-Etrap)/kT. Gaussian DOS integration preserves this identity because the energy-resolved forward and reverse kernel obey local detailed balance pointwise. Max error in the checked 12 saved states is 5.33e-15.
+* Direct master-equation current matches the affinity-stabilized cycle expression. Common chemical potential gives exactly zero reaction current.
+* The bimolecular law beta*n*p*(1-exp(-A)) has nonnegative product with affinity A and vanishes at A=0. This establishes thermodynamic consistency, not microscopic or experimental calibration. Constant beta is a deliberate assumption; it is not a derived Langevin coefficient.
+* Saved-state reaction rates at quadrature order 128 differ from order 512 by at most 1.06e-7 relatively over T=300,340,380,420 K and V=0,-5,-15 V.
+
+Important limitations:
+* Inverse-activity SG is approximate for finite degeneracy and finite cell gradients. For zero field, s=4 and mean eta=-9, delta_eta=2,1,0.5,0.25 yields relative errors 12.77%,3.14%,0.780%,0.195% against the exact integral of c(eta). Device mesh convergence is required.
+* EOS order-256 derivative convergence is good through s=6 (max observed relative error ~4.1e-6), but unguarded s=15 formerly produced ~3.35% error. The implementation now rejects s>6; 80 K cannot be advertised as supported with sigma=0.1 eV.
+* The 300 K saved device has contact occupation near 0.325 and face occupation near 0.095, above the c<=0.01 literature-comparison window. This is significant extrapolation. Low-density asymptotic use and high-density extrapolation must be reported separately; an all-faces-outside fraction alone obscures that distinction.
+* Input guards and damped Newton steps are useful but not a proof against every overflow. Current saved states pass; arbitrary enormous trial states require stable arithmetic or rejection.
+* The reaction baths are normalized Gaussian energy distributions with fixed assumed coupling, distance and reorganization energy. This is a conditional model, not identification of the Huang-paper microscopic pathway.
+
+Primary sources:
+https://doi.org/10.1103/PhysRevLett.94.206601
+https://www.wias-berlin.de/preprint/2493/wias_preprints_2493.pdf

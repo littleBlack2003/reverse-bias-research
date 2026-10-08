@@ -1,0 +1,17 @@
+{
+  "revision": "2026-10-03 temperature chapter",
+  "regular_source": "/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc, face 2",
+  "bold_source": "/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc, face 2",
+  "subset": "fontTools; complete main.tex Unicode repertoire",
+  "license": "SIL OFL; existing NotoSerifSC-OFL.txt",
+  "files": [
+    {
+      "path": "assets/NotoSerifSC-Regular.ttf",
+      "sha256": "753818a6c663bbdecade4789f73e76415921c132e65fa51d407d0c75b29811a5"
+    },
+    {
+      "path": "assets/NotoSerifSC-Bold.ttf",
+      "sha256": "43ff3dc5d5790c71bb83fbf5163c7e09c587d5b3f07c5639c679091e935d6345"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+T_K,illumination_sun_equiv,mode,voltage_V,current_magnitude_mA_cm2,current_readout_uncertainty_log10,voltage_readout_uncertainty_V,source,split,pixel_x,pixel_y,note
+300,1,light,0.04,29.1601,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,162.1,91,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+300,1,light,0.2,29.1601,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,222.4,91,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+300,1,light,0.4,28.2296,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,297.8,92,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+300,1,light,0.6,26.4567,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,373.2,94,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+300,1,light,1.0,67.762,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,524.0,65,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+300,1,light,1.1,113.851,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,561.7,49,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+100,1,light,0.04,17.9276,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,162.1,106,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+100,1,light,0.2,16.8017,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,222.4,108,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+100,1,light,0.4,14.7575,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,297.8,112,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+100,1,light,0.6,11.5713,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,373.2,119.5,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+100,1,light,1.1,11.7604,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,561.7,119,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+300,0,dark,0.04,0.011202,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,162.1,333.5,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+300,0,dark,0.2,0.0614798,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,222.4,281,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+300,0,dark,0.4,0.140568,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,297.8,255.5,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+300,0,dark,0.6,0.371897,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,373.2,225.5,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+300,0,dark,1.0,62.4848,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,524.0,67.5,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+300,0,dark,1.1,108.445,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,561.7,50.5,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+100,0,dark,0.04,0.00277755,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,162.1,376.5,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+100,0,dark,0.2,0.0182206,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,222.4,318.5,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+100,0,dark,0.4,0.0466675,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,297.8,289.5,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+100,0,dark,0.6,0.0864211,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,373.2,270.5,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+100,0,dark,1.0,0.624848,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,524.0,209.5,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT
+100,0,dark,1.1,1.88212,0.07,0.006,SI physical p18 FigS15a,qualitative_transport_leakage_validation,561.7,175.5,abs(J) only; temperatures100and300 are endpointlabels; no interpolatedtraceT

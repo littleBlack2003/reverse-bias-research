@@ -1,0 +1,11 @@
+{
+  "date_UTC": "2026-10-02",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "source_project": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model",
+  "source_qf": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002",
+  "design_sha256": "7477229a75b5b0437d2ddc9a293ad3bc798aa194290cbc9772a6fbb5030e223b",
+  "baseline_sha256": "0b3998615db5dd581170eb5a607bc839e80117f99d6c864cfb676d1ddf233eca",
+  "changed_original_sources": false
+}

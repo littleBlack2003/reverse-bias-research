@@ -1,0 +1,3 @@
+carrier,temperature_K,source,pdf_page,vector_path_index,mu0_cm2_Vs,Table8p1_mu0_cm2_Vs,ratio_to_table,slope_log10mu_per_1000_over_T_squared,intercept_log10mu,sigma_implied_eV
+hole,300,A5.12 published GDM fit vector,186,6364,0.0001239756322579,0.00013,0.9536587096767942,-0.144045512534003,-2.30615797336924,0.07444265587187152
+electron,300,A5.12 published GDM fit vector,186,6390,0.0008005910632106,0.00084,0.9530845990602824,-0.0967780171982663,-2.021277959916998,0.061018334917179465

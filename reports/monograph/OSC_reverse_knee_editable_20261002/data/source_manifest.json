@@ -1,0 +1,2790 @@
+[
+  {
+    "id": "overview",
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/comparison_overview.png",
+    "copy": "figures/original_archive/overview.png",
+    "sha256": "9680e4de5bc0d5165bc9e988f555fb8d99b0839ac7b36f3d50ba8d494e604c6f",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "local_pf",
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/local_classical_pf/JV_comparison.png",
+    "copy": "figures/original_archive/local_pf.png",
+    "sha256": "1f98fdbb01dc47c891c4e3e43f87683e702b9dfce1e3b8f4d160981c60cb23d3",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "abcd",
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/JV_ABCD.png",
+    "copy": "figures/original_archive/abcd.png",
+    "sha256": "810679980474469451832d89386c5f0bd1bd646b02c354d224d7e002c2de397d",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "abcd_profiles",
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/profiles_ABCD.png",
+    "copy": "figures/abcd_profiles.png",
+    "sha256": "e9de9f7dd9171fc1d56de67e540a23cd561af858181476637264e4ede9ca9f10",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "density",
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_density_scan/density_FF_V50.png",
+    "copy": "figures/original_archive/density.png",
+    "sha256": "c02d5b038ab0cf7eaa5d65709825b29f51e7409f19caeb31fe26deb80de9db02",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "thickness",
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/thickness_K_FF.png",
+    "copy": "figures/original_archive/thickness.png",
+    "sha256": "21f19ff60626c1bf932459838f800a8aec671da611f541de1831ba942c4bfdf9",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "thickness_curves",
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/thickness_JV.png",
+    "copy": "figures/thickness_curves.png",
+    "sha256": "92558d43703cd2aae10c05cf4dd2999b2f9f1b0ca9e46534edf60dfc79106182",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "tat",
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/tat_results/tat_comparison.png",
+    "copy": "figures/original_archive/tat.png",
+    "sha256": "92854cde61da575749c8a8c33b67d28e09be1ab02b8dff1dfd2794087f1c006d",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "thermal",
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/thermal_rate_dependence.png",
+    "copy": "figures/original_archive/thermal.png",
+    "sha256": "1f88620a6ab57de5c097333f318b1ce32a2e1454de13479603fe342612f5cd9a",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "branch_mesh",
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/figures/branch_and_mesh.png",
+    "copy": "figures/pre_serif_archive/branch_mesh.png",
+    "sha256": "4f37bffb6124d67506f53350b99f3164ea38e2f5572201e4c10cd923d99fbc0c",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "spatial_balance",
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/figures/spatial_balance.png",
+    "copy": "figures/pre_serif_archive/spatial_balance.png",
+    "sha256": "34fa83699e6e6a371734d9c0024d4333339b14908f72e70da7d78a0932b9c174",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "newton_failure",
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/figures/newton_failure.png",
+    "copy": "figures/pre_serif_archive/newton_failure.png",
+    "sha256": "a6c2e589953e9cf5be5f7778c4fdee1183298bdc4cbb18eec19c788fd3888279",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "qf_recovery",
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/figures/recovered_branch_and_gate.png",
+    "copy": "figures/pre_serif_archive/qf_recovery.png",
+    "sha256": "08158ee52b9e77519b330203045b82422b2d33b49f044036155b340576ec2976",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "quantum_kernel",
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/figures/quantum_and_balance.png",
+    "copy": "figures/pre_serif_archive/quantum_kernel.png",
+    "sha256": "1eb768665ebba2657763b1b3fe333b881dc227a1d2e1e544ea2c46dfabfeb007",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "pair_capacity",
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/figures/pair_capacity.png",
+    "copy": "figures/original_archive/pair_capacity.png",
+    "sha256": "2504b86dfc5190acc608a1d8b8c34ef5d06622ac387f8c3849b960dba0590ed6",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "dos_extract",
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/figures/dos_and_extraction.png",
+    "copy": "figures/pre_serif_archive/dos_extract.png",
+    "sha256": "bdddcf82f556a4efdc71b6c8b00448e4a87ee5867c7226d30e4c3ccf71eee384",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "graph_field",
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/figures/cycle_vs_field.png",
+    "copy": "figures/pre_serif_archive/graph_field.png",
+    "sha256": "568ff5c1ea3c8362fc44865a33a84fe9304c68586ef1aebae9e7b04f085efe4b",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "graph_temperature",
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/figures/temperature_and_quantum_ratio.png",
+    "copy": "figures/graph_temperature.png",
+    "sha256": "1ec34640bfb7541a54f1c4a5011f4f701f7a5ef21c768cc97862cf69d97959b9",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "graph_blocking",
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/figures/extraction_blocking.png",
+    "copy": "figures/graph_blocking.png",
+    "sha256": "e1c1af25b9dfbec4e93ac08226dc37b23a1a13fc9cb6d74ca3b3ce192745d3f4",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "graph_feedback",
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/figures/coulomb_extraction_feedback.png",
+    "copy": "figures/pre_serif_archive/graph_feedback.png",
+    "sha256": "ad266eb02c28c913d1342af74cba2015bec31e83a08346f55bddb85d3efca2bd",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "id": "graph_wrong",
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/figures/failed_naive_reverse.png",
+    "copy": "figures/pre_serif_archive/graph_wrong.png",
+    "sha256": "c3e093ff84f44fc00b53e5bcca219be0b9bdfa8dfbd0ca8fe43720eee5ee3f3d",
+    "kind": "existing_computation_figure",
+    "recomputed_here": false
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/comparison_metrics.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/comparison_metrics.csv",
+    "sha256": "5207058395c861b68df7620f1876020fffaa63cf935f1d8ec0d392fac2fec17b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/COMPARISON_REPORT.md",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/COMPARISON_REPORT.md",
+    "sha256": "2933ed5617f8cf00f0fa7911dfab67db2f6280b62d7cae160f326fe7bafb7b68",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/K50_FF.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/K50_FF.csv",
+    "sha256": "a9cde2467be29e33385600ad6452d7936bd4e9c5b1287c2aaf4087f1ee642b0f",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/validation.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/validation.json",
+    "sha256": "2ca0a78f924e9337c66b335a826b09228568334aa9fcf89657f70d96d9b7b777",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/thermal_rate_curves.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/thermal_rate_curves.csv",
+    "sha256": "7bb0cf948bdd43f965013af1d48a9e2c05c8082e55b0514917bafdb21e1bfa22",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/run_manifest.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/run_manifest.json",
+    "sha256": "519787abdd103bdddf24fd91e0261126ff6c641ca3935a90db088e4d1f50ce46",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/thermal_steady.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/thermal_steady.csv",
+    "sha256": "b96e9ce2370a2145740fa10d8c24744fcc4303d95dd5ed09fc7a085ea1afc071",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/thermal_diagnostics.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/thermal_diagnostics.json",
+    "sha256": "95ef0b0ede7e88908b160cf89b65e0bcf33f349ef15c12dce48d4c7ed3e74ee5",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/baseline_cleanup.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/baseline_cleanup.json",
+    "sha256": "fa0088234a7fed52e80151f4121fc468b13e31087bcda7bd64f513841c72ad58",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/comparison_curves.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/comparison_curves.csv",
+    "sha256": "d107d92258c6fdd21f27f1675c4dffb25870257bed536124e36607dcd2fdacb0",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/VALIDATION.md",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/VALIDATION.md",
+    "sha256": "5708631bbe18f5fafd93ecbb3e310c97e522339ef6615f34e243218adb3a6faa",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/solver_migration_check.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/solver_migration_check.json",
+    "sha256": "05e597b5eb0668186fd17d863f132356dc14fc235eaee00df4fc51e6347b6675",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_scan/REPORT.md",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_scan/REPORT.md",
+    "sha256": "b713d96e2127293b86d4689c74730ec2ebe69b5ff7cbd690f9beaa95c4c97178",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_scan/curves.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_scan/curves.csv",
+    "sha256": "fb68f778aaa9e4e40ada808b82986f287d70ba87b35d58e929df37672c99797b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_scan/metrics.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_scan/metrics.csv",
+    "sha256": "628bc15e7b5f49746fbae59521a754c1ec7832aaf9a191b817192e62dd6a034a",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_scan/cold_240_3bf4c8fc6f3379d6.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_scan/cold_240_3bf4c8fc6f3379d6.json",
+    "sha256": "973c6e47f259cb4d43e11e17825cd9e07296873b6ab8250802f459ca4bae83c8",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_scan/activation.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_scan/activation.csv",
+    "sha256": "b8b0f008695640aba2bb84bd28d2d20b966ad6dc99f16dfccd1e24385b4ef837",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_scan/cold_260_3bf4c8fc6f3379d6.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_scan/cold_260_3bf4c8fc6f3379d6.json",
+    "sha256": "23521b7bd63aa8a56e42bcf0878823958d96988a56af1df242823f42d7fff274",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_scan/failures.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_scan/failures.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_scan/parameters_and_validation.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_scan/parameters_and_validation.json",
+    "sha256": "3b27e93a32c39f6d9a40a4dd8ca359e7814c46be3ac931acea46d46bc9f1097b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_density_scan/REPORT.md",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_density_scan/REPORT.md",
+    "sha256": "60e101db1c8a9d11a5bf26823d91ea07551d5ef915bdb5c7161143de7564d988",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_density_scan/curves.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_density_scan/curves.csv",
+    "sha256": "d0e201668dc521b0a051c1a6efb316b29f841bf83dac2d078fb6ce22169f2fe9",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_density_scan/sequence.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_density_scan/sequence.json",
+    "sha256": "351e9d025a0604a1c1913130fbd15ce7f14582aaffb201f3e4b34630c6ac0154",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_density_scan/failures.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_density_scan/failures.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_density_scan/parameters_and_validation.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_density_scan/parameters_and_validation.json",
+    "sha256": "357fada32274fe49c39c1176116418423baf97d73cf0c004e1bb9c7a3f9cca81",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_density_scan/sequence.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_density_scan/sequence.csv",
+    "sha256": "cde01a6cb9736813294a2ca8e126f7a3099f03df893aefb1482dcfefe8435ba9",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/REPORT.md",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/REPORT.md",
+    "sha256": "d60a0dc88ff8396529cf576d41b76c43e06d06ba303d63e4f9d33ec8438298db",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/curves.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/curves.csv",
+    "sha256": "18c8192c8f06494dc6bc21f532fc1941d11e22b614b94d6604b9f67ccaa5067f",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/device_metrics.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/device_metrics.csv",
+    "sha256": "4103541705688dc73f74847c180cf3bda31ce843969b4f5d707d14b3e12ab281",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/FINDINGS.md",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/FINDINGS.md",
+    "sha256": "8447a0907f28cc4685500046e70bcc40067473bb01fe78ba56acf1ae8d48cbd2",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/thickness_fits.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/thickness_fits.json",
+    "sha256": "a18be6623137503bf19ae4b25d8ffb5640628038b15010488c1e7f4d43cd5af7",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/mesh_validation.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/mesh_validation.json",
+    "sha256": "17291ff6f4fa609cc8f735181ab077880cdc2bdec23b70072f207b245fddc891",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/thickness_fits.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/thickness_fits.csv",
+    "sha256": "74ff0ad1c8b13de41966a332ed57ad2fa1c766d3e97ead4c0d1b51a5ad29e334",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/failures.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/failures.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/parameters_and_validation.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_thickness_scan/parameters_and_validation.json",
+    "sha256": "2764937960b029c5384cf9e8a94113197d302f3f84a6d804c498ed18e7e5c6ff",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/REPORT.md",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/REPORT.md",
+    "sha256": "0877937cfda21cbe4440b618e2214551e849b33d788d86c6c7124c3083e03479",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/curves.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/curves.csv",
+    "sha256": "7ae28bcc3968364b036a188011eb9c44cce8f6b00a2e3f9f2e4fcd4efef58a14",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/metrics.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/metrics.csv",
+    "sha256": "a2ca3cb2bfb211d6b026b339d3301f4ae439b67fb7027de99b0529c56ad7ba50",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/mobility.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/mobility.csv",
+    "sha256": "65a85a1e36108ba298b7e6934c742f4dd006590fa8ae3bf092464e778d3f1f8c",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/cold_21fea4df6cce93238ff1.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/cold_21fea4df6cce93238ff1.json",
+    "sha256": "88459cd281558ae4b7b2fab8d2dee24a9699e1373f106307879c74dd8bf42322",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/activation.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/activation.csv",
+    "sha256": "87384a3cc89d39a579b3962cbdcbc8324427ebf01a51207b6f890a59de8db1b0",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/cold_8566605e8f78215c4a4d.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/cold_8566605e8f78215c4a4d.json",
+    "sha256": "4ebcf4256fe61b0c0a3c342b4f9ef3d095c7d063f358363fbf7b07eb460a521b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/short_circuit_validation.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/short_circuit_validation.json",
+    "sha256": "d227c0a783ff307a8bd8b7a783082ea343926ef062a05d1cbe458635445b55bf",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/comparison.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/comparison.csv",
+    "sha256": "8f07c650cae2e48375c8449afcaace1a4cc2a2ccac5ed081b4ea1b77fed86410",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/failures.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/failures.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/parameters_and_validation.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_gdm/parameters_and_validation.json",
+    "sha256": "02dab5a47c44799cee7e54b3e55dc02f690fd9c70d5aaafa6fc09e033557881a",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/tat_results/curves.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/tat_results/curves.csv",
+    "sha256": "68b101c5b083051b5e9c1aee9f4cfe5822bc179cc99696f09ed22b2b8e330dc2",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/tat_results/sensitivity.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/tat_results/sensitivity.csv",
+    "sha256": "4435cd86649880959c0d25a7092511e5e3d168f6826b22805cf253dd9a49b679",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/tat_results/metrics.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/tat_results/metrics.csv",
+    "sha256": "78a7d1d7e5bbdcdfff51e78160c010b5e9357d9a2df8d2546c3ca72d988b6cbf",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/tat_results/validation.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/tat_results/validation.json",
+    "sha256": "cef8ce06d06ce80e7a47b28228a619d0b07bee79ffdbdaad7361482e223ba3b0",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/tat_results/activation.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/tat_results/activation.csv",
+    "sha256": "5dbab2e10441ec439ae1bdac6db47e4b2da39043598c92168162664d15eb3763",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/tat_results/K50.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/tat_results/K50.csv",
+    "sha256": "ed571bc12f4ea92867b16b0a15da2c98799a5a3eb9e412fc1f5509417e484f34",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/REPORT.md",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/REPORT.md",
+    "sha256": "ff3bd137e9c19cfd08e65c53f6e2bc000fc0fdfd9fd9030aba55a030bf690391",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/curves.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/curves.csv",
+    "sha256": "d5732709e872aee63ca8c98588c12fe9e624150bb08563a127a732afca1251c7",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/metrics.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/metrics.csv",
+    "sha256": "cd31613a7a9f8fda6bb60eaf74750a8e88e98f6b8b3bc88668a482a8e77ad1ef",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/independent_mesh_check.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/independent_mesh_check.json",
+    "sha256": "8a461245c7bd7b9141cc6519f3e7eba0debc8457b71e49e53ccb99290b7409a2",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/validation.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/validation.json",
+    "sha256": "6695623422e65e1ce4f19daebff96c73c7702606749f4fd5e90beba1051e1205",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/REPORT.md",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/REPORT.md",
+    "sha256": "20ef01706af28b4642ac9e2d0fd9cca88f4f63a123f8272f1d45f9bb7d5b51db",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/curves.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/curves.csv",
+    "sha256": "017917f60424af13705014b3396cec210ef31fe2520b8ede8e21d464ee174ac1",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/metrics.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/metrics.csv",
+    "sha256": "4dc8d43c35517416af8d9946987ee82be6b349a52b2699d684d74718bab68e28",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/metrics.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/metrics.json",
+    "sha256": "45097301ecf04c2501fb9abf90f9fddadba344ef139e050731d362017fe93ca4",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/validation_attempt_20260919_092100.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/validation_attempt_20260919_092100.json",
+    "sha256": "e56ca38ff5b9f9c9721e77912bf428c955ada7116ea1cc2337944fe622c2c687",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/validation.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/validation.json",
+    "sha256": "1adbfbbae3eaea98c114b57e146fa1eefca1e787daf9e27d17c48c0f6488db16",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/MICROSCOPIC_PF_NEXT_STAGE.md",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/MICROSCOPIC_PF_NEXT_STAGE.md",
+    "sha256": "c161204b9d2fa8c469147b121826dc500da63fbb4095a5e35fe8573a722c5e65",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/manifest.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/manifest.json",
+    "sha256": "dc5441e08f53256231b935b5800116d1ff066149a4ac329af19112951276c11d",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/individual_models/pf_curves.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/individual_models/pf_curves.csv",
+    "sha256": "06ab972fa0bd2d9fbd0120e1d974e7acda36070f5366cc6594cdc61afdedb7d3",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/individual_models/metrics.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/individual_models/metrics.csv",
+    "sha256": "140b0cde908c89ed2f3331c8df4bcf0d90799536a621226e5b03d3b22d5427ac",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/individual_models/hopping_curves.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/individual_models/hopping_curves.csv",
+    "sha256": "6379b82f44509a7455224dd504b1dd5e9f1790f8707a38519f270aac35e52918",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/individual_models/weak_curves.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/individual_models/weak_curves.csv",
+    "sha256": "8bdb2a98e7118a1fdb932087bffad5a2ade9f85a9036a24bcc009722b08823a4",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/individual_models/validation_and_parameters.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/individual_models/validation_and_parameters.json",
+    "sha256": "d5ec2222b65fe0065c10fcb4fa01d44d5928b8e8786dd2f3af5ef2cdc8ac6135",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/individual_models/MODEL_RESULTS.md",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/individual_models/MODEL_RESULTS.md",
+    "sha256": "5786ed04d84a48e7cb6b9a0de2575580ae084d9ba5e6dcf854c4aa590206346c",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/local_classical_pf/REPORT.md",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/local_classical_pf/REPORT.md",
+    "sha256": "63d4294c651fb1593e2b47a4c070709d14978d32f987cfad7e6b30063a18ed85",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/local_classical_pf/curves.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/local_classical_pf/curves.csv",
+    "sha256": "4d51eb0b3c8baa4c32b636f86465be964c2afc50c8828242445871bee90cf29b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/local_classical_pf/metrics.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/local_classical_pf/metrics.csv",
+    "sha256": "e588afc14a221e3175ac26d19139d58af549bdd5677a86ed4d11e67e3fe54fe0",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/local_classical_pf/validation_and_parameters.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/local_classical_pf/validation_and_parameters.json",
+    "sha256": "64c0ddf56e8954f6dcd6af132ef9da717934e27e7c673807609612b3bce03e1f",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/local_classical_pf/thickness_fits.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/local_classical_pf/thickness_fits.csv",
+    "sha256": "e697bb5e79ba02ba2ffd67494bf81ede8b24748cd7d44cb054ee02be19119e4d",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/local_classical_pf/reference_curves.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/local_classical_pf/reference_curves.json",
+    "sha256": "819c043323a0df5a0390d14cf960d0045d5862724e44141d63df1e871284a4f8",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/local_classical_pf/failures.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/local_classical_pf/failures.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/local_classical_pf/validation_failure.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/local_classical_pf/validation_failure.json",
+    "sha256": "c626744fbeddd59e784bd3d36955b7b19f09c29b51f4645440a2728b1bc04833",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/260_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/260_ef90a0f7c5142be0d2f7.json",
+    "sha256": "cfa4e0db66af88323618919e7bf4779137c0eed537386225ce796e3ac18bed3b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/160_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/160_ef90a0f7c5142be0d2f7.json",
+    "sha256": "13f482e427760241bcadbf73e5fa254d5b2e43bbf1f31389f251ceb1c81fafa3",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/200_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/200_ef90a0f7c5142be0d2f7.json",
+    "sha256": "47947bb2d29e5df7e3a2dd8b38922ba43bc66cf363172e4cdb4ebdea47879a7f",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/100_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/100_ef90a0f7c5142be0d2f7.json",
+    "sha256": "143ed2ee00e82b5de54dd12d16918f49539a451107fbd5c4dee935f0883ad40e",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/280_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/280_ef90a0f7c5142be0d2f7.json",
+    "sha256": "aab6cf2ce7bf69b771e820273fc9f185cf845c23e87a90c1f2a176d299f76a97",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/120_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/120_ef90a0f7c5142be0d2f7.json",
+    "sha256": "43e52ddc2f296e648ac7d21b2ddcbd63d70c412b0a2204d76d41c01ddf4f472f",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/140_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/140_ef90a0f7c5142be0d2f7.json",
+    "sha256": "236b2d0e1e4b52d38e0cffda940906a26c9adf2a6845504fd0ce0bac052937c9",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/300_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/300_ef90a0f7c5142be0d2f7.json",
+    "sha256": "8b92998700eb8dc065521f1ccd4b1b232d41fc2ddab6e5a57a174d5ac2c710b9",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/220_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/220_ef90a0f7c5142be0d2f7.json",
+    "sha256": "34828843ce18cdaca82274b0fe6321ce02cfbf2e058bcc4784e6361940769b06",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/240_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/240_ef90a0f7c5142be0d2f7.json",
+    "sha256": "5f5c40860c76ec1686b08398f667f9d3e28bbcff3dbf87a7172e46bb760817ee",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/180_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_forward/180_ef90a0f7c5142be0d2f7.json",
+    "sha256": "9a8f0caf4805e4198532ed9a1e238f0392ac7bca0f3097d027d1a6b9d3b211ad",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/260_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/260_ef90a0f7c5142be0d2f7.json",
+    "sha256": "ccfacf564e94de76d0344584e02588fedee3fe783883c78fcc4385944062381b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/160_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/160_ef90a0f7c5142be0d2f7.json",
+    "sha256": "8bc4262e73b949fde399ce22720a7c284bea1c387ac38d9c0fe1c66fa3eacf9a",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/200_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/200_ef90a0f7c5142be0d2f7.json",
+    "sha256": "22abe6b915cf299f6fb07d0ea51da3455a8f6320da2951ad0d83d1798f930559",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/100_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/100_ef90a0f7c5142be0d2f7.json",
+    "sha256": "d8a60a7e21939440281e94faebeecedfe4f0c71e96b018a9771043a4ca3075dd",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/280_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/280_ef90a0f7c5142be0d2f7.json",
+    "sha256": "eb9353b81056d392158808c68d8f71362c6c2d24faa1e80e1224c0d576231400",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/120_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/120_ef90a0f7c5142be0d2f7.json",
+    "sha256": "b6b32508d5e9c9cf8a11f6be75acac78217b57142e8fc3fc046c07fb5f5671b4",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/140_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/140_ef90a0f7c5142be0d2f7.json",
+    "sha256": "bafc19371c3d7878f6c87876b267bb3d1452b3e99580e832d50c6662e6c087fa",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/300_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/300_ef90a0f7c5142be0d2f7.json",
+    "sha256": "536bef8f7b6a34df0c1c8dd4472824300001e53b6641a0e761b3ab9c45293072",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/220_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/220_ef90a0f7c5142be0d2f7.json",
+    "sha256": "ca51af5ce6d8dd1ad88dbe2f30628720b5118a4f9cbd6ed1250eb4515e519fa3",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/240_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/240_ef90a0f7c5142be0d2f7.json",
+    "sha256": "acd5f78de28dd848596f8065505b52cfdfa8511dec95fa67075da3c7f2954ead",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/180_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/light_reverse/180_ef90a0f7c5142be0d2f7.json",
+    "sha256": "53d508edf93d7d43110134458fbc5cdea20278c96661e0537184dd49e5e3ca96",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/260_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/260_ef90a0f7c5142be0d2f7.json",
+    "sha256": "0d05296387bf569ccc1dbb4cbe2b73edc887b465e1f674ecdc8ac3b7f1a93f17",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/160_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/160_ef90a0f7c5142be0d2f7.json",
+    "sha256": "9d8613f5d31f91ea486a6c63a92b253412b2d4965bcbe718a79493699518687d",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/200_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/200_ef90a0f7c5142be0d2f7.json",
+    "sha256": "77cf89c2cd13c580160c626a68e5ec7ff520f75a5a92346dfe6cd639392c86c4",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/100_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/100_ef90a0f7c5142be0d2f7.json",
+    "sha256": "8645d98c37717e46a0d3f0948c2ca103da417ed0f409b2e8749f9cee0506609e",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/280_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/280_ef90a0f7c5142be0d2f7.json",
+    "sha256": "f11a2d63e81ba80c3c0d4612f4650a765804f68c16d48e193a9c60dc770bfd5b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/120_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/120_ef90a0f7c5142be0d2f7.json",
+    "sha256": "de9b644750f5fecaea7c4f3c1e08364aac3720f1b1726cb3a6faf813f2e33f71",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/140_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/140_ef90a0f7c5142be0d2f7.json",
+    "sha256": "2248c2ea905ec24de34a22937c613d90cdfb985fd364e96e5675a1e400f25506",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/300_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/300_ef90a0f7c5142be0d2f7.json",
+    "sha256": "a23a07ac87c218639c7d6faffd1424d81cd0e6d60ae1cf727fa40b54ba02776e",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/220_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/220_ef90a0f7c5142be0d2f7.json",
+    "sha256": "d0f0ace658237969a81b49677d7caa5fe1c7aa5b15b6655a3dcf32023090c3ef",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/240_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/240_ef90a0f7c5142be0d2f7.json",
+    "sha256": "98c3d7fb135729559bc18107e8e9873c31a7f44e1e66a1263795bffa99f00879",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/180_ef90a0f7c5142be0d2f7.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/pf_temperature_100k/dark_reverse/180_ef90a0f7c5142be0d2f7.json",
+    "sha256": "b3c9686d1d81dd53b92afb54f3377717603e106c35a7e1043c3423a9cb38ec73",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/C/curves.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/C/curves.json",
+    "sha256": "9d1b15e135cb5892ff6da6f987d2f5266c47d58ca1e1e6d7bb7f5fafeffa6504",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/C/representative_profiles.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/C/representative_profiles.csv",
+    "sha256": "6da1cb224f4d92aac4d4c07c43aba7993e8f98255c84bfbea33dba981aa971e6",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/legacy_B/curves.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/legacy_B/curves.json",
+    "sha256": "8d5355af89ab1376ce20c7a724df38cd47da061a0e2d0203fd91c05b403e4a88",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/B/curves.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/B/curves.json",
+    "sha256": "6947d30b7c658f45dc283022c4bb13101e4e394864324a6c0e43570abd938c35",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/B/representative_profiles.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/B/representative_profiles.csv",
+    "sha256": "fe37aa8f130ad66cb9841f8bb87cf13bc0bcf24ffd1a9e7433c341d45dc0bc45",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/A/curves.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/A/curves.json",
+    "sha256": "e5e06e9db7d5dfb44cc9deea09817d6ae8fcd86aa4e92f90204173ae1991b12f",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/A/representative_profiles.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/A/representative_profiles.csv",
+    "sha256": "b29462fe0c1170e4760cd94c4cf22d8e101636c5a7710241bc477ac4b0ef1c0f",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/D/curves.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/D/curves.json",
+    "sha256": "15c0aee319c1f63e9d12aa2c36bf9d9e2feafeaac537135a4984f0292436fcc5",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/D/representative_profiles.csv",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/D/representative_profiles.csv",
+    "sha256": "4b6ccb9f997f4f9c551a07ee9f07f0602f1793ab2879c5dab6830d13b79c5a24",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/legacy_A/curves.json",
+    "copy": "data/002高YZ/OSC_FF_reverse_knee_model/model_comparison/results_ff78/four_rate_diagnostic/legacy_A/curves.json",
+    "sha256": "11a5f4ff457405274ebd56bd4172238cf4a68992254e1460f57050cc8ddc47a5",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/README.md",
+    "copy": "data/research/revalidated_rate_audit_20261002/README.md",
+    "sha256": "3166385f1dd315f5f31192f80fa09088619291935fc2cb1e4fb10efe56a6aec9",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/REPORT.md",
+    "copy": "data/research/revalidated_rate_audit_20261002/REPORT.md",
+    "sha256": "55bb316a63c5e053726096517f9389b7977d98171424c999cbaba2673ea842be",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/provenance.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/provenance.json",
+    "sha256": "3c8fc4783ddfb584b32c002df0f090f9c05ef10efb0c6d6ef7b5ae089b07d989",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/MANIFEST_SHA256.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/MANIFEST_SHA256.json",
+    "sha256": "b365ef4a0952a651a229f28810287a8ebf930648cb0966d833e0d37cbfb372ed",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/run_provenance.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/run_provenance.json",
+    "sha256": "104df3bfc604c905220bdd88b0d8f7db8442849bada101788600745e42b78291",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/failure_probe/minimal_state_diagnostics.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/failure_probe/minimal_state_diagnostics.json",
+    "sha256": "c00fc35794a10d0d727138767feb3255d8d5c6da9fcaf00da4ba2d2287d35c4a",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/asymmetric_0.164.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/asymmetric_0.164.json",
+    "sha256": "ce7b48bd14b0d5df9b87e93a443401d5c0be97fd44393851a2453e2e2b3dd078",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_81_-20_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_81_-20_node_rates.csv",
+    "sha256": "193316600616a0ac90a281fcef2d8c9ae58510462ff8ee2c195e4a029fa30245",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_161_-20_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_161_-20_node_rates.csv",
+    "sha256": "b7ff1ba0f08e64ffb069d49776c72cfb1cc634c684e5c65fe6f8ead80b496207",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_161_fine_-5_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_161_fine_-5_node_rates.csv",
+    "sha256": "0164c1f3012668423c1617fe32bc10a86b0bfa69d3e0d036d7c92a9c1c51facb",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/neither_-10_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/neither_-10_node_rates.csv",
+    "sha256": "20a578d73f118b0d44c347341d7779e2e00f6dd27a8d5638642c41f07ad50ea0",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/supplementary.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/supplementary.json",
+    "sha256": "b65eb59a9c79bee3052abccb3dc92cb4c810b72568968008958eb513545fa3f1",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_161_fine.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_161_fine.json",
+    "sha256": "42598e461e459c8e2cef1771c3bb0aafcdbfa2cabdbc40721bbc1be73a776bab",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_81_-15_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_81_-15_node_rates.csv",
+    "sha256": "26c92037d89a862e6bc5d501f17cb0fa94b4264afaf09651cf82a66465da6d65",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/p_only_-15_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/p_only_-15_node_rates.csv",
+    "sha256": "3d94fdfd8a01eebf9a7049d45c9c3c07dbb2a70cb9279ee6218a8431b6c79d5b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/asymmetric_0.4_0_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/asymmetric_0.4_0_node_rates.csv",
+    "sha256": "7f0ab6040519ef2908a2d5d21dfc60e634f20113a2be166a3269398c307eb0d5",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/asymmetric_0.4_-15_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/asymmetric_0.4_-15_node_rates.csv",
+    "sha256": "975e05c40a3f250e09924d424fb4101061cf406f3fa40468febf240967caf411",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_321_0_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_321_0_node_rates.csv",
+    "sha256": "323884a338066d73fa912ca1f6f7c76e47d2a492ed27d83cc09690286f994243",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/n_only_0_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/n_only_0_node_rates.csv",
+    "sha256": "8b5e1e6e38ad541af5dcdab10adbb0c738521705ae0ca2c42c6317548f9a677a",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/neither_0_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/neither_0_node_rates.csv",
+    "sha256": "10d32df5e8ab099796685eec06e7b2874844f93d130952fc2a74d5593b18477d",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/energy_audit_v1_preserved.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/energy_audit_v1_preserved.json",
+    "sha256": "d3a3b752f5da7aea840e5c958d6581b3b704ccbc662a4a6efbf74b8f26989103",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/p_only_-10_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/p_only_-10_node_rates.csv",
+    "sha256": "882c0019853b2972de5f34728299fa4ba657a8937cdb87fe9695f5719b974603",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_321_-10_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_321_-10_node_rates.csv",
+    "sha256": "23f7371f7bd7b2a9e658771d3a2fb133ab513f12a75d48abca8ed5eb0caf7b45",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/asymmetric_0.4_-10_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/asymmetric_0.4_-10_node_rates.csv",
+    "sha256": "9a185a60eae06a8243c6f9b1fca52085dc8e58cca2de4848147e9f4608bdfe5d",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_321.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_321.json",
+    "sha256": "7029e987bf7bef54561771349f9a9a5fd86631869531f17964ba5256f991e1d2",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/n_only_-20_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/n_only_-20_node_rates.csv",
+    "sha256": "96ab9f8b3b6ce28c70a62d4200f93b58244a95f54cff746d333dbc1cfef42311",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_161_fine_0_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_161_fine_0_node_rates.csv",
+    "sha256": "4e5e8bd12eea7b646d0ed15ef3359a12af0e0eff7217632138cdd817ba728dfc",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/asymmetric_0.164_0_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/asymmetric_0.164_0_node_rates.csv",
+    "sha256": "4d0cd0f3fc843b0f983b44a9d87caa94404c4c0dfb16a1dcb1da5c0fffad9765",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/asymmetric_0.4_-5_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/asymmetric_0.4_-5_node_rates.csv",
+    "sha256": "4e7ae81f4908cfabc3e3b19f924720dfcf578a607dae9356e77c47f6d744750f",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_81_0_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_81_0_node_rates.csv",
+    "sha256": "612f2a156ae26bcde0de4e5369e209f89a9049bae3a1e6c262f0afd2d8fc4ecf",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_161_-5_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_161_-5_node_rates.csv",
+    "sha256": "870ae49e6b078c25127c8b9dd973ade0454d2492fada2866e511d3ef02e42e0e",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/asymmetric_0.164_-5_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/asymmetric_0.164_-5_node_rates.csv",
+    "sha256": "89723138180f70e9d970ff9aa57c3d478bccec250fa7a957c59645db5f0b2fe4",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/summary.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/summary.csv",
+    "sha256": "5af74d5d3f6ee5d3966ce47314c6c57fedc4cda739dcf5692f78b37a9ba6fab7",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_161_-15_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_161_-15_node_rates.csv",
+    "sha256": "6adeb0a19fe737954032e530b0374c634aa7f2d19147aa74fea15ecf7a2a5593",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/asymmetric_0.164_-10_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/asymmetric_0.164_-10_node_rates.csv",
+    "sha256": "65afc094ba5a97afbf7a3fef6dc7a802580bc78d533e8daddfaab169ed60c155",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_321_-5_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_321_-5_node_rates.csv",
+    "sha256": "ed13edc4beaf0255ad537ba50c20483bec43ef327f2edd8b2c47544a16773d92",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/asymmetric_0.4.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/asymmetric_0.4.json",
+    "sha256": "075dfb5ce599ee63de0cb9891b89956b3993451e40374d583206328088abe8af",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/p_only_0_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/p_only_0_node_rates.csv",
+    "sha256": "b2a8810ef52ccaf3e5e47263760fee377c7cff2dfeba227fbc86a1bd47d8f274",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_321_-15_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_321_-15_node_rates.csv",
+    "sha256": "17d4f717ddd97a86e1d1cc56f31e50ee6f579a58bafc3d7e307820bf7c60bc54",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/audited_states_v2.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/audited_states_v2.json",
+    "sha256": "541fae87fe751074b37e3dde16a2705e15d0c91406e9544380feb76717a27d59",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/n_only_-15_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/n_only_-15_node_rates.csv",
+    "sha256": "80ec9c878f18bea048554919e090d57c0f7cec2f42cdcd941a2f366d63b8e625",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/n_only_-10_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/n_only_-10_node_rates.csv",
+    "sha256": "1da9318ed7c39a0fda66c57aec049315957cc5feaccb9982ad7a7d9815c198e7",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_81_-5_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_81_-5_node_rates.csv",
+    "sha256": "a62597785b7ca8534bac049bfa50e6bc812c37a49072dee5b9177f25e69386bf",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/neither_-15_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/neither_-15_node_rates.csv",
+    "sha256": "e12bfdbfb60ad9f7ab6ea48a288ed3e50bad4f642de6166f50df5eb98d121d8a",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/p_only_-5_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/p_only_-5_node_rates.csv",
+    "sha256": "add5ff0e98e99525d3e6c9699b6b2ba32eb3afb0f11f10818a0858eae4f00422",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/p_only.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/p_only.json",
+    "sha256": "2a7756919dcc2af044800ea40f64bc0162b0890d97fe8a612fd204f92a4e79da",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/energy_audit.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/energy_audit.json",
+    "sha256": "494563438a92a7d9bce25557b08da8864c71b60926a5412169ab5b1cc12469ce",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_161_0_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_161_0_node_rates.csv",
+    "sha256": "4e5e8bd12eea7b646d0ed15ef3359a12af0e0eff7217632138cdd817ba728dfc",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/p_only_-20_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/p_only_-20_node_rates.csv",
+    "sha256": "fd8209e0f514fd02279dfec187b18ecc2d3e62625ec08abaaf8a889af60fc59c",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/neither_-5_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/neither_-5_node_rates.csv",
+    "sha256": "3aa44566955c45a1c6e92afa45a8fe487cc0ea969ad826d15e00da9f13cedd0b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/asymmetric_0.164_fine.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/asymmetric_0.164_fine.json",
+    "sha256": "999b6fc8a121cb8e6629195f8ccae7ea75d01d0421cebccc74d9aa843a15090a",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_161_-10_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_161_-10_node_rates.csv",
+    "sha256": "ccd8a9404755400b744bbbbe83b4fdca8b7109383a8e5d23e18bad6ccbacac1b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/neither_-20_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/neither_-20_node_rates.csv",
+    "sha256": "00acbda34163fb04c70f15a6d7923ffbe286b8905aed0486e8874dd028262c84",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_161.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_161.json",
+    "sha256": "d67082697e4d8f81529199a73b4e0a054707dada46dc7590707175193c3572a9",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/neither.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/neither.json",
+    "sha256": "0743d7497d3de5afe3bf427340dc2709ad5d4d7ac363ee9310add3440355140d",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_321_-20_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_321_-20_node_rates.csv",
+    "sha256": "f77ced76afb57314065448f7d29391338b03fc2b6e222b8c13ec820f4fe04202",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/asymmetric_0.4_-20_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/asymmetric_0.4_-20_node_rates.csv",
+    "sha256": "31b006e4b3966822cd4e0dea6188e424bc2c22ca3e8253054dfaa2caa9ddb867",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/pathology_tests.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/pathology_tests.json",
+    "sha256": "c5bca22bbaac78ef358b12d3d47395d9eef25d8a3b7ce4b2142c5674cc5e3fd5",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/asymmetric_0.164_fine_0_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/asymmetric_0.164_fine_0_node_rates.csv",
+    "sha256": "4d0cd0f3fc843b0f983b44a9d87caa94404c4c0dfb16a1dcb1da5c0fffad9765",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/n_only_-5_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/n_only_-5_node_rates.csv",
+    "sha256": "9292e9fa069c59e64d38bb896d255cb3290a0bfa00491c6f4680bead20284944",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_161_fine_-20_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_161_fine_-20_node_rates.csv",
+    "sha256": "2f236e5c1998e9d8f24b2a623b26f62d1fc66dcfa08f3335e755e924b6737f70",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/illuminated_minus20.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/illuminated_minus20.json",
+    "sha256": "6466aea88bb5ab591cb02a058d0c1c1db11c540632c603033b2b4a86e9b78878",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/asymmetric_0.164_fine_-5_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/asymmetric_0.164_fine_-5_node_rates.csv",
+    "sha256": "bc7a91b5d15f55e1fa67dbd4745259e9a95e547260c390f3c74b130a9cdcd0a6",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_161_fine_-15_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_161_fine_-15_node_rates.csv",
+    "sha256": "041d6ab1561b3b86da9ade54b6d1200e462f236c91a0c9f562cf895171a1685b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_161_fine_-10_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_161_fine_-10_node_rates.csv",
+    "sha256": "e062ff10e8924394ccf0092c9d61994637f5ac68884901d04d4bbb8f569d6360",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/n_only.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/n_only.json",
+    "sha256": "bf5b89d9ab5c999dc52f7d3869e8400c5191b371f6d223945cbf2dd22f2d5d09",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_81.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_81.json",
+    "sha256": "1ae2545e17f91d340af5b3718967a6f6726ff1cac26fad8e28734dee5b65620f",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/data/baseline_81_-10_node_rates.csv",
+    "copy": "data/research/revalidated_rate_audit_20261002/data/baseline_81_-10_node_rates.csv",
+    "sha256": "6d696eec392d0c3e947e51b4e18d1aa131fbb73715e7a727a033b4ccc5a45091",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/code_review/event_energy/independent_checks.json",
+    "copy": "data/research/revalidated_rate_audit_20261002/code_review/event_energy/independent_checks.json",
+    "sha256": "a77f7aff2110b75445e752902cb3a4a361cf9b58a70d6d5d972a1ccd3f7b4ae1",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/revalidated_rate_audit_20261002/code_review/event_energy/REVIEW.md",
+    "copy": "data/research/revalidated_rate_audit_20261002/code_review/event_energy/REVIEW.md",
+    "sha256": "b19d31560017606d5935d24d0abc18d80c9c4c5159f1828b81184c13e3dff4bd",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/README.md",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/README.md",
+    "sha256": "ced799d632bc4e2bb35a240e04494ad4506793e7a3d8bcaa2667b59a87f1aa3d",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/REPORT.md",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/REPORT.md",
+    "sha256": "e6295b6c1ad86bc3d13ab8551c8f51e12b8611ab8354a40ce27209a06956ada6",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/provenance.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/provenance.json",
+    "sha256": "0e520d6465b96bd135ef749554057b86968a49f422e26691db6c91ac855179dd",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/MANIFEST_SHA256.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/MANIFEST_SHA256.json",
+    "sha256": "02e7ece78274215b1582a47f289802820d88320256c3ca8969f12287b093ba6b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/extended_scaled_retry.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/extended_scaled_retry.json",
+    "sha256": "5a279cdf541fa75a3e0619da9475f58715401933c11f55f4e40649fbf01ffab6",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/expm1_scaled_failed_newton.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/expm1_scaled_failed_newton.json",
+    "sha256": "39c593aa6ed8f635a41e6831c67a8bccf0e18c63f56f4bbad0345cb49debe79d",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/rootcause_summary.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/rootcause_summary.json",
+    "sha256": "d43fa86784ce48924a207dc7053478bda1aacce2cd6ce736c1139e58e26099a4",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/qf_asym_coarse.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/qf_asym_coarse.json",
+    "sha256": "b56a20e960ccb5b96ebcfa28968a54b2826a441185bfac21ae7c6b8c61147b5c",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/scaled.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/scaled.json",
+    "sha256": "93458a7f9b12a5b26537358ee1a81f37985d9befca75ff2beb66b4ecefaf5c54",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/original_failed_newton.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/original_failed_newton.json",
+    "sha256": "2ec290455cb544461110b554981c45ed1f320098569c060797c867ef7362b402",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/qf_asym_161.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/qf_asym_161.json",
+    "sha256": "ecf2207a38f7d847e68601dc34ce8f6828474d808896dbae53d08ea00eb663a4",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/summary.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/summary.csv",
+    "sha256": "77978602cab74c3ebb5fee1c7dbcdc18f9118aa351018acb48767d7386b3f6ee",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/qf_no_gate.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/qf_no_gate.json",
+    "sha256": "a5bab7c293119a293a71df814a45c21d2e036f395aade179410a45a3992bc5b6",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/expm1_scaled.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/expm1_scaled.json",
+    "sha256": "8dcdd3310e1df496fd4a1defec7dd23fecfac1a4d5a674a42c06beb3ececa182",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/pred_tight.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/pred_tight.json",
+    "sha256": "8938123ac616dfa4cc2c9644a4a2c62e1dc1dac6902b5391a1fb57a018b8f5c5",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/qf_symmetric.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/qf_symmetric.json",
+    "sha256": "a6b356a6333e0e6e305b3c40bb5b8468125e2896c49b987c6b2ea23c8ce9edfd",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/pred_extended.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/pred_extended.json",
+    "sha256": "c70d40fb5bbdfa340fac3e3a59dba3d44c937d81b23820c52054f9b2815ab3a7",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/final_checks.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/final_checks.json",
+    "sha256": "afcb729357976e579eb0edfebaf94d459bed9f3ffb213919c36ae1d6e9d194df",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/pred_extended_failed_newton.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/pred_extended_failed_newton.json",
+    "sha256": "6ff431d3ee13f0ba49d759ee522a7b54f5fcb25ba411d38c856a0cad8e50f9b7",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/pred_original.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/pred_original.json",
+    "sha256": "b9e798504213840f16f12d1a2fc1938d1544cf8269b1dc147b6c799a00f72253",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/qf_validation_initial.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/qf_validation_initial.json",
+    "sha256": "4fcdaf32db95f62ce33e77ada685ab8ca713c3f2abdc949589248190f8a1bc0b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/extended_scaled_retry_failed_newton.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/extended_scaled_retry_failed_newton.json",
+    "sha256": "a27e13c9de382db8cc9dd1d9b9498dc4ec91860f786688af34f9b063f3e2fbf3",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/qf_validation.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/qf_validation.json",
+    "sha256": "acd3053494868736c98c7f6440d10290b6cd25d759d4f875e8f11e3b2f31d48f",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/qf_asym.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/qf_asym.json",
+    "sha256": "ddc4f7b6d416a63f32fcc7934272f45991677d0ce008fcc4c675a92b0886bcac",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/scaled_failed_newton.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/scaled_failed_newton.json",
+    "sha256": "1bd02b721a3f93cb73cb875a1ce676d4fc41910e17eeea425bcc10e55b253622",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/original.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/original.json",
+    "sha256": "2cfa69bbb74787202fd7f9def097eabf606725af9a57afa78ce9208aadc1ee77",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/data/pred_tight_failed_newton.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/data/pred_tight_failed_newton.json",
+    "sha256": "4a6b47104ec16e6b9c763e469f1cde5be2afca26d431d46cbede8a830941241e",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/README.md",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/README.md",
+    "sha256": "3166385f1dd315f5f31192f80fa09088619291935fc2cb1e4fb10efe56a6aec9",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/REPORT.md",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/REPORT.md",
+    "sha256": "55bb316a63c5e053726096517f9389b7977d98171424c999cbaba2673ea842be",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/provenance.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/provenance.json",
+    "sha256": "3c8fc4783ddfb584b32c002df0f090f9c05ef10efb0c6d6ef7b5ae089b07d989",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/MANIFEST_SHA256.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/MANIFEST_SHA256.json",
+    "sha256": "b365ef4a0952a651a229f28810287a8ebf930648cb0966d833e0d37cbfb372ed",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/run_provenance.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/run_provenance.json",
+    "sha256": "104df3bfc604c905220bdd88b0d8f7db8442849bada101788600745e42b78291",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/failure_probe/minimal_state_diagnostics.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/failure_probe/minimal_state_diagnostics.json",
+    "sha256": "c00fc35794a10d0d727138767feb3255d8d5c6da9fcaf00da4ba2d2287d35c4a",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.164.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.164.json",
+    "sha256": "ce7b48bd14b0d5df9b87e93a443401d5c0be97fd44393851a2453e2e2b3dd078",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_81_-20_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_81_-20_node_rates.csv",
+    "sha256": "193316600616a0ac90a281fcef2d8c9ae58510462ff8ee2c195e4a029fa30245",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_-20_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_-20_node_rates.csv",
+    "sha256": "b7ff1ba0f08e64ffb069d49776c72cfb1cc634c684e5c65fe6f8ead80b496207",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_fine_-5_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_fine_-5_node_rates.csv",
+    "sha256": "0164c1f3012668423c1617fe32bc10a86b0bfa69d3e0d036d7c92a9c1c51facb",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/neither_-10_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/neither_-10_node_rates.csv",
+    "sha256": "20a578d73f118b0d44c347341d7779e2e00f6dd27a8d5638642c41f07ad50ea0",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/supplementary.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/supplementary.json",
+    "sha256": "b65eb59a9c79bee3052abccb3dc92cb4c810b72568968008958eb513545fa3f1",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_fine.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_fine.json",
+    "sha256": "42598e461e459c8e2cef1771c3bb0aafcdbfa2cabdbc40721bbc1be73a776bab",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_81_-15_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_81_-15_node_rates.csv",
+    "sha256": "26c92037d89a862e6bc5d501f17cb0fa94b4264afaf09651cf82a66465da6d65",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/p_only_-15_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/p_only_-15_node_rates.csv",
+    "sha256": "3d94fdfd8a01eebf9a7049d45c9c3c07dbb2a70cb9279ee6218a8431b6c79d5b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.4_0_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.4_0_node_rates.csv",
+    "sha256": "7f0ab6040519ef2908a2d5d21dfc60e634f20113a2be166a3269398c307eb0d5",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.4_-15_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.4_-15_node_rates.csv",
+    "sha256": "975e05c40a3f250e09924d424fb4101061cf406f3fa40468febf240967caf411",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_321_0_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_321_0_node_rates.csv",
+    "sha256": "323884a338066d73fa912ca1f6f7c76e47d2a492ed27d83cc09690286f994243",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/n_only_0_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/n_only_0_node_rates.csv",
+    "sha256": "8b5e1e6e38ad541af5dcdab10adbb0c738521705ae0ca2c42c6317548f9a677a",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/neither_0_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/neither_0_node_rates.csv",
+    "sha256": "10d32df5e8ab099796685eec06e7b2874844f93d130952fc2a74d5593b18477d",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/energy_audit_v1_preserved.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/energy_audit_v1_preserved.json",
+    "sha256": "d3a3b752f5da7aea840e5c958d6581b3b704ccbc662a4a6efbf74b8f26989103",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/p_only_-10_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/p_only_-10_node_rates.csv",
+    "sha256": "882c0019853b2972de5f34728299fa4ba657a8937cdb87fe9695f5719b974603",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_321_-10_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_321_-10_node_rates.csv",
+    "sha256": "23f7371f7bd7b2a9e658771d3a2fb133ab513f12a75d48abca8ed5eb0caf7b45",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.4_-10_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.4_-10_node_rates.csv",
+    "sha256": "9a185a60eae06a8243c6f9b1fca52085dc8e58cca2de4848147e9f4608bdfe5d",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_321.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_321.json",
+    "sha256": "7029e987bf7bef54561771349f9a9a5fd86631869531f17964ba5256f991e1d2",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/n_only_-20_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/n_only_-20_node_rates.csv",
+    "sha256": "96ab9f8b3b6ce28c70a62d4200f93b58244a95f54cff746d333dbc1cfef42311",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_fine_0_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_fine_0_node_rates.csv",
+    "sha256": "4e5e8bd12eea7b646d0ed15ef3359a12af0e0eff7217632138cdd817ba728dfc",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.164_0_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.164_0_node_rates.csv",
+    "sha256": "4d0cd0f3fc843b0f983b44a9d87caa94404c4c0dfb16a1dcb1da5c0fffad9765",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.4_-5_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.4_-5_node_rates.csv",
+    "sha256": "4e7ae81f4908cfabc3e3b19f924720dfcf578a607dae9356e77c47f6d744750f",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_81_0_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_81_0_node_rates.csv",
+    "sha256": "612f2a156ae26bcde0de4e5369e209f89a9049bae3a1e6c262f0afd2d8fc4ecf",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_-5_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_-5_node_rates.csv",
+    "sha256": "870ae49e6b078c25127c8b9dd973ade0454d2492fada2866e511d3ef02e42e0e",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.164_-5_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.164_-5_node_rates.csv",
+    "sha256": "89723138180f70e9d970ff9aa57c3d478bccec250fa7a957c59645db5f0b2fe4",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/summary.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/summary.csv",
+    "sha256": "5af74d5d3f6ee5d3966ce47314c6c57fedc4cda739dcf5692f78b37a9ba6fab7",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_-15_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_-15_node_rates.csv",
+    "sha256": "6adeb0a19fe737954032e530b0374c634aa7f2d19147aa74fea15ecf7a2a5593",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.164_-10_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.164_-10_node_rates.csv",
+    "sha256": "65afc094ba5a97afbf7a3fef6dc7a802580bc78d533e8daddfaab169ed60c155",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_321_-5_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_321_-5_node_rates.csv",
+    "sha256": "ed13edc4beaf0255ad537ba50c20483bec43ef327f2edd8b2c47544a16773d92",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.4.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.4.json",
+    "sha256": "075dfb5ce599ee63de0cb9891b89956b3993451e40374d583206328088abe8af",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/p_only_0_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/p_only_0_node_rates.csv",
+    "sha256": "b2a8810ef52ccaf3e5e47263760fee377c7cff2dfeba227fbc86a1bd47d8f274",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_321_-15_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_321_-15_node_rates.csv",
+    "sha256": "17d4f717ddd97a86e1d1cc56f31e50ee6f579a58bafc3d7e307820bf7c60bc54",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/audited_states_v2.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/audited_states_v2.json",
+    "sha256": "541fae87fe751074b37e3dde16a2705e15d0c91406e9544380feb76717a27d59",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/n_only_-15_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/n_only_-15_node_rates.csv",
+    "sha256": "80ec9c878f18bea048554919e090d57c0f7cec2f42cdcd941a2f366d63b8e625",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/n_only_-10_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/n_only_-10_node_rates.csv",
+    "sha256": "1da9318ed7c39a0fda66c57aec049315957cc5feaccb9982ad7a7d9815c198e7",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_81_-5_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_81_-5_node_rates.csv",
+    "sha256": "a62597785b7ca8534bac049bfa50e6bc812c37a49072dee5b9177f25e69386bf",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/neither_-15_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/neither_-15_node_rates.csv",
+    "sha256": "e12bfdbfb60ad9f7ab6ea48a288ed3e50bad4f642de6166f50df5eb98d121d8a",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/p_only_-5_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/p_only_-5_node_rates.csv",
+    "sha256": "add5ff0e98e99525d3e6c9699b6b2ba32eb3afb0f11f10818a0858eae4f00422",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/p_only.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/p_only.json",
+    "sha256": "2a7756919dcc2af044800ea40f64bc0162b0890d97fe8a612fd204f92a4e79da",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/energy_audit.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/energy_audit.json",
+    "sha256": "494563438a92a7d9bce25557b08da8864c71b60926a5412169ab5b1cc12469ce",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_0_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_0_node_rates.csv",
+    "sha256": "4e5e8bd12eea7b646d0ed15ef3359a12af0e0eff7217632138cdd817ba728dfc",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/p_only_-20_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/p_only_-20_node_rates.csv",
+    "sha256": "fd8209e0f514fd02279dfec187b18ecc2d3e62625ec08abaaf8a889af60fc59c",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/neither_-5_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/neither_-5_node_rates.csv",
+    "sha256": "3aa44566955c45a1c6e92afa45a8fe487cc0ea969ad826d15e00da9f13cedd0b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.164_fine.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.164_fine.json",
+    "sha256": "999b6fc8a121cb8e6629195f8ccae7ea75d01d0421cebccc74d9aa843a15090a",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_-10_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_-10_node_rates.csv",
+    "sha256": "ccd8a9404755400b744bbbbe83b4fdca8b7109383a8e5d23e18bad6ccbacac1b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/neither_-20_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/neither_-20_node_rates.csv",
+    "sha256": "00acbda34163fb04c70f15a6d7923ffbe286b8905aed0486e8874dd028262c84",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161.json",
+    "sha256": "d67082697e4d8f81529199a73b4e0a054707dada46dc7590707175193c3572a9",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/neither.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/neither.json",
+    "sha256": "0743d7497d3de5afe3bf427340dc2709ad5d4d7ac363ee9310add3440355140d",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_321_-20_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_321_-20_node_rates.csv",
+    "sha256": "f77ced76afb57314065448f7d29391338b03fc2b6e222b8c13ec820f4fe04202",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.4_-20_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.4_-20_node_rates.csv",
+    "sha256": "31b006e4b3966822cd4e0dea6188e424bc2c22ca3e8253054dfaa2caa9ddb867",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/pathology_tests.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/pathology_tests.json",
+    "sha256": "c5bca22bbaac78ef358b12d3d47395d9eef25d8a3b7ce4b2142c5674cc5e3fd5",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.164_fine_0_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.164_fine_0_node_rates.csv",
+    "sha256": "4d0cd0f3fc843b0f983b44a9d87caa94404c4c0dfb16a1dcb1da5c0fffad9765",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/n_only_-5_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/n_only_-5_node_rates.csv",
+    "sha256": "9292e9fa069c59e64d38bb896d255cb3290a0bfa00491c6f4680bead20284944",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_fine_-20_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_fine_-20_node_rates.csv",
+    "sha256": "2f236e5c1998e9d8f24b2a623b26f62d1fc66dcfa08f3335e755e924b6737f70",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/illuminated_minus20.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/illuminated_minus20.json",
+    "sha256": "6466aea88bb5ab591cb02a058d0c1c1db11c540632c603033b2b4a86e9b78878",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.164_fine_-5_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/asymmetric_0.164_fine_-5_node_rates.csv",
+    "sha256": "bc7a91b5d15f55e1fa67dbd4745259e9a95e547260c390f3c74b130a9cdcd0a6",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_fine_-15_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_fine_-15_node_rates.csv",
+    "sha256": "041d6ab1561b3b86da9ade54b6d1200e462f236c91a0c9f562cf895171a1685b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_fine_-10_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_161_fine_-10_node_rates.csv",
+    "sha256": "e062ff10e8924394ccf0092c9d61994637f5ac68884901d04d4bbb8f569d6360",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/n_only.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/n_only.json",
+    "sha256": "bf5b89d9ab5c999dc52f7d3869e8400c5191b371f6d223945cbf2dd22f2d5d09",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_81.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_81.json",
+    "sha256": "1ae2545e17f91d340af5b3718967a6f6726ff1cac26fad8e28734dee5b65620f",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_81_-10_node_rates.csv",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/data/baseline_81_-10_node_rates.csv",
+    "sha256": "6d696eec392d0c3e947e51b4e18d1aa131fbb73715e7a727a033b4ccc5a45091",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/code_review/event_energy/independent_checks.json",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/code_review/event_energy/independent_checks.json",
+    "sha256": "a77f7aff2110b75445e752902cb3a4a361cf9b58a70d6d5d972a1ccd3f7b4ae1",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/asymmetric_solver_diagnostics_20261002/reference_audit/code_review/event_energy/REVIEW.md",
+    "copy": "data/research/asymmetric_solver_diagnostics_20261002/reference_audit/code_review/event_energy/REVIEW.md",
+    "sha256": "b19d31560017606d5935d24d0abc18d80c9c4c5159f1828b81184c13e3dff4bd",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/README.md",
+    "copy": "data/research/temperature_mechanism_audit_20261002/README.md",
+    "sha256": "782b225d688681e4480e640cda777fd9bbb033bd9ad14a6367109f5b352d1192",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/REPORT.md",
+    "copy": "data/research/temperature_mechanism_audit_20261002/REPORT.md",
+    "sha256": "4c5fab47c5ea25e736fb84f9ea855edadf1feb81feed8497fa8ad5b726c33aed",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/parameters.json",
+    "copy": "data/research/temperature_mechanism_audit_20261002/parameters.json",
+    "sha256": "3535dbb95b190fd206d5835a25d15f349fa8356666f367081feab25b7100532a",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/source_ledger.json",
+    "copy": "data/research/temperature_mechanism_audit_20261002/source_ledger.json",
+    "sha256": "77abb3f4a9f45c29510e333e397aee87468b92284085645a19494a24d11e6937",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/library_identity.json",
+    "copy": "data/research/temperature_mechanism_audit_20261002/library_identity.json",
+    "sha256": "e357c1388ccb2262663573593e5862806797b79ca5ddb0f8e2d5b8d3c31f38cb",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/MANIFEST_SHA256.json",
+    "copy": "data/research/temperature_mechanism_audit_20261002/MANIFEST_SHA256.json",
+    "sha256": "68ca693242a7e51a85a5141703086469893871789795f2ef8109e6d3791fcd5f",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/results/pf_supply_bounds.csv",
+    "copy": "data/research/temperature_mechanism_audit_20261002/results/pf_supply_bounds.csv",
+    "sha256": "827d9a82d376ad731738642a1a90872bda777afdf54803686e566ef251bab01c",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/results/rate_kernel_comparison.csv",
+    "copy": "data/research/temperature_mechanism_audit_20261002/results/rate_kernel_comparison.csv",
+    "sha256": "90734ef50ab7ee1d0a0c2bf7de9346806605dc7df06a3a1e374997f0071a76bf",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/results/elastic_contact_tat.csv",
+    "copy": "data/research/temperature_mechanism_audit_20261002/results/elastic_contact_tat.csv",
+    "sha256": "17865fd04fe428d242283994d52cff77dcdd3165fd3f1810240a42a4239daad2",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/results/coupling_capacity_bounds.csv",
+    "copy": "data/research/temperature_mechanism_audit_20261002/results/coupling_capacity_bounds.csv",
+    "sha256": "f2966c49fe2b72b02c2132d7e0409eadee2cc5bf41ff1b1b79f13ddfee0bee64",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/results/equilibrium_nonzero_field.csv",
+    "copy": "data/research/temperature_mechanism_audit_20261002/results/equilibrium_nonzero_field.csv",
+    "sha256": "34e2ced2f59f782921e50605f9220ece8dce54c7657f6cc2dcef4b8075f4d19b",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/results/phonon_assisted_continuum.csv",
+    "copy": "data/research/temperature_mechanism_audit_20261002/results/phonon_assisted_continuum.csv",
+    "sha256": "2f8ab4f4a898a6fcf67ff11c4b72990bb54d7ac37386de21efa2cc722e816430",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/results/transport_capacity.csv",
+    "copy": "data/research/temperature_mechanism_audit_20261002/results/transport_capacity.csv",
+    "sha256": "59e7bb3fd646dd9e3844ff787e1da02528703a8231960a2e33c8709dbb1e9747",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/results/validation.json",
+    "copy": "data/research/temperature_mechanism_audit_20261002/results/validation.json",
+    "sha256": "8731ccc26266fb503df231b0d3ce27a13d211d177cc295922350aec9df46423a",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/results/ideal_pair_capacity.csv",
+    "copy": "data/research/temperature_mechanism_audit_20261002/results/ideal_pair_capacity.csv",
+    "sha256": "149b69ea200acb2b966a97c9a77c577f01e71629c6b3873b3ae76cbc32b02a96",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/results/provenance.json",
+    "copy": "data/research/temperature_mechanism_audit_20261002/results/provenance.json",
+    "sha256": "c824b03a0da7a2d1197d349abe482ef737b5e4198a44e69277f437d6839b93ef",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/results/source_threshold_crossings.csv",
+    "copy": "data/research/temperature_mechanism_audit_20261002/results/source_threshold_crossings.csv",
+    "sha256": "b5513a6a95c1eab375795c82298d781950bf387f65496d9740b82b7a6d253242",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/results/fixed_mu_vs_fixed_n.csv",
+    "copy": "data/research/temperature_mechanism_audit_20261002/results/fixed_mu_vs_fixed_n.csv",
+    "sha256": "aa6f5aa08875ac2343146c9e865352cec93dd8e55836cf0994f2b127ed1f0e74",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/results/selected_counterexamples.csv",
+    "copy": "data/research/temperature_mechanism_audit_20261002/results/selected_counterexamples.csv",
+    "sha256": "17d0a5d30dcc26bdbc4b6c07a162674799ec241e45bf0c439711cbbd2ec0de42",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/results/vibration_regimes.csv",
+    "copy": "data/research/temperature_mechanism_audit_20261002/results/vibration_regimes.csv",
+    "sha256": "d99e991242554370d7c21566fd9e8c7a9a681704801eaf730d090aae7c79e779",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/inputs/SOURCE_PROVENANCE.json",
+    "copy": "data/research/temperature_mechanism_audit_20261002/inputs/SOURCE_PROVENANCE.json",
+    "sha256": "9381ea6cf1379294f58b72479aa093939b8bea4e34c15aba5dd31f48998138b7",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/temperature_mechanism_audit_20261002/inputs/baseline_ff78.json",
+    "copy": "data/research/temperature_mechanism_audit_20261002/inputs/baseline_ff78.json",
+    "sha256": "0b3998615db5dd581170eb5a607bc839e80117f99d6c864cfb676d1ddf233eca",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/README.md",
+    "copy": "data/research/quantum_cycle_audit_20261002/README.md",
+    "sha256": "70cd51384d23c85b9d9ba5be866bcda54bc5cb2176b18d072e41c84e7329726c",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/REPORT.md",
+    "copy": "data/research/quantum_cycle_audit_20261002/REPORT.md",
+    "sha256": "5f098dcc07a7b084261d46f7a53659a8db545cfa0bf9f1b006fae379b4051b3d",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/SOURCE_LEDGER.json",
+    "copy": "data/research/quantum_cycle_audit_20261002/SOURCE_LEDGER.json",
+    "sha256": "f741a39cf5c98a2486473d01ebd2470117f9fa5d80c5fb527b696fa07d965699",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/parameters.json",
+    "copy": "data/research/quantum_cycle_audit_20261002/parameters.json",
+    "sha256": "cec3a0333d8f9e366d1e22e7b4ef3cbd84ff652d06eadf308d5c2cc3cd973cde",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/library_identity.json",
+    "copy": "data/research/quantum_cycle_audit_20261002/library_identity.json",
+    "sha256": "47ca2b1c61280d40d009ff330c05f9471e289e76fb5ab8d499d7f74d604fb605",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/MANIFEST_SHA256.json",
+    "copy": "data/research/quantum_cycle_audit_20261002/MANIFEST_SHA256.json",
+    "sha256": "62fafcdd2c3cd7f7ea7816dedfc92a196bfa86de437f278c724933e0b22809bc",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/extraction_coulomb_edge_fluxes.csv",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/extraction_coulomb_edge_fluxes.csv",
+    "sha256": "af83255e19a64616e0639ef2b75322cabed2cd8d08831e4a49607fb9f4b415d8",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/closed_finite_bath_relaxation.csv",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/closed_finite_bath_relaxation.csv",
+    "sha256": "4d960b01493126934c7aaec747497819c58124b9d30457ff75f0c4a0bf3b54a4",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/full_reversible_cycle_scan.csv",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/full_reversible_cycle_scan.csv",
+    "sha256": "c84c19df0ff22019a152a909731fdb5f089214555860611b2f00ddc3660cb2a8",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/validation_summary.json",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/validation_summary.json",
+    "sha256": "908790f116935adc0a29436bbbd699f9377dc189b7a4ec9794dc36745c308651",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/conditional_threshold_crossings.csv",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/conditional_threshold_crossings.csv",
+    "sha256": "0d580787254929fbdfd4121fb0cfb754eef202ee077296e706f74cefec797307",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/asymmetric_extraction.csv",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/asymmetric_extraction.csv",
+    "sha256": "b19de41b5377166f987331867c8acc641b6a5e7062689e3ff9acb0b2798cf8d0",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/equilibrium_nonzero_field.csv",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/equilibrium_nonzero_field.csv",
+    "sha256": "9aec8555f33dcc295d2af70559eb0f07b7e5e59624e62ecf4372bfee5b0b6248",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/states_and_charges.csv",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/states_and_charges.csv",
+    "sha256": "37cc8fd053e710f04c7ea67b99f1260932275f7104749e0862a033dddfd002fa",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/kernel_tests.csv",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/kernel_tests.csv",
+    "sha256": "ece5a044c88f582a20a0ae53aeb1305b8b8cb3da86a7adf3a13ef4cad85e74ae",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/all_fundamental_cycle_affinities.csv",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/all_fundamental_cycle_affinities.csv",
+    "sha256": "4d201f488d443b131ca67308e3b822b184d92a18ff30c7e5cb4601929c8b3447",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/representative_cycle_energy_ledger.csv",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/representative_cycle_energy_ledger.csv",
+    "sha256": "118f0e656e0dd451106c8b218d24be889efa84f698c3cb999d904eea20710085",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/extraction_coulomb_feedback_scan.csv",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/extraction_coulomb_feedback_scan.csv",
+    "sha256": "f49335490c4b960128e5ad49bd24ef0acf485d38850db93d50365086751f5db8",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/counterexamples.csv",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/counterexamples.csv",
+    "sha256": "4978b348ae001db2badddc916764da0eef7ae235fb63ce82edba2beea4ceeddc",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/scan_peaks.csv",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/scan_peaks.csv",
+    "sha256": "90529fd1abe64c45e51de12871256fcd9e168828c15d3dd148dab389474443ef",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/provenance.json",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/provenance.json",
+    "sha256": "0ee47476fd2e59d3930cc30002321f990af1402439b9ce5146505c6ee5cd11ff",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/extraction_rate_diagnostic.csv",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/extraction_rate_diagnostic.csv",
+    "sha256": "84f712cde602e7cd0fdb5861629d3e5a58c1f17001af9a1c81853a448a844e26",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/cycle_basis.json",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/cycle_basis.json",
+    "sha256": "405e77ce237f7aa2ce53b80f4ea3b48025bfff2ee1dbb2af4f00ee2b7dcb87e8",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/independent_franck_condon.csv",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/independent_franck_condon.csv",
+    "sha256": "326adc0eb00d696b4d2b5189ad387944625e2ace8fe998bb038c36c207279b7a",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/field_step_convergence.csv",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/field_step_convergence.csv",
+    "sha256": "a3532aeb852e6857594c98a5bb65562879a03f0235bf886cdd1b75d6cc2f1645",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/extraction_coulomb_summary.json",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/extraction_coulomb_summary.json",
+    "sha256": "0c7db1ff2f3fef270efaf4f35e8afc680335f36459595f78aa301fbbeca9eacf",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/final_review.json",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/final_review.json",
+    "sha256": "831868ac67c17df59ebb4aeec1f0a7120acc30bef06c384531bdf519482d7266",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/results/precision_and_tree_tests.csv",
+    "copy": "data/research/quantum_cycle_audit_20261002/results/precision_and_tree_tests.csv",
+    "sha256": "6e3b7cb7be38cbae9c66970171a713df351867cae21ab4e69e02fc89473c76a2",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_cycle_audit_20261002/inputs/baseline_ff78.json",
+    "copy": "data/research/quantum_cycle_audit_20261002/inputs/baseline_ff78.json",
+    "sha256": "0b3998615db5dd581170eb5a607bc839e80117f99d6c864cfb676d1ddf233eca",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/d18_l8bo_constraints_20261002/REPORT.md",
+    "copy": "data/research/d18_l8bo_constraints_20261002/REPORT.md",
+    "sha256": "78e717c9382a7f87a7e18861608c9ee454f2ca9ba9bd034266d9582b429dcda2",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/d18_l8bo_constraints_20261002/ARCHIVE_MANIFEST.json",
+    "copy": "data/research/d18_l8bo_constraints_20261002/ARCHIVE_MANIFEST.json",
+    "sha256": "6898073615c706b81dfde0700a2160630a55c7ab4389ce7ce1647eef82e0c2c5",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/d18_l8bo_constraints_20261002/SOURCE_PROVENANCE.json",
+    "copy": "data/research/d18_l8bo_constraints_20261002/SOURCE_PROVENANCE.json",
+    "sha256": "53c570a1b3912f8dd068466b3cc3ebb2ce49ecfaa962847bb6bdd07725a8ae6c",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/d18_l8bo_constraints_20261002/gap_definition_sensitivity.csv",
+    "copy": "data/research/d18_l8bo_constraints_20261002/gap_definition_sensitivity.csv",
+    "sha256": "3edcab339358ca870b6f3616da6721b7e43b3886951421794c86a351f2a2052f",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/d18_l8bo_constraints_20261002/source_audit.json",
+    "copy": "data/research/d18_l8bo_constraints_20261002/source_audit.json",
+    "sha256": "fa129c373b4e74fa0759a058e29a4ff173c926acb04fab5c524bbe09d3cfc479",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/d18_l8bo_constraints_20261002/field_scale_checks.csv",
+    "copy": "data/research/d18_l8bo_constraints_20261002/field_scale_checks.csv",
+    "sha256": "3302656c5c700c8e35989f73db511dd132913f8a7c4589bff29ea62577810602",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/d18_l8bo_constraints_20261002/candidate_constraints.json",
+    "copy": "data/research/d18_l8bo_constraints_20261002/candidate_constraints.json",
+    "sha256": "695254da42cc00259ff62fd2113d1a31002fb73deb646f9f4a4a2ef064cc0cf6",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/d18_l8bo_constraints_20261002/VALIDATION.md",
+    "copy": "data/research/d18_l8bo_constraints_20261002/VALIDATION.md",
+    "sha256": "efc4c61854a1fda76f08ac990593a5ad61ae3b6f11ce1618be3ed08ae6bd76c6",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/d18_l8bo_constraints_20261002/transport/transport_audit_zh.md",
+    "copy": "data/research/d18_l8bo_constraints_20261002/transport/transport_audit_zh.md",
+    "sha256": "b1f75a4b00f455de7dc46438a1cf08704e6e501a242012e27ca1c63408f77f73",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/d18_l8bo_constraints_20261002/transport/transport_evidence.csv",
+    "copy": "data/research/d18_l8bo_constraints_20261002/transport/transport_evidence.csv",
+    "sha256": "66b70370097882b600ecf55a31e413f894d560ee932bb503db2c1ca871eb7a1a",
+    "kind": "research_source"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/d18_l8bo_constraints_20261002/transport/transport_evidence.json",
+    "copy": "data/research/d18_l8bo_constraints_20261002/transport/transport_evidence.json",
+    "sha256": "85d348861cf835ff7d72eed846424c5132cc7841fd0a6a012e8cba443fb0bcb4",
+    "kind": "research_source"
+  },
+  {
+    "id": "reservoir_support",
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/figures/same_budget_spectral_support_control.png",
+    "copy": "figures/pre_serif_archive/reservoir_support.png",
+    "sha256": "e07ae3d9c31dcd00c8d6f44c4591de58a336163cc37d00896e84e6b3aa8d43fc",
+    "kind": "new_frozen_stage"
+  },
+  {
+    "id": "reservoir_temperature",
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/figures/temperature_and_pair_accumulation.png",
+    "copy": "figures/pre_serif_archive/reservoir_temperature.png",
+    "sha256": "7293894c542448ce64b4c0678acfe12bbaadfc9093e616106de7965ebd7e4716",
+    "kind": "new_frozen_stage"
+  },
+  {
+    "id": "reservoir_heat",
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/figures/physical_heat_partition.png",
+    "copy": "figures/reservoir_heat.png",
+    "sha256": "b2b0646934025bbbae72c19109010c74d45064db16c0e84f426e48f884306ba2",
+    "kind": "new_frozen_stage"
+  },
+  {
+    "id": "lowT_cancellation",
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/figures/cancellation_confidence.png",
+    "copy": "figures/pre_serif_archive/lowT_cancellation.png",
+    "sha256": "587f756817de1e087445b16571f9c843974698ff45b56c05f0939e7dc7e8e127",
+    "kind": "new_frozen_stage"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/README.md",
+    "copy": "data/research/quantum_reservoir_audit_20261002/README.md",
+    "sha256": "3bf85a1ba4ce13610ff0c3e490dde963dfaf004da9d4f95ae59fdc1d00fd1f11",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/REPORT.md",
+    "copy": "data/research/quantum_reservoir_audit_20261002/REPORT.md",
+    "sha256": "6422583b8e5525370e0ecd991824bc6c222ef0580d0491303d6f6df0ad57cb66",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/THEORY_BEFORE_CODE.md",
+    "copy": "data/research/quantum_reservoir_audit_20261002/THEORY_BEFORE_CODE.md",
+    "sha256": "0731352bf04e53290d0d3fdffd82f5b8268ad2e20c298dcaa41af11c7b8fd66f",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/SOURCE_LEDGER.json",
+    "copy": "data/research/quantum_reservoir_audit_20261002/SOURCE_LEDGER.json",
+    "sha256": "19dcdad7edce695e212d92d9f611262dce4637908789089275510cafa69c43b3",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/parameters.json",
+    "copy": "data/research/quantum_reservoir_audit_20261002/parameters.json",
+    "sha256": "89b62799084523be91bc006b9194566eb5b6d68b61aa3e535964b675a322b196",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/library_identity.json",
+    "copy": "data/research/quantum_reservoir_audit_20261002/library_identity.json",
+    "sha256": "26c9f78747e456fe2078adf5f2a6d8c0fb175ed6d3fadb56c04ab0d974942909",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/MANIFEST_SHA256.json",
+    "copy": "data/research/quantum_reservoir_audit_20261002/MANIFEST_SHA256.json",
+    "sha256": "ff4a461d5bc30d57f0c561d95d2733d9c92784cfe9461998d83ce92f3446189a",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/fixed_coupling_bandwidth_controls.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/fixed_coupling_bandwidth_controls.csv",
+    "sha256": "cfe7a3b15fe0325bbc17a4665108281795942c75ccc1f57bf17f99373e3874c7",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/wrong_reverse_fermi_counterexample.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/wrong_reverse_fermi_counterexample.csv",
+    "sha256": "1d0f4f325a007a4342ae57e2a09391a3769d0093a853e86e1e857a1ae4725b43",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/centered_support_convergence.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/centered_support_convergence.csv",
+    "sha256": "8c14455d7ac790e15ba3933c92f43e25b1f70e69f6d5621b9df6d5494669333f",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/one_sided_vs_broad_contact_support.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/one_sided_vs_broad_contact_support.csv",
+    "sha256": "63dc91df6b9db4cb40e1744d0275729dc7fe39ad05d13e8e90dd15f1ad8de49b",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/independent_field_and_mu_controls.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/independent_field_and_mu_controls.csv",
+    "sha256": "a00ab15151d518d89dffcabb4c01ff23f2f519a457d57dde518c812870b7aa39",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/quadrature_convergence.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/quadrature_convergence.csv",
+    "sha256": "c6530b12699e834780bcaa5b82cc2ea00040ee97728b08c5851bea5ea587bbe3",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/internal_vs_bath_kernel_factorial.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/internal_vs_bath_kernel_factorial.csv",
+    "sha256": "d4f6394999bcac34b72495e2b36c7033de8fc3a8f442e5048f2da530354bc990",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/validation_summary.json",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/validation_summary.json",
+    "sha256": "0aebf7197e082a92092a6727070ec5a39d61cc0e5219101c058a3338d893272b",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/fundamental_cycle_affinities.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/fundamental_cycle_affinities.csv",
+    "sha256": "4f116885b902eefd9d1b37155dabe193ef2e781a3906e1a00cca26455b564813",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/peak_capacities.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/peak_capacities.csv",
+    "sha256": "5acfd80ecb5502391f0169c7d1df07817ad83c25f57c5f8058f3cf1d13643d38",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/common_mu_nonzero_field.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/common_mu_nonzero_field.csv",
+    "sha256": "f5218af09cc9cc722e586ad08a22deb644ff176939b2c5872dba8f8c620d56cf",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/independent_adaptive_quadrature.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/independent_adaptive_quadrature.csv",
+    "sha256": "2bda97b8ffee3ae89fac7a7f4aab8acdf259f3f837305d7496ab49b9227d3402",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/representative_main_points.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/representative_main_points.csv",
+    "sha256": "60cfd704f2b90c54d82bc02f36a5035c00c590cab402e57706e9b82b1c9f238d",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/provenance.json",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/provenance.json",
+    "sha256": "33158d35144f3a3c80c3a02339a84c48fdb1ab2be08570c74cc23efbb00713b1",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/representative_state_probabilities.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/representative_state_probabilities.csv",
+    "sha256": "e2886af16b70363d78b092556c1ba6d7124bfd0ac70f492a4d65a4b4845cae71",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/common_mu_0023_control.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/common_mu_0023_control.csv",
+    "sha256": "f7abaaaa7dd0ade8123f810cdaad8657fe44e0c8db342f6a6be271d39f907b41",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/matched_boundary_full_scan.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/matched_boundary_full_scan.csv",
+    "sha256": "9924e2ee49ea85344ce66853eab38f8723523de3a0d7f81ef7acafffd90c1437",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/independent_graph_solution_checks.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/independent_graph_solution_checks.csv",
+    "sha256": "d23ffa2509cef4da0710c9149c397afb969cd53e1436dfa18db78f4ecff03dc9",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/representative_edge_rates_fluxes.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/representative_edge_rates_fluxes.csv",
+    "sha256": "09f2bd0647a104238b1d3a433db389fc072a75afa8f5c52ea7686d0d8aff2b2b",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/elastic_limit_matching.csv",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/elastic_limit_matching.csv",
+    "sha256": "4b128cbccbea643375909c4768a9410ece5e7ce4d99937f81773da4461654770",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/results/final_review.json",
+    "copy": "data/research/quantum_reservoir_audit_20261002/results/final_review.json",
+    "sha256": "f30a6dbc01bb23f71518236c6ac81926dd7a03e1e6d123172322410b0c5737cd",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/inputs/parameters.json",
+    "copy": "data/research/quantum_reservoir_audit_20261002/inputs/parameters.json",
+    "sha256": "cec3a0333d8f9e366d1e22e7b4ef3cbd84ff652d06eadf308d5c2cc3cd973cde",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/inputs/preceding_validation.json",
+    "copy": "data/research/quantum_reservoir_audit_20261002/inputs/preceding_validation.json",
+    "sha256": "908790f116935adc0a29436bbbd699f9377dc189b7a4ec9794dc36745c308651",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/quantum_reservoir_audit_20261002/inputs/cycle_basis.json",
+    "copy": "data/research/quantum_reservoir_audit_20261002/inputs/cycle_basis.json",
+    "sha256": "405e77ce237f7aa2ce53b80f4ea3b48025bfff2ee1dbb2af4f00ee2b7dcb87e8",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/README.md",
+    "copy": "data/research/qf_temperature_confidence_20261002/README.md",
+    "sha256": "48eb19151f4bb7973c48e438cf3050ec4c18117541d58bcd805c3f64035553ba",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/REPORT.md",
+    "copy": "data/research/qf_temperature_confidence_20261002/REPORT.md",
+    "sha256": "3ecf4736d84aa5edebd5b01a498debdece2529fc6da0b6402c187792509a78c0",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/provenance.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/provenance.json",
+    "sha256": "bfdd15bc8834a3045543db5064f2567fadfc7bf2f6afe33346af91d16d1e3f46",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/MANIFEST_SHA256.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/MANIFEST_SHA256.json",
+    "sha256": "e7a2258f6e3c21ab9244a56038aef79285a5bbd2bfa9c0e5a481567adc5b8f06",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T150_D0.65_N81_-20.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T150_D0.65_N81_-20.json",
+    "sha256": "97dec23ccd80399b35cf3bffc69be7b67e5b49dd790f739de2a6b3a0bf2e6918",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T300_D0.164_N81_-5.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T300_D0.164_N81_-5.json",
+    "sha256": "509cabc06280e7e3aa5e32577521dcab310f7f677f08bd3cc6f645bfe0994b6f",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T150_D0.65_N81_0.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T150_D0.65_N81_0.json",
+    "sha256": "02bd7091adcb4ab5efdc759590c5ef60a9a39fd6118b15ae5223c13372423df2",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T300_D0.65_N81_-20.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T300_D0.65_N81_-20.json",
+    "sha256": "e21d0caa3a7597f4d9b1cef3b7dda59c5324d50beba47b7f98f6117478f34bd8",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/T80_D0.164_N81.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/T80_D0.164_N81.json",
+    "sha256": "aba6a082061ddc34b8494864bd7e79d29eb668c648bb2c68a552ed5116a78884",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/confidence_map.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/confidence_map.json",
+    "sha256": "57fe55d7a99df130c79013570e77086220eb7bcb6b26577a8e0ba0b73dcc27fe",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/T220_D0.164_N81.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/T220_D0.164_N81.json",
+    "sha256": "7473568cc35005157fd84a73fce969cb62691c587e62f74a7df78b55c7f2f05a",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T220_D0.65_N81_0.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T220_D0.65_N81_0.json",
+    "sha256": "afb0f451b5333c21e1e34ad09849d6950821b7fd670a5537307b1862944df788",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T300_D0.65_N81_-5.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T300_D0.65_N81_-5.json",
+    "sha256": "bc8ab75e2b3aefd2681e46910617318906022a74527a913b625de299a95c8bba",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/T150_D0.164_N81.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/T150_D0.164_N81.json",
+    "sha256": "366a87ce7c1d2d48b965cc9cf1645248bf7d7142cfb963ea73f816a707a8e943",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T150_D0.164_N81_0.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T150_D0.164_N81_0.json",
+    "sha256": "85509eb22f784f7946075c86c1ccbd39473aa19519c18209b5fcf4f17446ecb9",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T80_D0.164_N81.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T80_D0.164_N81.json",
+    "sha256": "8f16a9da8991e63d47ef57849f1a4758fbc4fddf4603df7af494160bcfba8821",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T220_D0.164_N81.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T220_D0.164_N81.json",
+    "sha256": "b169ee3e4e80cf1c23e7a7db9af904539317569cbf71346984c70c8afd48330e",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T80_D0.65_N81_0.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T80_D0.65_N81_0.json",
+    "sha256": "deb078d50f3e4b0ae0246e48a2ac889d613918fa758a25d0cbcacb1b3ea8861b",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T80_D0.164_N81_-20.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T80_D0.164_N81_-20.json",
+    "sha256": "740fca456367a46671df26c010b3c094b1029e54cb53c6b98af0dafd211bd67a",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T300_D0.164_N81.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T300_D0.164_N81.json",
+    "sha256": "b5e509b395cbf99cc142263d24475a9d998b94aa537c450a49efe79b20726a1a",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T220_D0.65_N81_-5.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T220_D0.65_N81_-5.json",
+    "sha256": "701f9e576fc3233aa77b26239ff73ea3e140acf800602cf0874ebb0b632b7eb2",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/coldmesh_T80_D0.65_N161.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/coldmesh_T80_D0.65_N161.json",
+    "sha256": "14f1f651e83ced391518227374b3cd9b9b03bfed939a080628f826b3fc6d8bb2",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T300_D0.65_N81_0.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T300_D0.65_N81_0.json",
+    "sha256": "35eb1a3f0cacf4446e0c2619f106c88c7087de4651b859f233197dbc99d19354",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/T80_D0.65_N81.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/T80_D0.65_N81.json",
+    "sha256": "9d8a1e687a251b51e2e079ceed968ff4e9de9ee0ba2567494b658fdabb69efc4",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/exact_equilibria.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/exact_equilibria.json",
+    "sha256": "6bb2a9743a6b6a3475bddc73c695cb923f3064c0b09a3bd43632ae9dd67d22aa",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T220_D0.164_N81_0.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T220_D0.164_N81_0.json",
+    "sha256": "aa87a17e891ff6c4012601fc672448c437073eee75f82fabfc46a68ac1ab8e6c",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T80_D0.164_N81_-5.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T80_D0.164_N81_-5.json",
+    "sha256": "6cf24bd1bca4e1745dad838bde9a022fb35ad33871617e115fa6b80c83c6c1dc",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/T300_D0.65_N81.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/T300_D0.65_N81.json",
+    "sha256": "316ff06a673051640840e3e9cf12e6a751542d9e0f3a82ad184557df2ec918bf",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/cycle_validation.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/cycle_validation.json",
+    "sha256": "1a3fe0486d8bf2e72e900d72ef5e36ed84d589222690eff701a25b6b589f0677",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T220_D0.164_N81_-5.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T220_D0.164_N81_-5.json",
+    "sha256": "41bc2adaa84358d9bc220d6b5cfd38f475a74cdc14f9e146f0633e031d974a89",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T300_D0.164_N81_0.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T300_D0.164_N81_0.json",
+    "sha256": "c4d87f07dada5934e3b5e9ca274415b5dafee2faea09423b9e678f34d01e0775",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/coldmesh_T80_D0.164_N161.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/coldmesh_T80_D0.164_N161.json",
+    "sha256": "b5a81adb5d7de1cb0402cb4108116bc1c0eaa7ee9c548249b17852da09605583",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T150_D0.164_N81_-20.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T150_D0.164_N81_-20.json",
+    "sha256": "8d654b0c11579ca0769d53a3ea42d67b69a9f2fc102592134f25f0a13e16cec1",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T80_D0.164_N81_0.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T80_D0.164_N81_0.json",
+    "sha256": "6de01c600f03dc9a408f8c7b7876558309adafbbda44d80d78af11a948e5eb45",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/T220_D0.65_N81.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/T220_D0.65_N81.json",
+    "sha256": "64e2af7da8eafb4a2c71344f661753e5683a28971165de49c54bb0fe517c47e3",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T220_D0.65_N81.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T220_D0.65_N81.json",
+    "sha256": "86bf7240021cb20874bbb378c1b5e6b64d45a3e4ee3438ba020154e342879868",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T150_D0.164_N81.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T150_D0.164_N81.json",
+    "sha256": "0f691b0f7030e42df3bfb906dc1a63f3ceebae1f926273a6954e48bd663df264",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T80_D0.65_N81.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T80_D0.65_N81.json",
+    "sha256": "2c992780d9fe7a3360429bdb1954de052e74f750dda73a3b49ce2ea2b0954c19",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/T300_D0.164_N81.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/T300_D0.164_N81.json",
+    "sha256": "8d75b47ac5adf8b5dd38955eeb2acec429a2d3ea568c624d549355ee1768b693",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T150_D0.164_N81_-5.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T150_D0.164_N81_-5.json",
+    "sha256": "02df5a885a33e77d94b64559d3d18d17c2c59fa3d341b6a8f511a418a4f70fd5",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/confidence_map.csv",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/confidence_map.csv",
+    "sha256": "3c636bbd2b1ae3f279f6ddd34ef6ab79b6bc5a714a444f22e68edcfc18f1c75c",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T220_D0.164_N81_-20.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T220_D0.164_N81_-20.json",
+    "sha256": "9b41903ec0cd52b658572c282982507e9bf99ace132bc17e615c22376556d94c",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T150_D0.65_N81.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T150_D0.65_N81.json",
+    "sha256": "23d934ab7cf41f77b24ea552a713dc5b339a8998dfa336f1564a1bae24cbdb4c",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T300_D0.164_N81_-20.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T300_D0.164_N81_-20.json",
+    "sha256": "816b58b2d741a4db52058517cab754dcf4cb0820c5b5e4115a05e9a899532502",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T220_D0.65_N81_-20.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T220_D0.65_N81_-20.json",
+    "sha256": "5b57ed966f98aa3fc1db9d50c083e2cb5f4be419ce863f23064b22c9feb2bad3",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T300_D0.65_N81.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T300_D0.65_N81.json",
+    "sha256": "5ca719ed270642fee355ca47089229fad1d27480ce106585160fc7674453050d",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/T150_D0.65_N81.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/T150_D0.65_N81.json",
+    "sha256": "73663546feabd5ba605b3f19e649c54098bba389d82592f0e49c5d8f8c50e2b2",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T150_D0.65_N81_-5.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T150_D0.65_N81_-5.json",
+    "sha256": "78540feb4e7e36d28e823f9c76338186964d20db54e05c916de290c87f0bc567",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T80_D0.65_N81_-5.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T80_D0.65_N81_-5.json",
+    "sha256": "37f29397feb05900a1b1c87161db1f88a56134a97eb899641d59a29a2549ec09",
+    "kind": "new_frozen_stage_data"
+  },
+  {
+    "original": "/workspace/shared/wxh/research/qf_temperature_confidence_20261002/data/stable_T80_D0.65_N81_-20.json",
+    "copy": "data/research/qf_temperature_confidence_20261002/data/stable_T80_D0.65_N81_-20.json",
+    "sha256": "cd3085cfb8329ed9dd2e1c9d115457d4a6e6acfcf07cdf66fd3117b81b7e8854",
+    "kind": "new_frozen_stage_data"
+  }
+]

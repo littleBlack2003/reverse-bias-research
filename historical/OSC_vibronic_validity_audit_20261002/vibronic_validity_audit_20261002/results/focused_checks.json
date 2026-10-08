@@ -1,0 +1,7 @@
+{
+  "spectral_quadrature_vs_gamma_max_log_C_error": 1.2902261313625889e-12,
+  "T_00125K_vs_exact_zero_T_Gamma_max_log_P_difference": 7.631971744359589e-06,
+  "old_kernel_vs_current_baseline_max_log_error": 2.842170943040401e-14,
+  "two_mode_L18_L24_max_log_error": 0.0,
+  "all_assertions_passed": true
+}

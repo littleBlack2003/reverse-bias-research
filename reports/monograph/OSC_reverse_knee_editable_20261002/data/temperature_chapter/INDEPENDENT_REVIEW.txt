@@ -1,0 +1,25 @@
+Independent review of finite exclusion/capacitance contact benchmark
+2026-10-03 UTC
+
+Verdict: no blocking defect found in the stated finite-chain model. This is a one-species, 8-site, contact-driven Markov process, not an OSC generation model or a calibrated bulk mobility model.
+
+1. Thermodynamic conventions
+The configuration energy is the fixed-boundary electrostatic thermodynamic potential: sum n_i(eps_i-phi_ext,i) + alpha/2 (n-b)^T G(n-b), up to configuration-independent terms. Dirichlet G is the inverse discrete Laplacian. The applied-voltage sources have already been accounted for in this potential; do not add another q F r to its transition differences. Reservoir electrochemical potentials 0 and -V are consistent with electrons and endpoint potentials 0 and +V. A transfer from left reservoir to right reservoir releases mu_L-mu_R=V eV per electron. Site energy tilt and reservoir chemical-potential difference are not duplicated work: one governs intermediate energies, the other the net thermodynamic affinity.
+
+2. Electrostatics and self-energy
+alpha=q*a/(epsilon*area) has units volts, numerically eV per elementary charge. The mean potential solves the discrete Dirichlet Poisson equation, but rates use exact configuration energies rather than mean occupancies. The diagonal G term is a genuine finite-capacitance charging/self-energy in this stipulated model. The uniform fractional background b=0.3 is a fixed compensating positive charge sheet per site. It is not a thermally equilibrated donor population or a hole density. G represents a planar 1-D capacitance geometry, not a molecular 3-D Coulomb Green function. Changing the area changes both charging and current-density conversion.
+
+3. Independent algebra/numeric checks
+For seeds 0,3,6 at 300 and 420 K and F=1.5 MV/cm, recomputed every transition increment from dn dot(eps-phi) + alpha dn^T G z + alpha/2 dn^T G dn. Maximum difference from stored energy differences <=8.89e-15 eV. Independently summed occupation continuity; maximum residual divided by nu <=4.50e-16. Recomputed thermodynamic entropy from sum net*(mu-du)/(kBT), independent of the probability-log entropy expression. Relative agreement <=8.75e-13. Reservoir power agrees with (mu_L-mu_R)*left particle current to <=4.27e-13 relative. Local detailed balance is exact to floating-point error. Existing results have minimum probability -3.08e-16, compatible with solve roundoff; no clipping was used. Worst stored relative energy residual across 96 driven cases is 5.35e-8, occurring in weak currents, and passes the stated tolerance.
+
+4. Quantitative counterexample and scope
+At 1.5 MV/cm, 10 of 12 quenched disorder chains have J(420)/J(300)=0.962485 to 1.011484; seeds 3 and 6 instead have ratios 4.22299 and 6.50653. At 0.5 MV/cm, ratios span 1.08940 to 111.560. The disorder realization and all non-temperature parameters remain fixed in every temperature comparison. Thus a weakly temperature-dependent terminal current is possible in an exclusion, phonon-assisted Miller-Abrahams network with contacts and charging; it does not uniquely prove elastic tunneling. This is an existence counterexample, not a population statement for macroscopic organic films. Downhill MA rates saturate at the stipulated temperature-independent clock, so it is not evidence that real material prefactors are temperature independent.
+
+For seed 0 at 1.5 MV/cm, changing gamma/nu from 0.01 to 1 to 100 gives J(420)/J(300)=0.96473,0.99395,0.99859. Turning charging off yields 0.95514. N=4,6,8,10 yields 0.95373,0.98562,0.99395,1.00159; these are different physical lengths and disorder segments, not grid refinement or a controlled infinite-size extrapolation.
+
+5. Presentation cautions
+- Report normalized current or particle throughput prominently. Absolute hundreds of A/cm2 follow an arbitrary nanoscale area and 1e9/s clock; they are not predictions for the user's dark reverse current.
+- Code J_Acm2 is +q times rightward electron particle flux per area. Conventional electrical current along +x has the opposite sign. Label it electron-flux current magnitude or state this convention.
+- No generation, holes, recombination, temperature-dependent contacts, structural changes, or heating are included. The model cannot establish a quantitative knee, degradation threshold, or universal temperature law.
+- Gauge test is a uniform one-electron energy reference shift; it is valid but should not be described as testing every possible electrostatic boundary transformation.
+- Fixed compensating background and constant-rate attempt prefactors must remain visible as assumptions in Chapter 1.

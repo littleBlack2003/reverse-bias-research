@@ -1,0 +1,12 @@
+{
+  "date_utc": "2026-10-02",
+  "main_run": "passed",
+  "final_precision_checks": "passed",
+  "direct_tree_vs_linear_solve": "passed",
+  "driven_positive_net_rate_and_entropy": "passed",
+  "cycle_energy_sum": "passed",
+  "common_bath_gram": "passed",
+  "figure_review": "Final PNG inspected, including all three panels; no text/data overlap",
+  "scope": "Dark isothermal conditional graphs; no device V50, no FF or light-state prediction",
+  "previous_PDF_modified": false
+}

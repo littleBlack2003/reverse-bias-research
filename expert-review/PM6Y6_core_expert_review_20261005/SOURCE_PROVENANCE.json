@@ -1,0 +1,74 @@
+{
+  "adopted_model": "no_shunt_100K_20261004",
+  "archive_identity": "PM6Y6 no-shunt adopted 100–300 K baseline, 2026-10-04",
+  "core_and_inputs": {
+    "code/device.py": {
+      "sha256": "cf080425d6093340900917bc9fc5ef1eee82df04f194aee503259a48149d34f0",
+      "unchanged_from_adopted_archive": true,
+      "origin_relative_path": "no_shunt_100K_20261004/code/device.py"
+    },
+    "code/fd_eos.py": {
+      "sha256": "228f0d562423326b3310f545d589c083dd332c48de3307619c6e6625d7e7c958",
+      "unchanged_from_adopted_archive": true,
+      "origin_relative_path": "no_shunt_100K_20261004/code/fd_eos.py"
+    },
+    "code/field_device.py": {
+      "sha256": "219d0aada185cffc50e37e98bee4fbb52dc2d2451bb92c5a4249683d74b8f696",
+      "unchanged_from_adopted_archive": true,
+      "origin_relative_path": "no_shunt_100K_20261004/code/field_device.py"
+    },
+    "code/warm_device.py": {
+      "sha256": "f17c6a87e1adead257b1a7a3e705b6f0098ad108aad99e348179da873d24f0e2",
+      "unchanged_from_adopted_archive": true,
+      "origin_relative_path": "no_shunt_100K_20261004/code/warm_device.py"
+    },
+    "code/extend_device.py": {
+      "sha256": "af024e9054cc63bd5e226ab8a425e58a1ac84a03725597cf7769d3709f598d2c",
+      "unchanged_from_adopted_archive": true,
+      "origin_relative_path": "no_shunt_100K_20261004/code/extend_device.py"
+    },
+    "code/recompute_no_shunt.py": {
+      "sha256": "5d664b6d125a2c8bc2cf538b123873820bccb46b80228160de1d50cfeebf6bae",
+      "unchanged_from_adopted_archive": true,
+      "origin_relative_path": "no_shunt_100K_20261004/code/recompute_no_shunt.py"
+    },
+    "reference/room_fit_frozen.json": {
+      "sha256": "a32901275e4b76c4426734faadff8f8823fb3d15fcc454a66956adaa750c7830",
+      "unchanged_from_adopted_archive": true
+    },
+    "reference/author_fit_lines.csv": {
+      "sha256": "64304bb7c558d1aa9fb49ee37b95341a28240ba5646e54c4f91c9808fe99b661",
+      "unchanged_from_adopted_archive": true
+    },
+    "reference/observable_local_beta.csv": {
+      "sha256": "a444b717f9c3849960c78df876e9cb30a864bc382705c686c03e359030953ed1",
+      "unchanged_from_adopted_archive": true
+    },
+    "reference/transport_at_target_temperatures.csv": {
+      "sha256": "74dc2b818e7f2b7faaa5576769e30fc71308418ca6262d77597268dd1050b205",
+      "unchanged_from_adopted_archive": true
+    }
+  },
+  "saved_state_sources": {
+    "100": {
+      "original_npz_sha256": "7888eef047f9ee3906340ad2f401632cd10b725eee3f75d9afe5b62b72aaf6dd",
+      "original_json_sha256": "2f2ea6d0f12a8e0e33b9ea9b6bee26ac6c7bfd26f545988ca212845c8804412c",
+      "subset_note": "Selected arrays copied without numeric alteration; no full bias-state archive included."
+    },
+    "300": {
+      "original_npz_sha256": "a84a513ae441eb1000a0663668fa213c852d3f8ea1c0ee050ee3de8ab6414aee",
+      "original_json_sha256": "0d5f3aa27bd9da30e82d051c709b94de3c9f98eae9e3e45e1d38d9c27b01fd8c",
+      "subset_note": "Selected arrays copied without numeric alteration; no full bias-state archive included."
+    }
+  },
+  "new_for_this_delivery": [
+    "review.py",
+    "tests/test_core.py",
+    "README_ZH.md",
+    "FORMULA_CODE_MAP.md",
+    "PARAMETERS.json",
+    "SHA256SUMS.txt",
+    "verification/"
+  ],
+  "optional_candidate_adopted": false
+}

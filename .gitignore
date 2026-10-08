@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.cache/
+*.cache-9
+*.aux
+*.log
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+.DS_Store

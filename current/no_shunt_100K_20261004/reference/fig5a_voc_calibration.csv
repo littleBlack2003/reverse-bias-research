@@ -1,0 +1,11 @@
+T_K,Voc_V,Voc_readout_uncertainty_V,illumination_sun_equiv,source,split,pixel_x,pixel_y
+80,0.968015,0.005,1,main physical p8 Fig5a,calibration,298,176
+100,0.960308,0.005,1,main physical p8 Fig5a,calibration,336,184
+125,0.947784,0.005,1,main physical p8 Fig5a,calibration,384,197
+150,0.934297,0.005,1,main physical p8 Fig5a,calibration,432,211
+175,0.918882,0.005,1,main physical p8 Fig5a,calibration,480,227
+200,0.901541,0.005,1,main physical p8 Fig5a,calibration,528,245
+225,0.882274,0.005,1,main physical p8 Fig5a,calibration,576,265
+250,0.863006,0.005,1,main physical p8 Fig5a,calibration,623,285
+275,0.841811,0.005,1,main physical p8 Fig5a,calibration,671,307
+300,0.821580,0.005,1,main physical p8 Fig5a,calibration,719,328

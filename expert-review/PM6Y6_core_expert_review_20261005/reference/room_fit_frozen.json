@@ -1,0 +1,19 @@
+{
+  "tag": "PV_priority_field_nominal",
+  "status": "Frozen material/device parameters from prior 300 K calibration; external shunt removed at user request, no refit. Prior residual/target fields are historical only.",
+  "parameters": {
+    "G": 1.5357919101745596e+22,
+    "Eg": 1.4210191871124291,
+    "beta": 4.5633944521269105e-12,
+    "bn": 0.0,
+    "bp": 0.0,
+    "gamma_n": 0.001377,
+    "gamma_p": 0.001145,
+    "field_cap": 235000.0
+  },
+  "Rs_ohmcm2": 0.0,
+  "Rsh_ohmcm2": null,
+  "N": 161,
+  "external_shunt_enabled": false,
+  "external_shunt_conductance_Scm2": 0.0
+}

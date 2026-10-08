@@ -1,0 +1,147 @@
+[
+  {
+    "name": "EOS quadrature s=0",
+    "error": 2.7811930395549635e-09,
+    "limit": 2e-05
+  },
+  {
+    "name": "EOS derivative s=0",
+    "error": 2.7811930395549635e-09,
+    "limit": 2e-05
+  },
+  {
+    "name": "particle hole symmetry 0",
+    "error": 6.661338147750939e-16,
+    "limit": 1e-14
+  },
+  {
+    "name": "EOS quadrature s=2",
+    "error": 1.1197455995977701e-11,
+    "limit": 2e-05
+  },
+  {
+    "name": "EOS derivative s=2",
+    "error": 1.1197455995977701e-11,
+    "limit": 2e-05
+  },
+  {
+    "name": "particle hole symmetry 2",
+    "error": 6.661338147750939e-16,
+    "limit": 1e-14
+  },
+  {
+    "name": "EOS quadrature s=4",
+    "error": 7.260304700745545e-11,
+    "limit": 2e-05
+  },
+  {
+    "name": "EOS derivative s=4",
+    "error": 1.7305263491515446e-09,
+    "limit": 2e-05
+  },
+  {
+    "name": "particle hole symmetry 4",
+    "error": 6.661338147750939e-16,
+    "limit": 1e-14
+  },
+  {
+    "name": "EOS quadrature s=6",
+    "error": 2.666187021205273e-07,
+    "limit": 2e-05
+  },
+  {
+    "name": "EOS derivative s=6",
+    "error": 4.106962549319694e-06,
+    "limit": 2e-05
+  },
+  {
+    "name": "particle hole symmetry 6",
+    "error": 4.440892098500626e-16,
+    "limit": 1e-14
+  },
+  {
+    "name": "Boltzmann asymptote 0",
+    "error": 4.440892098500626e-16,
+    "limit": 1e-10
+  },
+  {
+    "name": "Einstein dilute 0",
+    "error": 0.0,
+    "limit": 1e-10
+  },
+  {
+    "name": "Boltzmann asymptote 2",
+    "error": 1.0103029524088925e-14,
+    "limit": 1e-10
+  },
+  {
+    "name": "Einstein dilute 2",
+    "error": 0.0,
+    "limit": 1e-10
+  },
+  {
+    "name": "Boltzmann asymptote 4",
+    "error": 7.327471962526033e-15,
+    "limit": 1e-10
+  },
+  {
+    "name": "Einstein dilute 4",
+    "error": 0.0,
+    "limit": 1e-10
+  },
+  {
+    "name": "Boltzmann asymptote 6",
+    "error": 7.993605777301127e-15,
+    "limit": 1e-10
+  },
+  {
+    "name": "Einstein dilute 6",
+    "error": 0.0,
+    "limit": 1e-10
+  },
+  {
+    "name": "single level EOS",
+    "error": 6.661338147750939e-16,
+    "limit": 1e-14
+  },
+  {
+    "name": "Pasveer T law",
+    "error": 7.771561172376096e-16,
+    "limit": 1e-12
+  },
+  {
+    "name": "field reversal 300",
+    "error": 0.0,
+    "limit": 1e-14
+  },
+  {
+    "name": "field reversal 420",
+    "error": 0.0,
+    "limit": 1e-14
+  },
+  {
+    "name": "zero equilibrium n",
+    "error": 0.0,
+    "limit": 1e-30
+  },
+  {
+    "name": "zero equilibrium p",
+    "error": 0.0,
+    "limit": 1e-30
+  },
+  {
+    "name": "continuum Einstein 0",
+    "error": 1.149125239408022e-11,
+    "limit": 1e-09
+  },
+  {
+    "name": "continuum Einstein 4",
+    "error": 1.1491585460987608e-11,
+    "limit": 1e-09
+  },
+  {
+    "name": "continuum Einstein 6",
+    "error": 1.1490919327172833e-11,
+    "limit": 1e-09
+  }
+]

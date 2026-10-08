@@ -1,0 +1,38 @@
+[
+  {
+    "F_MVcm": 1.5,
+    "T_K": 80,
+    "full32_rate_s": 237.72176299093417,
+    "direct_rate_s": 241800.6442817799,
+    "restricted12_rate_s": 232.98861201393234,
+    "number_restricted_states": 12,
+    "normalization_error": 0.0,
+    "minimum_probability": 1.1915073928769433e-12,
+    "continuity_relative": 1.918310407756944e-251,
+    "heat_chemical_relative": 0.0
+  },
+  {
+    "F_MVcm": 2.0,
+    "T_K": 80,
+    "full32_rate_s": 68105.8239519548,
+    "direct_rate_s": 67950.34382903989,
+    "restricted12_rate_s": 232.07660442520358,
+    "number_restricted_states": 12,
+    "normalization_error": 8.729384361624432e-252,
+    "minimum_probability": 2.8956143469501214e-11,
+    "continuity_relative": 9.629244628560083e-252,
+    "heat_chemical_relative": 9.629244628560083e-252
+  },
+  {
+    "F_MVcm": 3.0,
+    "T_K": 80,
+    "full32_rate_s": 45223.161335122895,
+    "direct_rate_s": 3317.301155048735,
+    "restricted12_rate_s": 222.7314394949523,
+    "number_restricted_states": 12,
+    "normalization_error": 8.729384361624432e-252,
+    "minimum_probability": 6.928910000211566e-08,
+    "continuity_relative": 0.0,
+    "heat_chemical_relative": 2.6755359448648166e-251
+  }
+]

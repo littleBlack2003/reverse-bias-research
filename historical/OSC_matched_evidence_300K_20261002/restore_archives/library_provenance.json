@@ -1,0 +1,30 @@
+[
+  {
+    "library_file_id": "libfile_eeda6e96d3388191875f698d46f2be5d",
+    "file_id": "file_0000000010f481f685ecc628472116bb",
+    "file_name": "OSC_trap_free_comparator_20261002.zip",
+    "current_version_number": 1,
+    "workspace_path": "/workspace/scratch/d9cc890e37cd/restore/OSC_trap_free_comparator_20261002.zip"
+  },
+  {
+    "library_file_id": "libfile_4896100734a881919c9e1fee61c49876",
+    "file_id": "file_0000000048c481f5b60ab346305b04a9",
+    "file_name": "density_knee_disentangling_300K_20261002.zip",
+    "current_version_number": 2,
+    "workspace_path": "/workspace/scratch/d9cc890e37cd/restore/density_knee_disentangling_300K_20261002.zip"
+  },
+  {
+    "library_file_id": "libfile_b11abaa36d688191b9521b89a85399c3",
+    "file_id": "file_00000000df9881f5a262bf01a46d5551",
+    "file_name": "OSC_spatial_escape_audit_20261002.zip",
+    "current_version_number": 0,
+    "workspace_path": "/workspace/scratch/d9cc890e37cd/restore/OSC_spatial_escape_audit_20261002.zip"
+  },
+  {
+    "library_file_id": "libfile_875beb6a33c48191a0f5905ea99dec74",
+    "file_id": "file_00000000a92c81f6821dbd636ec68d1e",
+    "file_name": "OSC_vibronic_validity_audit_20261002.zip",
+    "current_version_number": 0,
+    "workspace_path": "/workspace/scratch/d9cc890e37cd/restore/OSC_vibronic_validity_audit_20261002.zip"
+  }
+]
